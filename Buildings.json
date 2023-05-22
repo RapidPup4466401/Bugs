@@ -210,5 +210,5 @@
 		"requiredTech": "Guilds",
 		"cannotBeBuiltWith": "Ranger Training",
 		"uniques": ["New [{Military} {Land} {Sword}] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
-	},
+	}
 ]
