@@ -835,6 +835,18 @@
 		"uniques": ["[+2 Food] from [Farm] tiles [in this city]","[+10]% Food [in this city]","[+2]% Science [in this city]","[+3]% Production [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
+		"name": "Localalized Agricultural Management",
+		"maintenance": 1,
+		"cost": 1000,
+		"science": 1,
+		"happiness": 4,
+		"production": 1,
+		"food": 2,
+		"requiredBuilding": "Farmland Management Center",
+		"requiredTech": "Computers",
+		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+5]% Food [in this city]","[+1]% Science [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
+	},
+	{
 		"name": "Underwater Iron Refinement Plant",
 		"maintenance": 2,
 		"cost": 2500,
