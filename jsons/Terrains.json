@@ -108,7 +108,7 @@
 		"gold": 1,
 		"production": 2,
 		"unbuildable": true,
-		"occursOn": ["Deep Ocean","Abyssal Ocean",],
+		"occursOn": ["Deep Ocean","Abyssal Ocean"],
 		"uniques": ["[+1] to Fertility for Map Generation"],
 	},	
 	{
@@ -135,7 +135,7 @@
 		"science": 4,
 		"gold": 1,
 		"unbuildable": true,
-		"occursOn": ["Deep Ocean","Abyssal Ocean",],
+		"occursOn": ["Deep Ocean","Abyssal Ocean"],
 		"uniques": ["Rare feature","[-1] to Fertility for Map Generation"],
 	},	
 	{
@@ -144,7 +144,7 @@
 		"science": 5,
 		"gold": 1,
 		"unbuildable": true,
-		"occursOn": ["Deep Ocean","Abyssal Ocean",],
+		"occursOn": ["Deep Ocean","Abyssal Ocean"],
 		"uniques": ["Rare feature","[-2] to Fertility for Map Generation"],
 	}
 ]	
