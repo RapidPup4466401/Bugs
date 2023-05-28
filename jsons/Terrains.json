@@ -1,5 +1,4 @@
 [	
-	// Natural Wonders
 	{
 		"name": "Axial Seamount",
 		"type": "NaturalWonder",
@@ -24,7 +23,6 @@
 		"uniques": ["Must be adjacent to [0] [Coast] tiles","Must be adjacent to [6] [Abyssal Ocean] tiles","Must be adjacent to [0] [Ocean] tiles","Must be adjacent to [0] [Deep Ocean] tiles"],
 		"weight": 5,
 	},
-	// Base terrains
 	{
 		"name": "Deep Ocean",
 		"type": "Water",
@@ -46,8 +44,13 @@
 		"science": 2,
 		"movementCost": 1,
 		"RGB": [2, 104, 100],
+			"uniques": [
+			"[+2] to Fertility for Map Generation",
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Ocean] tiles",
+			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource."
+			],
 	},
-	// Terrain features
 	{
 		"name": "Oceanic Trench",
 		"type": "TerrainFeature",
@@ -64,7 +67,7 @@
 		"science": 6,
 		"gold": 1,
 		"production": 2,
-		"culture": 2,
+		"culture": 4,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean"],
 		"uniques": ["Rare feature","[-4] to Fertility for Map Generation"],
