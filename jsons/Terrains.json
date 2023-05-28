@@ -24,6 +24,17 @@
 		"weight": 5,
 	},
 	{
+		"name": "Mariana Trench",
+		"type": "NaturalWonder",
+		"science": 25,
+		"culture": 10,
+		"occursOn": ["Deep Ocean"],
+		"uniques": ["Must be adjacent to [1] to [6] [Deep Ocean] tiles","Must be adjacent to [0] [Coast] tiles","Neighboring tiles will convert to [Deep Ocean]"],
+		"turnsInto": "Deep Ocean",
+		"unbuildable": true,
+		"weight": 1,
+	},
+	{
 		"name": "Deep Ocean",
 		"type": "Water",
 		"food": 1,
@@ -58,7 +69,7 @@
 		"gold": 2,
 		"production": 1,
 		"unbuildable": true,
-		"occursOn": ["Deep Ocean","Abyssal Ocean"],
+		"occursOn": ["Deep Ocean","Abyssal Ocean","ocean"],
 		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","Every [2] tiles with this terrain will receive a major deposit of a strategic resource."],
 	},	
 	{
@@ -69,7 +80,16 @@
 		"production": 2,
 		"culture": 4,
 		"unbuildable": true,
-		"occursOn": ["Deep Ocean","Abyssal Ocean"],
+		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
 		"uniques": ["Rare feature","[-4] to Fertility for Map Generation"],
+	},	
+	{
+		"name": "Guyots",
+		"type": "TerrainFeature",
+		"science": 10,
+		"gold": 3,
+		"unbuildable": true,
+		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
+		"uniques": ["Rare feature","[-8] to Fertility for Map Generation"],
 	}
 ]	
