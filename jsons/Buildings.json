@@ -835,7 +835,7 @@
 		"uniques": ["[+2 Food] from [Farm] tiles [in this city]","[+10]% Food [in this city]","[+2]% Science [in this city]","[+3]% Production [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
-		"name": "Localalized Agricultural Management",
+		"name": "Localized Agricultural Management",
 		"maintenance": 1,
 		"cost": 1000,
 		"science": 1,
@@ -996,7 +996,7 @@
 		"gold": 4,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Nickel]","Consumes [1] [Polymetallic Nodules]","Provides [1] [Battery]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Nickel]","Consumes [1] [Cobalt]","Provides [1] [Battery]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Magnet Manufacturing Plant",
@@ -1083,6 +1083,18 @@
 		"requiredBuilding": "Underwater Iron Refinement Plant",
 		"requiredTech": "Mineral Extraction",
 		"uniques": ["Consumes [1] [Sulfide Deposits]","Provides [1] [Cobalt]","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Titanium Extraction Plant",
+		"maintenance": 4,
+		"hurryCostModifier": 60,
+		"cost": 2000,
+		"production": 2,
+		"happiness": 1,
+		"gold": 3,
+		"requiredBuilding": "Underwater Uranium Refinement Plant",
+		"requiredTech": "Mineral Extraction",
+		"uniques": ["Consumes [1] [Polymetallic Nodules]","Provides [1] [Titanium]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Cobalt Refinery",
