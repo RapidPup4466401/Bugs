@@ -1,0 +1,72 @@
+[	
+	// Natural Wonders
+	{
+		"name": "Axial Seamount",
+		"type": "NaturalWonder",
+                "food": 1,
+		"science": 8,
+		"gold": 3,
+		"production": 10,
+		"occursOn": ["Deep Ocean"],
+		"uniques": ["Must be adjacent to [6] to [6] [Deep Ocean] tiles","Must be adjacent to [0] [Ocean] tiles","Neighboring tiles will convert to [Deep Ocean]"],
+		"turnsInto": "Deep Ocean",
+		"unbuildable": true,
+		"weight": 10,
+	},
+	{
+		"name": "The Great Rift",
+		"type": "NaturalWonder",
+		"culture": 5,
+		"science": 5,
+		"occursOn": ["Abyssal Ocean"],
+		"turnsInto": "Abyssal Ocean",
+		"unbuildable": true,
+		"uniques": ["Must be adjacent to [0] [Coast] tiles","Must be adjacent to [6] [Abyssal Ocean] tiles","Must be adjacent to [0] [Ocean] tiles","Must be adjacent to [0] [Deep Ocean] tiles"],
+		"weight": 5,
+	},
+	// Base terrains
+	{
+		"name": "Deep Ocean",
+		"type": "Water",
+		"food": 1,
+		"science": 2,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [2, 104, 100],
+		"uniques": [
+			"[+4] to Fertility for Map Generation",
+			"Must be adjacent to [0] [Coast] tiles",
+			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
+			],
+	},
+	{
+		"name": "Abyssal Ocean",
+		"type": "Water",
+		"food": 1,
+		"science": 2,
+		"movementCost": 1,
+		"RGB": [2, 104, 100],
+	},
+	// Terrain features
+	{
+		"name": "Oceanic Trench",
+		"type": "TerrainFeature",
+		"science": 6,
+		"gold": 2,
+		"production": 1,
+		"unbuildable": true,
+		"occursOn": ["Deep Ocean","Abyssal Ocean"],
+		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","Every [2] tiles with this terrain will receive a major deposit of a strategic resource."],
+	},	
+	{
+		"name": "Seamounts",
+		"type": "TerrainFeature",
+		"science": 6,
+		"gold": 1,
+		"production": 2,
+		"culture": 2,
+		"unbuildable": true,
+		"occursOn": ["Deep Ocean","Abyssal Ocean"],
+		"uniques": ["Rare feature","[-4] to Fertility for Map Generation"],
+	}
+]	

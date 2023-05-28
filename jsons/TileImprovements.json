@@ -1,0 +1,26 @@
+[	
+	{
+		"name": "Deep Sea Ore Extraction Mine",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"production": 5,
+		"science": 2,
+		"gold":1,
+		"techRequired": "Deep Sea Mining",
+	},
+	{
+		"name": "Deep Sea Liquid Extraction Rig",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"production": 5,
+		"science": 1,
+		"gold":2,
+		"techRequired": "Deep Sea Mining",
+	},
+	{
+		"name": "Deep Sea Mineral Extraction Mine",
+		"terrainsCanBeBuiltOn": ["Water"],
+		"production": 1,
+		"science": 6,
+		"gold":10,
+		"techRequired": "Mineral Extraction",
+	}		
+]	
