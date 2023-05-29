@@ -41,7 +41,6 @@
 		"science": 2,
 		"gold": 1,
 		"movementCost": 1,
-		"RGB": [2, 104, 100],
 		"uniques": [
 			"[+4] to Fertility for Map Generation",
 			"Must be adjacent to [0] [Coast] tiles",
@@ -54,7 +53,6 @@
 		"food": 1,
 		"science": 2,
 		"movementCost": 1,
-		"RGB": [2, 104, 100],
 			"uniques": [
 			"[+2] to Fertility for Map Generation",
 			"Must be adjacent to [0] [Coast] tiles",
