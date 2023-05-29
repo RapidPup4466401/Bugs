@@ -29,7 +29,7 @@
 		"cost": 1700,
 		"requiredBuilding": "Urban Defenses",
 		"cityHealth": 20,
-		"requiredResource": "Aluminum,
+		"requiredResource": "Aluminum",
 		"requiredTech": "Ballistics",
 		"uniques": ["Destroyed when the city is captured"],
 	},
