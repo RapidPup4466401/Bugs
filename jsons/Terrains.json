@@ -68,8 +68,8 @@
 		"science": 2,
 		"gold": 1,
 		"unbuildable": true,
-		"occursOn": ["Ocean],
-		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","Every [2] tiles with this terrain will receive a major deposit of a strategic resource."],
+		"occursOn": ["Ocean"],
+		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","Every [2] tiles with this terrain will receive a major deposit of a strategic resource.","[5]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Seamounts",
@@ -80,7 +80,7 @@
 		"culture": 1,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean"],
-		"uniques": ["Rare feature","[4] to Fertility for Map Generation","Occurs in groups of [1] to [7] tiles"],
+		"uniques": ["Rare feature","[4] to Fertility for Map Generation","Occurs in groups of [1] to [7] tiles","[3]% Chance to be destroyed by nukes"],
 	},
 	{
 		"name": "Guyot",
@@ -99,7 +99,7 @@
 		"food": 2,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean"],
-		"uniques": ["Rare feature"],
+		"uniques": ["Rare feature","[9]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Hydrothermal Vents",
@@ -109,7 +109,7 @@
 		"production": 3,
 		"unbuildable": true,
 		"occursOn": ["Ocean"],
-		"uniques": ["[1] to Fertility for Map Generation"],
+		"uniques": ["[1] to Fertility for Map Generation","[6]% Chance to be destroyed by nukes"],
 	},		
 	{
 		"name": "Whale Fall",
@@ -118,7 +118,7 @@
 		"food": 1,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["[+2] to Fertility for Map Generation"],
+		"uniques": ["[+2] to Fertility for Map Generation","[20]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Oceanic Canyon",
@@ -127,7 +127,7 @@
 		"gold": 1,
 		"unbuildable": true,
 		"occursOn": ["Ocean"],
-		"uniques": ["Rare feature","[-4] to Fertility for Map Generation","Must be adjacent to [1] to [5] [Coast] tiles"],
+		"uniques": ["Rare feature","[-4] to Fertility for Map Generation","Must be adjacent to [1] to [5] [Coast] tiles","[4]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Cold Seeps",
@@ -136,7 +136,7 @@
 		"gold": 1,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["Rare feature","[-1] to Fertility for Map Generation"],
+		"uniques": ["Rare feature","[-1] to Fertility for Map Generation","[1]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Brine Lakes",
@@ -145,6 +145,6 @@
 		"gold": 1,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean"],
-		"uniques": ["Rare feature","[-2] to Fertility for Map Generation"],
+		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes"],
 	}
 ]	
