@@ -44,9 +44,9 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Deep Sea Mining",
 		"terrainsCanBeFoundOn": ["Coast"],
-		"production": 2,
+		"production": 1,
 		"science": 2,
-		"gold": 4,
+		"gold": 1,
 		"improvement": "Deep Sea Mineral Extraction Mine",
 	},
 	{
@@ -56,7 +56,7 @@
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"production": 2,
 		"science": 1,
-		"gold": 6,
+		"gold": 2,
 		"improvement": "Deep Sea Mineral Extraction Mine",
 	},
 	{
