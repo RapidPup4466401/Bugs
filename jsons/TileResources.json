@@ -113,7 +113,13 @@
 	},
 	{
 		"name": "Sulfur",
-		"resourceType": "Luxury",
+		"resourceType": "Strategic",
+		"revealedBy": "Gunpowder",
+		"terrainsCanBeFoundOn": ["Jungle","Hill"],
+		"production": 3,
+		"gold": 1,
+		"improvement": "Mine",
+		"uniques": ["[+4] to Fertility for Map Generation","Minor deposits generated with weight [3]"],
 	},
 	{
 		"name": "Rubber",
