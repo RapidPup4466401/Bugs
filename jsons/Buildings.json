@@ -28,7 +28,7 @@
 		"hurryCostModifier": 20,
 		"cost": 1700,
 		"requiredBuilding": "Urban Defenses",
-		"cityHealth": 20,
+		"cityHealth": 40,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Ballistics",
 		"uniques": ["Destroyed when the city is captured"],
@@ -1090,14 +1090,14 @@
 		"uniques": ["Consumes [1] [Polymetallic Nodules]","Provides [1] [Titanium]","Provides [1] [Nickel]","Provides [1] [Copper]","Provides [1] [Cobalt]","Destroyed when the city is captured"],
 	},
 	{
-		"name": "Sulfide Deposit Extraction Plant",
+		"name": "Sulfide Deposits Extraction Plant",
 		"maintenance": 15,
 		"hurryCostModifier": 60,
 		"cost": 3000,
 		"production": 2,
 		"requiredBuilding": "Underwater Aluminum Refinement Plant",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Sulfide Deposit]","Provides [1] [Iron]","Provides [2] [Copper]","Provides [1] [Gold]","Provides [1] [Zinc]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Sulfide Deposits]","Provides [1] [Iron]","Provides [2] [Copper]","Provides [1] [Gold]","Provides [1] [Zinc]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Jewelry Manufacturing Plant",
@@ -1108,7 +1108,7 @@
 		"gold": 8,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Cobalt]","Consumes [1] [Zinc[","Provides [2] [Jewelry]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Cobalt]","Consumes [1] [Zinc]","Provides [2] [Jewelry]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Sulfur Extraction Plant",
@@ -1119,7 +1119,7 @@
 		"unhappiness": -2,
 		"requiredBuilding": "Underwater Iron Extraction Plant",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Sulfide Deposit]","Provides [3] [Sulfur]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Sulfide Deposits]","Provides [3] [Sulfur]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Sulfur-based Fertilizer Manufacturing Plant",
