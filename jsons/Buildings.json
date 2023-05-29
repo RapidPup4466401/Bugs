@@ -1043,7 +1043,7 @@
 		"gold": 4,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Electronics",
-		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Cobalt]","Consumes [1] [Silver]","Consumes [1] [Gold ore]","Provides [4] [Wire]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Cobalt]","Consumes [1] [Silver]","Consumes [1] [Gold Ore]","Provides [4] [Wire]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Prosthetics Manufacturing Plant",
@@ -1097,7 +1097,7 @@
 		"production": 2,
 		"requiredBuilding": "Underwater Aluminum Refinement Plant",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Sulfide Deposits]","Provides [1] [Iron]","Provides [2] [Copper]","Provides [1] [Gold ore]","Provides [1] [Zinc]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Sulfide Deposits]","Provides [1] [Iron]","Provides [2] [Copper]","Provides [1] [Gold Ore]","Provides [1] [Zinc]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Co-Zn Jewelry Manufacturing Plant",
@@ -1117,7 +1117,7 @@
 		"cost": 1800,
 		"production": 2,
 		"happiness": -2,
-		"requiredBuilding": "Underwater Iron Extraction Plant",
+		"requiredBuilding": "Underwater Iron Refinement Plant",
 		"requiredTech": "Mineral Extraction",
 		"uniques": ["Consumes [1] [Sulfide Deposits]","Provides [3] [Sulfur]","Destroyed when the city is captured"],
 	},
