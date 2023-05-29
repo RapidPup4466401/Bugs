@@ -8,7 +8,6 @@
 		"science": 1,
 		"gold": 1,
 		"improvement": "Deep Sea Ore Extraction Mine",
-		"uniques": ["[+10] to Fertility for Map Generation","Minor deposits generated with weight [10]"],
 	},
 	{
 		"name": "Underwater Aluminum",
@@ -19,7 +18,6 @@
 		"science": 1,
 		"gold": 1,
 		"improvement": "Deep Sea Ore Extraction Mine",
-		"uniques": ["[+6] to Fertility for Map Generation","Minor deposits generated with weight [6]"],
 	},
 	{
 		"name": "Underwater Uranium",
@@ -30,7 +28,6 @@
 		"science": 2,
 		"gold": 1,
 		"improvement": "Deep Sea Ore Extraction Mine",
-		"uniques": ["[+4] to Fertility for Map Generation","Minor deposits generated with weight [4]"],
 	},
 	{
 		"name": "Polymetallic Nodules",
@@ -41,7 +38,6 @@
 		"science": 3,
 		"gold": 3,
 		"improvement": "Deep Sea Mineral Extraction Mine",
-		"uniques": ["[+20] to Fertility for Map Generation","Minor deposits generated with weight [10]"],
 	},
 	{
 		"name": "Manganese Crusts",
@@ -52,7 +48,6 @@
 		"science": 2,
 		"gold": 4,
 		"improvement": "Deep Sea Mineral Extraction Mine",
-		"uniques": ["[+10] to Fertility for Map Generation","Minor deposits generated with weight [4]"],
 	},
 	{
 		"name": "Sulfide Deposits",
@@ -63,7 +58,6 @@
 		"science": 1,
 		"gold": 6,
 		"improvement": "Deep Sea Mineral Extraction Mine",
-		"uniques": ["[+6] to Fertility for Map Generation","Minor deposits generated with weight [3]"],
 	},
 	{
 		"name": "Battery",
@@ -77,7 +71,6 @@
 		"production": 1,
 		"gold": 3,
 		"improvement": "Mine",
-		"uniques": ["[+4] to Fertility for Map Generation","Minor deposits generated with weight [1]"],
 	},
 	{
 		"name": "Steel",
@@ -119,7 +112,6 @@
 		"production": 3,
 		"gold": 1,
 		"improvement": "Mine",
-		"uniques": ["[+4] to Fertility for Map Generation","Minor deposits generated with weight [3]"],
 	},
 	{
 		"name": "Rubber",
