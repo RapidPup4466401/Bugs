@@ -1100,7 +1100,7 @@
 		"uniques": ["Consumes [1] [Sulfide Deposit]","Provides [3] [Sulfur]","Destroyed when the city is captured"],
 	},
 	{
-		"name": "Sulur-based Fertilizer Manufacturing Plant",
+		"name": "Sulfur-based Fertilizer Manufacturing Plant",
 		"maintenance": 5,
 		"hurryCostModifier": 60,
 		"cost": 2500,
