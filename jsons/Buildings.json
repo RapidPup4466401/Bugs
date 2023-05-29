@@ -793,7 +793,7 @@
 		"requiredBuilding": "Granary",
 		"requiredTech": "Industrialization",
 		"specialistSlots": {"Engineer": 2},
-		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+5]% Food [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
+		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+2]% Food [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
 		"name": "Basic Fertilizer Production Plant",
@@ -801,11 +801,11 @@
 		"cost": 1200,
 		"happiness": 1,
 		"production": 4,
-		"food": 15,
+		"food": 5,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Fertilizer",
 		"specialistSlots": {"Scientist": 1},
-		"uniques": ["[+2 Food] from [Farm] tiles [in this city]","[+5]% Food [in this city]","Destroyed when the city is captured"],
+		"uniques": ["[+2 Food] from [Farm] tiles [in this city]","[+3]% Food [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Crop Research Center",
@@ -817,7 +817,7 @@
 		"requiredBuilding": "Granary",
 		"requiredTech": "Biology",
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+5]% Food [in this city]","[+3]% Science [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
+		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+2]% Food [in this city]","[+3]% Science [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
 		"name": "Genetically Modified Crop Production Plant",
@@ -842,7 +842,7 @@
 		"requiredTech": "Ecology",
 		"requiredResource": "Nickel",
 		"specialistSlots": {"Engineer": 2},
-		"uniques": ["[+2]% Food [in this city]","[+1]% Science [in this city]","[+8]% Production [in this city]","Destroyed when the city is captured","Must not be on [Hill]"],
+		"uniques": ["[+1]% Food [in this city]","[+1]% Science [in this city]","[+8]% Production [in this city]","Destroyed when the city is captured","Must not be on [Hill]"],
 	},
 	{
 		"name": "Farmland Management Center",
@@ -854,7 +854,7 @@
 		"requiredBuilding": "Industrialized Crop Storage Systems",
 		"requiredTech": "Computers",
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["[+2 Food] from [Farm] tiles [in this city]","[+10]% Food [in this city]","[+2]% Science [in this city]","[+3]% Production [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
+		"uniques": ["[+2 Food] from [Farm] tiles [in this city]","[+5]% Food [in this city]","[+2]% Science [in this city]","[+3]% Production [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
 		"name": "Localized Agricultural Management",
@@ -866,7 +866,7 @@
 		"food": 2,
 		"requiredBuilding": "Farmland Management Center",
 		"requiredTech": "Computers",
-		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+5]% Food [in this city]","[+1]% Science [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
+		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+2]% Food [in this city]","[+1]% Science [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
 		"name": "Underwater Iron Refinement Plant",
@@ -1128,9 +1128,10 @@
 		"cost": 2500,
 		"production": 2,
 		"happiness": 1,
+		"food": 3,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Robotics",
-		"uniques": ["Consumes [1] [Sulfur]","[+10]% Food [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Sulfur]","[+7]% Food [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Synthetic Rubber Manufacturing Plant",
