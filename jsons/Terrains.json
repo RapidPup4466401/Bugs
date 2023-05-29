@@ -70,7 +70,7 @@
 		"unbuildable": true,
 		"occursOn": ["Ocean"],
 		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","Every [2] tiles with this terrain will receive a major deposit of a strategic resource.","[5]% Chance to be destroyed by nukes"],
-		"ruleVariants": ["Deep Ocean, Oceanic Trench": "Deep Ocean+Oceanic Trench",
+		"ruleVariants": ["Deep Ocean, Oceanic Trench": "Deep Ocean+Oceanic Trench"],
 	},	
 	{
 		"name": "Seamounts",
