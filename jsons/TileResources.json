@@ -110,5 +110,13 @@
 	{
 		"name": "Jewelry",
 		"resourceType": "Luxury",
+	},
+	{
+		"name": "Sulfur",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Rubber",
+		"resourceType": "Luxury",
 	}
 ]
