@@ -68,7 +68,7 @@
 		"science": 2,
 		"gold": 1,
 		"unbuildable": true,
-		"occursOn": ["Ocean"],
+		"occursOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
 		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","Every [2] tiles with this terrain will receive a major deposit of a strategic resource.","[5]% Chance to be destroyed by nukes"],
 	},	
 	{
@@ -79,7 +79,7 @@
 		"production": 2,
 		"culture": 1,
 		"unbuildable": true,
-		"occursOn": ["Deep Ocean","Abyssal Ocean"],
+		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
 		"uniques": ["Rare feature","[4] to Fertility for Map Generation","Occurs in groups of [1] to [7] tiles","[3]% Chance to be destroyed by nukes"],
 	},
 	{
@@ -88,7 +88,7 @@
 		"science": 3,
 		"gold": 1,
 		"unbuildable": true,
-		"occursOn": ["Deep Ocean"],
+		"occursOn": ["Deep Ocean","Abyssal Ocean"],
 		"uniques": ["Occurs in groups of [1] to [3] tiles"],
 	},
 	{
@@ -98,7 +98,7 @@
 		"gold": 2,
 		"food": 2,
 		"unbuildable": true,
-		"occursOn": ["Deep Ocean"],
+		"occursOn": ["Deep Ocean","Ocean","Abyssal Ocean"],
 		"uniques": ["Rare feature","[9]% Chance to be destroyed by nukes"],
 	},	
 	{
@@ -108,7 +108,7 @@
 		"gold": 1,
 		"production": 3,
 		"unbuildable": true,
-		"occursOn": ["Ocean"],
+		"occursOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
 		"uniques": ["[1] to Fertility for Map Generation","[6]% Chance to be destroyed by nukes"],
 	},		
 	{
