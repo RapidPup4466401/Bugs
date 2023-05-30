@@ -44,8 +44,8 @@
 		"uniques": [
 			"[+4] to Fertility for Map Generation",
 			"Must be adjacent to [0] [Coast] tiles",
-			"Occurs in groups of [3] to [50] tiles"
-			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Occurs in groups of [3] to [50] tiles",
+			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource.",
 			],
 	},
 	{
@@ -59,7 +59,7 @@
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Ocean] tiles",
 			"Occurs in groups of [1] to [25] tiles",
-			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource."
+			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource.",
 			],
 	},
 	{
@@ -127,7 +127,7 @@
 		"gold": 1,
 		"unbuildable": true,
 		"occursOn": ["Ocean"],
-		"uniques": ["Rare feature","[-4] to Fertility for Map Generation","Must be adjacent to [1] to [5] [Coast] tiles","[4]% Chance to be destroyed by nukes"],
+		"uniques": ["Rare feature","Must be adjacent to [1] to [5] [Coast] tiles","[4]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Cold Seeps",
@@ -136,7 +136,7 @@
 		"gold": 1,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["Rare feature","[-1] to Fertility for Map Generation","[1]% Chance to be destroyed by nukes"],
+		"uniques": ["Rare feature","[1]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Brine Lakes",
