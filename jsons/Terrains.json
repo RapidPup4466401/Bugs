@@ -146,5 +146,23 @@
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
 		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes"],
+	},	
+	{
+		"name": "Iceberg",
+		"type": "TerrainFeature",
+		"science": 3,
+		"gold": 2,
+		"unbuildable": true,
+		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
+		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes"],
+	},	
+	{
+		"name": "Floating Ice Sheet",
+		"type": "TerrainFeature",
+		"science": 2,
+		"gold": 2,
+		"unbuildable": true,
+		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
+		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes"],
 	}
 ]	
