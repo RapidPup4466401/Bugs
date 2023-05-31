@@ -60,15 +60,30 @@
 	},
 	{
 		"name": "Zinc",
-		"resourceType": "Luxury",
+		"resourceType": "Strategic",
+		"revealedBy": "Engineering",
+		"terrainsCanBeFoundOn": ["Hill","Tundra","Snow"],
+		"production": 1,
+		"gold": 1,
+		"improvement": "Mine",
 	},
 	{
 		"name": "Cobalt",
-		"resourceType": "Luxury",
+		"resourceType": "Strategic",
+		"revealedBy": "Mining",
+		"terrainsCanBeFoundOn": ["Hill","Jungle","Snow","Tundra","Desert","Plains"],
+		"production": 1,
+		"gold": 2,
+		"improvement": "Mine",
 	},
 	{
 		"name": "Titanium",
-		"resourceType": "Luxury",
+		"resourceType": "Strategic",
+		"revealedBy": "Refrigeration",
+		"terrainsCanBeFoundOn": ["Hill","Desert","Grassland","Plains","Snow"],
+		"production": 4,
+		"gold": 2,
+		"improvement": "Mine",
 	},
 	{
 		"name": "Jewelry",
@@ -77,9 +92,9 @@
 	{
 		"name": "Sulfur",
 		"resourceType": "Strategic",
-		"revealedBy": "Gunpowder",
-		"terrainsCanBeFoundOn": ["Jungle","Hill"],
-		"production": 3,
+		"revealedBy": "Iron Working",
+		"terrainsCanBeFoundOn": ["Grassland","Hill","Desert"],
+		"production": 2,
 		"gold": 1,
 		"improvement": "Mine",
 	},
@@ -89,6 +104,10 @@
 	},
 	{
 		"name": "Manganese",
-		"resourceType": "Luxury",
+		"resourceType": "Strategic",
+		"revealedBy": "Steel",
+		"terrainsCanBeFoundOn": ["Hill","Desert"],
+		"production": 1,
+		"improvement": "Mine",
 	}
 ]
