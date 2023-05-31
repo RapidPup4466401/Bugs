@@ -960,7 +960,7 @@
 		"hurryCostModifier": 60,
 		"cost": 2500,
 		"production": 4,
-		"requiredBuilding": "Underwater Iron Refinement Plant",
+		"requiredBuilding": "Deep Sea Mining Infrastructure",
 		"requiredTech": "Mineral Extraction",
 		"uniques": ["Consumes [1] [Cobalt]","Provides [2] [Iron]","Destroyed when the city is captured"],
 	},
