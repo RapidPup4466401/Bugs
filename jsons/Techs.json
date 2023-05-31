@@ -17,7 +17,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Information era",
-		"techs": [{"name": "Subterranean Civlization","row": 14,"cost": 20000,"prerequisites": ["Advanced Mass Drilling","Advanced Subterranean Drilling","Advanced Subterranean Construction"],"quote": "'We slowly migrate into the dark depths of the mountains caves, leaving the surface world to the onslaught of the inferior surface humans for we shall become a mighty civilization here in the rocks' - ???"}],
+		"techs": [{"name": "Subterranean Civlization","row": 14,"cost": 20000,"prerequisites": ["Advanced Mass Drilling","Advanced Subterranean Mining","Advanced Subterranean Construction"],"quote": "'We slowly migrate into the dark depths of the mountains caves, leaving the surface world to the onslaught of the inferior surface humans for we shall become a mighty civilization here in the rocks' - ???"}],
 	},
 	{
 		"columnNumber": 16,
