@@ -1308,7 +1308,7 @@
 		"uniques": ["[+1 Production] from [Mountain] tiles [in this city]","Must have an owned [Mountain] within [2] tiles","[+5]% Production [in this city]","[+1]% Science [in this city]","Destroyed when the city is captured"],
 	},
 	{
-		"name": "Advanced S. Hydroponics",
+		"name": "Advanced Subterranean Hydroponics",
 		"maintenance": 4,
 		"hurryCostModifier": 60,
 		"cost": 1200,
