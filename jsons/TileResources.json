@@ -61,7 +61,7 @@
 	{
 		"name": "Zinc",
 		"resourceType": "Strategic",
-		"revealedBy": "Luxury",
+		"revealedBy": "Metallurgy",
 		"terrainsCanBeFoundOn": ["Hill","Tundra","Snow"],
 		"production": 1,
 		"gold": 1,
