@@ -1,166 +1,222 @@
 
 game.png
-size: 1024, 64
+size: 256, 256
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Abyssal Ocean
   rotate: false
-  xy: 4, 4
+  xy: 4, 220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Brine Lakes
   rotate: false
-  xy: 44, 4
+  xy: 4, 184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Cold Seeps
   rotate: false
-  xy: 84, 4
+  xy: 44, 220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Deep Sea Reef
   rotate: false
-  xy: 124, 4
+  xy: 4, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Guyot
   rotate: false
-  xy: 164, 4
+  xy: 44, 184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Hydrothermal Vents
   rotate: false
-  xy: 204, 4
+  xy: 84, 220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Oceanic Trench
   rotate: false
-  xy: 244, 4
+  xy: 4, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Seamounts
   rotate: false
-  xy: 284, 4
+  xy: 44, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Whale Fall
   rotate: false
-  xy: 324, 4
+  xy: 84, 184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Axial Seamount
   rotate: false
-  xy: 364, 4
+  xy: 124, 220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean
   rotate: false
-  xy: 404, 4
+  xy: 4, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+ Oceanic Trench
   rotate: false
-  xy: 444, 4
+  xy: 44, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Brine Lakes
   rotate: false
-  xy: 484, 4
+  xy: 84, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Cold Seeps
   rotate: false
-  xy: 524, 4
+  xy: 124, 184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Deep Sea Reef
   rotate: false
-  xy: 564, 4
+  xy: 164, 220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Guyot
   rotate: false
-  xy: 604, 4
+  xy: 4, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Hydrothermal Vents
   rotate: false
-  xy: 644, 4
+  xy: 44, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Oceanic Trench
   rotate: false
-  xy: 684, 4
+  xy: 84, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Seamounts
   rotate: false
-  xy: 724, 4
+  xy: 124, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Whale Fall
   rotate: false
-  xy: 764, 4
+  xy: 164, 184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Guyot
   rotate: false
-  xy: 804, 4
+  xy: 204, 220
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Brine Lakes
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Cold Seeps
+  rotate: false
+  xy: 44, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Guyot
+  rotate: false
+  xy: 84, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Hydrothermal Vents
+  rotate: false
+  xy: 124, 112
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Oceanic Ridges
+  rotate: false
+  xy: 164, 148
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Oceanic Trench
+  rotate: false
+  xy: 204, 184
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Seamounts
+  rotate: false
+  xy: 44, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Whale Fall
+  rotate: false
+  xy: 84, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Oceanic Trench
   rotate: false
-  xy: 844, 4
+  xy: 124, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Seamounts
   rotate: false
-  xy: 884, 4
+  xy: 164, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
