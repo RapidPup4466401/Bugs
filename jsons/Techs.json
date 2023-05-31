@@ -12,7 +12,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Information era",
-		"techs": [{"name": "Advanced Mass Drilling","row": 13,"cost": 15000,"prerequisites": ["Mass Drilling","Subterranean Mining"],"quote": "'How much more can we harvest from the depths of these mountains' - ???"},{"name": "Advaanced Subterranean Mining","row": 14,"cost": 19000,"prerequisites": ["Subterranean Mining"],"quote": "'What else is down here that we could mine from these rocks?' - ???"},{"name": "Advanced Subterranean Construction","row": 15,"cost": 23000,"prerequisites": ["Subterranean Living","Mass Drilling"],"quote": "'Together we shall bore into these mountains of rocks and carve a palace of stone
+		"techs": [{"name": "Advanced Mass Drilling","row": 13,"cost": 15000,"prerequisites": ["Mass Drilling","Subterranean Mining"],"quote": "'How much more can we harvest from the depths of these mountains' - ???"},{"name": "Advaanced Subterranean Mining","row": 14,"cost": 19000,"prerequisites": ["Subterranean Mining"],"quote": "'What else is down here that we could mine from these rocks?' - ???"},{"name": "Advanced Subterranean Construction","row": 15,"cost": 23000,"prerequisites": ["Subterranean Living","Mass Drilling"],"quote": "'Together we shall bore into these mountains of rocks and carve a palace of stone' - ???"}],
 	},
 	{
 		"columnNumber": 16,
