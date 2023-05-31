@@ -1403,7 +1403,6 @@
 		"requiredTech": "Advanced Subterranean Construction",
 		"uniques": ["Must have an owned [Mountain] within [2] tiles","[+1]% Culture [in this city]","Destroyed when the city is captured"],
 	},
-	,
 	{
 		"name": "Advanced Drilling Sites",
 		"maintenance": 6,
