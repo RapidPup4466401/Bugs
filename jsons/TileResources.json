@@ -1,35 +1,5 @@
 [
 	{
-		"name": "Underwater Iron",
-		"resourceType": "Strategic",
-		"revealedBy": "Robotics",
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
-		"production": 1,
-		"science": 1,
-		"gold": 1,
-		"improvement": "Deep Sea Ore Extraction Mine",
-	},
-	{
-		"name": "Underwater Aluminum",
-		"resourceType": "Strategic",
-		"revealedBy": "Robotics",
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
-		"production": 3,
-		"science": 1,
-		"gold": 1,
-		"improvement": "Deep Sea Ore Extraction Mine",
-	},
-	{
-		"name": "Underwater Uranium",
-		"resourceType": "Strategic",
-		"revealedBy": "Robotics",
-		"terrainsCanBeFoundOn": ["Coast","Ocean"],
-		"production": 2,
-		"science": 2,
-		"gold": 1,
-		"improvement": "Deep Sea Ore Extraction Mine",
-	},
-	{
 		"name": "Polymetallic Nodules",
 		"resourceType": "Strategic",
 		"revealedBy": "Deep Sea Mining",
@@ -115,6 +85,10 @@
 	},
 	{
 		"name": "Rubber",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Manganese",
 		"resourceType": "Luxury",
 	}
 ]
