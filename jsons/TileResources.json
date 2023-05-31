@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Polymetallic Nodules",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"revealedBy": "Deep Sea Mining",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"production": 1,
@@ -11,7 +11,7 @@
 	},
 	{
 		"name": "Manganese Crusts",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"revealedBy": "Deep Sea Mining",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"production": 1,
@@ -21,7 +21,7 @@
 	},
 	{
 		"name": "Sulfide Deposits",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"revealedBy": "Deep Sea Mining",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"production": 2,
@@ -61,7 +61,7 @@
 	{
 		"name": "Zinc",
 		"resourceType": "Strategic",
-		"revealedBy": "Engineering",
+		"revealedBy": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Tundra","Snow"],
 		"production": 1,
 		"gold": 1,
@@ -69,11 +69,40 @@
 	},
 	{
 		"name": "Cobalt",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"revealedBy": "Mining",
 		"terrainsCanBeFoundOn": ["Hill","Jungle","Snow","Tundra","Desert","Plains"],
 		"production": 1,
 		"gold": 2,
+		"improvement": "Mine",
+	},
+	{
+		"name": "Jewelry",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Rubber",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Aircraft Parts",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Manganese",
+		"resourceType": "Luxury",
+		"revealedBy": "Steel",
+		"terrainsCanBeFoundOn": ["Hill","Desert"],
+		"production": 1,
+		"improvement": "Mine",
+	}
+	{
+		"name": "Sulfur",
+		"resourceType": "Strategic",
+		"revealedBy": "Iron Working",
+		"terrainsCanBeFoundOn": ["Grassland","Hill","Desert"],
+		"production": 2,
+		"gold": 1,
 		"improvement": "Mine",
 	},
 	{
@@ -85,29 +114,4 @@
 		"gold": 2,
 		"improvement": "Mine",
 	},
-	{
-		"name": "Jewelry",
-		"resourceType": "Luxury",
-	},
-	{
-		"name": "Sulfur",
-		"resourceType": "Strategic",
-		"revealedBy": "Iron Working",
-		"terrainsCanBeFoundOn": ["Grassland","Hill","Desert"],
-		"production": 2,
-		"gold": 1,
-		"improvement": "Mine",
-	},
-	{
-		"name": "Rubber",
-		"resourceType": "Luxury",
-	},
-	{
-		"name": "Manganese",
-		"resourceType": "Strategic",
-		"revealedBy": "Steel",
-		"terrainsCanBeFoundOn": ["Hill","Desert"],
-		"production": 1,
-		"improvement": "Mine",
-	}
 ]
