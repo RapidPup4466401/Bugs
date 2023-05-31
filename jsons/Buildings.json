@@ -891,7 +891,7 @@
 		"gold": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Nickel]","Consumes [1] [Cobalt]","Provides [1] [Battery]","Destroyed when the city is captured"],
+		"uniques": ["Manganese","Consumes [1] [Nickel]","Consumes [1] [Cobalt]","Provides [3] [Battery]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Magnet Manufacturing Plant",
@@ -917,6 +917,18 @@
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Electronics",
 		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Cobalt]","Consumes [1] [Silver]","Consumes [1] [Gold Ore]","Provides [4] [Wire]","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Resistors Manufacturing Plant",
+		"maintenance": 1,
+		"hurryCostModifier": 60,
+		"cost": 800,
+		"production": 1,
+		"happiness": 3,
+		"gold": 2,
+		"requiredBuilding": "Industrial Manufacturing Plant",
+		"requiredTech": "Electronics",
+		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Cobalt]","Consumes [1] [Manganese]","Provides [3] [Wire]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Prosthetics Manufacturing Plant",
@@ -960,7 +972,7 @@
 		"production": 1,
 		"requiredBuilding": "Deep Sea Mining Infrastructure",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Polymetallic Nodules]","Provides [1] [Titanium]","Provides [1] [Nickel]","Provides [1] [Copper]","Provides [1] [Cobalt]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Polymetallic Nodules]","Provides [1] [Titanium]","Provides [1] [Nickel]","Provides [1] [Copper]","Provides [1] [Cobalt]","Provides [1] [Aluminum]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Sulfide Deposits Extraction Plant",
@@ -970,7 +982,7 @@
 		"production": 2,
 		"requiredBuilding": "Deep Sea Mining Infrastructure",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Sulfide Deposits]","Provides [1] [Iron]","Provides [2] [Copper]","Provides [1] [Gold Ore]","Provides [1] [Zinc]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Sulfide Deposits]","Provides [1] [Iron]","Provides [2] [Copper]","Provides [1] [Gold Ore]","Provides [2] [Zinc]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Co-Zn Jewelry Manufacturing Plant",
@@ -1038,7 +1050,8 @@
 		"requiredBuilding": "Workshop",
 		"requiredTech": "Steel",
 		"uniques": ["Consumes [1] [Iron]","Provides [1] [Steel]","Destroyed when the city is captured"],
-	},{
+	},
+	{
 		"name": "Steel Works",
 		"maintenance": 3,
 		"hurryCostModifier": 60,
@@ -1048,6 +1061,39 @@
 		"requiredBuilding": "Factory",
 		"requiredTech": "Industrialization",
 		"uniques": ["Consumes [1] [Iron]","Consumes [1] [Manganese]","Provides [2] [Steel]","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Steel Mill",
+		"maintenance": 5,
+		"hurryCostModifier": 60,
+		"cost": 2200,
+		"production": 8,
+		"happiness": -2,
+		"requiredBuilding": "Steel Works",
+		"requiredTech": "Electronics",
+		"uniques": ["Consumes [1] [Iron]","Consumes [2] [Manganese]","Provides [3] [Steel]","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Mn-Al Alloy Foundry",
+		"maintenance": 3,
+		"hurryCostModifier": 60,
+		"cost": 2000,
+		"production": 3,
+		"happiness": -1,
+		"requiredBuilding": "Factory",
+		"requiredTech": "Electronics",
+		"uniques": ["Consumes [2] [Aluminum]","Consumes [1] [Manganese]","Provides [4] [Aluminum]","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Aircraft Manufacturing Plant",
+		"maintenance": 8,
+		"hurryCostModifier": 60,
+		"cost": 3000,
+		"production": 3,
+		"happiness": 5,
+		"requiredBuilding": "Factory",
+		"requiredTech": "Radar",
+		"uniques": ["Consumes [2] [Titanium]","Consumes [1] [Iron]","Consumes [1] [Copper]","Provides [2] [Aircraft Parts]","[+20]% Production when constructing [{Military} {Air}] units [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "National Crop Rotation System",
@@ -1089,6 +1135,6 @@
 		"production": 5,
 		"requiredBuilding": "Train Tourism Agency",
 		"requiredTech": "Railroads",
-		"uniques": ["[+5] Production [in all cities]","[+3]% Science [in this city]","Cannot be purchased","Unsellable","Cost increases by [50] per owned city","Destroyed when the city is captured"],
+		"uniques": ["[+5] Production [in all cities]","Requires at least [100] population","[+3]% Science [in this city]","Cannot be purchased","Unsellable","Cost increases by [50] per owned city","Destroyed when the city is captured"],
 	}
 ]
