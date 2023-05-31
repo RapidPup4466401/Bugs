@@ -20,7 +20,7 @@
 		"occursOn": ["Abyssal Ocean"],
 		"turnsInto": "Abyssal Ocean",
 		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles","Must be adjacent to [6] [Abyssal Ocean] tiles","Must be adjacent to [0] [Ocean] tiles","Must be adjacent to [0] [Deep Ocean] tiles"],
+		"uniques": ["Must be adjacent to [0] [Coast] tiles","Must be adjacent to [6] [Abyssal Ocean] tiles","Must be adjacent to [0] [Ocean] tiles","Must be adjacent to [0] [Abyssal Ocean] tiles"],
 		"weight": 5,
 	},
 	{
