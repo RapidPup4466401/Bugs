@@ -2,7 +2,6 @@
 	{
 		"name": "Advanced Interception Defense",
 		"maintenance": 5,
-		"hurryCostModifier": 20,
 		"cost": 1800,
 		"requiredBuilding": "Military Base",
 		"cityStrength": 5,
@@ -14,7 +13,6 @@
 	{
 		"name": "Urban Defenses",
 		"maintenance": 2,
-		"hurryCostModifier": 20,
 		"cost": 1000,
 		"requiredBuilding": "Military Base",
 		"cityHealth": 20,
@@ -25,7 +23,6 @@
 	{
 		"name": "Advanced Urban Defenses",
 		"maintenance": 4,
-		"hurryCostModifier": 20,
 		"cost": 1700,
 		"requiredBuilding": "Urban Defenses",
 		"cityHealth": 40,
@@ -36,8 +33,7 @@
 	{
 		"name": "Industrial Military Complex",
 		"maintenance": 30,
-		"hurryCostModifier": 200,
-		"cost": 5000,
+		"cost": 8000,
 		"requiredBuilding": "Military Base",
 		"requiredTech": "Atomic Theory",
 		"production": 5,
@@ -49,7 +45,6 @@
 	{		
 		"name": "Basic Infantry Training",
 		"maintenance": 1,
-		"hurryCostModifier": 10,
 		"cost": 200,
 		"requiredBuilding": "Arsenal",
 		"cityHealth": 5,
@@ -60,7 +55,6 @@
 	{
 		"name": "Professional Infantry Training",
 		"maintenance": 4,
-		"hurryCostModifier": 20,
 		"cost": 500,
 		"requiredBuilding": "Basic Infantry Training",
 		"cityHealth": 5,
@@ -71,7 +65,6 @@
 	{
 		"name": "Elite Infantry Training",
 		"maintenance": 9,
-		"hurryCostModifier": 40,
 		"cost": 3000,
 		"requiredBuilding": "Professional Infantry Training",
 		"cityStrength": 5,
@@ -85,7 +78,6 @@
 	
 		"name": "Propaganda Distributor",
 		"maintenance": 1,
-		"hurryCostModifier": 20,
 		"cost": 175,
 		"requiredBuilding": "Broadcast Tower",
 		"requiredTech": "Electronics",
@@ -95,7 +87,6 @@
 	{
 		"name": "Basic Armored Vehicle Training",
 		"maintenance": 2,
-		"hurryCostModifier": 40,
 		"cost": 300,
 		"requiredBuilding": "Military Academy",
 		"cityStrength": 3,
@@ -108,7 +99,6 @@
 	{
 		"name": "Improved Armored Drills",
 		"maintenance": 1,
-		"hurryCostModifier": 20,
 		"cost": 250,
 		"requiredBuilding": "Basic Armored Vehicle Training",
 		"requiredResource": "Oil",
@@ -118,7 +108,6 @@
 	{
 		"name": "Elite Armored Training Facilities",
 		"maintenance": 12,
-		"hurryCostModifier": 100,
 		"cost": 7500,
 		"requiredBuilding": "Improved Armored Drills",
 		"cityHealth": 10,
@@ -148,7 +137,6 @@
 	
 		"name": "Professional Recon Training",
 		"maintenance": 3,
-		"hurryCostModifier": 100,
 		"cost": 1000,
 		"requiredBuilding": "Improved Scout Training",
 		"requiredResource": "Iron",
@@ -158,7 +146,6 @@
 	{
 		"name": "Elite Recon Training",
 		"maintenance": 6,
-		"hurryCostModifier": 150,
 		"cost": 2500,
 		"requiredBuilding": "Professional Recon Training",
 		"requiredResource": "Iron",
@@ -168,7 +155,6 @@
 	{
 		"name": "Stealth Operative Training",
 		"maintenance": 10,
-		"hurryCostModifier": 400,
 		"cost": 7000,
 		"requiredBuilding": "Elite Recon Training",
 		"requiredResource": "Aluminum",
@@ -186,7 +172,6 @@
 	{
 		"name": "Improved Archery Training",
 		"maintenance": 2,
-		"hurryCostModifier": 20,
 		"cost": 100,
 		"culture": 2,
 		"requiredBuilding": "Archery Training",
@@ -197,7 +182,6 @@
 	
 		"name": "Ranger Training",
 		"maintenance": 4,
-		"hurryCostModifier": 50,
 		"cost":200,
 		"requiredBuilding": "Improved Archery Training",
 		"requiredResource": "Iron",
@@ -217,7 +201,6 @@
 	{
 		"name": "Basic Swordsmanship Training",
 		"maintenance": 1,
-		"hurryCostModifier": 40,
 		"cost": 50,
 		"culture": 1,
 		"requiredBuilding": "Melee Combat Training",
@@ -227,7 +210,6 @@
 	{
 		"name": "Way of the Blade Training",
 		"maintenance": 3,
-		"hurryCostModifier": 50,
 		"cost": 150,
 		"culture": 3,
 		"happinss": 4,
@@ -247,7 +229,6 @@
 	{
 		"name": "Improved Mounts Training",
 		"maintenance": 1,
-		"hurryCostModifier": 25,
 		"cost": 100,
 		"requiredBuilding": "Mounts Training",
 		"requiredTech": "Horseback Riding",
@@ -256,7 +237,6 @@
 	{
 		"name": "Professional Mounts Training Facilities",
 		"maintenance": 2,
-		"hurryCostModifier": 50,
 		"cost": 150,
 		"culture": 2,
 		"happiness": 1,
@@ -268,7 +248,6 @@
 	{
 		"name": "Elite Mounts Training Facilities",
 		"maintenance": 5,
-		"hurryCostModifier": 100,
 		"cost": 350,
 		"culture": 3,
 		"requiredBuilding": "Professional Mounts Training Facilities",
@@ -279,7 +258,6 @@
 	{
 		"name": "Elite Calvary Training",
 		"maintenance": 9,
-		"hurryCostModifier": 200,
 		"happiness": 2,
 		"culture": 4,
 		"cost": 850,
@@ -291,7 +269,6 @@
 	{
 		"name": "Basic Siege Training",
 		"maintenance": 1,
-		"hurryCostModifier": 50,
 		"cost": 50,
 		"requiredTech": "Mathematics",
 		"uniques": ["New [{Military} {Land} {Siege}] units start with [5] Experience [in this city]","Destroyed when the city is captured"],
@@ -318,7 +295,6 @@
 	{
 		"name": "Professional Siege Training",
 		"maintenance": 3,
-		"hurryCostModifier": 125,
 		"cost": 750,
 		"requiredBuilding": "Advanced Siege Training",
 		"requiredResource": "Iron",
@@ -328,7 +304,6 @@
 	{
 		"name": "Elite Siege Training",
 		"maintenance": 5,
-		"hurryCostModifier": 350,
 		"cost": 2250,
 		"requiredBuilding": "Professional Siege Training",
 		"requiredResource": "Aluminum",
@@ -338,7 +313,6 @@
 	{
 		"name": "Siege Training Facilities",
 		"maintenance": 15,
-		"hurryCostModifier": 1200,
 		"cost": 6800,
 		"requiredBuilding": "Elite Siege Training",
 		"requiredResource": "Aluminum",
@@ -357,7 +331,6 @@
 	{
 		"name": "Improved Marksmanship Training",
 		"maintenance": 2,
-		"hurryCostModifier": 15,
 		"cost": 200,
 		"culture": 2,
 		"requiredBuilding": "Marksmanship Training",
@@ -368,7 +341,6 @@
 	{
 		"name": "Professional Marksmanship Training",
 		"maintenance": 4,
-		"hurryCostModifier": 30,
 		"cost": 500,
 		"culture": 4,
 		"requiredBuilding": "Improved Marksmanship Training",
@@ -379,7 +351,6 @@
 	{
 		"name": "Elite Marksmanship Training",
 		"maintenance": 10,
-		"hurryCostModifier": 300,
 		"cost": 3600,
 		"happiness": 1,
 		"requiredBuilding": "Professional Marksmanship Training",
@@ -390,7 +361,6 @@
 	{
 		"name": "Helicopter Training",
 		"maintenance": 1,
-		"hurryCostModifier": 200,
 		"cost": 1500,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Computers",
@@ -419,7 +389,6 @@
 	{
 		"name": "Improved Fighter Pilot Training",
 		"maintenance": 1,
-		"hurryCostModifier": 30,
 		"cost": 500,
 		"requiredBuilding": "Basic Fighter Pilot Training",
 		"requiredResource": "Iron",
@@ -429,7 +398,6 @@
 	{
 		"name": "Improved Bomber Pilot Training",
 		"maintenance": 1,
-		"hurryCostModifier": 30,
 		"cost": 400,
 		"requiredBuilding": "Basic Bomber Pilot Training",
 		"requiredResource": "Iron",
@@ -439,7 +407,6 @@
 	{
 		"name": "Advanced Fighter Pilot Training",
 		"maintenance": 1,
-		"hurryCostModifier": 60,
 		"cost": 800,
 		"requiredBuilding": "Improved Fighter Pilot Training",
 		"requiredResource": "Oil",
@@ -449,7 +416,6 @@
 	{
 		"name": "Advanced Bomber Pilot Training",
 		"maintenance": 2,
-		"hurryCostModifier": 90,
 		"cost": 600,
 		"requiredBuilding": "Improved Bomber Pilot Training",
 		"requiredResource": "Oil",
@@ -459,7 +425,6 @@
 	{
 		"name": "Professional Fighter Pilot Training",
 		"maintenance": 2,
-		"hurryCostModifier": 90,
 		"cost": 1200,
 		"requiredBuilding": "Advanced Fighter Pilot Training",
 		"requiredResource": "Oil",
@@ -469,7 +434,6 @@
 	{
 		"name": "Professional Bomber Pilot Training",
 		"maintenance": 4,
-		"hurryCostModifier": 180,
 		"cost": 900,
 		"requiredBuilding": "Advanced Bomber Pilot Training",
 		"requiredResource": "Aluminum",
@@ -479,7 +443,6 @@
 	{
 		"name": "Elite Fighter Pilot Training",
 		"maintenance": 5,
-		"hurryCostModifier": 300,
 		"cost": 2600,
 		"requiredBuilding": "Professional Fighter Pilot Training",
 		"requiredResource": "Aluminum",
@@ -489,7 +452,6 @@
 	{
 		"name": "Elite Bomber Pilot Training",
 		"maintenance": 13,
-		"hurryCostModifier": 600,
 		"cost": 5600,
 		"requiredBuilding": "Professional Bomber Pilot Training",
 		"requiredResource": "Uranium",
@@ -499,7 +461,6 @@
 	{
 		"name": "Basic Naval Training",
 		"maintenance": 1,
-		"hurryCostModifier": 15,
 		"cost": 15,
 		"culture": 1,
 		"requiredTech": "Sailing",
@@ -508,7 +469,6 @@
 	{
 		"name": "Improved Naval Training",
 		"maintenance": 1,
-		"hurryCostModifier": 25,
 		"cost": 35,
 		"culture": 2,
 		"requiredBuilding": "Basic Naval Training",
@@ -518,7 +478,6 @@
 	{
 		"name": "Advanced Naval Training",
 		"maintenance": 2,
-		"hurryCostModifier": 125,
 		"cost": 200,
 		"culture": 4,
 		"requiredBuilding": "Improved Naval Training",
@@ -529,7 +488,6 @@
 	{
 		"name": "Professional Naval Training",
 		"maintenance": 4,
-		"hurryCostModifier": 250,
 		"cost": 700,
 		"requiredBuilding": "Advanced Naval Training",
 		"requiredResource": "Iron",
@@ -539,7 +497,6 @@
 	{
 		"name": "Elite Naval Training",
 		"maintenance": 11,
-		"hurryCostModifier": 300,
 		"cost": 7600,
 		"requiredBuilding": "Professional Naval Training",
 		"requiredResource": "Aluminum",
@@ -549,7 +506,6 @@
 	{
 		"name": "Aircraft Carrier Shipyard",
 		"maintenance": 4,
-		"hurryCostModifier": 300,
 		"cost": 1400,
 		"production": 10,
 		"requiredBuilding": "Seaport",
@@ -561,7 +517,6 @@
 	{
 		"name": "Iron Refinery",
 		"maintenance": 1,
-		"hurryCostModifier": 120,
 		"cost": 500,
 		"production": 4,
 		"requiredBuilding": "Factory",
@@ -573,7 +528,6 @@
 	{
 		"name": "Industrial Manufacturing Plant",
 		"maintenance": 2,
-		"hurryCostModifier": 150,
 		"cost": 1000,
 		"production": 8,
 		"happiness": 2,
@@ -586,7 +540,6 @@
 	{
 		"name": "Construction Materials Factory",
 		"maintenance": 7,
-		"hurryCostModifier": 100,
 		"cost": 800,
 		"production": 4,
 		"happiness": 3,
@@ -599,7 +552,6 @@
 	{
 		"name": "Uranium Refinery",
 		"maintenance": 4,
-		"hurryCostModifier": 75,
 		"cost": 1300,
 		"production": 12,
 		"happiness": -1,
@@ -612,7 +564,6 @@
 	{
 		"name": "Finance Teachings",
 		"maintenance": 1,
-		"hurryCostModifier": 20,
 		"cost": 120,
 		"gold": 4,
 		"happiness": -1,
@@ -625,7 +576,6 @@
 	{
 		"name": "Finance University",
 		"maintenance": 2,
-		"hurryCostModifier": 30,
 		"cost": 180,
 		"gold": 8,
 		"happiness": 1,
@@ -638,7 +588,6 @@
 	{
 		"name": "Finance School",
 		"maintenance": 4,
-		"hurryCostModifier": 40,
 		"cost": 200,
 		"gold": 2,
 		"happiness": 3,
@@ -651,7 +600,6 @@
 	{
 		"name": "Exchange Center",
 		"maintenance": 4,
-		"hurryCostModifier": 75,
 		"cost": 800,
 		"gold": 14,
 		"happiness": 1,
@@ -664,7 +612,6 @@
 	{
 		"name": "Economics Institution",
 		"maintenance": 5,
-		"hurryCostModifier": 100,
 		"cost": 1200,
 		"culture": 3,
 		"gold": 25,
@@ -678,7 +625,6 @@
 	{
 		"name": "Assembly Plant",
 		"maintenance": 1,
-		"hurryCostModifier": 20,
 		"cost": 600,
 		"culture": 1,
 		"gold": 4,
@@ -693,7 +639,6 @@
 	{
 		"name": "Train Tourism Agency",
 		"maintenance": 1,
-		"hurryCostModifier": 20,
 		"cost": 400,
 		"culture": 5,
 		"gold": 6,
