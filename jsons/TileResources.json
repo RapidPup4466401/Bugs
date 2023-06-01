@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Polymetallic Nodules",
-		"resourceType": "Luxury",
+		"resourceType": "Strategic",
 		"revealedBy": "Deep Sea Mining",
 		"terrainsCanBeFoundOn": ["Coast","Ocean"],
 		"production": 1,
@@ -11,7 +11,7 @@
 	},
 	{
 		"name": "Manganese Crusts",
-		"resourceType": "Luxury",
+		"resourceType": "Strategic",
 		"revealedBy": "Deep Sea Mining",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"production": 1,
@@ -21,7 +21,7 @@
 	},
 	{
 		"name": "Sulfide Deposits",
-		"resourceType": "Luxury",
+		"resourceType": "Strategic",
 		"revealedBy": "Deep Sea Mining",
 		"terrainsCanBeFoundOn": ["Ocean"],
 		"production": 2,
@@ -86,6 +86,10 @@
 	},
 	{
 		"name": "Aircraft Parts",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Resistor",
 		"resourceType": "Luxury",
 	},
 	{
