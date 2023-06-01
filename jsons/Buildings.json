@@ -873,7 +873,7 @@
 		"gold": 2,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Electronics",
-		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Cobalt]","Consumes [1] [Manganese]","Provides [3] [Wire]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Copper]","Consumes [1] [Cobalt]","Consumes [1] [Manganese]","Provides [3] [Resistor]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Prosthetics Manufacturing Plant",
