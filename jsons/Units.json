@@ -1,22 +1,63 @@
 [
   {
-    "name" :
-"unitType": 
-"cost": 
-"movement": 6,
-"strength": 
-"rangedStrength": 
-range	Integer (0)
-interceptRange	
-requiredTech	String	defaults to none	The tech required to build this unit. Must be in Techs.json
-obsoleteTech	String	defaults to none	After researching this tech, the unit can no longer be build. Must be in Techs.json
-requiredResource	String	defaults to none	Resource that is consumed by building this unit. Must be in TileResources.json
-upgradesTo	String	defaults to none	Unit that this unit can upgrade to when it is available. Must be in Units.json
-replaces	String	defaults to none	If this unit is unique to a nation, this is the unit it replaces. Must be in Units.json
-uniqueTo	String	defaults to none	The nation that this unit is unique to. Must be in Nations.json
-hurryCostModifier	Integer	defaults to 0	If this unit is bought for gold/faith, it's price is increased by so much percent
-promotions	List of Strings	defaults to none	A list of all the promotions the unit automatically receives upon being built. Each promotion must be in UnitPromotions.json
-uniques	List of Strings	defaults to none	A list of the unique abilities this unit has. A list of almost all uniques can be found here
-replacementTextForUniques	String	defaults to none	If provided, this will be displayed instead of the list of uniques. Can be used for better formatting.
-attackSound	String	defaults to none	The sound that is to be played when this unit attacks. For possible values, see Sounds
-civilopediaText	List	Default empty	see civilopediaText chapter
+		"name": "Wolf Submarine",
+		"unitType": "Submarine",
+    "cost": 200,
+		"movement": 7,
+		"strength": 25,
+    "rangedStrength": 50,
+		"requiredTech": "Advanced Submersibles",
+		"promotions": ["Mobility"],
+		"attackSound": "metalhit",
+	},
+  {
+		"name": "Scorpion Submarine",
+		"unitType": "Submarine",
+    "cost": 500,
+		"movement": 3,
+		"strength": 45,
+    "rangedStrength": 70,
+		"requiredTech": "Advanced Submersibles",
+		"requiredResource": "Oil",
+		"attackSound": "metalhit",
+	},
+  {
+		"name": "Mantis Submarine", 
+		"unitType": "Submarine",
+    "cost": 650,
+		"movement": 5,
+		"strength": 30,
+    "rangedStrength": 55,
+		"requiredTech": "Advanced Submersibles",
+		"requiredResource": "Oil",
+		"promotions": ["Logistics"],
+		"attackSound": "metalhit",
+	},
+  {
+		"name": "Aircraft Carrier Submarine",
+		"unitType": "Submarine",
+    "cost": 1200,
+		"movement": 4,
+		"strength": 35,
+    "rangedStrength": 60,
+		"requiredTech": "Advanced Submersibles",
+		"requiredResource": "Uranium",
+		"attackSound": "metalhit",
+    "uniques": ["Can carry [2] [Air] units"],
+	},
+  {
+		"name": "Super Aircraft Carrier Submarine",
+		"unitType": "Submarine",
+    "cost": 3500,
+		"movement": 3,
+		"strength": 15
+    "rangedStrength": 30,
+		"requiredTech": "Advanced Submersibles",
+		"requiredResource": "Uranium",
+		"attackSound": "metalhit",
+    "uniques": ["Can carry [6] [Air] units","[+20]% chance to intercept air attacks"],
+	}
+]
+
+
+
