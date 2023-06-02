@@ -1060,7 +1060,7 @@
 		"happiness": 2,
 		"requiredBuilding": "Boring Prototypes Testing Facility",
 		"requiredTech": "Mountain Mining",
-		"uniques": ["Consumes [2] [Titanium]","Consumes [1] [Copper]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Titanium]","Consumes [1] [Copper]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Mountain Mines",
