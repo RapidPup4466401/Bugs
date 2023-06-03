@@ -40,7 +40,7 @@
 		"food": -3,
 		"happiness": -1,
 		"specialistSlots": {"Engineer": 6},
-		"uniques": ["Provides [6] [Aluminum]","Provides [4] [Uranium]","Provides [8] [Iron]","Provides [3] [Coal]","Only available <in cities with a [Military Base]>","Only available <in cities without a [Deep Sea Mining Foundations]>","Only available <in cities without a [Deep Sea Mining Research Center]>","Only available <in cities without a [Deep Ocean Exploration Facilities]>","Only available <in cities without a [Upgraded Deep Ocean Exploration Facilities]>","Only available <in cities without a [Deep Sea Mining Operations]>","Only available <in cities without a [Economics Institution]>","[+40]% Production when constructing [Military] units [in this city]","Destroyed when the city is captured","Limited to [3] per Civilization"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Provides [6] [Aluminum]","Provides [4] [Uranium]","Provides [8] [Iron]","Provides [3] [Coal]","Only available <in cities with a [Military Base]>","Only available <in cities without a [Deep Sea Mining Foundations]>","Only available <in cities without a [Deep Sea Mining Research Center]>","Only available <in cities without a [Deep Ocean Exploration Facilities]>","Only available <in cities without a [Upgraded Deep Ocean Exploration Facilities]>","Only available <in cities without a [Deep Sea Mining Operations]>","Only available <in cities without a [Economics Institution]>","[+40]% Production when constructing [Military] units [in this city]","Destroyed when the city is captured","Limited to [3] per Civilization"],
 	},
 	{		
 		"name": "Basic Infantry Training",
@@ -50,7 +50,7 @@
 		"cityHealth": 5,
 		"requiredResource": "Iron",
 		"requiredTech": "Rifling",
-		"uniques": ["New [Gunpowder] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [Gunpowder] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Professional Infantry Training",
@@ -60,7 +60,7 @@
 		"cityHealth": 5,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["New [Gunpowder] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [Gunpowder] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Elite Infantry Training",
@@ -72,7 +72,7 @@
 		"production": -3,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Nanotechnology",
-		"uniques": ["New [Gunpowder] units start with [35] Experience [in this city]","Destroyed when the city is captured","[+10]% Production when constructing [Gunpowder] units [in this city]","Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Marksmanship Training]>","Only available <in cities without a [Professional Marksmanship Training]>"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [Gunpowder] units start with [35] Experience [in this city]","Destroyed when the city is captured","[+10]% Production when constructing [Gunpowder] units [in this city]","Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Marksmanship Training]>","Only available <in cities without a [Professional Marksmanship Training]>"],
 	},
 	{
 	
@@ -94,7 +94,7 @@
 		"production": 2,
 		"requiredResource": "Iron",
 		"requiredTech": "Combustion",
-		"uniques": ["New [{Military} {Land} {Armored}] units start with [5] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Land} {Armored}] units start with [5] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Improved Armored Drills",
@@ -103,7 +103,7 @@
 		"requiredBuilding": "Basic Armored Vehicle Training",
 		"requiredResource": "Oil",
 		"requiredTech": "Combined Arms",
-		"uniques": ["New [{Military} {Land} {Armored}] units start with [15] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Land} {Armored}] units start with [15] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Elite Armored Training Facilities",
@@ -113,7 +113,7 @@
 		"cityHealth": 10,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Only available <in cities without a [Siege Training Facilities]>","Only available <in cities without a [Elite Siege Training]>","Only available <in cities without a [Elite Infantry Training]>","Only available <in cities without a [Elite Marksmanship Training]>","New [{Military} {Land} {Armored}] units start with [40] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Siege Training Facilities]>","Only available <in cities without a [Elite Siege Training]>","Only available <in cities without a [Elite Infantry Training]>","Only available <in cities without a [Elite Marksmanship Training]>","New [{Military} {Land} {Armored}] units start with [40] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Basic Scout Training",
@@ -141,7 +141,7 @@
 		"requiredBuilding": "Improved Scout Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Trapping",
-		"uniques": ["New [{Military} {Land} {Scout}] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Land} {Scout}] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Elite Recon Training",
@@ -150,7 +150,7 @@
 		"requiredBuilding": "Professional Recon Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Scientific Theory",
-		"uniques": ["New [{Military} {Land} {Scout}] units start with [30] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Land} {Scout}] units start with [30] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Stealth Operative Training",
@@ -159,7 +159,7 @@
 		"requiredBuilding": "Elite Recon Training",
 		"requiredResource": "Aluminum",
 		"requiredTech": "Stealth",
-		"uniques": ["New [{Military} {Land} {Scout}] units start with [60] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Land} {Scout}] units start with [60] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Archery Training",
@@ -243,7 +243,7 @@
 		"requiredBuilding": "Improved Mounts Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Horseback Riding",
-		"uniques": ["New [{Military} {Land} {Mounted}] units start with [35] Experience [in this city]","Destroyed when the city is captured","Obsolete with [Combustion]"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Land} {Mounted}] units start with [35] Experience [in this city]","Destroyed when the city is captured","Obsolete with [Combustion]"],
 	},
 	{
 		"name": "Elite Mounts Training Facilities",
@@ -253,7 +253,7 @@
 		"requiredBuilding": "Professional Mounts Training Facilities",
 		"requiredResource": "Iron",
 		"requiredTech": "Iron Working",
-		"uniques": ["Only available <in cities without a [Way of the Blade Training]>","Only available <in cities without a [Elite Siege Training]>","Only available <in cities without a [Siege Training Facilities]>","New [{Military} {Land} {Mounted}] units start with [50] Experience [in this city]","Destroyed when the city is captured","Obsolete with [Combustion]"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Way of the Blade Training]>","Only available <in cities without a [Elite Siege Training]>","Only available <in cities without a [Siege Training Facilities]>","New [{Military} {Land} {Mounted}] units start with [50] Experience [in this city]","Destroyed when the city is captured","Obsolete with [Combustion]"],
 	},
 	{
 		"name": "Elite Calvary Training",
@@ -264,7 +264,7 @@
 		"requiredBuilding": "Elite Mounts Training Facilities",
 		"requiredResource": "Iron",
 		"requiredTech": "Military Science",
-		"uniques": ["Only available <in cities without a [Way of the Blade Training]>","Only available <in cities without a [Elite Marksmanship Training]>","Only available <in cities without a [Elite Siege Training]>","Only available <in cities without a [Siege Training Facilities]>","New [{Military} {Land} {Mounted}] units start with [75] Experience [in this city]","Destroyed when the city is captured","Obsolete with [Combustion]"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Way of the Blade Training]>","Only available <in cities without a [Elite Marksmanship Training]>","Only available <in cities without a [Elite Siege Training]>","Only available <in cities without a [Siege Training Facilities]>","New [{Military} {Land} {Mounted}] units start with [75] Experience [in this city]","Destroyed when the city is captured","Obsolete with [Combustion]"],
 	},
 	{
 		"name": "Basic Siege Training",
@@ -290,7 +290,7 @@
 		"requiredBuilding": "Improved Siege Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Physics",
-		"uniques": ["New [{Military} {Land} {Siege}] units start with [25] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Land} {Siege}] units start with [25] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Professional Siege Training",
@@ -299,7 +299,7 @@
 		"requiredBuilding": "Advanced Siege Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Military Science",
-		"uniques": ["Only available <in cities without a [Elite Mounts Training Facilities]>","Only available <in cities without a [Elite Calvary Training]>","New [{Military} {Land} {Siege}] units start with [45] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Mounts Training Facilities]>","Only available <in cities without a [Elite Calvary Training]>","New [{Military} {Land} {Siege}] units start with [45] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Elite Siege Training",
@@ -308,7 +308,7 @@
 		"requiredBuilding": "Professional Siege Training",
 		"requiredResource": "Aluminum",
 		"requiredTech": "Electronics",
-		"uniques": ["Only available <in cities without a [Elite Mounts Training Facilities]>","Only available <in cities without a [Elite Calvary Training]>","Only available <in cities without a [Elite Armored Training Facilities]>","New [{Military} {Land} {Siege}] units start with [85] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Mounts Training Facilities]>","Only available <in cities without a [Elite Calvary Training]>","Only available <in cities without a [Elite Armored Training Facilities]>","New [{Military} {Land} {Siege}] units start with [85] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Siege Training Facilities",
@@ -317,7 +317,7 @@
 		"requiredBuilding": "Elite Siege Training",
 		"requiredResource": "Aluminum",
 		"requiredTech": "Rocketry",
-		"uniques": ["Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Calvary Training]>","Only available <in cities without a [Elite Mounts Training Facilities]>","New [{Military} {Land} {Siege}] units start with [160] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Calvary Training]>","Only available <in cities without a [Elite Mounts Training Facilities]>","New [{Military} {Land} {Siege}] units start with [160] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Marksmanship Training",
@@ -346,7 +346,7 @@
 		"requiredBuilding": "Improved Marksmanship Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Ballistics",
-		"uniques": ["Only available <in cities without a [Elite Infantry Training]>","New [{Military} {Land} {Ranged Gunpowder}] units start with [45] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Infantry Training]>","New [{Military} {Land} {Ranged Gunpowder}] units start with [45] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Elite Marksmanship Training",
@@ -356,7 +356,7 @@
 		"requiredBuilding": "Professional Marksmanship Training",
 		"requiredResource": "Aluminum",
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Infantry Training]>","Only available <in cities without a [Elite Calvary Training]>","New [{Military} {Land} {Ranged Gunpowder}] units start with [105] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Infantry Training]>","Only available <in cities without a [Elite Calvary Training]>","New [{Military} {Land} {Ranged Gunpowder}] units start with [105] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Helicopter Training",
@@ -364,7 +364,7 @@
 		"cost": 1500,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Computers",
-		"uniques": ["New [{Military} {Land} {Helicopter}] units start with [60] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Land} {Helicopter}] units start with [60] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Basic Fighter Pilot Training",
@@ -374,7 +374,7 @@
 		"requiredBuilding": "Military Base",
 		"requiredResource": "Iron",
 		"requiredTech": "Flight",
-		"uniques": ["New [{Military} {Air} {Fighter}] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Air} {Fighter}] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Basic Bomber Pilot Training",
@@ -384,7 +384,7 @@
 		"requiredBuilding": "Military Base",
 		"requiredResource": "Iron",
 		"requiredTech": "Flight",
-		"uniques": ["New [{Military} {Air} {Bomber}] units start with [5] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Air} {Bomber}] units start with [5] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Improved Fighter Pilot Training",
@@ -393,7 +393,7 @@
 		"requiredBuilding": "Basic Fighter Pilot Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Flight",
-		"uniques": ["New [{Military} {Air} {Fighter}] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Air} {Fighter}] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Improved Bomber Pilot Training",
@@ -402,7 +402,7 @@
 		"requiredBuilding": "Basic Bomber Pilot Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Flight",
-		"uniques": ["New [{Military} {Air} {Bomber}] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Air} {Bomber}] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Advanced Fighter Pilot Training",
@@ -411,7 +411,7 @@
 		"requiredBuilding": "Improved Fighter Pilot Training",
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
-		"uniques": ["New [{Military} {Air} {Fighter}] units start with [40] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Air} {Fighter}] units start with [40] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Advanced Bomber Pilot Training",
@@ -420,7 +420,7 @@
 		"requiredBuilding": "Improved Bomber Pilot Training",
 		"requiredResource": "Oil",
 		"requiredTech": "Ballistics",
-		"uniques": ["New [{Military} {Air} {Bomber}] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Air} {Bomber}] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Professional Fighter Pilot Training",
@@ -429,7 +429,7 @@
 		"requiredBuilding": "Advanced Fighter Pilot Training",
 		"requiredResource": "Oil",
 		"requiredTech": "Radar",
-		"uniques": ["New [{Military} {Air} {Fighter}] units start with [75] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Air} {Fighter}] units start with [75] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Professional Bomber Pilot Training",
@@ -438,7 +438,7 @@
 		"requiredBuilding": "Advanced Bomber Pilot Training",
 		"requiredResource": "Aluminum",
 		"requiredTech": "Radar",
-		"uniques": ["New [{Military} {Air} {Bomber}] units start with [40] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Air} {Bomber}] units start with [40] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Elite Fighter Pilot Training",
@@ -447,7 +447,7 @@
 		"requiredBuilding": "Professional Fighter Pilot Training",
 		"requiredResource": "Aluminum",
 		"requiredTech": "Lasers",
-		"uniques": ["Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Bomber Pilot Training]>","New [{Military} {Air} {Fighter}] units start with [90] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Bomber Pilot Training]>","New [{Military} {Air} {Fighter}] units start with [90] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Elite Bomber Pilot Training",
@@ -456,7 +456,7 @@
 		"requiredBuilding": "Professional Bomber Pilot Training",
 		"requiredResource": "Uranium",
 		"requiredTech": "Stealth",
-		"uniques": ["Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Fighter Pilot Training]>","New [{Military} {Air} {Bomber}] units start with [135] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Armored Training Facilities]>","Only available <in cities without a [Elite Fighter Pilot Training]>","New [{Military} {Air} {Bomber}] units start with [135] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Basic Naval Training",
@@ -464,7 +464,7 @@
 		"cost": 15,
 		"culture": 1,
 		"requiredTech": "Sailing",
-		"uniques": ["New [{Military} {Water}] units start with [10] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Water}] units start with [10] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
 	},
 	{
 		"name": "Improved Naval Training",
@@ -473,7 +473,7 @@
 		"culture": 2,
 		"requiredBuilding": "Basic Naval Training",
 		"requiredTech": "Optics",
-		"uniques": ["New [{Military} {Water}] units start with [25] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Water}] units start with [25] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
 	},
 	{
 		"name": "Advanced Naval Training",
@@ -483,7 +483,7 @@
 		"requiredBuilding": "Improved Naval Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
-		"uniques": ["New [{Military} {Water}] units start with [45] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
+		"uniques": ["Can only be built [in all non-occupied cities]","New [{Military} {Water}] units start with [45] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
 	},
 	{
 		"name": "Professional Naval Training",
@@ -492,7 +492,7 @@
 		"requiredBuilding": "Advanced Naval Training",
 		"requiredResource": "Iron",
 		"requiredTech": "Electronics",
-		"uniques": ["Only available <in cities without a [Elite Armored Training Facilities]>","New [{Military} {Water}] units start with [65] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Armored Training Facilities]>","New [{Military} {Water}] units start with [65] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
 	},
 	{
 		"name": "Elite Naval Training",
@@ -501,7 +501,7 @@
 		"requiredBuilding": "Professional Naval Training",
 		"requiredResource": "Aluminum",
 		"requiredTech": "Telecommunications",
-		"uniques": ["Only available <in cities without a [Elite Armored Training Facilities]>","New [{Military} {Water}] units start with [85] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Armored Training Facilities]>","New [{Military} {Water}] units start with [85] Experience [in this city]","Destroyed when the city is captured","Must be on [Coastal]"],
 	},
 	{
 		"name": "Aircraft Carrier Shipyard",
@@ -512,7 +512,7 @@
 		"requiredResource": "Aluminum",
 		"requiredTech": "Computers",
 		"specialistSlots": {"Engineer": 1},
-		"uniques": ["Only available <in cities without a [Elite Armored Training Facilities]>","[+50]% Production when constructing [Aircraft Carrier] units [in this city]","New [{Military} {Water} {Aircraft Carrier}] units start with [60] Experience [in this city]","Destroyed when the city is captured","Limited to [2] per Civilization","Must be on [Coastal]"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Only available <in cities without a [Elite Armored Training Facilities]>","[+50]% Production when constructing [Aircraft Carrier] units [in this city]","New [{Military} {Water} {Aircraft Carrier}] units start with [60] Experience [in this city]","Destroyed when the city is captured","Limited to [2] per Civilization","Must be on [Coastal]"],
 	},
 	{
 		"name": "Iron Refinery",
@@ -535,7 +535,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Plastics",
 		"specialistSlots": {"Engineer": 1},
-		"uniques": ["[+3]% Production when constructing [all] buildings [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","[+3]% Production when constructing [all] buildings [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Construction Materials Factory",
@@ -547,7 +547,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Plastics",
 		"specialistSlots": {"Engineer": 1},
-		"uniques": ["[+15]% Production when constructing [ALL] buildings [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","[+15]% Production when constructing [ALL] buildings [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Uranium Refinery",
@@ -559,7 +559,7 @@
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
 		"specialistSlots": {"Engineer": 2},
-		"uniques": ["[+10]% Production when constructing [ALL] buildings [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","[+10]% Production when constructing [ALL] buildings [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Finance Teachings",
@@ -634,7 +634,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Combustion",
 		"specialistSlots": {"Engineer": 1},
-		"uniques": ["[+1]% Production [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","[+1]% Production [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Train Tourism Agency",
@@ -648,7 +648,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Railroads",
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["[+3]% Culture [in this city]","[+1]% Gold [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","[+3]% Culture [in this city]","[+1]% Gold [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Research Center",
@@ -660,7 +660,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Scientific Theory",
 		"specialistSlots": {"Scientist": 1},
-		"uniques": ["[+1]% Science","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","[+1]% Science","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Deep Sea Mining Foundations",
@@ -673,7 +673,7 @@
 		"requiredResource": "Aluminum",
 		"requiredTech": "Refrigeration",
 		"specialistSlots": {"Scientist": 1},
-		"uniques": ["Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+1]% Science","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+1]% Science","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Deep Sea Mining Research Center",
@@ -686,7 +686,7 @@
 		"requiredResource": "Aluminum",
 		"requiredTech": "Electronics",
 		"specialistSlots": {"Scientist": 2},
-		"uniques": ["Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+2]% Science","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+2]% Science","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Deep Ocean Exploration Facilities",
@@ -699,7 +699,7 @@
 		"requiredResource": "Aluminum",
 		"requiredTech": "Computers",
 		"specialistSlots": {"Scientist": 3},
-		"uniques": ["Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+3]% Science","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+3]% Science","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Upgraded Deep Ocean Exploration Facilities",
@@ -712,7 +712,7 @@
 		"requiredResource": "Aluminum",
 		"requiredTech": "Robotics",
 		"specialistSlots": {"Scientist": 5},
-		"uniques": ["Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+5]% Science","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+5]% Science","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Deep Sea Mining Operations",
@@ -726,7 +726,7 @@
 		"requiredResource": "Aluminum",
 		"requiredTech": "Nanotechnology",
 		"specialistSlots": {"Engineer": 5},
-		"uniques": ["Discover [Deep Sea Mining]","Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+25]% Science","[+25]% Production","[+50]% Gold","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Discover [Deep Sea Mining]","Must be on [Coastal]","Only available <in cities without a [Industrial Military Complex]>","Only available <in cities without a [Exchange Center]>","Only available <in cities without a [Economics Institution]>","[+25]% Science","[+25]% Production","[+50]% Gold","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Industrialized Crop Storage Systems",
@@ -738,7 +738,7 @@
 		"requiredBuilding": "Granary",
 		"requiredTech": "Industrialization",
 		"specialistSlots": {"Engineer": 2},
-		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+2]% Food [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
+		"uniques": ["Can only be built [in all non-occupied cities]","[+1 Food] from [Farm] tiles [in this city]","[+2]% Food [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
 		"name": "Basic Fertilizer Production Plant",
@@ -823,7 +823,7 @@
 		"food": 1,
 		"requiredBuilding": "Deep Sea Mining Operations",
 		"requiredTech": "Deep Sea Mining",
-		"uniques": ["[+2 Production] from [Coast] tiles [in this city]","[+3]% Production [in this city]","[+1]% Science [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","[+2 Production] from [Coast] tiles [in this city]","[+3]% Production [in this city]","[+1]% Science [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Battery Manufacturing Plant",
@@ -1049,7 +1049,7 @@
 		"happiness": 1,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Mountain Mining",
-		"uniques": ["Consumes [1] [Iron]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Consumes [1] [Iron]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Boring Machine Manufacturing Plant",
@@ -1060,7 +1060,7 @@
 		"happiness": 2,
 		"requiredBuilding": "Boring Prototypes Testing Facility",
 		"requiredTech": "Mountain Mining",
-		"uniques": ["Consumes [1] [Titanium]","Consumes [1] [Copper]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Consumes [1] [Titanium]","Consumes [1] [Copper]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Mountain Mines",
@@ -1070,7 +1070,7 @@
 		"production": 3,
 		"requiredBuilding": "Boring Machine Manufacturing Plant",
 		"requiredTech": "Mountain Mining",
-		"uniques": ["Consumes [1] [Iron]","Consumes [1] [Nickel]","Must have an owned [Mountain] within [2] tiles","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Consumes [1] [Iron]","Consumes [1] [Nickel]","Must have an owned [Mountain] within [2] tiles","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Mountain Drilling Center",
@@ -1083,7 +1083,7 @@
 		"requiredBuilding": "Mountain Mines",
 		"requiredTech": "Mass Drilling",
 		"specialistSlots": {"Engineer": 1},
-		"uniques": ["Must have an owned [Mountain] within [2] tiles","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","Must have an owned [Mountain] within [2] tiles","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Drilling Sites",
@@ -1093,7 +1093,7 @@
 		"production": 3,
 		"requiredBuilding": "Mountain Drilling Center",
 		"requiredTech": "Mass Drilling",
-		"uniques": ["[+1 Production] from [Mountain] tiles [in this city]","Consumes [3] [Iron]","Provides [1] [Silver]","Provides [1] [Gold]","Provides [1] [Zinc]","Must have an owned [Mountain] within [2] tiles","[+4]% Production [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Can only be built [in all non-occupied cities]","[+1 Production] from [Mountain] tiles [in this city]","Consumes [3] [Iron]","Provides [1] [Silver]","Provides [1] [Gold]","Provides [1] [Zinc]","Must have an owned [Mountain] within [2] tiles","[+4]% Production [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Expanded Drilling Sites",
