@@ -935,7 +935,7 @@
 		"maintenance": 3,
 		"cost": 1800,
 		"production": 1,
-		"gold": 8,
+		"gold": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Mineral Extraction",
 		"uniques": ["Consumes [1] [Cobalt]","Consumes [1] [Zinc]","Provides [2] [Jewelry]","Destroyed when the city is captured"],
