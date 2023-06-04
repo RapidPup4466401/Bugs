@@ -83,6 +83,12 @@
 	{
 		"name": "Rubber",
 		"resourceType": "Luxury",
+		"revealedBy": "Agriculture",
+		"terrainsCanBeFoundOn": ["Hill","Jungle","Plains","Grasslands"],
+		"production": 1,
+		"culture": 1,
+		"gold": 3,
+		"improvement": "Plantation",
 	},
 	{
 		"name": "Aircraft Parts",
