@@ -66,7 +66,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
-    		"uniques": ["No defensive terrain bonus","Can carry [1] [Air] units","[10]% chance to intercept air attacks"],
+    		"uniques": ["No defensive terrain bonus","Can carry [1] [Air] units","[+10]% chance to intercept air attacks"],
 	},
   {
 		"name": "GDR Mk. II",
@@ -77,7 +77,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
-    		"uniques": ["No defensive terrain bonus","Can carry [4] [Air] units","[20]% chance to intercept air attacks"],
+    		"uniques": ["No defensive terrain bonus","Can carry [4] [Air] units","[+20]% chance to intercept air attacks"],
 	},
   {
 		"name": "GDR Mk. III",
@@ -88,7 +88,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
-    		"uniques": ["No defensive terrain bonus","Can carry [1] [Air] units","[5]% chance to intercept air attacks","May withdraw before melee ([3]%)"],
+    		"uniques": ["No defensive terrain bonus","Can carry [1] [Air] units","[+5]% chance to intercept air attacks","May withdraw before melee ([3]%)"],
 	},
   {
 		"name": "GDR Mk. IV",
@@ -99,7 +99,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
-    		"uniques": ["No defensive terrain bonus","Can carry [1] [Missile] units","[5]% chance to intercept air attacks","May withdraw before melee ([25]%)","Unable to capture cities"],
+    		"uniques": ["No defensive terrain bonus","Can carry [1] [Missile] units","[+5]% chance to intercept air attacks","May withdraw before melee ([+25]%)","Unable to capture cities"],
 	},
   {
 		"name": "GDR Mk. IV",
@@ -120,7 +120,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
-    		"uniques": ["No defensive terrain bonus","[45]% chance to intercept air attacks","Unit will heal every turn, even if it performs an action","All adject units heal [30] HP when healing","Unable to capture cities"],
+    		"uniques": ["No defensive terrain bonus","[+45]% chance to intercept air attacks","Unit will heal every turn, even if it performs an action","All adject units heal [30] HP when healing","Unable to capture cities"],
 	},
   {
 		"name": "GDR Mk. VI",
@@ -131,7 +131,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
-    		"uniques": ["[80]% chance to intercept air attacks","[3] extra interceptions may be made per turn","[1]% Damage when intercepting","Unable to capture cities"],
+    		"uniques": ["[+80]% chance to intercept air attacks","[3] extra interceptions may be made per turn","[1]% Damage when intercepting","Unable to capture cities"],
 	},
   {
 		"name": "GDR Mk. VII",
@@ -142,7 +142,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
-    		"uniques": ["Can carry [2] [Air] units","Can move after attacking","[25]% chance to intercept air attacks","Cannot enter ocean tiles","No sight"],
+    		"uniques": ["Can carry [2] [Air] units","Can move after attacking","[+25]% chance to intercept air attacks","Cannot enter ocean tiles","No sight"],
 	},
   {
 		"name": "GDR Mk. VIII",
@@ -152,7 +152,7 @@
 		"strength": 100,
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
-    		"uniques": ["Consumes [3] [Uranium]","Can carry [14] [Air] units","[70]% chance to intercept air attacks","Cannot enter ocean tiles","No sight","Cannot attack","Unable to capture cities"],
+    		"uniques": ["Consumes [3] [Uranium]","Can carry [14] [Air] units","[+70]% chance to intercept air attacks","Cannot enter ocean tiles","No sight","Cannot attack","Unable to capture cities"],
 	}
 ]
 
