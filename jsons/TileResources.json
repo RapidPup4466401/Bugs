@@ -30,6 +30,24 @@
 		"improvement": "Deep Sea Mineral Extraction Mine",
 	},
 	{
+		"name": "Sulfur",
+		"resourceType": "Strategic",
+		"revealedBy": "Iron Working",
+		"terrainsCanBeFoundOn": ["Grassland","Hill","Desert"],
+		"production": 2,
+		"gold": 1,
+		"improvement": "Mine",
+	},
+	{
+		"name": "Titanium",
+		"resourceType": "Strategic",
+		"revealedBy": "Refrigeration",
+		"terrainsCanBeFoundOn": ["Hill","Desert","Grassland","Plains","Snow"],
+		"production": 4,
+		"gold": 2,
+		"improvement": "Mine",
+	},
+	{
 		"name": "Battery",
 		"resourceType": "Luxury",
 	},
@@ -60,7 +78,7 @@
 	},
 	{
 		"name": "Zinc",
-		"resourceType": "Strategic",
+		"resourceType": "Luxury",
 		"revealedBy": "Metallurgy",
 		"terrainsCanBeFoundOn": ["Hill","Tundra","Snow"],
 		"production": 1,
@@ -106,22 +124,4 @@
 		"production": 1,
 		"improvement": "Mine",
 	}
-	{
-		"name": "Sulfur",
-		"resourceType": "Strategic",
-		"revealedBy": "Iron Working",
-		"terrainsCanBeFoundOn": ["Grassland","Hill","Desert"],
-		"production": 2,
-		"gold": 1,
-		"improvement": "Mine",
-	},
-	{
-		"name": "Titanium",
-		"resourceType": "Strategic",
-		"revealedBy": "Refrigeration",
-		"terrainsCanBeFoundOn": ["Hill","Desert","Grassland","Plains","Snow"],
-		"production": 4,
-		"gold": 2,
-		"improvement": "Mine",
-	},
 ]
