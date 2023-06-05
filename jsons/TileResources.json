@@ -84,7 +84,7 @@
 		"name": "Rubber",
 		"resourceType": "Luxury",
 		"revealedBy": "Agriculture",
-		"terrainsCanBeFoundOn": ["Hill","Jungle","Plains","Grasslands"],
+		"terrainsCanBeFoundOn": ["Hill","Jungle","Plains","Grassland"],
 		"production": 1,
 		"culture": 1,
 		"gold": 3,
