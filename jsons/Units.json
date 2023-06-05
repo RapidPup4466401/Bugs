@@ -152,7 +152,7 @@
 		"strength": 100,
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
-    		"uniques": ["Consumes [3] [Uranium]","Can carry [14] [Air] units","Can move after attacking","[70]% chance to intercept air attacks","Cannot enter ocean tiles","No sight","Cannot attack","Unable to capture cities"],
+    		"uniques": ["Consumes [3] [Uranium]","Can carry [14] [Air] units","[70]% chance to intercept air attacks","Cannot enter ocean tiles","No sight","Cannot attack","Unable to capture cities"],
 	}
 ]
 
