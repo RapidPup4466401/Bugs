@@ -8,7 +8,6 @@
     "rangedStrength": 50,
 		"requiredTech": "Advanced Submersibles",
 		"promotions": ["Mobility"],
-		"attackSound": "metalhit",
 	},
   {
 		"name": "Scorpion Submarine",
@@ -19,7 +18,6 @@
     "rangedStrength": 70,
 		"requiredTech": "Advanced Submersibles",
 		"requiredResource": "Oil",
-		"attackSound": "metalhit",
 	},
   {
 		"name": "Mantis Submarine", 
@@ -31,7 +29,6 @@
 		"requiredTech": "Advanced Submersibles",
 		"requiredResource": "Oil",
 		"promotions": ["Logistics"],
-		"attackSound": "metalhit",
 	},
   {
 		"name": "Aircraft Carrier Submarine",
@@ -41,9 +38,7 @@
 		"strength": 35,
     "rangedStrength": 60,
 		"requiredTech": "Advanced Submersibles",
-		"requiredResource": "Uranium",
-		"attackSound": "metalhit",
-    "uniques": ["Can carry [2] [Air] units"],
+    "uniques": ["Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Consumes [1] [Oil]","Can carry [2] [Air] units"],
 	},
   {
 		"name": "Super Aircraft Carrier Submarine",
@@ -53,9 +48,8 @@
 		"strength": 15
     "rangedStrength": 30,
 		"requiredTech": "Advanced Submersibles",
-		"requiredResource": "Uranium",
-		"attackSound": "metalhit",
-    "uniques": ["Can carry [6] [Air] units","[+20]% chance to intercept air attacks"],
+	  	"interceptRange": 2,
+    "uniques": ["Consumes [2] [Uranium]","Consumes [1] [Titanium]","Consumes [3] [Oil]","Can carry [6] [Air] units","[+20]% chance to intercept air attacks"],
 	},
   {
 		"name": "GDR Mk. I",
@@ -66,6 +60,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
+	  	"interceptRange": 1,
     		"uniques": ["No defensive terrain bonus","Can carry [1] [Air] units","[+10]% chance to intercept air attacks"],
 	},
   {
@@ -77,6 +72,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
+	  	"interceptRange": 1,
     		"uniques": ["No defensive terrain bonus","Can carry [4] [Air] units","[+20]% chance to intercept air attacks"],
 	},
   {
@@ -88,6 +84,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
+	  	"interceptRange": 1,
     		"uniques": ["No defensive terrain bonus","Can carry [1] [Air] units","[+5]% chance to intercept air attacks","May withdraw before melee ([3]%)"],
 	},
   {
@@ -99,7 +96,8 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
-    		"uniques": ["No defensive terrain bonus","Can carry [1] [Missile] units","[+5]% chance to intercept air attacks","May withdraw before melee ([+25]%)","Unable to capture cities"],
+	  	"interceptRange": 1,
+    		"uniques": ["Consumes [1] [Titanium]","Consumes [1] [Aluminum]","No defensive terrain bonus","Can carry [1] [Missile] units","[+5]% chance to intercept air attacks","May withdraw before melee ([+25]%)","Unable to capture cities"],
 	},
   {
 		"name": "GDR Mk. IV",
@@ -109,7 +107,7 @@
 		"strength": 50,
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
-    		"uniques": ["No defensive terrain bonus","Can carry [1] [Missile] units","Can move after attacking","Unable to capture cities","Can pass through impassable tiles","Invisible to non-adjecent units"],
+    		"uniques": ["Consumes [1] [Titanium]","No defensive terrain bonus","Can carry [1] [Missile] units","Can move after attacking","Unable to capture cities","Can pass through impassable tiles","Invisible to non-adjecent units"],
 	},
   {
 		"name": "GDR Mk. V",
@@ -120,6 +118,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
+	  	"interceptRange": 1,
     		"uniques": ["No defensive terrain bonus","[+45]% chance to intercept air attacks","Unit will heal every turn, even if it performs an action","All adject units heal [30] HP when healing","Unable to capture cities"],
 	},
   {
@@ -131,7 +130,8 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
 	  	"requiredResource": "Uranium",
-    		"uniques": ["[+80]% chance to intercept air attacks","[3] extra interceptions may be made per turn","[1]% Damage when intercepting","Unable to capture cities"],
+	  	"interceptRange": 3,
+    		"uniques": ["[+90]% chance to intercept air attacks","[3] extra interceptions may be made per turn","[1]% Damage when intercepting","Unable to capture cities"],
 	},
   {
 		"name": "GDR Mk. VII",
@@ -141,8 +141,8 @@
 		"strength": 250,
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
-	  	"requiredResource": "Uranium",
-    		"uniques": ["Can carry [2] [Air] units","Can move after attacking","[+25]% chance to intercept air attacks","Cannot enter ocean tiles","No sight"],
+	  	"interceptRange": 1,
+    		"uniques": ["Consumes [2] [Uranium]","Consumes [2] [Titanium]","Can carry [2] [Air] units","Can move after attacking","[+25]% chance to intercept air attacks","Cannot enter ocean tiles","No sight"],
 	},
   {
 		"name": "GDR Mk. VIII",
@@ -152,7 +152,40 @@
 		"strength": 100,
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "metalhit",
-    		"uniques": ["Consumes [3] [Uranium]","Can carry [14] [Air] units","[+70]% chance to intercept air attacks","Cannot enter ocean tiles","No sight","Cannot attack","Unable to capture cities"],
+	  	"interceptRange": 3,
+    		"uniques": ["Consumes [3] [Uranium]","Consumes [2] [Titanium]","Consumes [2] [Aluminum]","Consumes [1] [Iron]","Can carry [14] [Air] units","[+50]% chance to intercept air attacks","Cannot enter ocean tiles","No sight","Cannot attack","Unable to capture cities"],
+	},
+  	{
+		"name": "Light Modern Armor",
+		"unitType": "Armored",
+    		"cost": 350,
+		"movement": 7,
+		"strength": 70,
+		"requiredTech": "Mobile Tactics",
+		"attackSound": "metalhit",
+		"upgradesTo": "GDR Mk. IV",
+	},
+	{
+		"name": "Nuclear Fallout Missile",
+		"unitType": "Nuclear Missile",
+		"cost": 1100,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 13, 
+		"requiredTech": "Advanced Balliistics",
+		"uniques": 
+		"attackSound": "nuke",
+	},
+	{
+		"name": "Nuclear Precision Missile",
+		"unitType": "Nuclear Missile",
+		"cost": 800,
+		"strength": 600,
+		"rangedStrength": 600,
+		"range": 11,
+		"requiredTech": "Lasers",
+		"uniques": 
+		"attackSound": "nuke",
 	}
 ]
 
