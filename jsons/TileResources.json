@@ -167,5 +167,13 @@
 		"terrainsCanBeFoundOn": ["Hill","Desert","Plains","Forest"],
 		"production": 2,
 		"improvement": "Mine",
+	},
+	{
+		"name": "Ceramics",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Vehicle",
+		"resourceType": "Luxury",
 	}
 ]
