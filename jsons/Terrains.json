@@ -45,7 +45,7 @@
 	{
 		"name": "Frozen Lakes",
 		"type": "TerrainFeature",
-		"occursOn": "Snow",
+		"occursOn": ["Snow"],
 		"culture": 1,
 		"food": 1,
 		"uniques": ["Must be adjacent to [1] to [6] [Snow] tiles","Fresh Water"],
