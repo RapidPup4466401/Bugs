@@ -260,7 +260,7 @@
 		"range": 28,
 		"requiredTech": "Particle Physics",
 		"movement": 1,
-		"uniques": ["Cannot be purchased","Consumes [3] [Oil]","Consumes [2] [Titanium]","Consumes [2] [Uranium]","No sight","Nuclear weapon of Strength [2]","Blast radius [3]"],
+		"uniques": ["Damage taken from interception reduced by [+45]%","Cannot be purchased","Consumes [5] [Oil]","Consumes [2] [Titanium]","Consumes [2] [Uranium]","No sight","Nuclear weapon of Strength [2]","Blast radius [3]"],
 		"attackSound": "nuke",
 	},
 	{
