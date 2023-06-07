@@ -245,7 +245,7 @@
 		"strength": 120,
 		"rangedStrength": 120,
 		"range": 18,
-		"requiredTech": "Stealth",
+		"requiredTech": "Particle Physics",
 		"movement": 1,
 		"uniques": ["Consumes [2] [Oil]","Consumes [1] [Titanium]","No sight","Nuclear weapon of Strength [1]","Blast radius [1]"],
 		"attackSound": "nuke",
@@ -258,11 +258,10 @@
 		"strength": 140,
 		"rangedStrength": 140,
 		"range": 28,
-		"requiredTech": "Stealth",
+		"requiredTech": "Particle Physics",
 		"movement": 1,
 		"uniques": ["Cannot be purchased","Consumes [3] [Oil]","Consumes [1] [Titanium]","Consumes [1] [Uranium]","No sight","Nuclear weapon of Strength [2]","Blast radius [3]"],
 		"attackSound": "nuke",
-		"promotions": "Logistics",
 	}
 ]
 
