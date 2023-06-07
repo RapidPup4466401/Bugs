@@ -228,7 +228,7 @@
 	{
 		"name": "Atomic Bomber",
 		"unitType": "Bomber",
-		"cost": 550,
+		"cost": 850,
 		"strength": 100,
 		"rangedStrength": 100,
 		"range": 15,
