@@ -58,6 +58,8 @@
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Always Fertility [4] for Map Generation", 
 			"[4] to Fertility for Map Generation",
+			"A Region is formed with at least [60]% [Deep Ocean] tiles, with priority [5]",
+			"A Region is formed with at least [80]% [Deep Ocean] tiles and [Ocean] tiles, with priority [5]"
 			],
 	},
 	{
@@ -74,6 +76,8 @@
 			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Always Fertility [2] for Map Generation",
 			"[2] to Fertility for Map Generation",
+			"A Region is formed with at least [60]% [Abyssal Ocean] tiles, with priority [2]",
+			"A Region is formed with at least [80]% [Abyssal Ocean] tiles and [Deep Ocean] tiles, with priority [2]"
 			],
 	},
 	{
