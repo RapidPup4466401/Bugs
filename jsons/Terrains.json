@@ -121,7 +121,7 @@
 		"gold": 1,
 		"production": 3,
 		"occursOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
-		"uniques": ["[2] to Fertility for Map Generation","[2]% Chance to be destroyed by nukes"],
+		"uniques": ["[2] to Fertility for Map Generation","[2]% Chance to be destroyed by nukes","Occurs at temperature between [0] and [10] and humidity between [0] and [10]"],
 	},		
 	{
 		"name": "Whale Fall",
@@ -160,7 +160,7 @@
 		"science": 3,
 		"impassable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["[2] to Fertility for Map Generation","[15]% Chance to be destroyed by nukes","Occurs at temperature between [1] and [3] and humidity between [0] and [3]"],
+		"uniques": ["[2] to Fertility for Map Generation","[15]% Chance to be destroyed by nukes","Occurs at temperature between [0] and [3] and humidity between [0] and [3]"],
 	},	
 	{
 		"name": "Floating Ice Sheet",
