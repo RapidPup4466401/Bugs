@@ -172,72 +172,79 @@ TileSets/FantasyHex/Tiles/Iceberg
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean+Brine Lakes
+TileSets/FantasyHex/Tiles/Large Ice
   rotate: false
   xy: 124, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean+Cold Seeps
+TileSets/FantasyHex/Tiles/Ocean+Brine Lakes
   rotate: false
   xy: 164, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean+Guyot
+TileSets/FantasyHex/Tiles/Ocean+Cold Seeps
   rotate: false
   xy: 204, 184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean+Hydrothermal Vents
+TileSets/FantasyHex/Tiles/Ocean+Guyot
   rotate: false
   xy: 44, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean+Oceanic Ridges
+TileSets/FantasyHex/Tiles/Ocean+Hydrothermal Vents
   rotate: false
   xy: 84, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean+Oceanic Trench
+TileSets/FantasyHex/Tiles/Ocean+Oceanic Ridges
   rotate: false
   xy: 124, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean+Seamounts
+TileSets/FantasyHex/Tiles/Ocean+Oceanic Trench
   rotate: false
   xy: 164, 112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Ocean+Whale Fall
+TileSets/FantasyHex/Tiles/Ocean+Seamounts
   rotate: false
   xy: 204, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Oceanic Trench
+TileSets/FantasyHex/Tiles/Ocean+Whale Fall
   rotate: false
   xy: 84, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Seamounts
+TileSets/FantasyHex/Tiles/Oceanic Trench
   rotate: false
   xy: 124, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Seamounts
+  rotate: false
+  xy: 164, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
