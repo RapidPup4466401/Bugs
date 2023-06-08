@@ -40,7 +40,7 @@
 		"occursOn": ["Snow"],
 		"culture": 1,
 		"food": 1,
-		"uniques": ["Must be adjacent to [1] to [6] [Snow] tiles","Fresh Water"],
+		"uniques": ["Fresh Water"],
 		"unbuildable": true,
 		"weight": 1,
 	},
@@ -74,10 +74,10 @@
 			"Must be adjacent to [0] [Ocean] tiles",
 			"Occurs in groups of [1] to [25] tiles",
 			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Always Fertility [2] for Map Generation",
-			"[2] to Fertility for Map Generation",
-			"A Region is formed with at least [60]% [Abyssal Ocean] tiles, with priority [2]",
-			"A Region is formed with at least [80]% [Abyssal Ocean] tiles and [Deep Ocean] tiles, with priority [2]"
+			"Always Fertility [5] for Map Generation",
+			"[5] to Fertility for Map Generation",
+			"A Region is formed with at least [60]% [Abyssal Ocean] tiles, with priority [5]",
+			"A Region is formed with at least [80]% [Abyssal Ocean] tiles and [Deep Ocean] tiles, with priority [5]"
 			],
 	},
 	{
@@ -161,7 +161,7 @@
 		"gold": 1,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","[2]% Chance to be destroyed by nukes"],
+		"uniques": ["Rare feature","[2] to Fertility for Map Generation","[2]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Iceberg",
@@ -169,14 +169,21 @@
 		"science": 3,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes"],
+		"uniques": ["Rare feature","[2] to Fertility for Map Generation","[15]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Floating Ice Sheet",
 		"type": "TerrainFeature",
-		"science": 2,
+		"science": 1,
 		"unbuildable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["Rare feature","[-2] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes"],
+		"uniques": ["[1] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes"],
+	},	
+	{
+		"name": "Large Ice",
+		"type": "TerrainFeature",
+		"unbuildable": true,
+		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean","Coast"],
+		"uniques": ["[2] to Fertility for Map Generation","[3]% Chance to be destroyed by nukes"],
 	}
 ]	
