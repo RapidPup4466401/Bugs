@@ -175,5 +175,21 @@
 	{
 		"name": "Vehicle",
 		"resourceType": "Luxury",
+	},
+	{
+		"name": "Worms",
+		"resourceType": "Bonus",
+		"revealedBy": "Biology",
+		"terrainsCanBeFoundOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
+		"food": 2,
+		"improvement": "Fishing Boats",
+	},
+	{
+		"name": "Bacterial Clusters",
+		"resourceType": "Bonus",
+		"revealedBy": "Robotics",
+		"terrainsCanBeFoundOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
+		"food": 3,
+		"improvement": "Fishing Boats",
 	}
 ]
