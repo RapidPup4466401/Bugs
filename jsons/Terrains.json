@@ -56,6 +56,8 @@
 			"Must be adjacent to [0] [Coast] tiles",
 			"Occurs in groups of [3] to [50] tiles",
 			"Every [5] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Always Fertility [4] for Map Generation", 
+			"[4] to Fertility for Map Generation",
 			],
 	},
 	{
@@ -70,6 +72,8 @@
 			"Must be adjacent to [0] [Ocean] tiles",
 			"Occurs in groups of [1] to [25] tiles",
 			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Always Fertility [2] for Map Generation",
+			"[2] to Fertility for Map Generation",
 			],
 	},
 	{
