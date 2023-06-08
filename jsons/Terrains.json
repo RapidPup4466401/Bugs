@@ -35,14 +35,6 @@
 		"weight": 1,
 	},
 	{
-		"name": "Low Mountains",
-		"type": "Land",
-		"production": 1,
-		"uniques": ["Has an elevation of [1] for visibility calculations","Must be adjacent to [1] to [5] [Mountain] tiles","Rough terrain"],
-		"unbuildable": true,
-		"weight": 1,
-	},
-	{
 		"name": "Frozen Lakes",
 		"type": "TerrainFeature",
 		"occursOn": ["Snow"],
