@@ -160,7 +160,7 @@
 		"science": 3,
 		"impassable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["Rare feature","[2] to Fertility for Map Generation","[15]% Chance to be destroyed by nukes","Occurs at temperature between [4] and [7] and humidity between [4] and [7]"],
+		"uniques": ["[2] to Fertility for Map Generation","[15]% Chance to be destroyed by nukes","Occurs at temperature between [3] and [3] and humidity between [3] and [3]"],
 	},	
 	{
 		"name": "Floating Ice Sheet",
@@ -168,13 +168,13 @@
 		"science": 1,
 		"impassable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["[1] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes","Occurs at temperature between [4] and [7] and humidity between [4] and [7]"],
+		"uniques": ["[1] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes","Occurs at temperature between [3] and [3] and humidity between [3] and [3]"],
 	},	
 	{
 		"name": "Large Ice",
 		"type": "TerrainFeature",
 		"impassable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean","Coast"],
-		"uniques": ["[1] to Fertility for Map Generation","[3]% Chance to be destroyed by nukes","Occurs at temperature between [4] and [7] and humidity between [4] and [7]"],
+		"uniques": ["[1] to Fertility for Map Generation","[3]% Chance to be destroyed by nukes","Occurs at temperature between [3] and [3] and humidity between [3] and [3]"],
 	}
 ]	
