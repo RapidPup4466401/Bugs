@@ -160,7 +160,7 @@
 		"science": 3,
 		"impassable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["[2] to Fertility for Map Generation","[15]% Chance to be destroyed by nukes","Occurs at temperature between [1] and [3] and humidity between [3] and [3]"],
+		"uniques": ["[2] to Fertility for Map Generation","[15]% Chance to be destroyed by nukes","Occurs at temperature between [1] and [3] and humidity between [0] and [3]"],
 	},	
 	{
 		"name": "Floating Ice Sheet",
