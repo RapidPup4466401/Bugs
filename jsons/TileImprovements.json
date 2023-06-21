@@ -6,5 +6,12 @@
 		"science": 3,
 		"gold":3,
 		"techRequired": "Mineral Extraction",
-	}		
+	},
+	{
+		"name": "Ice Removal",
+		"turnsToBuild": 3,
+		"terrainsCanBeBuiltOn": ["Ice","Large Ice","Floating Ice Sheet","Iceberg"],
+		"techRequired": "Electronics",
+		"uniques": ["Can be built outside your borders"],
+	}	
 ]	
