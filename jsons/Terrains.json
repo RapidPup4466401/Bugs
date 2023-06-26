@@ -81,6 +81,23 @@
 			],
 	},
 	{
+		"name": "Glacier",
+		"type": "Land",
+		"science": 1,
+		"movementCost": 1,
+			"uniques": [
+			"[+2] to Fertility for Map Generation",
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Ocean] tiles",
+			"Occurs in groups of [1] to [25] tiles",
+			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Always Fertility [5] for Map Generation",
+			"[5] to Fertility for Map Generation",
+			"A Region is formed with at least [60]% [Abyssal Ocean] tiles, with priority [5]",
+			"A Region is formed with at least [80]% [Abyssal Ocean] tiles and [Deep Ocean] tiles, with priority [5]",
+			],
+	},
+	{
 		"name": "Oceanic Trench",
 		"type": "TerrainFeature",
 		"science": 2,
