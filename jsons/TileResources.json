@@ -161,14 +161,6 @@
 		"improvement": "Mine",
 	},
 	{
-		"name": "Chromium",
-		"resourceType": "Luxury",
-		"revealedBy": "Scientific Theory",
-		"terrainsCanBeFoundOn": ["Hill","Desert","Plains","Forest"],
-		"production": 2,
-		"improvement": "Mine",
-	},
-	{
 		"name": "Ceramics",
 		"resourceType": "Luxury",
 	},
