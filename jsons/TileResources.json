@@ -169,6 +169,10 @@
 		"resourceType": "Luxury",
 	},
 	{
+		"name": "Machinery",
+		"resourceType": "Luxury",
+	},
+	{
 		"name": "Worms",
 		"resourceType": "Bonus",
 		"revealedBy": "Biology",
