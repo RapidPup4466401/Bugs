@@ -193,5 +193,11 @@
 		"impassable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean","Coast"],
 		"uniques": ["[1] to Fertility for Map Generation","[3]% Chance to be destroyed by nukes","Occurs at temperature between [3] and [3] and humidity between [3] and [3]"],
+	},	
+	{
+		"name": "Caves",
+		"type": "TerrainFeature",
+		"occursOn": ["Snow","Grassland","Plains","Hill","Desert","Tundra","Glacier"],
+		"uniques": ["[1] to Fertility for Map Generation","[3]% Chance to be destroyed by nukes"],
 	}
 ]	
