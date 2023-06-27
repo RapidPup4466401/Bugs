@@ -173,6 +173,10 @@
 		"resourceType": "Luxury",
 	},
 	{
+		"name": "Fibers",
+		"resourceType": "Luxury",
+	},
+	{
 		"name": "Worms",
 		"resourceType": "Bonus",
 		"revealedBy": "Biology",
