@@ -2,11 +2,16 @@
 	{
 		"columnNumber": 16,
 		"era": "Information era",
-		"techs": [{"name": "Deep Sea Mining","row": 12,"cost": 100000,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"}],
+		"techs": [{"name": "Deep Sea Mining","row": 12,"cost": 6000,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"}],
 	},
 	{
 		"columnNumber": 17,
 		"era": "Future era",
 		"techs": [{"name": "Mineral Extraction","row": 12,"cost": 9000,"prerequisites": ["Deep Sea Mining"],"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"},{"name": "Oceanic Construction","row": 14,"cost": 14000,"prerequisites": ["Deep Sea Mining"],"quote": "'There must be a more effecient method in refining these precious resources' - ???"},{"name": "Advanced Submersibles","row": 13,"cost": 18000,"prerequisites": ["Deep Sea Mining"],"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"}],
+	},
+	{
+		"columnNumber": 16,
+		"era": "Information era",
+		"techs": [{"name": "Advanced Robotics","row": 13,"cost": 6000,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'The future lies in the artificials' - ???"}],
 	}
 ]
