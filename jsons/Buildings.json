@@ -442,7 +442,7 @@
 		"production": 2,
 		"gold": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
-		"requiredTech": "Mineral Extraction",
+		"requiredTech": "Electricity",
 		"uniques": ["Consumes [1] [Manganese]","Consumes [1] [Nickel]","Consumes [1] [Cobalt]","Provides [3] [Battery]","Destroyed when the city is captured"],
 	},
 	{
@@ -683,7 +683,7 @@
 		"production": 3,
 		"requiredBuilding": "Assembly Plant",
 		"requiredTech": "Radar",
-		"uniques": ["Consumes [2] [Titanium]","Consumes [1] [Iron]","Consumes [1] [Copper]","Provides [4] [Aircraft Parts]","[+20]% Production when constructing [{Military} {Air}] units [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Titanium]","Consumes [1] [Steel]","Consumes [1] [Machinery]","Consumes [1] [Electronic Component]","Provides [4] [Aircraft Parts]","[+20]% Production when constructing [{Military} {Air}] units [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Boring Prototypes Testing Facility",
@@ -692,7 +692,7 @@
 		"production": 1,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Combustion",
-		"uniques": ["Consumes [1] [Iron]","Provides [1] [Machinery]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Steel]","Provides [1] [Machinery]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Boring Machine Manufacturing Plant",
@@ -777,7 +777,7 @@
 		"happiness": 2,
 		"requiredBuilding": "Wire Wheel Factory",
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["Consumes [1] [Rubber]","Consumes [1] [Iron]","Consumes [1] [Aluminum]","Provides [3] [Vehicle]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Rubber]","Consumes [1] [Steel]","Consumes [1] [Aluminum]","Provides [3] [Vehicle]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Machinery Assembly Plant",
@@ -786,7 +786,7 @@
 		"production": 1,
 		"requiredBuilding": "Assembly Plant",
 		"requiredTech": "Combustion",
-		"uniques": ["Consumes [1] [Iron]","Provides [1] [Machinery]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Steel]","Provides [1] [Machinery]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Heavy Machinery Assembly Plant",
@@ -795,7 +795,7 @@
 		"production": 3,
 		"requiredBuilding": "Machinery Assembly Plant",
 		"requiredTech": "Combustion",
-		"uniques": ["Consumes [2] [Iron]","Consumes [1] [Steel]","Provides [4] [Machinery]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Aluminum]","Consumes [2] [Steel]","Provides [3] [Machinery]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Ceramic Fibers Manufactory",
@@ -945,6 +945,18 @@
 		"cityStrength": 5,
 		"requiredBuilding": "Broadcast Tower",
 		"requiredTech": "Radio",
+		"uniques": ["Destroyed when the city is captured"],
+	},
+	{
+		"name": "Parabolic Antennaes",
+		"cost": 500,
+		"maintenance": 2,
+		"happiness": 1,
+		"culture": 4,
+		"production": 1,
+		"cityStrength": 5,
+		"requiredBuilding": "Broadcast Tower",
+		"requiredTech": "Satellites",
 		"uniques": ["Destroyed when the city is captured"],
 	},
 	{
