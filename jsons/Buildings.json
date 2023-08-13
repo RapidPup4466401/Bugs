@@ -494,7 +494,7 @@
 		"gold": 2,
 		"requiredBuilding": "Prosthetics Manufacturing Plant",
 		"requiredTech": "Computers",
-		"uniques": ["Consumes [1] [Cobalt]","Consumes [1] [Titanium]","Consumes [1] [Fiber]","Provides [3] [Prosthetics]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Cobalt]","Consumes [1] [Titanium]","Consumes [1] [Fibers]","Provides [3] [Prosthetics]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Manganese Crusts Extraction Plant",
@@ -775,7 +775,7 @@
 		"production": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Electronics",
-		"uniques": ["Consumes [2] [Ceramics]","Provides [2] [Fiber]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [2] [Ceramics]","Provides [2] [Fibers]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Body Armor Manufactory",
@@ -802,7 +802,7 @@
 		"production": 3,
 		"requiredBuilding": "Microchip Factory",
 		"requiredTech": "Lasers",
-		"uniques": ["Consumes [1] [Ceramics]","Consumes [1] [Gold Ore]","Consumes [1] [Fiber]","Consumes [1] [Electronic Component]","Consumes [2] [Electronic Component]","Consumes [1] [Wire]","Provides [4] [Microchip]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Ceramics]","Consumes [1] [Gold Ore]","Consumes [1] [Fibers]","Consumes [1] [Electronic Component]","Consumes [2] [Electronic Component]","Consumes [1] [Wire]","Provides [4] [Microchip]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Electronic Circuit Fabrication Plant",
@@ -811,7 +811,7 @@
 		"production": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Lasers",
-		"uniques": ["Consumes [1] [Electronic Component]","Consumes [1] [Fiber]","[Provides [2] [Electronic Circuit]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Electronic Component]","Consumes [1] [Fibers]","[Provides [2] [Electronic Circuit]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Firearms Manufactory",
@@ -838,7 +838,7 @@
 		"production": 1,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Plastics",
-		"uniques": ["Consumes [1] [Rubber]","Consumes [1] [Oil]","Provides [3] [Fiber]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Rubber]","Consumes [1] [Oil]","Provides [3] [Fibers]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Polyester Factory",
@@ -847,7 +847,7 @@
 		"production": 1,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Plastics",
-		"uniques": ["Consumes [1] [Coal]","Consumes [1] [Rubber]","Provides [2] [Fiber]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Coal]","Consumes [1] [Rubber]","Provides [2] [Fibers]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Exo-Skeleton Fabrication Plant",
@@ -856,7 +856,7 @@
 		"production": 2,
 		"requiredBuilding": "Assembly Plant",
 		"requiredTech": "Robotics",
-		"uniques": ["Limited to [3] per Civilization","Consumes [1] [Battery]","Consumes [1] [Microchip]","Consumes [1] [Fiber]","Consumes [1] [Titanium]","Consumes [2] [Electronic Component]","Consumes [1] [Electronic Circuit]","Provides [2] [Robotic Parts]","New [{Military}] units start with [60] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Limited to [3] per Civilization","Consumes [1] [Battery]","Consumes [1] [Microchip]","Consumes [1] [Fibers]","Consumes [1] [Titanium]","Consumes [2] [Electronic Component]","Consumes [1] [Electronic Circuit]","Provides [2] [Robotic Parts]","New [{Military}] units start with [60] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "SMART Firearms Manufactory",
@@ -872,9 +872,9 @@
 		"cost": 6500,
 		"maintenance": 20,
 		"production": 5,
-		"requiredBuilding": "Exo-Skeleton Assembly Plant",
+		"requiredBuilding": "Exo-Skeleton Fabrication Plant",
 		"requiredTech": "Nuclear Fusion",
-		"uniques": ["Limited to [1] per Civilization","Consumes [1] [Battery]","Consumes [2] [Microchip]","Consumes [1] [Fiber]","Consumes [2] [Titanium]","Consumes [3] [Electronic Component]","Consumes [3] [Electronic Circuit]","Provides [4] [Robotic Parts]","New [{Military}] units start with [150] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Limited to [1] per Civilization","Consumes [1] [Battery]","Consumes [2] [Microchip]","Consumes [1] [Fibers]","Consumes [2] [Titanium]","Consumes [3] [Electronic Component]","Consumes [3] [Electronic Circuit]","Provides [4] [Robotic Parts]","New [{Military}] units start with [150] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Ceramic Decor Manufactory",
