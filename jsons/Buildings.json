@@ -504,7 +504,7 @@
 		"gold": 1,
 		"requiredBuilding": "Extraction Methods Research Center",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Manganese Crusts]","Provides [2] [Cobalt]","Provides [2] [Iron]","Provides [1] [Copper]","Provides [1] [Nickel]","Provides [1] [Silver]","Provides [1] [Gold]","Provides [1] [Zinc]","Provides [1] [Manganese]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Manganese Crusts]","Provides [2] [Cobalt]","Provides [2] [Iron]","Provides [1] [Copper]","Provides [1] [Nickel]","Provides [1] [Silver]","Provides [1] [Gold Ore]","Provides [1] [Zinc]","Provides [1] [Manganese]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Cobalt Refinery",
@@ -775,7 +775,7 @@
 		"production": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Electronics",
-		"uniques": ["Consumes [2] [Ceramic]","Provides [2] [Fiber]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [2] [Ceramics]","Provides [2] [Fiber]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Body Armor Manufactory",
@@ -784,7 +784,7 @@
 		"production": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Electronics",
-		"uniques": ["Consumes [1] [Ceramic]","Consumes [1] [Titanium]","New [{Military}] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Ceramics]","Consumes [1] [Titanium]","New [{Military}] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Microchip Factory",
@@ -793,7 +793,7 @@
 		"production": 1,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Electronics",
-		"uniques": ["Consumes [1] [Ceramic]","Consumes [1] [Gold]","Provides [1] [Microchip]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Ceramics]","Consumes [1] [Gold Ore]","Provides [1] [Microchip]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Advanced Microchip Factory",
@@ -802,7 +802,7 @@
 		"production": 3,
 		"requiredBuilding": "Microchip Factory",
 		"requiredTech": "Lasers",
-		"uniques": ["Consumes [1] [Ceramic]","Consumes [1] [Gold]","Consumes [1] [Fiber]","Consumes [1] [Electronic Component]","Consumes [2] [Electronic Component]","Consumes [1] [Wire]","Provides [4] [Microchip]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Ceramics]","Consumes [1] [Gold Ore]","Consumes [1] [Fiber]","Consumes [1] [Electronic Component]","Consumes [2] [Electronic Component]","Consumes [1] [Wire]","Provides [4] [Microchip]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Electronic Circuit Fabrication Plant",
@@ -820,7 +820,7 @@
 		"production": 1,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Rifling",
-		"uniques": ["Consumes [1] [Ceramic]","Consumes [1] [Iron]","New [{Military}] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Ceramics]","Consumes [1] [Iron]","New [{Military}] units start with [10] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Integrated Firearms Manufactory",
@@ -829,7 +829,7 @@
 		"production": 1,
 		"requiredBuilding": "Firearms Manufactory",
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["Consumes [1] [Ceramic]","Consumes [1] [Steel]","Consumes [1] [Titanium]","New [{Military}] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Ceramics]","Consumes [1] [Steel]","Consumes [1] [Titanium]","New [{Military}] units start with [20] Experience [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Nylon Factory",
@@ -884,7 +884,7 @@
 		"production": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Robotics",
-		"uniques": ["Consumes [2] [Ceramic]","Consumes [1] [Iron]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [2] [Ceramics]","Consumes [1] [Iron]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Ore Depot",
