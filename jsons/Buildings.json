@@ -243,7 +243,7 @@
 		"requiredBuilding": "Market",
 		"requiredTech": "Currency",
 		"specialistSlots": {"Merchant": 1},
-		"uniques": ["[+1 gold] from every specialist [in this city]","[+1]% Gold [in this city]","Destroyed when the city is captured"],
+		"uniques": ["[+1 Gold] from every specialist [in this city]","[+1]% Gold [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Finance University",
@@ -265,7 +265,7 @@
 		"requiredBuilding": "Finance University",
 		"requiredTech": "Banking",
 		"specialistSlots": {"Merchant": 4},
-		"uniques": ["[+1 gold] from every specialist [in this city]","[+2]% Gold","Destroyed when the city is captured"],
+		"uniques": ["[+1 Gold] from every specialist [in this city]","[+2]% Gold","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Exchange Center",
