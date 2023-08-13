@@ -811,7 +811,7 @@
 		"production": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Lasers",
-		"uniques": ["Consumes [1] [Electronic Component]","Consumes [1] [Fibers]","[Provides [2] [Electronic Circuit]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Electronic Component]","Consumes [1] [Fibers]","Provides [2] [Electronic Circuit]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Firearms Manufactory",
