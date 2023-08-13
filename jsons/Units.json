@@ -27,7 +27,7 @@
 		"strength": 35,
     "rangedStrength": 60,
 		"requiredTech": "Advanced Submersibles",
-    "uniques": ["Consumes [1] [uranium]","Consumes [1] [aluminum]","Consumes [1] [oil]","Can carry [2] [Air] units"],
+    "uniques": ["Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Consumes [1] [Oil]","Can carry [2] [Air] units"],
 	},
   {
 		"name": "Super Aircraft Carrier Submarine",
