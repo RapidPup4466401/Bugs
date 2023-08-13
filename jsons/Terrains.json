@@ -175,7 +175,7 @@
 	{
 		"name": "Caves",
 		"type": "TerrainFeature",
-		"occursOn": ["Snow","Grassland","Plains","Hill","Desert","Tundra","Glacier"],
+		"occursOn": ["Snow","Grassland","Plains","Desert","Tundra"],
 		"uniques": ["[1] to Fertility for Map Generation","[3]% Chance to be destroyed by nukes"],
 	},	
 	{
