@@ -927,7 +927,7 @@
 		"production": 1,
 		"cityStrength": 5,
 		"requiredBuilding": "Broadcast Tower",
-		"requiredTech": "Computers",
+		"requiredTech": "Satellites",
 		"uniques": ["Destroyed when the city is captured"],
 	},
 	{
