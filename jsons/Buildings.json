@@ -574,14 +574,14 @@
 		"uniques": ["Consumes [2] [Platinum]","Provides [2] [Jewelry]","Destroyed when the city is captured"],
 	},
 	{
-		"name": "Chromium Jewelry Manufactory",
+		"name": "Gemstone Jewelry Manufactory",
 		"maintenance": 4,
 		"cost": 1200,
 		"production": 3,
 		"gold": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Industrialization",
-		"uniques": ["Consumes [2] [Chromium]","Provides [2] [Jewelry]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [2] [Gems]","Provides [2] [Jewelry]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Sulfur Extraction Plant",
