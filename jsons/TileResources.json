@@ -191,5 +191,17 @@
 		"terrainsCanBeFoundOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
 		"food": 3,
 		"improvement": "Fishing Boats",
-	}
+	},
+	{
+		"name": "Robotic Parts",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Electronic Circuit",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Electronic Component",
+		"resourceType": "Luxury",
+	},
 ]
