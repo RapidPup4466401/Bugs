@@ -13,5 +13,10 @@
 		"columnNumber": 16,
 		"era": "Information era",
 		"techs": [{"name": "Advanced Robotics","row": 13,"cost": 6000,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'The future lies in the artificials' - ???"}],
+	},
+	{
+		"columnNumber": 17,
+		"era": "Future era",
+		"techs": [{"name": "Mechs","row": 14,"cost": 9000,"prerequisites": ["Advanced Robotics","Nuclear Fusion","Advanced Ballistics"],
 	}
 ]
