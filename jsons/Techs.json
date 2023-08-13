@@ -17,6 +17,6 @@
 	{
 		"columnNumber": 17,
 		"era": "Future era",
-		"techs": [{"name": "Mechs","row": 15,"cost": 8000,"prerequisites": ["Advanced Robotics","Nuclear Fusion","Advanced Ballistics"],"quote": "'Machine of bastions made for might...' - ???"}],
+		"techs": [{"name": "Mechs","row": 15,"cost": 8000,"prerequisites": ["Advanced Robotics","Nuclear Fusion"],"quote": "'Machine of bastions made for might...' - ???"}],
 	}
 ]
