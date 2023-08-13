@@ -2,21 +2,17 @@
 	{
 		"columnNumber": 16,
 		"era": "Information era",
-		"techs": [{"name": "Deep Sea Mining","row": 12,"cost": 5000,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"}],
+		"techCost": 8800,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [{"name": "Advanced Robotics","row": 13,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'The future lies in the artificials' - ???"},{"name": "Deep Sea Mining","row": 12,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"}],
 	},
 	{
 		"columnNumber": 17,
 		"era": "Future era",
-		"techs": [{"name": "Mineral Extraction","row": 12,"cost": 8000,"prerequisites": ["Deep Sea Mining"],"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"},{"name": "Advanced Submersibles","row": 13,"cost": 10000,"prerequisites": ["Deep Sea Mining"],"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"}],
-	},
-	{
-		"columnNumber": 16,
-		"era": "Information era",
-		"techs": [{"name": "Advanced Robotics","row": 13,"cost": 4000,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'The future lies in the artificials' - ???"}],
-	},
-	{
-		"columnNumber": 17,
-		"era": "Future era",
-		"techs": [{"name": "Mechs","row": 15,"cost": 8000,"prerequisites": ["Advanced Robotics","Nuclear Fusion"],"quote": "'Machine of bastions made for might...' - ???"}],
+		"techCost": 9500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [{"name": "Mechs","row": 15,"prerequisites": ["Advanced Robotics","Nuclear Fusion"],"quote": "'Machine of bastions made for might...' - ???"},{"name": "Mineral Extraction","row": 12,"prerequisites": ["Deep Sea Mining"],"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"},{"name": "Advanced Submersibles","row": 13,"prerequisites": ["Deep Sea Mining"],"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"}],
 	}
 ]
