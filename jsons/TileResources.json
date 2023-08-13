@@ -204,4 +204,9 @@
 		"name": "Electronic Component",
 		"resourceType": "Luxury",
 	},
+	{
+		"name": "Microchip",
+		"resourceType": "Luxury",
+	},
+]
 ]
