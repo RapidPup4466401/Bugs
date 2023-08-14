@@ -101,7 +101,6 @@
 	{
 		"name": "Archery Training",
 		"maintenance": 1,
-		"hurryCostModifier": 5,
 		"cost": 50,
 		"requiredTech": "Archery",
 		"uniques": ["New [{Military} {Land} {Archery}] units start with [5] Experience [in this city]","Destroyed when the city is captured","Obsolete with [Gunpowder]"],
@@ -137,7 +136,6 @@
 	{
 		"name": "Melee Combat Training",
 		"maintenance": 1,
-		"hurryCostModifier": 5,
 		"cost": 25,
 		"food": -1,
 		"uniques": ["New [{Military} {Land} {Sword}] units start with [5] Experience [in this city]","Destroyed when the city is captured","Obsolete with [Rifling]"],
@@ -330,7 +328,6 @@
 	{
 		"name": "Deep Sea Mining Foundations",
 		"maintenance": 5,
-		"hurryCostModifier": 20,
 		"cost": 2500,
 		"science": 2,
 		"requiredBuilding": "Research Center",
@@ -342,7 +339,6 @@
 	{
 		"name": "Deep Sea Mining Research Center",
 		"maintenance": 10,
-		"hurryCostModifier": 20,
 		"cost": 4500,
 		"science": 5,
 		"requiredBuilding": "Deep Sea Mining Foundations",
@@ -354,7 +350,6 @@
 	{
 		"name": "Deep Sea Mining Operations",
 		"maintenance": 1,
-		"hurryCostModifier": 50,
 		"cost": 6000,
 		"science": 20,
 		"production": 25,
@@ -401,7 +396,7 @@
 	{
 		"name": "City Wind Turbines",
 		"maintenance": 1,
-		"cost": 400,
+		"cost": 200,
 		"science": 3,
 		"culture": 2,
 		"production": 2,
@@ -413,7 +408,7 @@
 	{
 		"name": "Agriculture Management Center",
 		"maintenance": 3,
-		"cost": 500,
+		"cost": 300,
 		"science": 1,
 		"production": 2,
 		"food": 3,
@@ -437,7 +432,7 @@
 	{
 		"name": "Battery Manufacturing Plant",
 		"maintenance": 3,
-		"cost": 1000,
+		"cost": 600,
 		"science": 2,
 		"production": 2,
 		"gold": 1,
@@ -448,7 +443,7 @@
 	{
 		"name": "Magnet Manufacturing Plant",
 		"maintenance": 4,
-		"cost": 1250,
+		"cost": 600,
 		"science": 4,
 		"production": 1,
 		"gold": 3,
@@ -459,7 +454,7 @@
 	{
 		"name": "Wire Manufacturing Plant",
 		"maintenance": 1,
-		"cost": 1000,
+		"cost": 600,
 		"production": 2,
 		"gold": 4,
 		"requiredBuilding": "Industrial Manufacturing Plant",
@@ -469,7 +464,7 @@
 	{
 		"name": "Electronic Component Fabrication Plant",
 		"maintenance": 2,
-		"cost": 800,
+		"cost": 600,
 		"production": 1,
 		"gold": 2,
 		"requiredBuilding": "Assembly Plant",
@@ -479,7 +474,7 @@
 	{
 		"name": "Prosthetics Manufacturing Plant",
 		"maintenance": 2,
-		"cost": 1500,
+		"cost": 500,
 		"production": 2,
 		"gold": 3,
 		"requiredBuilding": "Industrial Manufacturing Plant",
@@ -489,7 +484,7 @@
 	{
 		"name": "Prosthetics Fabrication Facility",
 		"maintenance": 3,
-		"cost": 3000,
+		"cost": 700,
 		"production": 1,
 		"gold": 2,
 		"requiredBuilding": "Prosthetics Manufacturing Plant",
@@ -509,7 +504,7 @@
 	{
 		"name": "Cobalt Refinery",
 		"maintenance": 4,
-		"cost": 2500,
+		"cost": 300,
 		"production": 4,
 		"requiredBuilding": "Deep Sea Mining Infrastructure",
 		"requiredTech": "Mineral Extraction",
@@ -527,7 +522,7 @@
 	{
 		"name": "Sulfide Deposits Extraction Plant",
 		"maintenance": 15,
-		"cost": 3000,
+		"cost": 2000,
 		"production": 2,
 		"requiredBuilding": "Extraction Methods Research Center",
 		"requiredTech": "Mineral Extraction",
@@ -546,7 +541,7 @@
 	{
 		"name": "Cobalt Jewelry Manufactory",
 		"maintenance": 2,
-		"cost": 800,
+		"cost": 500,
 		"production": 1,
 		"gold": 2,
 		"requiredBuilding": "Industrial Manufacturing Plant",
@@ -556,7 +551,7 @@
 	{
 		"name": "Zinc Jewelry Manufactory",
 		"maintenance": 2,
-		"cost": 1000,
+		"cost": 500,
 		"production": 1,
 		"gold": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
@@ -566,7 +561,7 @@
 	{
 		"name": "Platinum Jewelry Manufactory",
 		"maintenance": 3,
-		"cost": 1500,
+		"cost": 500,
 		"production": 2,
 		"gold": 2,
 		"requiredBuilding": "Industrial Manufacturing Plant",
@@ -576,7 +571,7 @@
 	{
 		"name": "Gemstone Jewelry Manufactory",
 		"maintenance": 4,
-		"cost": 1200,
+		"cost": 500,
 		"production": 3,
 		"gold": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
@@ -586,8 +581,7 @@
 	{
 		"name": "Sulfur Extraction Plant",
 		"maintenance": 4,
-		"hurryCostModifier": 60,
-		"cost": 1800,
+		"cost": 1000,
 		"production": 2,
 		"happiness": -2,
 		"requiredBuilding": "Deep Sea Mining Infrastructure",
@@ -597,7 +591,7 @@
 	{
 		"name": "Sulfur-based Fertilizer Manufactory",
 		"maintenance": 5,
-		"cost": 2500,
+		"cost": 750,
 		"production": 2,
 		"food": 3,
 		"requiredBuilding": "Industrial Manufacturing Plant",
@@ -607,8 +601,7 @@
 	{
 		"name": "Synthetic Rubber Manufacturing Plant",
 		"maintenance": 4,
-		"hurryCostModifier": 60,
-		"cost": 1800,
+		"cost": 500,
 		"production": 2,
 		"requiredBuilding": "Industrial Manufacturing Plant",
 		"requiredTech": "Biology",
@@ -617,8 +610,7 @@
 	{
 		"name": "Gunpowder Manufacturing Plant",
 		"maintenance": 7,
-		"hurryCostModifier": 60,
-		"cost": 1800,
+		"cost": 500,
 		"production": 2,
 		"happiness": -3,
 		"requiredBuilding": "Factory",
@@ -628,7 +620,6 @@
 	{
 		"name": "Steel Smithery",
 		"maintenance": 1,
-		"hurryCostModifier": 60,
 		"cost": 800,
 		"production": 1,
 		"requiredBuilding": "Workshop",
@@ -638,7 +629,6 @@
 	{
 		"name": "Steel Works",
 		"maintenance": 3,
-		"hurryCostModifier": 60,
 		"cost": 1600,
 		"production": 4,
 		"requiredBuilding": "Factory",
@@ -657,7 +647,6 @@
 	{
 		"name": "Steel Mill",
 		"maintenance": 5,
-		"hurryCostModifier": 60,
 		"cost": 2200,
 		"production": 8,
 		"happiness": -2,
@@ -678,8 +667,7 @@
 	{
 		"name": "Aircraft Assembly Plant",
 		"maintenance": 8,
-		"hurryCostModifier": 60,
-		"cost": 3000,
+		"cost": 1000,
 		"production": 3,
 		"requiredBuilding": "Assembly Plant",
 		"requiredTech": "Radar",
@@ -697,7 +685,6 @@
 	{
 		"name": "Boring Machine Manufacturing Plant",
 		"maintenance": 5,
-		"hurryCostModifier": 60,
 		"cost": 1200,
 		"production": 3,
 		"requiredBuilding": "Boring Prototypes Testing Facility",
@@ -826,7 +813,7 @@
 	},
 	{
 		"name": "Advanced Microchip Factory",
-		"cost": 2000,
+		"cost": 1500,
 		"maintenance": 13,
 		"production": 3,
 		"requiredBuilding": "Microchip Factory",
@@ -835,7 +822,7 @@
 	},
 	{
 		"name": "Electronic Circuit Fabrication Plant",
-		"cost": 2000,
+		"cost": 1000,
 		"maintenance": 4,
 		"production": 1,
 		"requiredBuilding": "Industrial Manufacturing Plant",
