@@ -2,7 +2,7 @@
 	{
 		"name": "Chokepoints",
 		"maintenance": 2,
-		"cost": 500,
+		"cost": 300,
 		"requiredBuilding": "Military Base",
 		"cityHealth": 10,
 		"requiredTech": "Military Science",
@@ -10,7 +10,7 @@
 	},
 	{
 		"name": "Tunnels",
-		"cost": 100,
+		"cost": 75,
 		"cityHealth": 10,
 		"requiredTech": "Engineering",
 		"uniques": ["Destroyed when the city is captured"],
@@ -18,7 +18,7 @@
 	{
 		"name": "Fortified Tunnels",
 		"maintenance": 2,
-		"cost": 500,
+		"cost": 400,
 		"requiredBuilding": "Tunnels",
 		"cityHealth": 10,
 		"requiredTech": "Military Science",
@@ -36,7 +36,7 @@
 	{
 		"name": "Advanced Interception Defense",
 		"maintenance": 3,
-		"cost": 1800,
+		"cost": 1500,
 		"requiredBuilding": "Military Base",
 		"cityStrength": 5,
 		"cityHealth": 15,
@@ -620,7 +620,7 @@
 	{
 		"name": "Steel Smithery",
 		"maintenance": 1,
-		"cost": 800,
+		"cost": 200,
 		"production": 1,
 		"requiredBuilding": "Workshop",
 		"requiredTech": "Steel",
@@ -629,7 +629,7 @@
 	{
 		"name": "Steel Works",
 		"maintenance": 3,
-		"cost": 1600,
+		"cost": 400,
 		"production": 4,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Industrialization",
@@ -638,7 +638,7 @@
 	{
 		"name": "Industrialized Steel Works",
 		"maintenance": 4,
-		"cost": 1900,
+		"cost": 800,
 		"production": 6,
 		"requiredBuilding": "Steel Works",
 		"requiredTech": "Industrialization",
@@ -647,7 +647,7 @@
 	{
 		"name": "Steel Mill",
 		"maintenance": 5,
-		"cost": 2200,
+		"cost": 1200,
 		"production": 8,
 		"happiness": -2,
 		"requiredBuilding": "Industrialized Steel Works",
@@ -923,27 +923,16 @@
 		"uniques": ["Destroyed when the city is captured"],
 	},
 	{
-		"name": "Communication Lines",
+		"name": "Military Communication Towers",
 		"cost": 350,
 		"maintenance": 4,
 		"happiness": 1,
 		"culture": 1,
 		"production": 1,
-		"cityStrength": 5,
+		"cityStrength": 10,
+		"cityHealth": 5,
 		"requiredBuilding": "Broadcast Tower",
 		"requiredTech": "Radio",
-		"uniques": ["Destroyed when the city is captured"],
-	},
-	{
-		"name": "Parabolic Antennaes",
-		"cost": 500,
-		"maintenance": 2,
-		"happiness": 1,
-		"culture": 4,
-		"production": 1,
-		"cityStrength": 5,
-		"requiredBuilding": "Broadcast Tower",
-		"requiredTech": "Satellites",
 		"uniques": ["Destroyed when the city is captured"],
 	},
 	{
