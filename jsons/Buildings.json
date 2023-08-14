@@ -1034,7 +1034,7 @@
 		"cityHealth": 5,
 		"happiness": -1,
 		"requiredTech": "Physics",
-		"uniques": ["Destroyed when the city is captured","Obsolete with [Military Science]"],
+		"uniques": ["Destroyed when the city is captured","Obsolete with [Military Science]","Must be next to [Coast]","Must be next to [Lakes]","Must be next to [River]"],
 	},
 	{
 		"name": "News Press",
