@@ -708,7 +708,7 @@
 		"cost": 500,
 		"science": 4,
 		"culture": 2,
-		"requiredTech": "Archaeology",
+		"requiredTech": "Military Science",
 		"uniques": ["New [Military] units start with [15] Experience [in this city]","[+3]% Science [in this city]","Cannot be purchased","Unsellable","Cost increases by [50] per owned city","Destroyed when the city is captured"],
 	},
 	{
