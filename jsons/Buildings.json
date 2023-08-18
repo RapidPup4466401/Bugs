@@ -1154,4 +1154,13 @@
 		"requiredTech": "Engineering",
 		"uniques": ["Destroyed when the city is captured"],
 	},
+	{
+		"name": "Gunpowder Manufacturing Plant",
+		"cost": 80,
+		"cityStrenth": 10,
+		"cityHealth": 5,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Engineering",
+		"uniques": ["Destroyed when the city is captured"],
+	},
 ]
