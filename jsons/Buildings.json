@@ -996,7 +996,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Research Center",
 		"requiredTech": "Refrigeration",
-		"uniques": ["[+5]% Science [in this city]","Provides [1] [Nickel]","Destroyed when the city is captured"],
+		"uniques": ["[+5]% Science [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Ore Depot",
