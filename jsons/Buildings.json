@@ -962,7 +962,7 @@
 		"maintenance": 3,
 		"happiness": 1,
 		"production": 4,
-		"requiredBuilding": ["Factory","Kiln"],
+		"requiredBuilding": ["Factory"],
 		"requiredTech": "Industrialization",
 		"uniques": ["Provides [4] [Ceramics]","Destroyed when the city is captured"],
 	},
