@@ -1146,7 +1146,7 @@
 		"uniques": ["Destroyed when the city is captured"],
 	},
 	{
-		"name": "Battlements",
+		"name": "Industrial Manufacturing Plant",
 		"cost": 80,
 		"cityStrenth": 10,
 		"cityHealth": 5,
