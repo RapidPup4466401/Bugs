@@ -632,7 +632,7 @@
 		"cost": 500,
 		"production": 6,
 		"happiness": -3,
-		"requiredBuilding": "Gundpowder Mill",
+		"requiredBuilding": "Gunpowder Mill",
 		"requiredTech": "Industrialization",
 		"uniques": ["Consumes [2] [Sulfur]","All newly-trained [{Ranged Gunpowder}] units in this city receive the [Logistics] promotion","All newly-trained [{Gunpowder}] units in this city receive the [Blitz] promotion","Destroyed when the city is captured"],
 	},
