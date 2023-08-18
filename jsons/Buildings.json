@@ -960,7 +960,6 @@
 		"name": "Ceramics Factory",
 		"cost": 750,
 		"maintenance": 3,
-		"happiness": 1,
 		"production": 4,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Industrialization",
