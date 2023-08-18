@@ -737,7 +737,7 @@
 		"production": 2,
 		"requiredBuilding": "Potter's Workshop",
 		"requiredTech": "Pottery",
-		"uniques": ["Provides [1] [Ceramics]","Destroyed when the city is captured"],
+		"uniques": ["Provides [2] [Ceramics]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Wainwright Shop",
@@ -955,6 +955,16 @@
 		"requiredBuilding": "Porcelain Workshop",
 		"requiredTech": "Industrialization",
 		"uniques": ["Consumes [2] [Ceramics]","Provides [2] [Porcelain]","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Ceramics Factory",
+		"cost": 750,
+		"maintenance": 3,
+		"happiness": 1,
+		"production": 4,
+		"requiredBuilding": "Factory","Kiln",
+		"requiredTech": "Industrialization",
+		"uniques": ["Provides [4] [Ceramics]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Ore Depot",
