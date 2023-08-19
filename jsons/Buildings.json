@@ -376,10 +376,10 @@
 	},
 	{
 		"name": "Fertilizer Plant",
-		"maintenance": 2,
+		"maintenance": 4,
 		"cost": 800,
 		"production": 4,
-		"food": 5,
+		"food": 4,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Fertilizer",
 		"uniques": ["[+2 Food] from [Farm] tiles [in this city]","[+3]% Food [in this city]","Destroyed when the city is captured"],
@@ -433,7 +433,7 @@
 	},
 	{
 		"name": "Industrial Fish Farm",
-		"maintenance": 2,
+		"maintenance": 3,
 		"cost": 300,
 		"food": 5,
 		"requiredTech": "Pharmaceuticals",
@@ -441,8 +441,8 @@
 	},
 	{
 		"name": "Industrial Kelp Farm",
-		"maintenance": 3,
-		"cost": 500,
+		"maintenance": 2,
+		"cost": 600,
 		"food": 4,
 		"requiredTech": "Ecology",
 		"uniques": ["Must be on [Coastal]","[+4]% Food [in this city]","Destroyed when the city is captured","Must have an owned [Fishing Boats] within [2] tiles"],
