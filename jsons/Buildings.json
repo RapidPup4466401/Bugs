@@ -588,7 +588,7 @@
 		"gold": 1,
 		"requiredBuilding": "Extraction Methods Research Center",
 		"requiredTech": "Mineral Extraction",
-		"uniques": ["Consumes [1] [Manganese Crusts]","Provides [2] [Cobalt]","Provides [2] [Iron]","Provides [1] [Copper]","Provides [1] [Nickel]","Provides [1] [Silver]","Provides [1] [Gold Ore]","Provides [1] [Zinc]","Provides [1] [Manganese]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Manganese Crusts]","Provides [2] [Cobalt]","Provides [2] [Iron]","Provides [1] [Copper]","Provides [1] [Nickel]","Provides [1] [Silver]","Provides [1] [Gold Ore]","Provides [1] [Zinc]","Provides [2] [Manganese]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Cobalt Refinery",
