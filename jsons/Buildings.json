@@ -450,7 +450,7 @@
 		"food": 6,
 		"requiredBuilding": "Aquaculture Management Center",
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[+3 Food] from [Fishing Boats] tiles [in this city]","[+6]% Food [in this city]","Destroyed when the city is captured","Must have an owned [Fishing Boats] within [2] tiles"],
+		"uniques": ["[+3 Food] from [Fishing Boats] tiles [in this city]","[+6]% Food [in this city]","Must have an owned [Fishing Boats] within [2] tiles","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Kelp Farm",
