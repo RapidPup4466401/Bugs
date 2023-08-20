@@ -254,7 +254,7 @@
 		"cost": 100,
 		"requiredTech": "Electronics",
 		"movement": 4,
-		"uniques": ["Can build [Water] improvements on tiles","Can build [Ice Removal] improvements on tiles","Can enter ice tiles"],
+		"uniques": ["Can pass through impassable tiles","Can build [Water] improvements on tiles","Can build [Ice Removal] improvements on tiles","Can enter ice tiles"],
 	} 
 ]
 
