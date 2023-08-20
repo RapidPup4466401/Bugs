@@ -38,7 +38,7 @@
     "rangedStrength": 30,
 		"requiredTech": "Advanced Submersibles",
 	  	"interceptRange": 2,
-    "uniques": ["Consumes [3] [Uranium]","Consumes [2] [Titanium]","Consumes [4] [Oil]","Can carry [6] [Air] units","[+20]% chance to intercept air attacks"],
+    "uniques": ["Cannot be purchased","Consumes [3] [Uranium]","Consumes [2] [Titanium]","Consumes [4] [Oil]","Can carry [6] [Air] units","[+20]% chance to intercept air attacks"],
 	},
   {
 		"name": "GDR Mk. I",
