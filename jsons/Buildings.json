@@ -1221,7 +1221,7 @@
 		"name": "Placeholder Building, all buildings below are marked for deletion",
 		"maintenance": 0,
 		"cost": 0,
-		"uniques": ["unbuildable"]
+		"uniques": ["Unbuildable","Cannot be purchased"]
 	},
 	{
 		"name": "Industrial Fish Farm",
@@ -1237,6 +1237,14 @@
 		"cost": 600,
 		"food": 4,
 		"requiredTech": "Ecology",
+		"uniques": ["Must be on [Coastal]","[+4]% Food [in this city]","Destroyed when the city is captured","Must have an owned [Fishing Boats] within [2] tiles"],
+	},
+	{
+		"name": "Industrial Steel Works",
+		"maintenance": 2,
+		"cost": 600,
+		"food": 4,
+		"requiredTech": "Industrialization",
 		"uniques": ["Must be on [Coastal]","[+4]% Food [in this city]","Destroyed when the city is captured","Must have an owned [Fishing Boats] within [2] tiles"],
 	},
 ]
