@@ -1203,6 +1203,7 @@
 		"name": "Placeholder Building, all buildings below are marked for deletion",
 		"maintenance": 0,
 		"cost": 0,
+		"uniques": ["unbuildable"]
 	},
 	{
 		"name": "Industrial Fish Farm",
