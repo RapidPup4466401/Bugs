@@ -9,9 +9,9 @@
 	},
 	{
 		"name": "Ice Removal",
-		"turnsToBuild": 3,
+		"turnsToBuild": 2,
 		"terrainsCanBeBuiltOn": ["Ice","Large Ice","Floating Ice Sheet","Iceberg"],
 		"techRequired": "Electronics",
-		"uniques": ["Can be built outside your borders"],
+		"uniques": ["Can be built outside your borders","Removes removable features when built"],
 	}	
 ]	
