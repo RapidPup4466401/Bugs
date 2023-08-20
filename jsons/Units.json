@@ -199,7 +199,7 @@
 		"range": 28,
 		"requiredTech": "Advanced Robotics",
 		"movement": 1,
-		"uniques": ["Damage taken from interception reduced by [+50]%","Cannot be purchased","Consumes [5] [Oil]","Consumes [2] [Titanium]","Consumes [2] [Uranium]","No sight","Nuclear weapon of Strength [2]","Blast radius [2]"],
+		"uniques": ["Cannot be purchased","Consumes [5] [Oil]","Consumes [2] [Titanium]","Consumes [2] [Uranium]","No sight","Nuclear weapon of Strength [2]","Damage taken from interception reduced by [+50]%","Blast radius [2]"],
 		"attackSound": "nuke",
 	},
 	{
@@ -232,8 +232,8 @@
 		"cost": 2100,
 		"strength": 90,
 		"requiredTech": "Advanced Robotics",
-		"movement": 3,
-		"uniques": ["May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Cannot enter ocean tiles","Ignores Zone of Control","Ignores terrain cost","Can see invisible [Wounded] units","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks"],
+		"movement": 2,
+		"uniques": ["Double movement in [Hill]","Double movement in [Mountain]","May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Cannot enter ocean tiles","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks"],
 		"attackSound": "missile",
 	},
 	{
@@ -244,8 +244,8 @@
 		"rangedStrength": 110,
 		"requiredTech": "Mechs",
 		"movement": 1,
-		"range": 4,
-		"uniques": ["Can pass through impassable tiles","Cannot enter ocean tiles","Ignores Zone of Control","Ignores terrain cost","Can see invisible [Wounded] units","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack"],
+		"range": 2,
+		"uniques": ["Double movement in [Hill]","Double movement in [Mountain]","Can pass through impassable tiles","Cannot enter ocean tiles","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack","Ranged attacks may be performed over obstacles"],
 		"attackSound": "missile",
 	},
 	{
