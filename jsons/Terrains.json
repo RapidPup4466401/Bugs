@@ -40,17 +40,6 @@
 		"type": "Land",
 		"science": 1,
 		"movementCost": 1,
-			"uniques": [
-			"[+2] to Fertility for Map Generation",
-			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Ocean] tiles",
-			"Occurs in groups of [1] to [25] tiles",
-			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource.",
-			"Always Fertility [5] for Map Generation",
-			"[5] to Fertility for Map Generation",
-			"A Region is formed with at least [60]% [Abyssal Ocean] tiles, with priority [5]",
-			"A Region is formed with at least [80]% [Abyssal Ocean] tiles and [Deep Ocean] tiles, with priority [5]",
-			],
 	},
 	{
 		"name": "Oceanic Trench",
@@ -58,7 +47,7 @@
 		"science": 2,
 		"gold": 1,
 		"occursOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
-		"uniques": ["Rare feature","[1] to Fertility for Map Generation","[5]% Chance to be destroyed by nukes"],
+		"uniques": ["[5]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Seamounts",
@@ -67,7 +56,7 @@
 		"gold": 1,
 		"production": 1,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["Rare feature","[2] to Fertility for Map Generation","Occurs in groups of [1] to [7] tiles","[1]% Chance to be destroyed by nukes"],
+		"uniques": ["[1]% Chance to be destroyed by nukes"],
 	},
 	{
 		"name": "Guyot",
@@ -75,7 +64,7 @@
 		"science": 3,
 		"gold": 1,
 		"occursOn": ["Deep Ocean","Abyssal Ocean"],
-		"uniques": ["Occurs in groups of [1] to [3] tiles","[1]% Chance to be destroyed by nukes"],
+		"uniques": ["[1]% Chance to be destroyed by nukes"],
 	},
 	{
 		"name": "Deep Sea Reef",
@@ -84,7 +73,7 @@
 		"gold": 2,
 		"food": 2,
 		"occursOn": ["Deep Ocean","Abyssal Ocean"],
-		"uniques": ["Rare feature","[4]% Chance to be destroyed by nukes"],
+		"uniques": ["[4]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Hydrothermal Vents",
@@ -93,7 +82,7 @@
 		"gold": 1,
 		"production": 3,
 		"occursOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
-		"uniques": ["[1] to Fertility for Map Generation","[2]% Chance to be destroyed by nukes","Occurs at temperature between [0] and [3] and humidity between [1] and [3]"],
+		"uniques": ["[2]% Chance to be destroyed by nukes"],
 	},		
 	{
 		"name": "Whale Fall",
@@ -101,7 +90,7 @@
 		"science": 5,
 		"food": 1,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["[1] to Fertility for Map Generation","[5]% Chance to be destroyed by nukes"],
+		"uniques": ["[5]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Oceanic Ridges",
@@ -140,20 +129,20 @@
 		"science": 1,
 		"impassable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["[1] to Fertility for Map Generation","[10]% Chance to be destroyed by nukes","Occurs at temperature between [3] and [3] and humidity between [3] and [3]"],
+		"uniques": ["[10]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Large Ice",
 		"type": "TerrainFeature",
 		"impassable": true,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean","Coast"],
-		"uniques": ["[1] to Fertility for Map Generation","[3]% Chance to be destroyed by nukes","Occurs at temperature between [3] and [3] and humidity between [3] and [3]"],
+		"uniques": ["[3]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Caves",
 		"type": "TerrainFeature",
 		"occursOn": ["Snow","Grassland","Plains","Desert","Tundra"],
-		"uniques": ["[1] to Fertility for Map Generation","[3]% Chance to be destroyed by nukes"],
+		"uniques": ["[3]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Frozen Forest",
