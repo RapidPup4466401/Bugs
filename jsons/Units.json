@@ -129,7 +129,7 @@
 		"upgradesTo": "GDR Mk. IV",
 	},
 	{
-		"name": "Nuclear Fallout Missile",
+		"name": "Fallout Missile",
 		"unitType": "Missile",
 		"cost": 1400,
 		"strength": 25,
@@ -143,7 +143,7 @@
 	{
 		"name": "Nuclear Devastation Missile",
 		"unitType": "Missile",
-		"cost": 10000,
+		"cost": 15000,
 		"strength": 700,
 		"rangedStrength": 700,
 		"range": 30,
@@ -159,7 +159,7 @@
 		"strength": 75,
 		"rangedStrength": 75,
 		"range": 4,
-		"requiredTech": "Nuclear Fission",
+		"requiredTech": "Mobile Tactics",
 		"movement": 1,
 		"uniques": ["Consumes [1] [Uranium]","Blast radius [0]","Nuclear weapon of Strength [0]","Self-destructs when attacking"],
 		"attackSound": "nuke",
@@ -217,7 +217,7 @@
 	{
 		"name": "Precision Guided Missile",
 		"unitType": "Missile",
-		"cost": 800,
+		"cost": 900,
 		"strength": 100,
 		"rangedStrength": 100,
 		"range": 18,
@@ -255,6 +255,6 @@
 		"requiredTech": "Electronics",
 		"movement": 4,
 		"uniques": ["Can build [Water] improvements on tiles","Can build [Ice Removal] improvements on tiles","Can enter ice tiles"],
-	}
+	} 
 ]
 
