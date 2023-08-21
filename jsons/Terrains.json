@@ -147,7 +147,7 @@
 	{
 		"name": "Frozen Forest",
 		"type": "TerrainFeature",
-		"occursOn": ["Snow","Glacier","Tundra"],
+		"occursOn": ["Snow","Tundra"],
 		"movementCost": 2,
 		"defenceBonus": 25,
 	}
