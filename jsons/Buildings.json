@@ -415,6 +415,15 @@
 		"uniques": ["[+3 Food] from [Farm] tiles [in this city]","[+5]% Food [in this city]","[+1]% Science [in this city]","Destroyed when the city is captured","Limited to [5] per Civilization","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
+		"name": "Seeds Market",
+		"maintenance": 1,
+		"cost": 150,
+		"food": 2,
+		"requiredBuilding": "Market",
+		"requiredTech": "Ecology",
+		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [1] tiles"],
+	},
+	{
 		"name": "City Wind Turbines",
 		"maintenance": 1,
 		"cost": 200,
@@ -1185,11 +1194,4 @@
 		"requiredTech": "Ballistics",
 		"uniques": ["[+5]% Production [in this city]","Destroyed when the city is captured"],
 	},
-	{
-		"name": "Farmland Management Center",
-		"cost": 100,
-		"maintenance": 1,
-		"requiredTech": "Agriculture",
-		"uniques": ["[+1 Food] from [Wheat] tiles [in this city] <in [Desert] tiles>"],
-	}
 ]
