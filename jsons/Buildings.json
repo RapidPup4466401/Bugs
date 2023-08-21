@@ -1190,6 +1190,6 @@
 		"cost": 100,
 		"maintenance": 1,
 		"requiredTech": "Agriculture",
-		"uniques": ["[+1 Food] from [Grain] tiles [in this city] <in [Desert] tiles>"],
+		"uniques": ["[+1 Food] from [Wheat] tiles [in this city] <in [Desert] tiles>"],
 	}
 ]
