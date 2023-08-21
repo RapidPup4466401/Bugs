@@ -1184,7 +1184,7 @@
 		"requiredBuilding": "Makeshift Runway",
 		"requiredTech": "Ballistics",
 		"uniques": ["[+5]% Production [in this city]","Destroyed when the city is captured"],
-	}
+	},
 	{
 		"name": "Farmland Management Center",
 		"cost": 100,
