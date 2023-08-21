@@ -1247,11 +1247,4 @@
 		"requiredTech": "Industrialization",
 		"uniques": ["Must be on [Coastal]","[+4]% Food [in this city]","Destroyed when the city is captured","Must have an owned [Fishing Boats] within [2] tiles"],
 	},
-	{
-		"name": "Farmland Management Center",
-		"maintenance": 1,
-		"cost": 100,
-		"requiredTech": "Agriculture",
-		"uniques": ["[+3 Food] from [Wheat,Desert] tiles [in this city]"],
-	},
 ]
