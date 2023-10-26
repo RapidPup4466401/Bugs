@@ -372,7 +372,7 @@
 		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+2]% Food [in this city]","[+2]% Science [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
-		"name": "GMO Production Plant",
+		"name": "GMO Lab",
 		"maintenance": 5,
 		"cost": 2000,
 		"science": 1,
@@ -380,7 +380,7 @@
 		"food": 10,
 		"requiredBuilding": "Crop Research Center",
 		"requiredTech": "Ecology",
-		"uniques": ["[+3 Food] from [Farm] tiles [in this city]","[+5]% Food [in this city]","[+1]% Science [in this city]","Destroyed when the city is captured","Limited to [5] per Civilization","Must have an owned [Farm] within [2] tiles"],
+		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","[+5]% Food [in this city]","[+1]% Science [in this city]","Destroyed when the city is captured","Limited to [5] per Civilization","Must have an owned [Farm] within [2] tiles"],
 	},
 	{
 		"name": "Seeds Market",
