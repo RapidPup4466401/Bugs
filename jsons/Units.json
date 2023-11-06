@@ -2,7 +2,7 @@
   {
 		"name": "Aircraft Carrier Submarine",
 		"unitType": "Submarine",
-    "cost": 1200,
+    "cost": 2000,
 		"movement": 4,
 		"strength": 35,
     "rangedStrength": 60,
@@ -13,7 +13,7 @@
   {
 		"name": "Super Aircraft Carrier Submarine",
 		"unitType": "Submarine",
-    "cost": 3500,
+    "cost": 7500,
 		"movement": 3,
 		"strength": 15
     "rangedStrength": 30,
