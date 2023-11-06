@@ -59,14 +59,6 @@
 		"uniques": ["[1]% Chance to be destroyed by nukes"],
 	},
 	{
-		"name": "Guyot",
-		"type": "TerrainFeature",
-		"science": 3,
-		"gold": 1,
-		"occursOn": ["Deep Ocean","Abyssal Ocean"],
-		"uniques": ["[1]% Chance to be destroyed by nukes"],
-	},
-	{
 		"name": "Deep Sea Reef",
 		"type": "TerrainFeature",
 		"science": 3,
@@ -91,13 +83,6 @@
 		"food": 1,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
 		"uniques": ["[5]% Chance to be destroyed by nukes"],
-	},	
-	{
-		"name": "Oceanic Ridges",
-		"type": "TerrainFeature",
-		"science": 1,
-		"occursOn": ["Ocean"],
-		"uniques": ["Rare feature","Must be adjacent to [1] to [5] [Coast] tiles","[4]% Chance to be destroyed by nukes"],
 	},	
 	{
 		"name": "Cold Seeps",
@@ -148,6 +133,6 @@
 		"type": "TerrainFeature",
 		"occursOn": ["Snow","Tundra"],
 		"movementCost": 2,
-		"defenceBonus": 25,
+		"defenceBonus": 0.25,
 	}
 ]	
