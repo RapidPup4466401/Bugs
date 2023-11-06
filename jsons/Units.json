@@ -32,7 +32,7 @@
 	  	"requiredResource": "Uranium",
 	  	"interceptRange": 1,
     		"uniques": ["No defensive terrain bonus","Can carry [4] [Air] units","[+10]% chance to intercept air attacks"],
-		"upgradesTo": "GDR Mk. III",	
+		"upgradesTo": "GDR Mk. II",	
   },
   {
 		"name": "GDR Mk. II",
@@ -43,7 +43,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"attackSound": "gdrAttack",
     		"uniques": ["Consumes [1] [Titanium]","No defensive terrain bonus","Can carry [1] [Missile] units","Can move after attacking","Unable to capture cities","Can pass through impassable tiles","Invisible to non-adjecent units"],
-		"upgradesTo": "GDR Mk. IV",	
+		"upgradesTo": "GDR Mk. III",	
   },
   {
 		"name": "GDR Mk. III",
@@ -56,7 +56,7 @@
 	  	"requiredResource": "Uranium",
 	  	"interceptRange": 3,
     		"uniques": ["[+90]% chance to intercept air attacks","[3] extra interceptions may be made per turn","[+150]% Damage when intercepting","Unable to capture cities"],
-		"upgradesTo": "GDR Mk. V [Fortress]",	
+		"upgradesTo": "GDR Mk. IV [Fortress]",	
   },
   {
 		"name": "GDR Mk. IV [Fortress]",
@@ -68,6 +68,7 @@
 		"attackSound": "gdrAttack",
 	  	"interceptRange": 1,
     		"uniques": ["Consumes [2] [Uranium]","Consumes [2] [Titanium]","Can carry [2] [Air] units","Can move after attacking","[+25]% chance to intercept air attacks","Cannot enter ocean tiles","No sight"],
+	  	"upgradesTo": "GDR Mk. V",
 	},
   {
 		"name": "GDR Mk. V",
@@ -195,7 +196,7 @@
 		"strength": 90,
 		"requiredTech": "Advanced Robotics",
 		"movement": 2,
-		"uniques": ["Double movement in [Hill]","Double movement in [Mountain]","May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Cannot enter ocean tiles","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks"],
+		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Cannot enter ocean tiles","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks"],
 		"attackSound": "missile",
 	},
 	{
@@ -207,7 +208,7 @@
 		"requiredTech": "Mechs",
 		"movement": 1,
 		"range": 2,
-		"uniques": ["Double movement in [Hill]","Double movement in [Mountain]","Can pass through impassable tiles","Cannot enter ocean tiles","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack","Ranged attacks may be performed over obstacles"],
+		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","Can pass through impassable tiles","Cannot enter ocean tiles","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack","Ranged attacks may be performed over obstacles"],
 		"attackSound": "missile",
 	},
 ]
