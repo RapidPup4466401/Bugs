@@ -898,7 +898,7 @@
 		"maintenance": 2,
 		"happiness": 1,
 		"production": 1,
-		"requiredBuilding": "Potter's Workshop",
+		"requiredBuilding": "Kiln",
 		"requiredTech": "Masonry",
 		"uniques": ["Consumes [1] [Ceramics]","Provides [1] [Porcelain]","Destroyed when the city is captured"],
 	},
