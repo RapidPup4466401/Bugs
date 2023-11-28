@@ -647,7 +647,16 @@
 		"production": 3,
 		"requiredBuilding": "Assembly Plant",
 		"requiredTech": "Radar",
-		"uniques": ["Consumes [1] [Titanium]","Consumes [1] [Steel]","Consumes [1] [Machinery]","Consumes [1] [Electronic Component]","Provides [4] [Aircraft Parts]","[+20]% Production when constructing [{Military} {Air}] units [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Steel]","Consumes [1] [Machinery]","Consumes [1] [Electronic Component]","Provides [3] [Aircraft Parts]","[+20]% Production when constructing [{Military} {Air}] units [in this city]","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Automated Aircraft Assembly Plant",
+		"maintenance": 4,
+		"cost": 3000,
+		"production": 9,
+		"requiredBuilding": "Aircraft Assembly Plant",
+		"requiredTech": "Advanced Robotics",
+		"uniques": ["Consumes [1] [Titanium]","Consumes [1] [Microchip]","Consumes [1] [Robotic Parts]","Consumes [1] [Electronic Component]","Provides [4] [Aircraft Parts]","[+80]% Production when constructing [{Military} {Air}] units [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "National Museum of History",
