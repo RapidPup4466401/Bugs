@@ -7,7 +7,7 @@
 		"strength": 35,
     "rangedStrength": 60,
 		"requiredTech": "Advanced Submersibles",
-    "uniques": ["Cannot be purchased","Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Consumes [1] [Oil]","Can carry [2] [Air] units"],
+    "uniques": ["Cannot be purchased","Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Consumes [1] [Oil]","Consumes [1] [Microchip]","Can carry [2] [Air] units","Can carry [2] [Missile] units"],
 		"upgradesTo": "Super Aircraft Carrier Submarine",		
   },
   {
@@ -19,7 +19,7 @@
     "rangedStrength": 30,
 		"requiredTech": "Advanced Submersibles",
 	  	"interceptRange": 2,
-    "uniques": ["Cannot be purchased","Consumes [3] [Uranium]","Consumes [2] [Titanium]","Consumes [4] [Oil]","Can carry [6] [Air] units","[+20]% chance to intercept air attacks"],
+    "uniques": ["Cannot be purchased","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [2] [Oil]","Consumes [1] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [6] [Air] units","Can carry [6] [Missile] units","[+20]% chance to intercept air attacks"],
 	},
   {
 		"name": "GDR Mk. I",
@@ -129,14 +129,14 @@
 	},
 	{
 		"name": "Tactical Nuke",
-		"unitType": "Atomic Bomber",
+		"unitType": "Missile",
 		"cost": 250,
 		"strength": 75,
 		"rangedStrength": 75,
 		"range": 4,
 		"requiredTech": "Mobile Tactics",
 		"movement": 1,
-		"uniques": ["Consumes [1] [Uranium]","Blast radius [0]","Nuclear weapon of Strength [0]","Self-destructs when attacking"],
+		"uniques": ["Consumes [1] [Uranium]","Blast radius [1]","Nuclear weapon of Strength [0]","Self-destructs when attacking"],
 		"attackSound": "nuke",
 	},
 	{
@@ -161,7 +161,7 @@
 		"range": 18,
 		"requiredTech": "Particle Physics",
 		"movement": 1,
-		"uniques": ["Cannot be purchased","Consumes [2] [Oil]","Consumes [1] [Titanium]","Consumes [1] [Uranium]","No sight","Nuclear weapon of Strength [1]","Blast radius [1]"],
+		"uniques": ["Cannot be purchased","Consumes [2] [Oil]","Consumes [1] [Titanium]","Consumes [1] [Uranium]","Consumes [1] [Microchip]","No sight","Nuclear weapon of Strength [1]","Blast radius [1]"],
 		"attackSound": "nuke",
 		"upgradesTo": "Advanced Nuclear Bomber",
 	},
@@ -174,7 +174,7 @@
 		"range": 28,
 		"requiredTech": "Advanced Robotics",
 		"movement": 1,
-		"uniques": ["Cannot be purchased","Consumes [5] [Oil]","Consumes [2] [Titanium]","Consumes [2] [Uranium]","No sight","Nuclear weapon of Strength [2]","Damage taken from interception reduced by [+50]%","Blast radius [2]"],
+		"uniques": ["Cannot be purchased","Consumes [1] [Microchip]","Consumes [1] [Electronic Circuit]","Consumes [2] [Titanium]","Consumes [2] [Uranium]","No sight","Nuclear weapon of Strength [2]","Damage taken from interception reduced by [+50]%","Blast radius [2]"],
 		"attackSound": "nuke",
 	},
 	{
@@ -196,7 +196,7 @@
 		"strength": 90,
 		"requiredTech": "Advanced Robotics",
 		"movement": 2,
-		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Cannot enter ocean tiles","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks"],
+		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Cannot enter ocean tiles","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Robotic Parts]"],
 		"attackSound": "missile",
 	},
 	{
@@ -208,7 +208,7 @@
 		"requiredTech": "Mechs",
 		"movement": 1,
 		"range": 2,
-		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","Can pass through impassable tiles","Cannot enter ocean tiles","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack","Ranged attacks may be performed over obstacles"],
+		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","Can pass through impassable tiles","Cannot enter ocean tiles","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack","Ranged attacks may be performed over obstacles","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Robotic Parts]"],
 		"attackSound": "missile",
 	},
 ]
