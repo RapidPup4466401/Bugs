@@ -118,13 +118,13 @@
 	{
 		"name": "Intercontinental Ballistic Missile",
 		"unitType": "Missile",
-		"cost": 15000,
+		"cost": 13000,
 		"strength": 450,
 		"rangedStrength": 450,
 		"range": 60,
 		"requiredTech": "Satellites",
 		"movement": 1,
-		"uniques": ["Cannot be purchased","Consumes [1] [Aluminum]","Consumes [4] [Uranium]","Consumes [1] [Titanium]","Blast radius [4]","Nuclear weapon of Strength [3]","Self-destructs when attacking"],
+		"uniques": ["Cannot be purchased","Consumes [1] [Aluminum]","Consumes [3] [Uranium]","Consumes [1] [Titanium]","Blast radius [4]","Nuclear weapon of Strength [3]","Self-destructs when attacking"],
 		"attackSound": "nuke",
 	},
 	{
