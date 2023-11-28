@@ -97,91 +97,119 @@ BuildingIcons/Tunnels
   index: -1
 ResourceIcons/Aircraft Parts
   rotate: false
-  xy: 1044, 176
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cobalt
-  rotate: false
-  xy: 1252, 384
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Electronic Circuit
-  rotate: false
   xy: 1360, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Electronic Component
-  rotate: false
-  xy: 1468, 384
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Microchip
+ResourceIcons/Battery
   rotate: false
   xy: 1576, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Nickel
+ResourceIcons/Cobalt
   rotate: false
   xy: 1684, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Palladium
+ResourceIcons/Electronic Circuit
   rotate: false
   xy: 1792, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Platinum
+ResourceIcons/Electronic Component
   rotate: false
   xy: 1900, 384
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Robotic Parts
-  rotate: false
-  xy: 1044, 68
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Sulfur
-  rotate: false
-  xy: 1152, 176
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Tin
+ResourceIcons/Lead
   rotate: false
   xy: 1152, 68
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Titanium
+ResourceIcons/Magnet
   rotate: false
   xy: 1260, 276
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Zinc
+ResourceIcons/Manganese
   rotate: false
   xy: 1260, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Microchip
+  rotate: false
+  xy: 1368, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Nickel
+  rotate: false
+  xy: 1368, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Palladium
+  rotate: false
+  xy: 1584, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Platinum
+  rotate: false
+  xy: 1584, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Robotic Parts
+  rotate: false
+  xy: 1692, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Sulfur
+  rotate: false
+  xy: 1800, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tin
+  rotate: false
+  xy: 1368, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Titanium
+  rotate: false
+  xy: 1476, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Zinc
+  rotate: false
+  xy: 1584, 60
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -202,14 +230,14 @@ TileSets/FantasyHex/Tiles/Abyssal Ocean+Brine Lakes
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Cold Seeps
   rotate: false
-  xy: 1368, 348
+  xy: 1908, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Deep Sea Reef
   rotate: false
-  xy: 1260, 132
+  xy: 1692, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -223,42 +251,42 @@ TileSets/FantasyHex/Tiles/Abyssal Ocean+Guyot
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Hydrothermal Vents
   rotate: false
-  xy: 4, 4
+  xy: 44, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Oceanic Trench
   rotate: false
-  xy: 44, 40
+  xy: 4, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Seamounts
   rotate: false
-  xy: 1368, 312
+  xy: 1908, 312
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Abyssal Ocean+Whale Fall
   rotate: false
-  xy: 1408, 348
+  xy: 1948, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Axial Seamount
   rotate: false
-  xy: 1260, 96
+  xy: 1692, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Bacterial Clusters
   rotate: false
-  xy: 1300, 132
+  xy: 1732, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -272,273 +300,273 @@ TileSets/FantasyHex/Tiles/Coast+Manganese Crusts
   index: -1
 TileSets/FantasyHex/Tiles/Coast+Polymetallic Nodules
   rotate: false
-  xy: 44, 4
+  xy: 84, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cobalt
   rotate: false
-  xy: 84, 40
+  xy: 44, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean
   rotate: false
-  xy: 1368, 276
+  xy: 1908, 276
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+ Oceanic Trench
   rotate: false
-  xy: 1408, 312
+  xy: 1948, 312
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Brine Lakes
   rotate: false
-  xy: 1448, 348
+  xy: 1988, 348
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Cold Seeps
   rotate: false
-  xy: 1300, 96
+  xy: 1692, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Deep Sea Reef
   rotate: false
-  xy: 84, 4
+  xy: 1732, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Guyot
   rotate: false
-  xy: 124, 40
+  xy: 1772, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Hydrothermal Vents
   rotate: false
-  xy: 1368, 240
+  xy: 124, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Oceanic Trench
   rotate: false
-  xy: 1408, 276
+  xy: 84, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Seamounts
   rotate: false
-  xy: 1448, 312
+  xy: 1908, 240
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Deep Ocean+Whale Fall
   rotate: false
-  xy: 1488, 348
+  xy: 1948, 276
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert+Caves
   rotate: false
-  xy: 124, 4
+  xy: 1988, 312
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Floating Ice Sheet
   rotate: false
-  xy: 164, 40
+  xy: 1732, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Frozen Lakes
   rotate: false
-  xy: 1368, 204
+  xy: 1772, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Glacier
   rotate: false
-  xy: 1408, 240
+  xy: 1812, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Glacier+Caves
   rotate: false
-  xy: 1448, 276
+  xy: 164, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Caves
   rotate: false
-  xy: 1488, 312
+  xy: 124, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Guyot
   rotate: false
-  xy: 1528, 348
+  xy: 1908, 204
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Iceberg
   rotate: false
-  xy: 164, 4
+  xy: 1948, 240
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Large Ice
   rotate: false
-  xy: 204, 40
+  xy: 1988, 276
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lead
   rotate: false
-  xy: 1368, 168
+  xy: 1772, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Manganese
   rotate: false
-  xy: 1340, 132
+  xy: 1812, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Nickel
   rotate: false
-  xy: 1408, 204
+  xy: 1852, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Brine Lakes
   rotate: false
-  xy: 1448, 240
+  xy: 204, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Cold Seeps
   rotate: false
-  xy: 1488, 276
+  xy: 164, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Guyot
   rotate: false
-  xy: 1528, 312
+  xy: 1908, 168
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Hydrothermal Vents
   rotate: false
-  xy: 1568, 348
+  xy: 1948, 204
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Manganese Crusts
   rotate: false
-  xy: 204, 4
+  xy: 1988, 240
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Oceanic Ridges
   rotate: false
-  xy: 244, 40
+  xy: 1812, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Oceanic Trench
   rotate: false
-  xy: 1340, 96
+  xy: 1852, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Polymetallic Nodules
   rotate: false
-  xy: 1408, 168
+  xy: 1892, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Seamounts
   rotate: false
-  xy: 1380, 132
+  xy: 244, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Sulfide Deposits
   rotate: false
-  xy: 1448, 204
+  xy: 204, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ocean+Whale Fall
   rotate: false
-  xy: 1488, 240
+  xy: 1948, 168
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Oceanic Trench
   rotate: false
-  xy: 1528, 276
+  xy: 1988, 204
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Palladium
   rotate: false
-  xy: 1568, 312
+  xy: 1852, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Caves
   rotate: false
-  xy: 1608, 348
+  xy: 1892, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Platinum
   rotate: false
-  xy: 244, 4
+  xy: 1932, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -552,57 +580,127 @@ TileSets/FantasyHex/Tiles/Seamounts
   index: -1
 TileSets/FantasyHex/Tiles/Snow+Caves
   rotate: false
-  xy: 1380, 96
+  xy: 244, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Snow+Frozen Forest
   rotate: false
-  xy: 1448, 168
+  xy: 1988, 168
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sulfur
   rotate: false
-  xy: 1420, 132
+  xy: 1892, 60
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tin
   rotate: false
-  xy: 1488, 204
+  xy: 1932, 96
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Titanium
   rotate: false
-  xy: 1528, 240
+  xy: 1972, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Caves
   rotate: false
-  xy: 1568, 276
+  xy: 2012, 132
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Frozen Forest
   rotate: false
-  xy: 1608, 312
+  xy: 324, 40
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Zinc
   rotate: false
-  xy: 1648, 348
+  xy: 284, 4
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Advanced Nuclear Bomber
+  rotate: false
+  xy: 1044, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Aircraft Carrier Submarine
+  rotate: false
+  xy: 1252, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Atomic Bomber
+  rotate: false
+  xy: 1468, 384
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Hypersonic Guided Missile
+  rotate: false
+  xy: 1044, 68
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Intercontinental Ballistic Missile
+  rotate: false
+  xy: 1152, 176
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nuclear Bomber
+  rotate: false
+  xy: 1476, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Nuclear Devestation Missile
+  rotate: false
+  xy: 1476, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Robotic Hexapod Gunnery
+  rotate: false
+  xy: 1692, 276
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Super Aircraft Carrier Submarine
+  rotate: false
+  xy: 1800, 168
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Tactical Nuke
+  rotate: false
+  xy: 1260, 60
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
