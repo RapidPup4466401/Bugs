@@ -19,8 +19,18 @@
     "rangedStrength": 30,
 		"requiredTech": "Advanced Submersibles",
 	  	"interceptRange": 2,
-    "uniques": ["Cannot be purchased","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [2] [Oil]","Consumes [1] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [6] [Air] units","Can carry [6] [Missile] units","[+20]% chance to intercept air attacks"],
+    "uniques": ["Cannot be purchased","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [2] [Oil]","Consumes [1] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [6] [Air] units","Can carry [4] [Missile] units","[+20]% chance to intercept air attacks"],
 	},
+  {
+		"name": "Reaper Aircraft Carrier Submarine",
+		"unitType": "Submarine",
+    		"cost": 15000,
+		"movement": 5,
+		"strength": 50,
+		"requiredTech": "Advanced Submersibles",
+	  	"interceptRange": 3,
+    		"uniques":  ["Cannot be purchased","Consumes [2] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Aluminum]","Consumes [1] [Robotic Parts]","Consumes [4] [Oil]","Consumes [2] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [10] [Air] units","Can carry [12] [Missile] units","[+80]% chance to intercept air attacks","Invisible to non-adjacent units","[3] extra interceptions may be made per turn","Can pass through impassable tiles","Can enter ice tiles","May enter foreign tiles without open borders",<upon being defeated>"Self-destructs when attacking","Blast radius [3]","Nuclear weapon of Strength [5]"]	
+  },
   {
 		"name": "GDR Mk. I",
 		"unitType": "Armored",
