@@ -29,7 +29,7 @@
 		"strength": 50,
 		"requiredTech": "Advanced Submersibles",
 	  	"interceptRange": 3,
-    		"uniques":  ["Cannot be purchased","Consumes [2] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Aluminum]","Consumes [1] [Robotic Parts]","Consumes [4] [Oil]","Consumes [2] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [10] [Air] units","Can carry [12] [Missile] units","[+80]% chance to intercept air attacks","Invisible to non-adjacent units","[3] extra interceptions may be made per turn","Can pass through impassable tiles","Can enter ice tiles","May enter foreign tiles without open borders",<upon being defeated>"Triggers the following global alert: [A Reaper Carrier has fallen.]"],	
+    		"uniques":  ["Cannot be purchased","Consumes [2] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Aluminum]","Consumes [1] [Robotic Parts]","Consumes [4] [Oil]","Consumes [2] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [10] [Air] units","Can carry [12] [Missile] units","[+80]% chance to intercept air attacks","Invisible to non-adjacent units","[3] extra interceptions may be made per turn","Can pass through impassable tiles","Can enter ice tiles","May enter foreign tiles without open borders","Triggers the following global alert: [A Reaper Carrier has been constructed.]"],	
   },
   {
 		"name": "Aerial Carrier",
