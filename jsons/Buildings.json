@@ -455,7 +455,7 @@
 		"gold": 6,
 		"requiredBuilding": "Wire Manufactory",
 		"requiredTech": "Electronics",
-		"uniques": ["Consumes [1] [Copper]","Consumes [2] [Cobalt]","Consumes [1] [Gold Ore]","Provides [8] [Wire]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Microchip]","Consumes [1] [Robotic Parts]","Consumes [1] [Copper]","Consumes [1] [Cobalt]","Consumes [1] [Gold Ore]","Provides [8] [Wire]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Electronic Component Fabrication Plant",
