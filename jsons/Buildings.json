@@ -667,7 +667,7 @@
 		"requiredBuilding": "Aircraft Assembly Plant",
 		"requiredTech": "Advanced Robotics",
 		"specialistSlots": {"Engineer": 1},
-		"uniques": ["Consumes [1] [Titanium]","Consumes [1] [Microchip]","Consumes [1] [Robotic Parts]","Consumes [1] [Electronic Component]","Provides [4] [Aircraft Parts]","[+80]% Production when constructing [{Military} {Air}] units [in this city]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Titanium]","Consumes [1] [Microchip]","Consumes [1] [Robotic Parts]","Consumes [1] [Electronic Component]","Provides [4] [Aircraft Parts]","[+80]% Production when constructing [{Air}] units [in this city]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "National Museum of History",
