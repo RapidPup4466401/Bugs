@@ -1,6 +1,6 @@
 [
   {
-		"name": "Aircraft Carrier Submarine",
+		"name": "Cruiser Submarine",
 		"unitType": "Submarine",
     "cost": 2000,
 		"movement": 4,
@@ -8,10 +8,10 @@
     "rangedStrength": 60,
 		"requiredTech": "Advanced Submersibles",
     "uniques": ["Cannot be purchased","Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Consumes [1] [Oil]","Consumes [1] [Microchip]","Can carry [2] [Air] units","Can carry [2] [Missile] units"],
-		"upgradesTo": "Super Aircraft Carrier Submarine",		
+		"upgradesTo": "Aircraft Carrier Submarine",		
   },
   {
-		"name": "Super Aircraft Carrier Submarine",
+		"name": "Aircraft Carrier Submarine",
 		"unitType": "Submarine",
     "cost": 7500,
 		"movement": 3,
@@ -20,16 +20,17 @@
 		"requiredTech": "Advanced Submersibles",
 	  	"interceptRange": 2,
     "uniques": ["Cannot be purchased","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [2] [Oil]","Consumes [1] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [6] [Air] units","Can carry [4] [Missile] units","[+20]% chance to intercept air attacks"],
-	},
+		"upgradesTo": "Super Aircraft Carrier Submarine",	
+  },
   {
-		"name": "Reaper Aircraft Carrier Submarine",
+		"name": "Super Aircraft Carrier Submarine",
 		"unitType": "Submarine",
     		"cost": 15000,
 		"movement": 5,
 		"strength": 50,
 		"requiredTech": "Advanced Submersibles",
 	  	"interceptRange": 3,
-    		"uniques":  ["Cannot be purchased","Consumes [2] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Aluminum]","Consumes [1] [Robotic Parts]","Consumes [4] [Oil]","Consumes [2] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [10] [Air] units","Can carry [12] [Missile] units","[+80]% chance to intercept air attacks","Invisible to non-adjacent units","[3] extra interceptions may be made per turn","Can pass through impassable tiles","Can enter ice tiles","May enter foreign tiles without open borders","Triggers the following global alert: [A Reaper Carrier has been constructed.]"],	
+    		"uniques":  ["Cannot be purchased","Consumes [2] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Aluminum]","Consumes [1] [Robotic Parts]","Consumes [4] [Oil]","Consumes [2] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [10] [Air] units","Can carry [12] [Missile] units","[+80]% chance to intercept air attacks","Invisible to non-adjacent units","[3] extra interceptions may be made per turn","Can pass through impassable tiles","Can enter ice tiles","May enter foreign tiles without open borders","Triggers the following global alert: [A Super Carrier has been constructed.]"],	
   },
   {
 		"name": "Aerial Carrier",
