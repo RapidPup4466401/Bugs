@@ -206,16 +206,16 @@
 		"production": 5,
 		"requiredBuilding": "Factory",
 		"requiredTech": "Steam Power",
-		"uniques": ["Destroyed when the city is captured","Provides [1] [Vehicle]","Obsolete with [Plastics]"],
+		"uniques": ["Destroyed when the city is captured","Provides [1] [Vehicle Parts]","Obsolete with [Plastics]"],
 	},
 	{
-		"name": "Armored Vehicle Assembly Plant",
+		"name": "Armored Vehicles Assembly Plant",
 		"maintenance": 5,
 		"cost": 800,
 		"production": 10,
 		"requiredBuilding": "Vehicle Assembly Plant",
 		"requiredTech": "Combustion",
-		"uniques": ["[+20]% Production when constructing [{Armored}] units [in this city]","Consumes [1] [Vehicle]","Consumes [1] [Iron]","Consumes [1] [Steel]","Destroyed when the city is captured"],
+		"uniques": ["[+20]% Production when constructing [{Armored}] units [in this city]","Consumes [1] [Vehicle Parts]","Consumes [1] [Iron]","Consumes [1] [Steel]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Assembly Plant",
@@ -726,7 +726,7 @@
 		"production": 4,
 		"happiness": 2,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["Consumes [1] [Rubber]","Consumes [1] [Steel]","Consumes [1] [Aluminum]","Provides [3] [Vehicle]","Destroyed when the city is captured"],
+		"uniques": ["Consumes [1] [Rubber]","Consumes [1] [Steel]","Consumes [1] [Aluminum]","Provides [3] [Vehicle Parts]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Machinery Assembly Plant",
