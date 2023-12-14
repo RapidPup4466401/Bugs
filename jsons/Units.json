@@ -117,11 +117,11 @@
 		"name": "Infantry Mech",
 		"unitType": "Gunpowder",
     		"cost": 250,
-		"movement": 7,
-		"strength": 100,
+		"movement": 2,
+		"strength": 110,
 		"requiredTech": "Mechs",
 		"attackSound": "gdrAttack",
-    		"uniques": ["Consumes [1] [Uranium]","Consumes [1] [Titanium]","May withdraw before melee ([35]%)","Can move after attacking","Can pass through impassable tiles","Ignores terrain cost"],
+    		"uniques": ["Consumes [1] [Titanium]","May withdraw before melee ([35]%)","Can move after attacking","Can pass through impassable tiles","Ignores terrain cost"],
 	},
 	{
 		"name": "Fallout Missile",
@@ -235,7 +235,7 @@
 	},
 	{
 		"name": "Hexapod Mech",
-		"unitType": "Gunpowder",
+		"unitType": "Armored",
 		"cost": 2500,
 		"strength": 130,
 		"requiredTech": "Advanced Robotics",
@@ -245,7 +245,7 @@
 	},
 	{
 		"name": "Hexapod Mech Gunnery",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Siege",
 		"cost": 2000,
 		"strength": 60,
 		"rangedStrength": 110,
