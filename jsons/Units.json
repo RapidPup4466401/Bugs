@@ -240,7 +240,7 @@
 		"strength": 130,
 		"requiredTech": "Advanced Robotics",
 		"movement": 3,
-		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Cannot enter ocean tiles","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [1]"],
+		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [1]"],
 		"attackSound": "missile",
 	},
 	{
@@ -248,11 +248,11 @@
 		"unitType": "Siege",
 		"cost": 2000,
 		"strength": 60,
-		"rangedStrength": 110,
+		"rangedStrength": 150,
 		"requiredTech": "Mechs",
 		"movement": 2,
 		"range": 3,
-		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","Can pass through impassable tiles","Cannot enter ocean tiles","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack","Ranged attacks may be performed over obstacles","Consumes [1] [Uranium]","Consumes [1] [Titanium]"],
+		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","Can pass through impassable tiles","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack","Ranged attacks may be performed over obstacles","Consumes [1] [Uranium]","Consumes [1] [Titanium]"],
 		"attackSound": "missile",
 	},
 ]
