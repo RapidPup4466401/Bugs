@@ -234,7 +234,7 @@
 		"attackSound": "missile",
 	},
 	{
-		"name": "Robotic Hexapod",
+		"name": "Hexapod Mech",
 		"unitType": "Gunpowder",
 		"cost": 2500,
 		"strength": 130,
@@ -244,7 +244,7 @@
 		"attackSound": "missile",
 	},
 	{
-		"name": "Robotic Hexapod Gunnery",
+		"name": "Hexapod Mech Gunnery",
 		"unitType": "Ranged Gunpowder",
 		"cost": 2000,
 		"strength": 60,
