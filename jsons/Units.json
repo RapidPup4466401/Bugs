@@ -193,7 +193,7 @@
 		"range": 18,
 		"requiredTech": "Particle Physics",
 		"movement": 1,
-		"uniques": ["Cannot be purchased","Consumes [2] [Oil]","Consumes [1] [Titanium]","Consumes [1] [Uranium]","Consumes [1] [Microchip]","No sight","Nuclear weapon of Strength [1]","Blast radius [1]"],
+		"uniques": ["Cannot be purchased","Consumes [2] [Oil]","Consumes [2] [Titanium]","Consumes [1] [Uranium]","Consumes [1] [Microchip]","No sight","Nuclear weapon of Strength [1]","Blast radius [1]"],
 		"attackSound": "nuke",
 		"upgradesTo": "Advanced Nuclear Bomber",
 	},
@@ -206,7 +206,7 @@
 		"range": 28,
 		"requiredTech": "Advanced Robotics",
 		"movement": 1,
-		"uniques": ["Cannot be purchased","Consumes [1] [Microchip]","Consumes [1] [Electronic Circuit]","Consumes [2] [Titanium]","Consumes [2] [Uranium]","No sight","Nuclear weapon of Strength [2]","Damage taken from interception reduced by [+50]%","Blast radius [2]"],
+		"uniques": ["Cannot be purchased","Consumes [1] [Microchip]","Consumes [1] [Electronic Circuit]","Consumes [4] [Titanium]","Consumes [2] [Uranium]","No sight","Nuclear weapon of Strength [2]","Damage taken from interception reduced by [+50]%","Blast radius [2]"],
 		"attackSound": "nuke",
 	},
 	{
@@ -240,7 +240,7 @@
 		"strength": 130,
 		"requiredTech": "Advanced Robotics",
 		"movement": 3,
-		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Cannot enter ocean tiles","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Robotic Parts]"],
+		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","May withdraw before melee ([25]%)","Can pass through impassable tiles","Can move after attacking","Cannot enter ocean tiles","Can carry [1] [Missile] units","[+10]% chance to intercept air attacks","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [1]"],
 		"attackSound": "missile",
 	},
 	{
@@ -252,7 +252,7 @@
 		"requiredTech": "Mechs",
 		"movement": 2,
 		"range": 3,
-		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","Can pass through impassable tiles","Cannot enter ocean tiles","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack","Ranged attacks may be performed over obstacles","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Robotic Parts]"],
+		"uniques": ["Cannot be purchased","Double movement in [Hill]","Double movement in [Mountain]","Can pass through impassable tiles","Cannot enter ocean tiles","Can carry [2] [Missile] units","[+50]% chance to intercept air attacks","Must set up to ranged attack","Ranged attacks may be performed over obstacles","Consumes [1] [Uranium]","Consumes [1] [Titanium]"],
 		"attackSound": "missile",
 	},
 ]
