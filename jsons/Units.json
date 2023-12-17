@@ -156,7 +156,7 @@
 		"range": 60,
 		"requiredTech": "Satellites",
 		"movement": 1,
-		"uniques": ["Cannot be purchased","Consumes [1] [Aluminum]","Consumes [2] [Uranium]","Consumes [1] [Titanium]","Blast radius [4]","Nuclear weapon of Strength [3]","Self-destructs when attacking"],
+		"uniques": ["Cannot be purchased","Consumes [1] [Aluminum]","Consumes [2] [Uranium]","Consumes [1] [Titanium]","Blast radius [4]","[-100]% maintenance costs","Nuclear weapon of Strength [3]","Self-destructs when attacking"],
 		"attackSound": "nuke",
 	},
 	{
@@ -168,7 +168,7 @@
 		"range": 4,
 		"requiredTech": "Mobile Tactics",
 		"movement": 1,
-		"uniques": ["Consumes [1] [Uranium]","Blast radius [1]","Nuclear weapon of Strength [0]","Self-destructs when attacking"],
+		"uniques": ["Consumes [1] [Uranium]","Blast radius [1]","[-100]% maintenance costs","Nuclear weapon of Strength [0]","Self-destructs when attacking"],
 		"attackSound": "nuke",
 	},
 	{
