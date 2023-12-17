@@ -338,7 +338,7 @@
 		"uniques": ["[+1 Food] from [Farm] tiles [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [1] tiles"],
 	},
 	{
-		"name": "Agriculture Management Center",
+		"name": "Farming Management Center",
 		"maintenance": 3,
 		"cost": 300,
 		"science": 1,
@@ -347,6 +347,17 @@
 		"requiredBuilding": "Granary",
 		"requiredTech": "Computers",
 		"uniques": ["[+2 Food] from [Farm] tiles [in this city]","[+10]% Food [in this city]","[+5]% Production [in this city]","Destroyed when the city is captured","Must have an owned [Farm] within [2] tiles"],
+	},
+	{
+		"name": "Ranching Management Center",
+		"maintenance": 3,
+		"cost": 300,
+		"science": 1,
+		"production": 3,
+		"food": 2,
+		"requiredBuilding": "Granary",
+		"requiredTech": "Computers",
+		"uniques": ["[+2 Food] from [Pasture] tiles [in this city]","[+10]% Food [in this city]","[+5]% Production [in this city]","Destroyed when the city is captured","Must have an owned [Pasture] within [2] tiles"],
 	},
 	{
 		"name": "Aquaculture Management Center",
