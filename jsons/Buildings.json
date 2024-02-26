@@ -74,9 +74,9 @@
 		"maintenance": 8,
 		"cost": 1000,
 		"production": 3,
-		"requiredBuilding": "Assembly Plant",
 		"requiredTech": "Radar",
 		"uniques": [
+			"Only available <in cities with a [Assembly Plant]>",
 			"Consumes [1] [Steel]",
 			"Consumes [1] [Machinery]",
 			"Consumes [1] [Electronic Component]",
@@ -105,7 +105,6 @@
 		"maintenance": 5,
 		"cost": 800,
 		"production": 10,
-		"requiredBuilding": "Vehicle Assembly Plant",
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Only available <in cities with a [Vehicle Assembly Plant]>",
@@ -138,10 +137,9 @@
 		"cost": 2000,
 		"production": 4,
 		"gold": 6,
-		"requiredBuilding": "Wire Manufacturing Plant",
 		"requiredTech": "Electronics",
 		"uniques": [
-			"Only available <in cities with a [Factory]>",
+			"Only available <in cities with a [Wire Manufacturing Plant]>",
 			"Consumes [1] [Microchip]",
 			"Consumes [1] [Robotic Parts]",
 			"Consumes [1] [Copper]",
@@ -508,12 +506,12 @@
 		"cost": 1800,
 		"production": 9,
 		"happiness": -4,
-		"requiredBuilding": "Steel Mill",
 		"requiredTech": "Electronics",
 		"uniques": [
+			"Only available <in cities with a [Steel Mill]>",
 			"Only available <in cities with a [Manufacturing Plant]>",
 			"Consumes [3] [Iron]",
-			"Consumes [3] [Coal]",
+			"Consumes [2] [Coal]",
 			"Provides [8] [Steel]",
 			"Destroyed when the city is captured"],
 	},
@@ -524,7 +522,7 @@
 		"production": 4,
 		"requiredTech": "Industrialization",
 		"uniques": [
-			"Only available <in cities with a [Factory>",
+			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Manganese]",
 			"Provides [2] [Steel]",
@@ -536,9 +534,9 @@
 		"cost": 500,
 		"production": 3,
 		"science": 1,
-		"requiredBuilding": "Manufacturing Plant",
 		"requiredTech": "Biology",
 		"uniques": [
+			"Only available <in cities with a [Manufacturing Plant]>",
 			"Consumes [1] [Sulfur]",
 			"Provides [2] [Rubber]",
 			"Destroyed when the city is captured"],
@@ -551,6 +549,7 @@
 		"happiness": 2,
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
+			"Only available <in cities with a [Assembly Plant]>",
 			"Consumes [1] [Rubber]",
 			"Consumes [1] [Steel]",
 			"Consumes [1] [Aluminum]",
@@ -637,6 +636,34 @@
 			"Destroyed when the city is captured"],
 	},
 
+	/// Cultural Pack
+	/ Cultural Base Blocks
+
+	{
+		"name": "Community Center",
+		"maintenance": 2,
+		"cost": 400,
+		"culture": 4,
+		"happiness": 2,
+		"requiredTech": "Radio",
+		"uniques": [
+			"Only available <in cities with a [Cultural Preserveration Center]>",
+			"[+10]% [Culture] [in this city]",
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Cultural Preservation Center",
+		"maintenance": 5,
+		"cost": 500,
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 3},
+		"requiredTech": "Archaeology",
+		"uniques": [
+			"[+10]% [Culture] [in this city]",
+			"Destroyed when the city is captured"],			
+	},
+	
 	/// Military Pack
 	
 	{
@@ -1277,7 +1304,7 @@
 		"cityStrength": 15,
 		"requiredBuilding": "Supply Depot",
 		"requiredTech": "Combined Arms",
-		"uniques": ["[10] Unit Supply","Destroyed when the city is captured"],
+		"uniques": ["[15] Unit Supply","Destroyed when the city is captured"],
 	},
 	{
 		"name": "National Military Academy",
@@ -1309,14 +1336,32 @@
 		"requiredTech": "Archaeology",
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
-			"[+40]% Culture [in this city]",
-			"[+10]% Science [in this city]",
+			"[+50]% [Culture] [in this city]",
+			"[+10]% [Science] [in this city]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased",
 			"Unsellable",
 			"Destroyed when the city is captured"],
 	},
-
+	{
+		"name": "National Culture Center",
+		"isNationalWonder": "True",
+		"maintenance": 12,
+		"cost": 1500,
+		"culture": 9,
+		"happiness": 3,
+		"specialistSlots": {"Artist": 5},
+		"requiredTech": "Archaeology",
+		"uniques": [
+			"Only available <in cities with [Cultural Preservation Center]>",
+			"[+70]% [Culture] [in this city]",
+			"[+5 Culture] [in all cities]",
+			"Cannot be purcahsed",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			],
+	},
+			
 	/// Buildings that primarily focuses on increasing science and/or science-related aspects of the city. 
 
 	{
@@ -1482,9 +1527,9 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Construction",
 		"uniques": [
-			"[+1 Culture] [in this city] <during the [Atomic era]>",
-			"[+2 Culture] [in this city] <during the [Information era]>",
-			"[+4 Culture] [in this city] <during the [Future era]>",
+			"[+1 Culture] [in this city] <during the [Atomic era]> <hidden from users>",
+			"[+2 Culture] [in this city] <during the [Information era]> <hidden from users>",
+			"[+4 Culture] [in this city] <during the [Future era]> <hidden from users>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -1495,9 +1540,9 @@
 		"cityHealth": 25,
 		"requiredTech": "Construction",
 		"uniques": [
-			"[+1 Culture] [in this city] <during the [Atomic era]>",
-			"[+2 Culture] [in this city] <during the [Information era]>",
-			"[+4 Culture] [in this city] <during the [Future era]>",
+			"[+1 Culture] [in this city] <during the [Atomic era]> <hidden from users>",
+			"[+2 Culture] [in this city] <during the [Information era]> <hidden from users>",
+			"[+4 Culture] [in this city] <during the [Future era]> <hidden from users>",
 			"Only available <in cities with a [Walls>",
 			"Destroyed when the city is captured","Obsolete with [Dynamite]"],
 	},
@@ -1509,9 +1554,9 @@
 		"requiredTech": "Engineering",
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
-			"[+1 Culture] [in this city] <during the [Atomic era]>",
-			"[+2 Culture] [in this city] <during the [Information era]>",
-			"[+3 Culture] [in this city] <during the [Future era]>",
+			"[+1 Culture] [in this city] <during the [Atomic era]> <hidden from users>",
+			"[+2 Culture] [in this city] <during the [Information era]> <hidden from users>",
+			"[+3 Culture] [in this city] <during the [Future era]> <hidden from users>",
 			"Destroyed when the city is captured"],
 	},
 	{
