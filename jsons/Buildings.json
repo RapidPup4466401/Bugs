@@ -1,6 +1,6 @@
 
 [
-	//Base Production Buildings
+	///Base Production Buildings
 	{
 		"name": "Assembly Plant",
 		"maintenance": 2,
@@ -68,7 +68,7 @@
 			"[+25]% [Production] [in this city] <with [Aluminum]>",
 			"Destroyed when the city is captured"],
 	
-	//Industry for all nation cities, buildings that increase production capabilities and/or resources
+	///Industry for all nation cities, buildings that increase production capabilities and/or resources
 	{
 		"name": "Aircraft Assembly Plant",
 		"maintenance": 8,
