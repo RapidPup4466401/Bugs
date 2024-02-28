@@ -489,6 +489,18 @@
 			"Destroyed when the city is captured"],
 	},
 	{
+		"name": "Steel Forge",
+		"maintenance": 1,
+		"cost": 120,
+		"production": 2,
+		"requiredTech": "Steel",
+		"uniques": [
+			"Only available <in cities with a [Forge]>",
+			"Consumes [1] [Iron]",
+			"Provides [1] [Steel] <with [Iron]>",
+			"Destroyed when the city is captured"],
+	},
+	{
 		"name": "Steel Mill",
 		"maintenance": 5,
 		"cost": 1200,
@@ -499,7 +511,7 @@
 			"Only available <in cities with a [Steel Works]>",
 			"Consumes [2] [Iron]",
 			"Consumes [2] [Coal]",
-			"Provides [5] [Steel]",
+			"Provides [5] [Steel] <with [Iron]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -514,7 +526,7 @@
 			"Only available <in cities with a [Manufacturing Plant]>",
 			"Consumes [3] [Iron]",
 			"Consumes [2] [Coal]",
-			"Provides [8] [Steel]",
+			"Provides [8] [Steel] <with [Iron]> <with [Coal]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -527,7 +539,7 @@
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Manganese]",
-			"Provides [2] [Steel]",
+			"Provides [2] [Steel] <with [Iron]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -728,6 +740,19 @@
 		"happiness": -3,
 		"requiredTech": "Military Science",
 		"uniques": ["Destroyed when the city is captured"],
+	},
+	{
+		"name": "Distribution Center",
+		"maintenance": 3,
+		"cost": 500,
+		"cityStrength": 5,
+		"requiredTech": "Railroads",
+		"uniques": [
+			"[2] Unit Supply <when not at war> <with [Steel]>",
+			"[2] Unit Supply <when at war> <with [Steel]>",
+			"[1] [Happiness] [in this city] <when not at war> <with [Steel]>",
+			"[-3] [Happiness] [in this city] <when at war> <with [Steel]>",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Elite Unit Training Facilities",
@@ -958,14 +983,18 @@
 			"New [{Military}] units start with [80] Experience [in this city]",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured"],
-	},
+	},	
 	{
 		"name": "Supply Depot",
-		"maintenance": 5,
+		"maintenance": 6,
 		"cost": 700,
 		"cityStrength": 5,
 		"requiredTech": "Military Science",
-		"uniques": ["[3] Unit Supply","Destroyed when the city is captured"],
+		"uniques": [
+			"[2] Unit Supply <when not at war> <with [Steel]>",
+			"[6] Unit Supply <when at war> <with [Steel]>",
+			"[-3] [Happiness] [in this city] <when at war> <with [Steel]>",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Tunnels",
