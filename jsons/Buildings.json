@@ -1555,7 +1555,7 @@
 		"requiredTech": "Engineering",
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
-			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
+			"<hidden from users> [+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
 			"Obsolete with [Combustion]",
 			"Destroyed when the city is captured"],
 	},
