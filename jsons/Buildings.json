@@ -1103,7 +1103,7 @@
 			"Destroyed when the city is captured"],
 	},
 	{
-		"name": "Polymetallic Nodules Extraction Plant A",
+		"name": "Polymetallic Nodules Extraction Plant",
 		"maintenance": 10,
 		"cost": 2000,
 		"production": 2,
@@ -1119,13 +1119,12 @@
 			"Destroyed when the city is captured"],
 	},
 	{
-		"name": "Polymetallic Nodules Extraction Plant B",
-		"maintenance": 15,
-		"cost": 2500,
-		"production": 5,
+		"name": "Polymetallic Nodules Extraction Plant [Variant A]",
+		"maintenance": 19,
+		"cost": 3500,
+		"production": 8,
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
-			"Only available <in cities with a [Deep Sea Mining Research Center]>",
 			"Consumes [1] [Polymetallic Nodules]",
 			"Provides [2] [Titanium]",
 			"Provides [2] [Silver]",
