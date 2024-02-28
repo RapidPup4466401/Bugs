@@ -1527,9 +1527,7 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Construction",
 		"uniques": [
-			"[+1 Culture] [in this city] <during the [Atomic era]> <hidden from users>",
-			"[+2 Culture] [in this city] <during the [Information era]> <hidden from users>",
-			"[+4 Culture] [in this city] <during the [Future era]> <hidden from users>",
+			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -1540,9 +1538,7 @@
 		"cityHealth": 25,
 		"requiredTech": "Construction",
 		"uniques": [
-			"[+1 Culture] [in this city] <during the [Atomic era]> <hidden from users>",
-			"[+2 Culture] [in this city] <during the [Information era]> <hidden from users>",
-			"[+4 Culture] [in this city] <during the [Future era]> <hidden from users>",
+			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
 			"Only available <in cities with a [Walls>",
 			"Obsolete with [Dynamite]",
 			"Destroyed when the city is captured"],
@@ -1555,7 +1551,7 @@
 		"requiredTech": "Engineering",
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
-			"<hidden from users> [+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
+			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
 			"Obsolete with [Combustion]",
 			"Destroyed when the city is captured"],
 	},
@@ -1567,7 +1563,7 @@
 		"cityHealth": 35,
 		"requiredTech": "Physics",
 		"uniques": [
-			"[+3 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
+			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
 			"Only available <in cities with a [Walls]>",
 			"Obsolete with [Combustion]",
 			"Destroyed when the city is captured"],
@@ -1639,7 +1635,7 @@
 		"requiredTech": "Physics",
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
-			"[+3 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
+			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
 			"Destroyed when the city is captured",
 			"Obsolete with [Military Science]",
 			"Must be next to [River]"],
