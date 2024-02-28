@@ -748,7 +748,7 @@
 		"cityStrength": 5,
 		"requiredTech": "Railroads",
 		"uniques": [
-			"[2] Unit Supply <when not at war> <with [Steel]>",
+			"[1] Unit Supply <when not at war> <with [Steel]>",
 			"[2] Unit Supply <when at war> <with [Steel]>",
 			"[1] [Happiness] [in this city] <when not at war> <with [Steel]>",
 			"[-3] [Happiness] [in this city] <when at war> <with [Steel]>",
