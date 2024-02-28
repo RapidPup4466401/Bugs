@@ -1,6 +1,6 @@
 
 [
-	///Base Production Buildings
+	//Base Production Buildings
 	{
 		"name": "Assembly Plant",
 		"maintenance": 2,
@@ -69,7 +69,7 @@
 			"Destroyed when the city is captured"],
 	},
 		
-	///Industry for all nation cities, buildings that increase production capabilities and/or resources
+	//Industry for all nation cities, buildings that increase production capabilities and/or resources
 	
 	{
 		"name": "Aircraft Assembly Plant",
@@ -638,8 +638,8 @@
 			"Destroyed when the city is captured"],
 	},
 
-	/// Cultural Pack
-	/// Cultural Base Blocks
+	// Cultural Pack
+	// Cultural Base Blocks
 
 	{
 		"name": "Community Center",
@@ -666,7 +666,7 @@
 			"Destroyed when the city is captured"],			
 	},
 	
-	/// Military Pack
+	// Military Pack
 	
 	{
 		"name": "Advanced Individual Training Facilities",
@@ -985,8 +985,6 @@
 		"uniques": ["Destroyed when the city is captured"],
 	},	
 
-	///
-
 	//Deep Sea Mining Pack
 
 	{
@@ -1138,7 +1136,7 @@
 			"Destroyed when the city is captured"],
 	},
 
-	/ Buildings that primarily procude Food and food-related aspects to the city. 
+	// Buildings that primarily procude Food and food-related aspects to the city. 
 
 	{
 		"name": "Algae Farm",
@@ -1296,7 +1294,7 @@
 			"Must have an owned [Farm] within [1] tiles"],
 	},
 
-	/// National Buildings
+	// National Buildings
 
 	{
 		"name": "Logistical Hub",
@@ -1364,7 +1362,7 @@
 			],
 	},
 			
-	/// Buildings that primarily focuses on increasing science and/or science-related aspects of the city. 
+	// Buildings that primarily focuses on increasing science and/or science-related aspects of the city. 
 
 	{
 		"name": "Aquaculture Research Lab",
@@ -1511,7 +1509,7 @@
 			"Destroyed when the city is captured"],
 	},
 
-	/// All the medieval stuff I didn't care much for. Might provide cultural uses later on in game if I can code that in.
+	// All the medieval stuff I didn't care much for. Might provide cultural uses later on in game if I can code that in.
 	
 	{
 		"name": "Ore Depot",
@@ -1734,6 +1732,6 @@
 			"Only available <in cities without a [Ranger Training]>",
 			"New [{Military} {Land} {Sword}] units start with [50] Experience [in this city]",
 			"Destroyed when the city is captured",
-			"Obsolete with [Rifling]"],
-	},
+			"Obsolete with [Rifling]"]
+	}
 ]
