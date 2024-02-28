@@ -780,7 +780,7 @@
 			"Destroyed when the city is captured"],
 	},
 	{
-		"name": "Firearms Manufacturing Plant ",
+		"name": "Firearms Manufacturing Plant",
 		"cost": 600,
 		"maintenance": 1,
 		"production": 2,
@@ -843,13 +843,13 @@
 		"cost": 900,
 		"maintenance": 5,
 		"production": 3,
-		"requiredBuilding": "Firearms Manufacturing Plant",
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
+			"Only available <in cities with a [Firearms Manufacturing Plant]>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Steel]",
 			"Consumes [1] [Titanium]",
-			"New [{Military}] units start with [20] Experience [in this city] <with [Steel]>",
+			"New [Military] units start with [20] Experience [in this city] <with [Steel]>",
 			"Destroyed when the city is captured"],
 	},
 	{
