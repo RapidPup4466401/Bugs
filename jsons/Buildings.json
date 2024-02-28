@@ -1710,5 +1710,5 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Guilds",
 		"uniques": ["Only available <in cities without a [Ranger Training]>","New [{Military} {Land} {Sword}] units start with [50] Experience [in this city]","Destroyed when the city is captured","Obsolete with [Rifling]"],
-	},
-],
+	}
+]
