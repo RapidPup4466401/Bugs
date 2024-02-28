@@ -39,7 +39,7 @@
 		"uniques": [
 			"Must be on [Coastal]",
 			"[+10]% Production when constructing [{Water}] units [in this city]",
-			"[+5]% [Production] [in this city]",
+			"[+10]% [Production] [in this city] <with [Iron]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -52,7 +52,7 @@
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
 			"Consumes [1] [Microchip]",
-			"[+15]% [Production] [in this city] <with [Microchip]>",
+			"[+20]% [Production] [in this city] <with [Microchip]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -65,7 +65,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Manufacturing Plant]>",
-			"[+25]% [Production] [in this city] <with [Aluminum]>",
+			"[+20]% [Production] [in this city] <with [Aluminum]>",
 			"Destroyed when the city is captured"],
 	},
 		
@@ -83,7 +83,7 @@
 			"Consumes [1] [Machinery]",
 			"Consumes [1] [Electronic Component]",
 			"Provides [3] [Aircraft Parts]",
-			"[+30]% Production when constructing [Air] units [in this city]",
+			"[+30]% Production when constructing [Air] units [in this city] <with [Steel]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -96,7 +96,7 @@
 		"uniques": [
 			"Only available <in cities with a [Shipyard]>",
 			"[+50]% Production when constructing [Aircraft Carrier] units [in this city] <with [Aluminum]>",
-			"New [Aircraft Carrier] units start with [60] Experience [in this city]",
+			"New [Aircraft Carrier] units start with [60] Experience [in this city] <with [Aluminum]>",
 			"Destroyed when the city is captured",
 			"Limited to [1] per Civilization",
 			"Must be on [Coastal]",
@@ -110,7 +110,7 @@
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Only available <in cities with a [Vehicle Assembly Plant]>",
-			"[+30]% Production when constructing [{Armored}] units [in this city]",
+			"[+30]% Production when constructing [Armored] units [in this city] <with [Steel]>",
 			"Consumes [1] [Vehicle Parts]",
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Steel]",
@@ -130,7 +130,7 @@
 			"Consumes [1] [Robotic Parts]",
 			"Consumes [1] [Electronic Component]",
 			"Provides [4] [Aircraft Parts]",
-			"[+80]% Production when constructing [{Air}] units [in this city]",
+			"[+80]% Production when constructing [{Air}] units [in this city] <with [Microchip]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -147,7 +147,7 @@
 			"Consumes [1] [Copper]",
 			"Consumes [1] [Cobalt]",
 			"Consumes [1] [Gold Ore]",
-			"Provides [8] [Wire]",
+			"Provides [8] [Wire] <with [Microchip]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -159,7 +159,7 @@
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
 			"Destroyed when the city is captured",
-			"Provides [1] [Vehicle Parts]",
+			"Provides [1] [Vehicle Parts] <with [Coal]>",
 			"Obsolete with [Plastics]"],
 	},
 	{
