@@ -1652,7 +1652,7 @@
 		"uniques": [
 			"Only available <in cities with a [Castle]>",
 			"Requires at least [10] population",
-			"[+8 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
+			"[+8 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
 			"Obsolete with [Flight]",
 			"Destroyed when the city is captured"],
 	},
