@@ -67,8 +67,10 @@
 			"Only available <in cities with a [Manufacturing Plant]>",
 			"[+25]% [Production] [in this city] <with [Aluminum]>",
 			"Destroyed when the city is captured"],
-	
+	},
+		
 	///Industry for all nation cities, buildings that increase production capabilities and/or resources
+	
 	{
 		"name": "Aircraft Assembly Plant",
 		"maintenance": 8,
@@ -880,7 +882,7 @@
 			"Destroyed when the city is captured"],
 	},
 	{
-		"name": "Military Communications Array"
+		"name": "Military Communications Array",
 		"cost": 350,
 		"maintenance": 3,
 		"happiness": -1,
@@ -1732,6 +1734,6 @@
 			"Only available <in cities without a [Ranger Training]>",
 			"New [{Military} {Land} {Sword}] units start with [50] Experience [in this city]",
 			"Destroyed when the city is captured",
-			"Obsolete with [Rifling]"]
-	}
+			"Obsolete with [Rifling]"],
+	},
 ]
