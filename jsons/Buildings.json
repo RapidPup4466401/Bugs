@@ -181,13 +181,14 @@
 	{
 		"name": "Ceramics Factory",
 		"cost": 750,
-		"maintenance": 4,
+		"maintenance": 3,
 		"production": 4,
 		"requiredTech": "Industrialization",
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
 			"Only available <in cities with a [Kiln]>",
-			"Provides [3] [Ceramics]","Destroyed when the city is captured"],
+			"Provides [3] [Ceramics]",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Ceramic Fibers Manufacturing Plant",
@@ -198,7 +199,7 @@
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
 			"Consumes [2] [Ceramics]",
-			"Provides [2] [Fibers]",
+			"Provides [3] [Fibers] <with [Ceramics]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -239,7 +240,7 @@
 			"Only available <in cities with a [Factory]>",
 			"Consumes [1] [Electronic Component]",
 			"Consumes [1] [Fibers]",
-			"Provides [2] [Electronic Circuit]",
+			"Provides [2] [Electronic Circuit] <with [Electronic Component]> <with [Fibers]>",
 			"Destroyed when the city is captured"],
 	},
 	{
