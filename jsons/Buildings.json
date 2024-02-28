@@ -1356,7 +1356,7 @@
 			"Only available <in cities with [Cultural Preservation Center]>",
 			"[+70]% [Culture] [in this city]",
 			"[+5 Culture] [in all cities]",
-			"Cannot be purcahsed",
+			"Cannot be purchased",
 			"Unsellable",
 			"Destroyed when the city is captured",
 			],
@@ -1655,7 +1655,7 @@
 		"cost": 50,
 		"requiredTech": "Archery",
 		"uniques": [
-			"New [{Military} {Land} {Archery}] units start with [15] Experience [in this city]",
+			"New [Archery] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured",
 			"Obsolete with [Gunpowder]"],
 	},
@@ -1667,7 +1667,7 @@
 		"requiredBuilding": "Archery Training",
 		"requiredTech": "Construction",
 		"uniques": [
-			"New [{Military} {Land} {Archery}] units start with [25] Experience [in this city]",
+			"New [Archery] units start with [25] Experience [in this city]",
 			"Destroyed when the city is captured",
 			"Obsolete with [Gunpowder]"],
 	},
@@ -1682,7 +1682,7 @@
 		"happiness": 2,
 		"uniques": [
 			"Only available <in cities without a [Way of the Blade Training]>",
-			"New [{Military} {Land} {Archery}] units start with [60] Experience [in this city]",
+			"New [Archery] units start with [60] Experience [in this city]",
 			"Destroyed when the city is captured",
 			"Obsolete with [Gunpowder]"],
 	},
@@ -1693,7 +1693,7 @@
 		"requiredTech": "Animal Husbandry",
 		"culture": 1,
 		"uniques": [
-			"New [{Military} {Land} {Mounted}] units start with [15] Experience [in this city]",
+			"New [Mounted] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured",
 			"Obsolete with [Gunpowder]"],
 	},
@@ -1703,7 +1703,7 @@
 		"cost": 25,
 		"food": -1,
 		"uniques": [
-			"New [{Military} {Land} {Sword}] units start with [10] Experience [in this city]",
+			"New [Sword] units start with [10] Experience [in this city]",
 			"Destroyed when the city is captured",
 			"Obsolete with [Rifling]"],
 	},
@@ -1715,7 +1715,7 @@
 		"requiredBuilding": "Melee Combat Training",
 		"requiredTech": "Iron Working",
 		"uniques": [
-			"New [{Military} {Land} {Sword}] units start with [20] Experience [in this city]",
+			"New [Sword] units start with [20] Experience [in this city]",
 			"Destroyed when the city is captured",
 			"Obsolete with [Rifling]"],
 	},
@@ -1730,7 +1730,7 @@
 		"requiredTech": "Guilds",
 		"uniques": [
 			"Only available <in cities without a [Ranger Training]>",
-			"New [{Military} {Land} {Sword}] units start with [50] Experience [in this city]",
+			"New [Sword] units start with [50] Experience [in this city]",
 			"Destroyed when the city is captured",
 			"Obsolete with [Rifling]"]
 	}
