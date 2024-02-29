@@ -668,17 +668,52 @@
 	},
 	{
 		"name": "Cultural Preservation Center",
-		"maintenance": 5,
+		"maintenance": 9,
 		"cost": 500,
 		"culture": 3,
 		"happiness": 1,
-		"specialistSlots": {"Artist": 3},
+		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Archaeology",
 		"uniques": [
 			"[+10]% [Culture] [in this city]",
 			"Destroyed when the city is captured"],			
 	},
-	
+
+	// Cultural buildings as normal for all nation states.
+
+	{
+		"name": "Arts Studios",
+		"maintenance": 2,
+		"cost": 1200,
+		"culture": 5,
+		"happiness": 1,
+		"requiredTech": "Archaeology",
+		"specialistSlots": {"Artist": 2},
+		"uniques": [
+			"Only available <in cities with a [Cultural Preserveration Center]>",		
+	},
+	{
+		"name": "Heritage Site",
+		"maintenance": 3,
+		"cost": 200,
+		"culture": 3,
+		"happiness": 3,
+		"requiredTech": "Archaeology",
+		"uniques": [
+			"Only available <in cities with a [Cultural Preserveration Center]>",		
+	},
+	{
+		"name": "Performance College",
+		"maintenance": 5,
+		"cost": 1500,
+		"culture": 8,
+		"requiredTech": "Acoustics",
+		"specialistSlots": {"Artist": 2},
+		"uniques": [
+			"Only available <in cities with a [University]>",
+			"Only available <in cities with a [Theatre]>",
+	},
+		
 	// Military Pack
 	
 	{
@@ -981,7 +1016,7 @@
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Titanium]",
 			"Consumes [1] [Microchip]",
-			"New [{Military}] units start with [80] Experience [in this city]",
+			"New [{Military}] units start with [80] Experience [in this city] <with [Microchip]>",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured"],
 	},	
@@ -1333,7 +1368,10 @@
 		"cityStrength": 15,
 		"requiredBuilding": "Supply Depot",
 		"requiredTech": "Combined Arms",
-		"uniques": ["[15] Unit Supply","Destroyed when the city is captured"],
+		"uniques": [
+			"[15] Unit Supply <when not at war>",
+			"[20] Unit Supply <when at war>",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "National Military Academy",
@@ -1556,6 +1594,7 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Construction",
 		"uniques": [
+			"[+1 Culture] [in this city] <during the [Information era]> <hidden from users>",
 			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed>",
 			"Destroyed when the city is captured"],
 	},
@@ -1654,6 +1693,22 @@
 			"Requires at least [10] population",
 			"[+8 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
 			"Obsolete with [Flight]",
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Mountain Fortress",
+		"cost": 1500,
+		"maintenance": 12,
+		"cityHealth": 120,
+		"citystrength": 35,
+		"requiredTech": "Physics",
+		"uniques": [
+			"Only available <in cities with a [{Castle}{Fortress}]>",
+			"Requires at least [15] population",
+			"[+12 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"Obsolete with [Electronics]",
+			"[-2] Unit Supply <when at war>",
+			"Must have an owned [Moutain] within [1] tiles",
 			"Destroyed when the city is captured"],
 	},
 	{
