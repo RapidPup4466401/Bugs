@@ -690,7 +690,7 @@
 		"requiredTech": "Archaeology",
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
-			"Only available <in cities with a [Cultural Preserveration Center]>",		
+			"Only available <in cities with a [Cultural Preserveration Center]>"],		
 	},
 	{
 		"name": "Heritage Site",
@@ -700,7 +700,7 @@
 		"happiness": 3,
 		"requiredTech": "Archaeology",
 		"uniques": [
-			"Only available <in cities with a [Cultural Preserveration Center]>",		
+			"Only available <in cities with a [Cultural Preserveration Center]>"],		
 	},
 	{
 		"name": "Performance College",
@@ -711,7 +711,7 @@
 		"specialistSlots": {"Artist": 2},
 		"uniques": [
 			"Only available <in cities with a [University]>",
-			"Only available <in cities with a [Theatre]>",
+			"Only available <in cities with a [Theatre]>"],
 	},
 		
 	// Military Pack
