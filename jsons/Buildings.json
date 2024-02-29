@@ -1724,12 +1724,13 @@
 		"citystrength": 35,
 		"requiredTech": "Physics",
 		"uniques": [
-			"Only available <in cities with a [{Castle}{Fortress}]>",
+			"Only available <in cities with a [Castle]> <hidden from users>",
+			"Only available <in cities with a [Fortress]> <hidden from users>",
 			"Requires at least [15] population",
 			"[+12 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
 			"Obsolete with [Electronics]",
 			"[-2] Unit Supply <when at war>",
-			"Must have an owned [Moutain] within [1] tiles",
+			"Must have an owned [Moutain] within [1] tiles <hidden from users>",
 			"Destroyed when the city is captured"],
 	},
 	{
