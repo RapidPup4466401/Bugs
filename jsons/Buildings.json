@@ -11,9 +11,9 @@
 		"requiredTech": "Combustion",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-			"[+5]% [Production] [in this city] <if [Factory] is constructed> <with [Coal]> <hidden from users>",
-			"[+5]% [Production] [in this city] <if [Manufacturing Plant] is constructed> <with [Coal]> <hidden from users>",
-			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Coal]> <hidden from users>",
+			"[+5]% [Production] [in this city] <if [Factory] is constructed> <with [Coal]><hidden from users>",
+			"[+5]% [Production] [in this city] <if [Manufacturing Plant] is constructed> <with [Coal]><hidden from users>",
+			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Coal]><hidden from users>",
 			"[+10]% [Production] [in this city] <with [Coal]>",
 			"Destroyed when the city is captured"],
 	},
@@ -26,8 +26,8 @@
 		"requiredTech": "Plastics",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
-			"[+5]% [Production] [in this city] <if [Factory] is constructed> <with [Coal]> <hidden from users>",
-			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Coal]> <hidden from users>",
+			"[+5]% [Production] [in this city] <if [Factory] is constructed> <with [Coal]><hidden from users>",
+			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <with [Coal]>",
 			"Destroyed when the city is captured"],
 	},
@@ -41,9 +41,9 @@
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
 			"Must be on [Coastal]",
-			"[+5]% [Production] [in this city] <if [Factory] is constructed> <hidden from users>",
-			"[+5]% [Production] [in this city] <if [Manufacturing Plant] is constructed> <with [Iron]> <hidden from users>",
-			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Iron]> <hidden from users>",
+			"[+5]% [Production] [in this city] <if [Factory] is constructed><hidden from users>",
+			"[+5]% [Production] [in this city] <if [Manufacturing Plant] is constructed> <with [Iron]><hidden from users>",
+			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Iron]><hidden from users>",
 			"[+10]% Production when constructing [{Water}] units [in this city]",
 			"[+10]% [Production] [in this city] <with [Iron]>",
 			"Destroyed when the city is captured"],
@@ -58,7 +58,7 @@
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
 			"Consumes [1] [Microchip]",
-			"[+5]% [Production] [in this city] <if [Factory] is constructed> <hidden from users>",
+			"[+5]% [Production] [in this city] <if [Factory] is constructed><hidden from users>",
 			"[+20]% [Production] [in this city] <with [Microchip]>",
 			"Destroyed when the city is captured"],
 	},
@@ -72,7 +72,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Manufacturing Plant]>",
-			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <hidden from users>",
+			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed><hidden from users>",
 			"[+20]% [Production] [in this city] <with [Aluminum]>",
 			"Destroyed when the city is captured"],
 	},
@@ -86,7 +86,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Manufacturing Plant]>",
-			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <hidden from users>",
+			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed><hidden from users>",
 			"[+20]% [Production] [in this city] <with [Aluminum]>",
 			"Destroyed when the city is captured"],
 	},
@@ -1616,7 +1616,7 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Construction",
 		"uniques": [
-			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -1627,7 +1627,7 @@
 		"cityHealth": 25,
 		"requiredTech": "Construction",
 		"uniques": [
-			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Only available <in cities with a [Walls>",
 			"Obsolete with [Dynamite]",
 			"Destroyed when the city is captured"],
@@ -1640,7 +1640,7 @@
 		"requiredTech": "Engineering",
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
-			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Combustion]",
 			"Destroyed when the city is captured"],
 	},
@@ -1652,7 +1652,7 @@
 		"cityHealth": 35,
 		"requiredTech": "Physics",
 		"uniques": [
-			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Only available <in cities with a [Walls]>",
 			"Obsolete with [Combustion]",
 			"Destroyed when the city is captured"],
@@ -1685,7 +1685,7 @@
 		"requiredTech": "Engineering",
 		"uniques": [
 			"Only available <in cities with a [Battlements]>",
-			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Dynamite]",
 			"Destroyed when the city is captured"],
 	},
@@ -1699,7 +1699,7 @@
 		"happiness": 2,
 		"culture": 3,
 		"uniques": [
-			"[+3 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"[+3 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -1712,7 +1712,7 @@
 		"uniques": [
 			"Only available <in cities with a [Castle]>",
 			"Requires at least [10] population",
-			"[+8 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"[+8 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Flight]",
 			"Destroyed when the city is captured"],
 	},
@@ -1724,13 +1724,13 @@
 		"citystrength": 35,
 		"requiredTech": "Physics",
 		"uniques": [
-			"Only available <in cities with a [Castle]> <hidden from users>",
-			"Only available <in cities with a [Fortress]> <hidden from users>",
+			"Only available <in cities with a [Castle]><hidden from users>",
+			"Only available <in cities with a [Fortress]><hidden from users>",
 			"Requires at least [15] population",
-			"[+12 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"[+12 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Electronics]",
 			"[-2] Unit Supply <when at war>",
-			"Must have an owned [Moutain] within [1] tiles <hidden from users>",
+			"Must have an owned [Moutain] within [1] tiles<hidden from users>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -1741,7 +1741,7 @@
 		"requiredTech": "Physics",
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
-			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed> <hidden from users>",
+			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Destroyed when the city is captured",
 			"Obsolete with [Military Science]",
 			"Must be next to [River]"],
