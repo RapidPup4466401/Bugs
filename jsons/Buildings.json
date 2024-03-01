@@ -1622,6 +1622,8 @@
 			"[+3 Culture] [in this city] <during the [Information era]> <hidden from users>",
 			"[+4 Culture] [in this city] <during the [Information era]> <hidden from users> ",
 			"[+5 Culture] [in this city] <during the [Information era]><hidden from users> ",
+			"[+6 Culture] [in this city] <during the [Information era]<hidden from users>> ",
+			"[+7 Culture] [in this city] <hidden from users><during the [Information era]> ",
 			"Destroyed when the city is captured"],
 	},
 	{
