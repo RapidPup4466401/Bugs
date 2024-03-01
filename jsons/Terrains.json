@@ -27,6 +27,11 @@
 		"science": 2,
 		"gold": 1,
 		"movementCost": 1,
+		"uniques": [
+            		"[+3] to Fertility for Map Generation",
+            		"A Region is formed with at least [40]% [Deep Ocean] tiles, with priority [4]",
+            		"A Region can not contain more [Abyssal Ocean] tiles than [Deep Ocean] tiles",
+            		"Every [15] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
 		"name": "Abyssal Ocean",
@@ -34,12 +39,26 @@
 		"food": 1,
 		"science": 2,
 		"movementCost": 1,
+		"uniques": [
+            		"[+3] to Fertility for Map Generation",
+            		"A Region is formed with at least [40]% [Deep Ocean] tiles, with priority [4]",
+            		"A Region can not contain more [Abyssal Ocean] tiles than [Deep Ocean] tiles",
+            		"Every [15] tiles with this terrain will receive a major deposit of a strategic resource."],
 	},
 	{
 		"name": "Glacier",
 		"type": "Land",
 		"science": 1,
 		"movementCost": 1,
+		"defenceBonus": -0.25,
+		"uniques": [ 
+			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            		"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            		"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+            		"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            		"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+            		"Always Fertility [-1] for Map Generation",
+            		"Considered [Undesirable] when determining start locations"],
 	},
 	{
 		"name": "Oceanic Trench",
@@ -47,7 +66,12 @@
 		"science": 2,
 		"gold": 1,
 		"occursOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
-		"uniques": ["[5]% Chance to be destroyed by nukes"],
+		"uniques": [
+			"[5]% Chance to be destroyed by nukes",
+			"[-2] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Oceanic Trench] tiles, with priority [2]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Every [2] tiles with this terrain will receive a major deposit of a strategic resource."],
 	},	
 	{
 		"name": "Seamounts",
@@ -56,7 +80,12 @@
 		"gold": 1,
 		"production": 1,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["[1]% Chance to be destroyed by nukes"],
+		"uniques": [
+			"[1]% Chance to be destroyed by nukes",
+			"[+2] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Seamounts] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."],
 	},
 	{
 		"name": "Deep Sea Reef",
@@ -65,7 +94,12 @@
 		"gold": 2,
 		"food": 2,
 		"occursOn": ["Deep Ocean","Abyssal Ocean"],
-		"uniques": ["[4]% Chance to be destroyed by nukes"],
+		"uniques": [
+			"[4]% Chance to be destroyed by nukes",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [10]% [Deep Sea Reef] tiles, with priority [3]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Every [10] tiles with this terrain will receive a major deposit of a strategic resource."],
 	},	
 	{
 		"name": "Hydrothermal Vents",
@@ -74,7 +108,12 @@
 		"gold": 1,
 		"production": 3,
 		"occursOn": ["Ocean","Deep Ocean","Abyssal Ocean"],
-		"uniques": ["[2]% Chance to be destroyed by nukes"],
+		"uniques": [
+			"[2]% Chance to be destroyed by nukes",
+			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [40]% [Seamounts] tiles, with priority [6]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Every [10] tiles with this terrain will receive a major deposit of a strategic resource."],
 	},		
 	{
 		"name": "Whale Fall",
@@ -82,7 +121,11 @@
 		"science": 5,
 		"food": 1,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["[5]% Chance to be destroyed by nukes"],
+		"uniques": [
+			"[10]% Chance to be destroyed by nukes",
+			"[-1] to Fertility for Map Generation",
+			"A Region is formed with at least [5]% [Whale Fall] tiles, with priority [2]",
+			"Base Terrain on this tile is not counted for Region determination"],
 	},	
 	{
 		"name": "Cold Seeps",
@@ -90,7 +133,11 @@
 		"science": 3,
 		"gold": 1,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["Rare feature","[1]% Chance to be destroyed by nukes"],
+		"uniques": [
+			"Rare feature",
+			"[1]% Chance to be destroyed by nukes",
+			"[-2] to Fertility for Map Generation",
+			"Every [4] tiles with this terrain will receive a major deposit of a strategic resource."],
 	},	
 	{
 		"name": "Brine Lakes",
@@ -98,7 +145,11 @@
 		"science": 4,
 		"gold": 1,
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
-		"uniques": ["Rare feature","[1] to Fertility for Map Generation","[2]% Chance to be destroyed by nukes"],
+		"uniques": [
+			"Rare feature",
+			"[-4] to Fertility for Map Generation",
+			"[2]% Chance to be destroyed by nukes",
+			"Every [4] tiles with this terrain will receive a major deposit of a strategic resource."],
 	},	
 	{
 		"name": "Iceberg",
