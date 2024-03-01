@@ -123,7 +123,7 @@
 		"occursOn": ["Deep Ocean","Abyssal Ocean","Ocean"],
 		"uniques": [
 			"[10]% Chance to be destroyed by nukes",
-			"[-1] to Fertility for Map Generation",
+			"[1] to Fertility for Map Generation",
 			"A Region is formed with at least [5]% [Whale Fall] tiles, with priority [2]",
 			"Base Terrain on this tile is not counted for Region determination"],
 	},	
