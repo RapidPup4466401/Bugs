@@ -1616,6 +1616,7 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Construction",
 		"uniques": [
+			"<hidden from users>",
 			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"[+2 Culture] [in this city] <during the [Information era]><hidden from users>",
 			"[+3 Culture] [in this city] <during the [Information era]> <hidden from users>",
