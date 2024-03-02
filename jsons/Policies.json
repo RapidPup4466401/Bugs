@@ -50,7 +50,7 @@
                     "[+2]% Gold [in all cities]",
                     "[+2]% Science [in all cities]"
                 ],
-                "requires": ["Factory Investments","Child Laborers Prgoram"],
+                "requires": ["Factory Investments","Child Laborers Program"],
                 "row": 2,
                 "column": 2
             },
@@ -72,7 +72,7 @@
                 "uniques": [
                     "[+5]% Production [in all cities]",
                     "[+2 production] from [Mine] tiles [in all cities]",
-                    "[+4] [Production] [in all cities]",
+                    "[+4] [Production] [in all cities] <hidden from users>",
                     "[-1] [Happiness] [in all cities] <hidden from users>",
                 ],
                 "requires": ["Mining Settlements","Workers Education Program"],
