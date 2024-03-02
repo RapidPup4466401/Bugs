@@ -82,7 +82,7 @@
             {
                 "name": "Industry Complete",
                 "uniques": [
-                    "[+10]% Production [in all cities]",
+                    "[+5]% Production [in all cities]",
                     "[+3 Production] [in all cities]"
                 ]
             }
@@ -90,7 +90,7 @@
     },
     {
         "name": "Preservationism",
-        "era": "Industrial era",
+        "era": "Modern era",
         "priorities": {
             "Neutral": 10,
             "Cultural": 25,
