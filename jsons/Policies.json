@@ -162,7 +162,7 @@
                     "[+2 Culture] from every [Aqueduct]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
                 ],
-                "requires": ["Heritage", "Culture Preservation Prgoram [CPC]"],
+                "requires": ["Heritage", "Culture Preservation Program [CPC]"],
                 "row": 2,
                 "column": 5
             },
