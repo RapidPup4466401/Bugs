@@ -154,12 +154,15 @@
                 "column": 3
             },
             {
-                "name": "s",
+                "name": "CPC Expansion C",
                 "uniques": [
-                    "[+1 Happiness] [in all cities connected to capital]",
+                    "[+2 Culture] from every [Monument]",
+                    "[+1 Culture] from every [Wainright Shop]",
+                    "[+3 Culture] from every [Colosseum]",
+                    "[+2 Culture] from every [Aqueduct]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
                 ],
-                "requires": ["Heritage"],
+                "requires": ["Heritage", "Culture Preservation Prgoram [CPC]"],
                 "row": 2,
                 "column": 5
             },
