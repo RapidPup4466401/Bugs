@@ -1,1 +1,297 @@
+[
+    {
+        "name": "Industry",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 5,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+3 Production] [in capital]",
+        ],
+        "policies": [
+            {
+                "name": "Child Laborers Program",
+                "uniques": [
+                    "[+8]% Production when constructing [All] buildings [in all cities]",
+                    "[-1 Happiness] per [4] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Factory Investments",
+                "uniques": [
+                    "Provides a [Factory] in your first [3] cities for free",
+                    "Costs [300] [Gold]",
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Mining Settlements",
+                "uniques": [
+                    "Free [Settler] appears",
+                    "[+1 Production] from [Mine] tiles [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Workers Education Program",
+                "uniques": [
+                    "[+10]% Production [in capital]",
+                    "[+4]% Gold [in capital]",
+                    "[+8]% Science [in capital]",
+                    "[+3]% Production [in all cities]",
+                    "[+2]% Gold [in all cities]",
+                    "[+2]% Science [in all cities]"
+                ],
+                "requires": ["Factory Investments","Child Laborers Prgoram"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Logistics Network",
+                "uniques": [
+                    "[2] Unit Supply [in capital] <when not at war>",
+                    "[5] Unit Supply [in capital] <when at war> <hidden from users>",
+                    "[1] Unit Supply [in all cities] <when not at war>",
+                    "[2] Unit Supply [in call cities] <when at war> <hidden from users>",
+                    "[-1] [Happiness] [in all cities] <when at war>",
+                ],
+                "requires": ["Factory Investments","Mining Settlements"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Industrial Foundations",
+                "uniques": [
+                    "[+5]% Production [in all cities]",
+                    "[+2 production] from [Mine] tiles [in all cities]",
+                    "[+4] [Production] [in all cities]",
+                    "[-1] [Happiness] [in all cities] <hidden from users>",
+                ],
+                "requires": ["Mining Settlements","Workers Education Program"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Industry Complete",
+                "uniques": [
+                    "[+10]% Production [in all cities]",
+                    "[+3 Production] [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Preservationism",
+        "era": "Industrial era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 25,
+            "Diplomatic": 20,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": ["[+1 Culture] [in all cities]"],
+        "policies": [
 
+            {
+                "name": "Heritage",
+                "uniques": [
+                    "[+10]% Culture [in all cities] <when not at war>",
+                    "[-10]% Culture [in all cities] <when at war> <hidden from users>",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Culture Preservation Program",
+                "uniques": [
+                    "[-25]% construction time for [All] improvements",
+                    "Free [Worker] appears"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Republic",
+                "uniques": [
+                    "[+1 Production] [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]"
+                ],
+                "requires": ["Collective Rule"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Representation",
+                "uniques": [
+                    "Each city founded increases culture cost of policies [33]% less than normal",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Citizenship"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Meritocracy",
+                "uniques": [
+                    "[+1 Happiness] [in all cities connected to capital]",
+                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+                ],
+                "requires": ["Citizenship"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Liberty Complete",
+                "uniques": ["Free Great Person"]
+            }
+        ]
+    },
+    {
+        "name": "Honor",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+33]% Strength <vs [Barbarian] units>",
+            "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+            "Notified of new Barbarian encampments"
+        ],
+        "policies": [
+            {
+                "name": "Warrior Code",
+                "uniques": [
+                    "[+15]% Production when constructing [Melee] units [in all cities]",
+                    "Free [Great General] appears"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Discipline",
+                "uniques": [
+                    "[+10]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Military Tradition",
+                "uniques": [
+                    "[+50]% XP gained from combat <for [Military] units>"
+                ],
+                "requires": ["Warrior Code"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Military Caste",
+                "uniques": [
+                    "[+1 Happiness, +2 Culture] [in all cities with a garrison]"
+                ],
+                "requires": ["Discipline"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Professional Army",
+                "uniques": [
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                    "[+1 Happiness] from every [Walls]",
+                    "[+1 Happiness] from every [Castle]",
+                    "[+1 Happiness] from every [Arsenal]",
+                    "[+1 Happiness] from every [Military Base]"
+                ],
+                "requires": ["Military Caste"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Honor Complete",
+                "uniques": [
+                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Piety",
+        "era": "Classical era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+15]% Production when constructing [Culture] buildings [in all cities]",
+            "Only available <before adopting [Rationalism]>"
+        ],
+        "policies": [
+            {
+                "name": "Organized Religion",
+                "uniques": [
+                    "[+1 Happiness] from every [Monument]",
+                    "[+1 Happiness] from every [Temple]",
+                    "[+1 Happiness] from every [Monastery]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Mandate Of Heaven",
+                "uniques": ["[50]% of excess happiness converted to [Culture]"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Theocracy",
+                "uniques": ["[+10]% [Gold] from every [Temple]"],
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Reformation",
+                "uniques": [
+                    "[+33]% [Culture] [in all cities with a world wonder]",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Free Religion",
+                "uniques": [
+                    "Free Social Policy",
+                    "[+1 Culture] from every [Monument]",
+                    "[+1 Culture] from every [Temple]",
+                    "[+1 Culture] from every [Monastery]"
+                ],
+                "requires": ["Mandate Of Heaven", "Reformation"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Piety Complete",
+                "uniques": [
+                    "[-10]% Culture cost of adopting new Policies"
+                ]
+            }
+        ]
+    }
