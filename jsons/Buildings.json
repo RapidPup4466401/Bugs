@@ -701,6 +701,20 @@
 			"[+10]% [Culture] [in this city]",
 			"Destroyed when the city is captured"],			
 	},
+	{
+		"name": "",
+		"maintenance": 9,
+		"cost": 500,
+		"culture": 3,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"requiredTech": "Archaeology",
+		"uniques": [
+			"Only available <after adopting [Preservationism]> <hidden from users>",
+			"[+10]% [Culture] [in this city]",
+			"Destroyed when the city is captured"],			
+	},
+		
 
 	// Cultural buildings as normal for all nation states.
 
@@ -735,6 +749,33 @@
 		"uniques": [
 			"Only available <in cities with a [University]>",
 			"Only available <in cities with a [Theatre]>"],
+	},
+	{
+		"name": "Statues",
+		"cost": 50,
+		"culture": 2,
+		"requiredTech": "Construction",
+		"uniques": [
+			"Only available <in cities with a [Monument]>",
+	},
+	{
+		"name": "Large Statues",
+		"maintenance": 1,
+		"cost": 400,
+		"culture": 4,
+		"requiredTech": "Construction",
+		"uniques": [
+			"Only available <in cities with a [Statues]>",
+	},
+	{
+		"name": "Historical Site",
+		"maintenance": 4,
+		"cost": 2500,
+		"culture": 6,
+		"requiredTech": "Archeology",
+		"uniques": [
+			"Only available <in cities with a [Cultural Preservation Center]>",
+			"Only available <in cities with a [Museum]>"]
 	},
 		
 	// Military Pack
