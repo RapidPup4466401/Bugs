@@ -75,7 +75,7 @@
                     "[+4] [Production] [in all cities] <hidden from users>",
                     "[-1] [Happiness] [in all cities] <hidden from users>",
                 ],
-                "requires": ["Mining Settlements","Workers Education Program"],
+                "requires": ["Mining Settlements","Workers Education Program","Logistics Network"],
                 "row": 3,
                 "column": 3
             },
