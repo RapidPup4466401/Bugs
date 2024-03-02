@@ -71,7 +71,7 @@
                 "name": "Industrial Foundations",
                 "uniques": [
                     "[+5]% Production [in all cities]",
-                    "[+2 production] from [Mine] tiles [in all cities]",
+                    "[+2 Production] from [Mine] tiles [in all cities]",
                     "[+4] [Production] [in all cities] <hidden from users>",
                     "[-1] [Happiness] [in all cities] <hidden from users>",
                 ],
@@ -113,14 +113,18 @@
             {
                 "name": "Culture Preservation Program",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements",
-                    "Free [Worker] appears"
+                    "[+1 Culture] from every [Inner Walls]",
+                    "[+1 Culture] from every [Gate Emplacements]",
+                    "[+2 Culture] from every [Stone Keep]",
+                    "[+1 Culture] from every [Battlements]",
+                    "[+2 Culture] from every [Stone Towers]",
+                    "[+2 Culture] from every [Canals]",
                 ],
                 "row": 1,
                 "column": 4
             },
             {
-                "name": "Republic",
+                "name": "",
                 "uniques": [
                     "[+1 Production] [in all cities]",
                     "[+5]% Production when constructing [All] buildings [in all cities]"
