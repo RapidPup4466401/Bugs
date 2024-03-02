@@ -697,7 +697,7 @@
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Archaeology",
 		"uniques": [
-			"Only available [in this city] <after adopting [Oligarchy]> <hidden from users>",
+			"Only available <after adopting [Oligarchy]> <hidden from users>",
 			"[+10]% [Culture] [in this city]",
 			"Destroyed when the city is captured"],			
 	},
