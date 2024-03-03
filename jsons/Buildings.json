@@ -512,6 +512,17 @@
 			"Destroyed when the city is captured"],
 	},
 	{
+		"name": "Railyard",
+		"maintenance": 3,
+		"cost": 400,
+		"production": 3,
+		"requiredTech": "Railroads",
+		"uniques": [
+			"Only available <after adopting [Industry]> <hidden from users>",
+			"[+5]% [Production] [in this city]",
+			"Destroyed when the city is captured"],	
+	},
+	{
 		"name": "Steel Forge",
 		"maintenance": 1,
 		"cost": 120,
@@ -699,20 +710,7 @@
 		"uniques": [
 			"Only available <after adopting [Preservationism]> <hidden from users>",
 			"[+10]% [Culture] [in this city]",
-			"Destroyed when the city is captured"],			
-	},
-	{
-		"name": "",
-		"maintenance": 9,
-		"cost": 500,
-		"culture": 3,
-		"happiness": 1,
-		"specialistSlots": {"Artist": 1},
-		"requiredTech": "Archaeology",
-		"uniques": [
-			"Only available <after adopting [Preservationism]> <hidden from users>",
-			"[+10]% [Culture] [in this city]",
-			"Destroyed when the city is captured"],			
+			"Destroyed when the city is captured"],					
 	},
 		
 
@@ -775,7 +773,38 @@
 		"requiredTech": "Archeology",
 		"uniques": [
 			"Only available <in cities with a [Cultural Preservation Center]>",
-			"Only available <in cities with a [Museum]>"]
+			"Only available <in cities with a [Museum]>"],
+	},
+	{
+		"name": "Historical Society",
+		"maintenance": 2,
+		"cost": 1000,
+		"culture": 8,
+		"requiredTech": "Archeology",
+		"uniques": [
+			"Only available <in cities with a [Cultural Preservation Center]>",
+			"Only available <in cities with a [Museum]>"],
+	},
+	{
+		"name": "Cultural Language Center",
+		"maintenance": 4,
+		"cost": 1000,
+		"culture": 8,
+		"happiness": 2, 
+		"requiredTech": "Electricity",
+		"uniques": [
+			"Only available <in cities with a [Cultural Preservation Center]>",
+	},
+	{
+		"name": "Historical Site",
+		"maintenance": 7,
+		"cost": 1200,
+		"culture": 6,
+		"happiness": 3,
+		"requiredTech": "Radio",
+		"uniques": [
+			"Only available <in cities with a [Cultural Preservation Center]>",
+			"Only available <in cities with a [Museum]>"],
 	},
 		
 	// Military Pack
