@@ -177,7 +177,9 @@
             "Scientific": 0
         },
         "uniques": ["[+5 Production] [in all cities]",
-        "Only available <after adopting [Industry]>"],
+        "Only available <after adopting [Industry]>",
+        "Will not be displayed in Civilopedia",
+        "Hidden until [4] social policy branches have been completed"],
         "policies": [
             {
                 "name": "Automation",
