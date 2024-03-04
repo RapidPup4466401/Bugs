@@ -237,7 +237,7 @@
                     "[-10]% [Culture] [in all cities]",
                     "[+5]% [Science] [in all cities]"
                 ],
-                "requires": ["Remote Droning Programs","Industrial Focus","Artificience"],
+                "requires": ["Remote Droning Programs","Industrial Focus"],
                 "row": 3,
                 "column": 3
             },
