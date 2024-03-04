@@ -817,7 +817,7 @@
 		"requiredTech": "Ballistics",
 		"requiredResource": "Iron",
 		"uniques": [
-			"New [{Military}] units start with [20] Experience [in this city] <with [Iron]>",
+			"New [Military] units start with [20] Experience [in this city] <with [Iron]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -827,7 +827,7 @@
 		"requiredBuilding": "Military Base",
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
-			"New [{Military}] units start with [10] Experience [in this city]",
+			"New [Military] units start with [10] Experience [in this city]",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -840,7 +840,7 @@
 			"Only available <in cities with a [Manufacturing Plant]>",
 			"Consumes [2] [Ceramics]",
 			"Consumes [1] [Titanium]",
-			"New [{Military}] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] Experience [in this city]",
 			"Destroyed when the city is captured"],
 	},
 	{
