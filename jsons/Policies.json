@@ -85,10 +85,10 @@
                     "[+5]% Production [in all cities]",
                     "[+3 Production] [in all cities]"
                 ]
-            }
-        ]
-    },
-    {
+            },
+        ],
+            },
+            {
         "name": "Preservationism",
         "era": "Modern era",
         "priorities": {
@@ -180,6 +180,8 @@
             {
                 "name": "Preservationism Complete",
                 "uniques": ["Free [Great Artist] appears"]
+            },
+                ],
             },
             {
         "name": "Automationism",
@@ -274,8 +276,9 @@
             },
             {
                 "name": "Autmoationism Complete",
-                "uniques": ["Free [Great Artist] appears"]
+                "uniques": ["Free [Great Engineer] appears"],
             }
         ]
+            }
     }
 ]
