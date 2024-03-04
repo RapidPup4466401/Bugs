@@ -176,10 +176,11 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": ["[+5 Production] [in all cities]",
-        "Only available <after adopting [Industry]>",
-        "Will not be displayed in Civilopedia",
-        "Hidden until [4] social policy branches have been completed"],
+        "uniques": [
+            "[+5 Production] [in all cities]",
+            "Will not be displayed in Civilopedia",
+            "Hidden until [4] social policy branches have been completed",
+            "Only available <after adopting [Industry]>",],
         "policies": [
             {
                 "name": "Automation",
