@@ -754,7 +754,7 @@
 		"culture": 2,
 		"requiredTech": "Construction",
 		"uniques": [
-			"Only available <in cities with a [Monument]>",
+			"Only available <in cities with a [Monument]>"],
 	},
 	{
 		"name": "Large Statues",
@@ -763,7 +763,7 @@
 		"culture": 4,
 		"requiredTech": "Construction",
 		"uniques": [
-			"Only available <in cities with a [Statues]>",
+			"Only available <in cities with a [Statues]>"],
 	},
 	{
 		"name": "Historical Site",
@@ -793,7 +793,7 @@
 		"happiness": 2, 
 		"requiredTech": "Electricity",
 		"uniques": [
-			"Only available <in cities with a [Cultural Preservation Center]>",
+			"Only available <in cities with a [Cultural Preservation Center]>"],
 	},
 	{
 		"name": "Historical Site",
