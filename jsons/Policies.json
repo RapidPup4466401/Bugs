@@ -184,7 +184,7 @@
                 "uniques": [
                     "[+10]% Production [in all cities] <when not at war>",
                     "[+10]% Production [in all cities] <when at war> <hidden from users>",
-                    "[-10]% Gold [in all cities] <when at war> ",],
+                    "[-10]% Gold [in all cities] <when at war> "],
                 "row": 1,
                 "column": 1,
             },
