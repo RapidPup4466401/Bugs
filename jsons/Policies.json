@@ -167,8 +167,114 @@
                 "column": 5
             },
             {
+                "name": "Renovation of Historical Sites",
+                "uniques": [
+                    "[-1]% [Gold] [in all cities]",
+                    "[+5]% [Culture] [in all cities]",
+                    "+[+1] [Happiness] [in capital]",
+                ],
+                "requires": ["CPC Expansion C, CPC Expansion B, CPC Expansion A"],
+                "row": 3,
+                "column": 3
+            },
+            {
                 "name": "Preservationism Complete",
-                "uniques": ["Free Great Person"]
+                "uniques": ["Free [Great Artist] appears"]
+            },
+            {
+        "name": "Automationism",
+        "era": "Information era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": ["[+5 Production] [in all cities]",
+        "Only available <after adopting [Industry]>"],
+        "policies": [
+
+            {
+                "name": "Automation",
+                "uniques": [
+                    "[+10]% Production [in all cities] <when not at war>",
+                    "[+10]% Production [in all cities] <when at war> ",
+                    "[-10]% Gold [in all cities] <when at war> ",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "ADE",
+                "uniques": [
+                    "[+1 Culture] from every [Inner Walls]",
+                    "[+1 Culture] from every [Defensive Gate Emplacements]",
+                    "[+2 Culture] from every [Stone Keep]",
+                    "[+1 Culture] from every [Battlements]",
+                    "[+2 Culture] from every [Stone Towers]",
+                    "[+2 Culture] from every [Canals]",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "EWS",
+                "uniques": [
+                    "[+6 Culture] from every [Fortress] <hidden from users>",
+                    "[+12 Culture] from every [Mountain Fortress] <hidden from users>",
+                    "[+2 Culture] from every [Moat]",
+                    "[+1 Culture] from every [News Press]",
+                    "[+2 Culture] from every [Opera House]",
+                    "[+2 Culture] from every [Shrine]",
+                    "[+2 Culture] from every [Temple]",
+                ],
+                "requires": ["Culture Preservation Program [CPC]"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "BRE",
+                "uniques": [
+                    "[+1 Culture] from every [Archery Training]",
+                    "[+2 Culture] from every [Improved Archery Training]",
+                    "[+6 Culture] from every [Ranger Training] <hidden from users>",
+                    "[+1 Culture] from every [Mounts Training]",
+                    "[+1 Culture] from every [Melee Combat Training]",
+                    "[+2 Culture] from every [Basic Swordsmanship Training]",
+                    "[+6 Culture] from every [Way of the Blade Training] <hidden from users>",
+                ],
+                "requires": ["Culture Preservation Program [CPC]"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "EAS",
+                "uniques": [
+                    "[+2 Culture] from every [Monument]",
+                    "[+1 Culture] from every [Wainright Shop]",
+                    "[+3 Culture] from every [Colosseum]",
+                    "[+2 Culture] from every [Aqueduct]",
+                    "[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+                ],
+                "requires": ["Heritage", "Culture Preservation Program [CPC]"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "TGR",
+                "uniques": [
+                    "[-1]% [Gold] [in all cities]",
+                    "[+5]% [Culture] [in all cities]",
+                    "+[+1] [Happiness] [in capital]",
+                ],
+                "requires": ["CPC Expansion C, CPC Expansion B, CPC Expansion A"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Autmoationism Complete",
+                "uniques": ["Free [Great Artist] appears"]
             }
         ]
     }
