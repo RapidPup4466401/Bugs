@@ -156,7 +156,7 @@
                     "[-1]% [Gold] [in all cities]",
                     "[+5]% [Culture] [in all cities]",
                     "+[+1] [Happiness] [in capital]"],
-                "requires": ["CPC Expansion C, CPC Expansion B, CPC Expansion A"],
+                "requires": ["CPC Expansion C","CPC Expansion B","CPC Expansion A"],
                 "row": 3,
                 "column": 3
             },
@@ -217,7 +217,7 @@
                     "[-10]% [Culture] [in all cities]",
                     "[-10]% [Gold] [in all cities]",
                     "[-3 Culture] from every [{Castle}{Monument}{Statue}{Amphitheater}{Theater}{Opera House}{Canals}]"],
-                "requires": ["Artificience","Andoird Workers"],
+                "requires": ["Artificience","Android Workers"],
                 "row": 2,
                 "column": 3,
             },
