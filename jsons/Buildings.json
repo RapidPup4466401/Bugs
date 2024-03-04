@@ -719,6 +719,7 @@
 		"specialistSlots": {"Artist": 1},
 		"requiredTech": "Archaeology",
 		"uniques": [
+			"Only available <before adopting [Industrial Focus]> <hidden from users>",
 			"Only available <after adopting [Preservationism]> <hidden from users>",
 			"[+10]% [Culture] [in this city]",
 			"Destroyed when the city is captured"],					
