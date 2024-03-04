@@ -205,7 +205,7 @@
             {
                 "name": "Artificience",
                 "uniques": [
-                    "[+1 Happiness] from every [{Factory}{Manufacturing Plant}{Automated Factory}{Assembly Plant}{Shipyard}{Synthesis Plant}{Fabrication Plant}{Spaceship Factory]",
+                    "[+1 Happiness] from every [{Factory}{Manufacturing Plant}{Automated Factory}{Assembly Plant}{Shipyard}{Synthesis Plant}{Fabrication Plant}{Spaceship Factory}]",
                     "[+1 Happiness] from every [{Mine}{Quarry}{Manufactory}]",
                     "[-3 Happiness] from every [Garden, Park, Landmark]"],
                 "row": 1,
