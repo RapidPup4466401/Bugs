@@ -22,7 +22,7 @@
             {
                 "name": "Factory Investments",
                 "uniques": [
-                    "Provides a [Factory] in your first [3] cities for free",
+                    "Provides the cheapest [Production] building in your first [3] cities for free",
                     "[-20]% maintenance costs"],
                 "row": 1,
                 "column": 3,
