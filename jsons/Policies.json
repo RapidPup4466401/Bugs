@@ -23,7 +23,7 @@
                 "name": "Factory Investments",
                 "uniques": [
                     "Provides a [Factory] in your first [3] cities for free",
-                    "Costs [300] [Gold]"],
+                    "[-20]% maintenance costs"],
                 "row": 1,
                 "column": 3,
             },
