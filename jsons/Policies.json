@@ -38,12 +38,12 @@
             {
                 "name": "Workers Education Program",
                 "uniques": [
-                    "[+10]% Production [in capital]",
-                    "[+4]% Gold [in capital]",
-                    "[+8]% Science [in capital]",
-                    "[+3]% Production [in all cities]",
-                    "[+2]% Gold [in all cities]",
-                    "[+2]% Science [in all cities]"],
+                    "[+10]% [Production] [in capital]",
+                    "[+4]% [Gold] [in capital]",
+                    "[+8]% [Science] [in capital]",
+                    "[+3]% [Production] [in all cities]",
+                    "[+2]% [Gold] [in all cities]",
+                    "[+2]% [Science] [in all cities]"],
                 "requires": ["Factory Investments","Child Laborers Program"],
                 "row": 2,
                 "column": 2,
