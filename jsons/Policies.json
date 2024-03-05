@@ -213,7 +213,7 @@
             {
                 "name": "Industrial Focus",
                 "uniques": [
-                    "[+5 Production] from every [{Factory}{Manufacturing Plant}{Automated Factory}{Assembly Plant}{Shipyard}{Synthesis Plant}{Fabrication Plant}{Spaceship Factory]",
+                    "[+5 Production] from every [{Factory}{Manufacturing Plant}{Automated Factory}{Assembly Plant}{Shipyard}{Synthesis Plant}{Fabrication Plant}{Spaceship Factory}]",
                     "[+10]% [Production] [in all cities]",
                     "[-10]% [Culture] [in all cities]",
                     "[-10]% [Gold] [in all cities]",
@@ -225,8 +225,8 @@
             {
                 "name": "Remote Droning Programs",
                 "uniques": [
-                    "[+3 Production] from every [{Factory}{Manufacturing Plant}{Automated Factory}{Assembly Plant}{Shipyard}{Synthesis Plant}{Fabrication Plant}{Spaceship Factory]",
-                    "[+3 Happiness] per [2] population [in all cities]"],
+                    "[+3 Production] from every [{Factory}{Manufacturing Plant}{Automated Factory}{Assembly Plant}{Shipyard}{Synthesis Plant}{Fabrication Plant}{Spaceship Factory}]",
+                    "[+3 Happiness] per [4] population [in all cities]"],
                 "requires": ["Android Workers","Automation"],
                 "row": 2,
                 "column": 5,
@@ -234,6 +234,7 @@
             {
                 "name": "Beyond Factories",
                 "uniques": [
+                    "[+5]% [Production] [in all cities]",
                     "[-5]% [Gold] [in all cities]",
                     "[-10]% [Culture] [in all cities]",
                     "[+5]% [Science] [in all cities]"
