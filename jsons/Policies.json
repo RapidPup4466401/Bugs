@@ -213,6 +213,7 @@
             {
                 "name": "Industrial Focus",
                 "uniques": [
+                    "Only available <before adopting [Preservationism]>",
                     "[+5 Production] from every [{Factory}{Manufacturing Plant}{Automated Factory}{Assembly Plant}{Shipyard}{Synthesis Plant}{Fabrication Plant}{Spaceship Factory}]",
                     "[+10]% [Production] [in all cities]",
                     "[-10]% [Culture] [in all cities]",
