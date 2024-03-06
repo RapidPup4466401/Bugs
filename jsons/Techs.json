@@ -3,7 +3,12 @@
 		"columnNumber": 13,
 		"era": "Atomic era",
 		"techs": [
-			{"name": "Mountain Mining I","row": 13,"prerequisites": ["Combustion","Electronics","Plastics"],"quote": "'What lies in the depths of these peaks...' - ???"},
+			{"name": "Mountain Mining I","row": 13,"prerequisites": ["Combustion","Electronics","Plastics"],"quote": "'What lies in the depths of these peaks...' - ???"}],
+	},
+	{
+		"columnNumber": 14,
+		"era": "Atomic era",
+		"techs": [
 			{"name": "Mountain Mining II","row": 14,"prerequisites": ["Mountain Mining I"],"quote": "'The mountains with their insurmountable size will soon become our harvest...' - ???"}],
 	},
 	{
