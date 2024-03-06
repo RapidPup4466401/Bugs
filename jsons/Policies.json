@@ -178,7 +178,7 @@
         },
         "uniques": [
             "[+5 Production] [in all cities]",
-            "Only available <after adopting [Industry]> <hidden from users>",],
+            "Only available <after adopting [Industry]> <hidden from users>"],
         "policies": [
             {
                 "name": "Automation",
