@@ -18,7 +18,7 @@
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
-			{"name": "Mountain Mining III","row": 10,"prerequisites": ["Mountain Mining II","Computers"],"quote": "'The future lies in the artificials' - ???"},
+			{"name": "Mountain Mining III","row": 10,"prerequisites": ["Mountain Mining II","Robotics"],"quote": "'The future lies in the artificials' - ???"},
 			{"name": "Advanced Robotics","row": 13,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'The future lies in the artificials' - ???"},
 			{"name": "Deep Sea Mining","row": 12,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"}],
 	},
@@ -33,9 +33,11 @@
 			{"name": "Mineral Extraction","row": 12,"prerequisites": ["Deep Sea Mining"],"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"},
 			{"name": "Advanced Submersibles","row": 13,"prerequisites": ["Deep Sea Mining"],"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"},
 			{"name": "Digitalization","row": 1,"prerequisites": ["Globalization"],"quote": "'The world grows digitally by the day...' - ???"},
-			{"name": "Fusion Applications","row": 2,"prerequisites": ["Nuclear Fusion","Advanced Robotics"],"quote": "'With this new energy source, what could we use it for?' - ???"}
+			{"name": "Fusion Applications","row": 2,"prerequisites": ["Nuclear Fusion","Advanced Robotics"],"quote": "'With this new energy source, what could we use it for?' - ???"},
 			{"name": "Advanced Lasers","row": 3,"prerequisites": ["Particle Physics","Nuclear Fusion"],"quote": "'The power of our beams of light shall pierce our enemies...' - ???"},
-			{"name": "Nanofibers","row": 7,"prerequisites": ["Nanotechnology","Advanced Robotics"],"quote": "'A reactive suit of armor that fits nicely, how convenient...' - ???"}],
+			{"name": "Nanofibers","row": 7,"prerequisites": ["Nanotechnology","Advanced Robotics"],"quote": "'A reactive suit of armor that fits nicely, how convenient...' - ???"},
+			{"name": "Advanced Stealth","row": 8,"prerequisites": ["Nanotechnology","Stealth"],"quote": "'Radar absorption and heat dispersion has been increased to new strides never before soon...' - ???"},
+			{"name": "Subterranean Constructions","row": 7,"prerequisites": ["Nuclear Fusion","Advanced Robotics"],"quote": "'The ways of the stone and earth have been uncovered through years of research, and now, we have the ability to expand downwards further than ever before...' - ???"}],
 	},
 	{
 		"columnNumber": 18,
