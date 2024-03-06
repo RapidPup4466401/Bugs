@@ -28,7 +28,7 @@
 			{"name": "Mineral Extraction","row": 12,"prerequisites": ["Deep Sea Mining"],"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"},
 			{"name": "Advanced Submersibles","row": 13,"prerequisites": ["Deep Sea Mining"],"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"},
 			{"name": "Digitalization","row": 1,"prerequisites": ["Globalization"],"quote": "'The world grows digitally by the day...' - ???"},
-			{"name": "Fusion Applications","row": 5,"prerequisites": ["Nuclear Fusion","Advanced Robotics"],"quote": "'With this new energy source, what could we use it for?' - ???"}],
+			{"name": "Fusion Applications","row": 3,"prerequisites": ["Nuclear Fusion","Advanced Robotics"],"quote": "'With this new energy source, what could we use it for?' - ???"}],
 	},
 	{
 		"columnNumber": 18,
@@ -38,7 +38,7 @@
 		"wonderCost": 1250,
 		"techs": [
 			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"},
-			{"name": "Advanced Lasers","row": 3,"prerequisites": ["Particle Physics, Nuclear Fusion"],"quote": "'The power of our beams of light shall pierce our enemies...' - ???"},
+			{"name": "Advanced Lasers","row": 3,"prerequisites": ["Particle Physics","Nuclear Fusion"],"quote": "'The power of our beams of light shall pierce our enemies...' - ???"},
 			{"name": "Nanofibers","row": 6,"prerequisites": ["Nanotechnology","Advanced Robotics"],"quote": "'A reactive suit of armor that fits nicely, how convenient...' - ???"}],
 	},
 ]
