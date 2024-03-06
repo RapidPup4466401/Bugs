@@ -3,13 +3,13 @@
 		"columnNumber": 13,
 		"era": "Atomic era",
 		"techs": [
-			{"name": "Mountain Mining I","row": 13,"prerequisites": ["Combustion","Electronics","Plastics"],"quote": "'What lies in the depths of these peaks...' - ???"}],
+			{"name": "Mountain Mining I","row": 10,"prerequisites": ["Combustion","Electronics","Plastics"],"quote": "'What lies in the depths of these peaks...' - ???"}],
 	},
 	{
 		"columnNumber": 14,
 		"era": "Atomic era",
 		"techs": [
-			{"name": "Mountain Mining II","row": 14,"prerequisites": ["Mountain Mining I"],"quote": "'The mountains with their insurmountable size will soon become our harvest...' - ???"}],
+			{"name": "Mountain Mining II","row": 10,"prerequisites": ["Mountain Mining I"],"quote": "'The mountains with their insurmountable size will soon become our harvest...' - ???"}],
 	},
 	{
 		"columnNumber": 16,
@@ -18,7 +18,7 @@
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
-			{"name": "Mountain Mining III","row": 14,"prerequisites": ["Mountain Mining II","Computers"],"quote": "'The future lies in the artificials' - ???"},
+			{"name": "Mountain Mining III","row": 10,"prerequisites": ["Mountain Mining II","Computers"],"quote": "'The future lies in the artificials' - ???"},
 			{"name": "Advanced Robotics","row": 13,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'The future lies in the artificials' - ???"},
 			{"name": "Deep Sea Mining","row": 12,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"}],
 	},
