@@ -1,11 +1,21 @@
 [
 	{
+		"columnNumber": 13,
+		"era": "Atomic era",
+		"techs": [
+			{"name": "Mountain Mining I","row": 13,"prerequisites": ["Combustion","Electronics","Plastics"],"quote": "'What lies in the depths of these peaks...' - ???"},
+			{"name": "Mountain Mining II","row": 14,"prerequisites": ["Mountain Mining I"],"quote": "'The mountains with their insurmountable size will soon become our harvest...' - ???"}],
+	},
+	{
 		"columnNumber": 16,
 		"era": "Information era",
 		"techCost": 8800,
 		"buildingCost": 750,
 		"wonderCost": 1250,
-		"techs": [{"name": "Advanced Robotics","row": 13,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'The future lies in the artificials' - ???"},{"name": "Deep Sea Mining","row": 12,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"}],
+		"techs": [
+			{"name": "Mountain Mining III","row": 14,"prerequisites": ["Mountain Mining II","Computers"],"quote": "'The future lies in the artificials' - ???"},
+			{"name": "Advanced Robotics","row": 13,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'The future lies in the artificials' - ???"},
+			{"name": "Deep Sea Mining","row": 12,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"}],
 	},
 	{
 		"columnNumber": 17,
@@ -13,6 +23,22 @@
 		"techCost": 9500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
-		"techs": [{"name": "Mechs","row": 15,"prerequisites": ["Advanced Robotics","Nuclear Fusion"],"quote": "'Machine of bastions made for might...' - ???"},{"name": "Mineral Extraction","row": 12,"prerequisites": ["Deep Sea Mining"],"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"},{"name": "Advanced Submersibles","row": 13,"prerequisites": ["Deep Sea Mining"],"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"}],
-	}
+		"techs": [
+			{"name": "Mechs","row": 15,"prerequisites": ["Advanced Robotics","Nuclear Fusion"],"quote": "'Machine of bastions made for might...' - ???"},
+			{"name": "Mineral Extraction","row": 12,"prerequisites": ["Deep Sea Mining"],"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"},
+			{"name": "Advanced Submersibles","row": 13,"prerequisites": ["Deep Sea Mining"],"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"},
+			{"name": "Digitalization","row": 1,"prerequisites": ["Globalization"],"quote": "'The world grows digitally by the day...' - ???"},
+			{"name": "Fusion Applications","row": 5,"prerequisites": ["Nuclear Fusion","Advanced Robotics"],"quote": "'With this new energy source, what could we use it for?' - ???"}],
+	},
+	{
+		"columnNumber": 18,
+		"era": "Future era",
+		"techCost": 10500,
+		"buildingCost": 750,
+		"wonderCost": 1250,
+		"techs": [
+			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"},
+			{"name": "Advanced Lasers","row": 3,"prerequisites": ["Particle Physics, Nuclear Fusion"],"quote": "'The power of our beams of light shall pierce our enemies...' - ???"},
+			{"name": "Nanofibers","row": 6,"prerequisites": ["Nanotechnology","Advanced Robotics"],"quote": "'A reactive suit of armor that fits nicely, how convenient...' - ???"}],
+	},
 ]
