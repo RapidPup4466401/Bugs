@@ -267,13 +267,6 @@
 				"prerequisites": ["Quantum Physics","Mass 3D Printing II"],
 				"quote": "'Missiles, rockets, and machines of war can be produced on a scale never before seen...' - ???"
 			},
-			{
-				"name": "Future Tech",
-				"row": 25,
-				"prerequisites": ["Light Alloys"],
-				"uniques": ["Go beyond the Future", "Can be continually researched"],
-				"quote": "'UNAVAILABLE... AWAITING FURTHER UPDATES TO TECHNOLOGY TREE...' - ???"
-			}
 		]
 	},
 	{
@@ -286,7 +279,7 @@
 			{
 				"name": "Future Tech",
 				"row": 25,
-				"prerequisites": ["Light Alloys"],
+				"prerequisites": ["Mechs II"],
 				"uniques": ["Go beyond the Future", "Can be continually researched"],
 				"quote": "'UNAVAILABLE... AWAITING FURTHER UPDATES TO TECHNOLOGY TREE...' - ???"
 			}
