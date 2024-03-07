@@ -58,7 +58,7 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Quantum Physics",
+				"name": "Quantum Field Theory",
 				"row": 21,
 				"prerequisites": ["Advanced Robotics","Particle Physics","Lasers"],
 				"quote": "'Machine of bastions made for might...' - ???"
@@ -179,6 +179,12 @@
 				"row": 9,
 				"prerequisites": ["Advanced Lasers","Mass 3D Printing I"],
 				"quote": "'Who knew that we could 3D print a vehicle with the click of a button...' - ???"
+			},
+			{
+				"name": "Quantum Physics",
+				"row": 2,
+				"prerequisites": ["Cryptocurrency"],
+				"quote": "'Such fascinating quantizations of energy...' - ???"
 			}
 		]
 	},
@@ -194,6 +200,18 @@
 				"row": 2,
 				"prerequisites": ["Cryptocurrency"],
 				"quote": "'Responsive, adaptable, and generative AI has never been more advanced...' - ???"
+			},
+			{
+				"name": "Quantum Computing",
+				"row": 2,
+				"prerequisites": ["Quantum Physics"],
+				"quote": "'Our capabilities in data managment and control have never seen before...' - ???"
+			},
+			{
+				"name": "Quark Physics",
+				"row": 2,
+				"prerequisites": ["Quantum PHysics"],
+				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
 			},
 			{
 				"name": "Future Tech",
