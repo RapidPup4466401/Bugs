@@ -278,7 +278,7 @@
 		"techs": [
 			{
 				"name": "Future Tech",
-				"row": 25,
+				"row": 5,
 				"prerequisites": ["Mechs II"],
 				"uniques": ["Go beyond the Future", "Can be continually researched"],
 				"quote": "'UNAVAILABLE... AWAITING FURTHER UPDATES TO TECHNOLOGY TREE...' - ???"
