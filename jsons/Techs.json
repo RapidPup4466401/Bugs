@@ -3,13 +3,25 @@
 		"columnNumber": 13,
 		"era": "Atomic era",
 		"techs": [
-			{"name": "Mountain Mining I","row": 9,"prerequisites": ["Combustion","Electronics","Plastics"],"quote": "'What lies in the depths of these peaks...' - ???"}],
+			{
+				"name": "Mountain Mining I",
+				"row": 9,
+				"prerequisites": ["Combustion","Electronics","Plastics"],
+				"quote": "'What lies in the depths of these peaks...' - ???"
+			}
+		],
 	},
 	{
 		"columnNumber": 14,
 		"era": "Atomic era",
 		"techs": [
-			{"name": "Mountain Mining II","row": 9,"prerequisites": ["Mountain Mining I"],"quote": "'The mountains with their insurmountable size will soon become our harvest...' - ???"}],
+			{
+				"name": "Mountain Mining II",
+				"row": 9,
+				"prerequisites": ["Mountain Mining I"],
+				"quote": "'The mountains with their insurmountable size will soon become our harvest...' - ???"
+			}
+		],
 	},
 	{
 		"columnNumber": 16,
@@ -18,9 +30,25 @@
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
-			{"name": "Mountain Mining III","row": 9,"prerequisites": ["Mountain Mining II","Robotics"],"quote": "'The future lies in the artificials' - ???"},
-			{"name": "Advanced Robotics","row": 13,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'The future lies in the artificials' - ???"},
-			{"name": "Deep Sea Mining","row": 12,"prerequisites": ["Telecommunications","Robotics","Lasers"],"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"}],
+			{
+				"name": "Mountain Mining III",
+				"row": 9,
+				"prerequisites": ["Mountain Mining II","Robotics"],
+				"quote": "'The future lies in the artificials' - ???"
+			},
+			{
+				"name": "Advanced Robotics",
+				"row": 13,
+				"prerequisites": ["Telecommunications","Robotics","Lasers"],
+				"quote": "'The future lies in the artificials' - ???"
+			},
+			{
+				"name": "Deep Sea Mining",
+				"row": 12,
+				"prerequisites": ["Telecommunications","Robotics","Lasers"],
+				"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"
+			}
+		],
 	},
 	{
 		"columnNumber": 17,
@@ -29,30 +57,129 @@
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
-			{"name": "Mechs","row": 15,"prerequisites": ["Advanced Robotics","Nuclear Fusion"],"quote": "'Machine of bastions made for might...' - ???"},
-			{"name": "Mineral Extraction","row": 12,"prerequisites": ["Deep Sea Mining"],"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"},
-			{"name": "Advanced Submersibles","row": 13,"prerequisites": ["Deep Sea Mining"],"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"},
-			{"name": "Digitalization","row": 1,"prerequisites": ["Globalization"],"quote": "'The world grows digitally by the day...' - ???"},
-			{"name": "Fusion Applications","row": 2,"prerequisites": ["Nuclear Fusion","Advanced Robotics"],"quote": "'With this new energy source, what could we use it for?' - ???"},
-			{"name": "Advanced Lasers","row": 3,"prerequisites": ["Particle Physics","Nuclear Fusion"],"quote": "'The power of our beams of light shall pierce our enemies...' - ???"},
-			{"name": "Nanofibers","row": 7,"prerequisites": ["Nanotechnology","Advanced Robotics"],"quote": "'A reactive suit of armor that fits nicely, how convenient...' - ???"},
-			{"name": "Advanced Stealth","row": 8,"prerequisites": ["Nanotechnology","Stealth"],"quote": "'Radar absorption and heat dispersion has been increased to new strides never before soon...' - ???"},
-			{"name": "Subterranean Constructions","row": 9,"prerequisites": ["Nuclear Fusion","Advanced Robotics"],"quote": "'The ways of the stone and earth have been uncovered through years of research, and now, we have the ability to expand downwards further than ever before...' - ???"}],
+			{
+				"name": "Quantum Physics",
+				"row": 4,
+				"prerequisites": ["Advanced Robotics","Particle Physics","Lasers"],
+				"quote": "'Machine of bastions made for might...' - ???"
+			},
+			{
+				"name": "Mineral Extraction",
+				"row": 12,
+				"prerequisites": ["Deep Sea Mining"],
+				"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"
+			},
+			{
+				"name": "Advanced Submersibles",
+				"row": 13,
+				"prerequisites": ["Deep Sea Mining"],
+				"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"
+			},
+			{
+				"name": "Digitalization",
+				"row": 1,
+				"prerequisites": ["Globalization"],
+				"quote": "'The world grows digitally by the day...' - ???"
+			},
+			{
+				"name": "Fusion Applications",
+				"row": 2,
+				"prerequisites": ["Nuclear Fusion","Advanced Robotics"],
+				"quote": "'With this new energy source, what could we use it for?' - ???"
+			},
+			{
+				"name": "Advanced Lasers",
+				"row": 3,
+				"prerequisites": ["Particle Physics","Nuclear Fusion"],
+				"quote": "'The power of our beams of light shall pierce our enemies...' - ???"
+			},
+			{
+				"name": "Genetics",
+				"row": 5,
+				"prerequisites": ["Nanotechnology","Globalization"],
+				"quote": "'What information is hidden deep within ourselves...' - ???"
+			},
+			{
+				"name": "Mass 3D Printing I",
+				"row": 6,
+				"prerequisites": ["Advanced Robotics","Nanotechnology"],
+				"quote": "'Incredible, the uses are limitless and I can make any spare parts I need...' - ???"
+			},
+			{
+				"name": "Nanofibers",
+				"row": 7,
+				"prerequisites": ["Nanotechnology","Advanced Robotics"],
+				"quote": "'A reactive suit of armor that fits nicely, how convenient...' - ???"
+			},
+			{
+				"name": "Advanced Stealth",
+				"row": 8,
+				"prerequisites": ["Nanotechnology","Stealth"],
+				"quote": "'Radar absorption and heat dispersion has been increased to new strides never before soon...' - ???"
+			},
+			{
+				"name": "Subterranean Constructions",
+				"row": 9,
+				"prerequisites": ["Nuclear Fusion","Advanced Robotic","Mountain Mining III"],
+				"quote": "'The ways of the stone and earth have been uncovered through years of research, and now, we have the ability to expand downwards further than ever before...' - ???"
+			}
+		],
 	},
 	{
 		"columnNumber": 18,
 		"era": "Future era",
-		"techCost": 10500,
+		"techCost": 12500,
 		"buildingCost": 750,
 		"wonderCost": 1250,
 		"techs": [
-			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"},
-			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"},
-			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"},
-			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"},
-			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"},
-			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"},
-			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"},
-			{"name": "Synthesization","row": 12,"prerequisites": ["Mineral Extraction"],"quote": "'The natural desposits of this world are not enough, we require more...' - ???"}],
-	},
+			{
+				"name": "Synthesization",
+				"row": 12,
+				"prerequisites": ["Advanced Lasers","Mineral Extraction"],
+				"quote": "'The natural desposits of this world are not enough, we require more...' - ???"
+			},
+			{
+				"name": "Cryptocurrency",
+				"row": 1,
+				"prerequisites": ["Digitalization"],
+				"quote": "'What forms of economic stature must we gain to succeed...' - ???"
+			},
+			{
+				"name": "Advanced Satellites",
+				"row": 2,
+				"prerequisites": ["Mineral Extraction"],
+				"quote": "'The natural desposits of this world are not enough, we require more...' - ???"
+			},
+			{
+				"name": "Mechs I",
+				"row": 12,
+				"prerequisites": ["Advanced Lasers","Fusion Applications"],
+				"quote": "'Primitive, yet promising... perhaps it could be of better use with better technology...' - ???"
+			},
+			{
+				"name": "Advanced Genetics",
+				"row": 10,
+				"prerequisites": ["Mineral Extraction"],
+				"quote": "'Our research continues, and the data continues to add, what can we do with genetics...' - ???"
+			},
+			{
+				"name": "Space Exploration I",
+				"row": 6,
+				"prerequisites": ["Nanofibers","Fusion Applications"],
+				"quote": "'The beginnings of our future expansion into the great unknown...' - ???"
+			},
+			{
+				"name": "Light Alloys",
+				"row": 4,
+				"prerequisites": ["Nanofibers","Advanced Lasers"],
+				"quote": "'We require more Titanium, but where to get?' - ???"
+			},
+			{
+				"name": "Mass 3D Printing II",
+				"row": 8,
+				"prerequisites": ["Advanced Lasers","Mass 3D Printing II"],
+				"quote": "'Who knew that we could 3D print a vehicle with the click of a button...' - ???"
+			}
+		]
+	}
 ]
