@@ -120,7 +120,7 @@
 			{
 				"name": "Subterranean Constructions",
 				"row": 9,
-				"prerequisites": ["Nuclear Fusion","Advanced Robotic","Mountain Mining III"],
+				"prerequisites": ["Nuclear Fusion","Advanced Robotics","Mountain Mining III"],
 				"quote": "'The ways of the stone and earth have been uncovered through years of research, and now, we have the ability to expand downwards further than ever before...' - ???"
 			}
 		],
