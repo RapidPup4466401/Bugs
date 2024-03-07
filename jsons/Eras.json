@@ -7,7 +7,7 @@
         "startingMilitaryUnitCount": 5,
         "startingMilitaryUnit": "Marine",
         "startingGold": 400,
-        "startingCulture": 600,
+        "startingCulture": 700,
         "settlerPopulation": 5,
         "settlerBuildings": ["Monument","Granary","Lighthouse","Market","Workshop","Amphitheater","Barracks","Library","Colosseum","Theatre","Bank"],
         "startingObsoleteWonders": ["Temple of Artemis", "Stonehenge", "The Great Library", "Mausoleum of Halicarnassus", "The Pyramids", "Statue of Zeus",
