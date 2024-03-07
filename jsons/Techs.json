@@ -240,7 +240,7 @@
 			{
 				"name": "Genetic Enhancements",
 				"row": 15,
-				"prerequisites": ["Genetics"],
+				"prerequisites": ["Advanced Genetics"],
 				"quote": "'We could modify ourselves to such a degree... I wonder how ethical it is?' - ???"
 			},
 			{
