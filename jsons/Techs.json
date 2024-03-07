@@ -147,8 +147,8 @@
 			{
 				"name": "Advanced Satellites",
 				"row": 3,
-				"prerequisites": ["Mineral Extraction"],
-				"quote": "'The natural desposits of this world are not enough, we require more...' - ???"
+				"prerequisites": ["Mineral Extraction","Fusion Applications"],
+				"quote": "'We need more powerful satellites, ones that ...' - ???"
 			},
 			{
 				"name": "Mechs I",
@@ -159,7 +159,7 @@
 			{
 				"name": "Advanced Genetics",
 				"row": 11,
-				"prerequisites": ["Mineral Extraction"],
+				"prerequisites": ["Genetics"],
 				"quote": "'Our research continues, and the data continues to add, what can we do with genetics...' - ???"
 			},
 			{
@@ -177,13 +177,13 @@
 			{
 				"name": "Mass 3D Printing II",
 				"row": 9,
-				"prerequisites": ["Advanced Lasers","Mass 3D Printing I"],
+				"prerequisites": ["Advanced Lasers","Mass 3D Printing I","Fusion Applications"],
 				"quote": "'Who knew that we could 3D print a vehicle with the click of a button...' - ???"
 			},
 			{
 				"name": "Quantum Physics",
 				"row": 2,
-				"prerequisites": ["Cryptocurrency"],
+				"prerequisites": ["Quantum Field Theory"],
 				"quote": "'Such fascinating quantizations of energy...' - ???"
 			}
 		]
@@ -197,25 +197,79 @@
 		"techs": [
 			{
 				"name": "Artifical Intelligence",
-				"row": 2,
+				"row": 1,
 				"prerequisites": ["Cryptocurrency"],
 				"quote": "'Responsive, adaptable, and generative AI has never been more advanced...' - ???"
 			},
 			{
 				"name": "Quantum Computing",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Quantum Physics"],
 				"quote": "'Our capabilities in data managment and control have never seen before...' - ???"
 			},
 			{
 				"name": "Quark Physics",
-				"row": 2,
-				"prerequisites": ["Quantum PHysics"],
+				"row": 5,
+				"prerequisites": ["Quantum Physics"],
 				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
 			},
 			{
+				"name": "Space Exploration II",
+				"row": 7,
+				"prerequisites": ["Space Exploration I","Advanced Satellites"],
+				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
+			},
+			{
+				"name": "Space Stations",
+				"row": 9,
+				"prerequisites": ["Space Exploration I","Advanced Satellites","Light Alloys"],
+				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
+			},
+			{
+				"name": "Synthetic Materials",
+				"row": 11,
+				"prerequisites": ["Synthesization","Light Alloys"],
+				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
+			},
+			{
+				"name": "Synthetic Fluids",
+				"row": 13,
+				"prerequisites": ["Synthesization"],
+				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
+			},
+			{
+				"name": "Genetic Enhancements",
+				"row": 15,
+				"prerequisites": ["Genetics"],
+				"quote": "'We could modify ourselves to such a degree... I wonder how ethical it is?' - ???"
+			},
+			{
+				"name": "Mechs II",
+				"row": 17,
+				"prerequisites": ["Mechs I"],
+				"quote": "'Our machinations only continue to grow in strength for our soon to come wars...' - ???"
+			},
+			{
+				"name": "Small Fission Reactors",
+				"row": 19,
+				"prerequisites": ["Quantum Physics","Light Alloys"],
+				"quote": "'We've successfully downsized a fission reactor to the size of a backpack, what's next?' - ???"
+			},
+			{
+				"name": "Nanites",
+				"row": 21,
+				"prerequisites": ["Light Alloys"],
+				"quote": "'Controllable machines the size of cells, what are the endless possibilities...' - ???"
+			},
+			{
+				"name": "Mass 3D Printing III",
+				"row": 23,
+				"prerequisites": ["Quantum PHysics","Mass 3D Printing II"],
+				"quote": "'Missiles, rockets, and machines of war can be produced on a scale never before seen...' - ???"
+			},
+			{
 				"name": "Future Tech",
-				"row": 5,
+				"row": 25,
 				"prerequisites": ["Light Alloys"],
 				"uniques": ["Go beyond the Future", "Can be continually researched"],
 				"quote": "'UNAVAILABLE... AWAITING FURTHER UPDATES TO TECHNOLOGY TREE...' - ???"
