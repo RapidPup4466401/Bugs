@@ -59,19 +59,19 @@
 		"techs": [
 			{
 				"name": "Quantum Physics",
-				"row": 4,
+				"row": 21,
 				"prerequisites": ["Advanced Robotics","Particle Physics","Lasers"],
 				"quote": "'Machine of bastions made for might...' - ???"
 			},
 			{
 				"name": "Mineral Extraction",
-				"row": 12,
+				"row": 19,
 				"prerequisites": ["Deep Sea Mining"],
 				"quote": "'Far in the dark depths of the ocean are minerals that could support our growing peoples' - ???"
 			},
 			{
 				"name": "Advanced Submersibles",
-				"row": 13,
+				"row": 17,
 				"prerequisites": ["Deep Sea Mining"],
 				"quote": "'War no longer presides on the surface, but now as well within the depths of the sea' - ???"
 			},
@@ -83,43 +83,43 @@
 			},
 			{
 				"name": "Fusion Applications",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Nuclear Fusion","Advanced Robotics"],
 				"quote": "'With this new energy source, what could we use it for?' - ???"
 			},
 			{
 				"name": "Advanced Lasers",
-				"row": 3,
+				"row": 5,
 				"prerequisites": ["Particle Physics","Nuclear Fusion"],
 				"quote": "'The power of our beams of light shall pierce our enemies...' - ???"
 			},
 			{
 				"name": "Genetics",
-				"row": 5,
+				"row": 7,
 				"prerequisites": ["Nanotechnology","Globalization"],
 				"quote": "'What information is hidden deep within ourselves...' - ???"
 			},
 			{
 				"name": "Mass 3D Printing I",
-				"row": 6,
+				"row": 9,
 				"prerequisites": ["Advanced Robotics","Nanotechnology"],
 				"quote": "'Incredible, the uses are limitless and I can make any spare parts I need...' - ???"
 			},
 			{
 				"name": "Nanofibers",
-				"row": 7,
+				"row": 11,
 				"prerequisites": ["Nanotechnology","Advanced Robotics"],
 				"quote": "'A reactive suit of armor that fits nicely, how convenient...' - ???"
 			},
 			{
 				"name": "Advanced Stealth",
-				"row": 8,
+				"row": 13,
 				"prerequisites": ["Nanotechnology","Stealth"],
 				"quote": "'Radar absorption and heat dispersion has been increased to new strides never before soon...' - ???"
 			},
 			{
 				"name": "Subterranean Constructions",
-				"row": 9,
+				"row": 15,
 				"prerequisites": ["Nuclear Fusion","Advanced Robotics","Mountain Mining III"],
 				"quote": "'The ways of the stone and earth have been uncovered through years of research, and now, we have the ability to expand downwards further than ever before...' - ???"
 			}
@@ -134,7 +134,7 @@
 		"techs": [
 			{
 				"name": "Synthesization",
-				"row": 12,
+				"row": 13,
 				"prerequisites": ["Advanced Lasers","Mineral Extraction"],
 				"quote": "'The natural desposits of this world are not enough, we require more...' - ???"
 			},
@@ -146,37 +146,37 @@
 			},
 			{
 				"name": "Advanced Satellites",
-				"row": 2,
+				"row": 3,
 				"prerequisites": ["Mineral Extraction"],
 				"quote": "'The natural desposits of this world are not enough, we require more...' - ???"
 			},
 			{
 				"name": "Mechs I",
-				"row": 13,
+				"row": 15,
 				"prerequisites": ["Advanced Lasers","Fusion Applications"],
 				"quote": "'Primitive, yet promising... perhaps it could be of better use with better technology...' - ???"
 			},
 			{
 				"name": "Advanced Genetics",
-				"row": 10,
+				"row": 11,
 				"prerequisites": ["Mineral Extraction"],
 				"quote": "'Our research continues, and the data continues to add, what can we do with genetics...' - ???"
 			},
 			{
 				"name": "Space Exploration I",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Nanofibers","Fusion Applications"],
 				"quote": "'The beginnings of our future expansion into the great unknown...' - ???"
 			},
 			{
 				"name": "Light Alloys",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Nanofibers","Advanced Lasers"],
 				"quote": "'We require more Titanium, but where to get?' - ???"
 			},
 			{
 				"name": "Mass 3D Printing II",
-				"row": 8,
+				"row": 9,
 				"prerequisites": ["Advanced Lasers","Mass 3D Printing I"],
 				"quote": "'Who knew that we could 3D print a vehicle with the click of a button...' - ???"
 			}
@@ -191,13 +191,13 @@
 		"techs": [
 			{
 				"name": "Artifical Intelligence",
-				"row": 1,
+				"row": 2,
 				"prerequisites": ["Cryptocurrency"],
 				"quote": "'Responsive, adaptable, and generative AI has never been more advanced...' - ???"
 			},
 			{
 				"name": "Future Tech",
-				"row": 2,
+				"row": 5,
 				"prerequisites": ["Light Alloys"],
 				"uniques": ["Go beyond the Future", "Can be continually researched"],
 				"quote": "'UNAVAILABLE... AWAITING FURTHER UPDATES TO TECHNOLOGY TREE...' - ???"
