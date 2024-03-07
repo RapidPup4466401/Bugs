@@ -205,7 +205,7 @@
 		"strength": 90,
 		"rangedStrength": 90,
 		"range": 8,
-		"requiredTech": "Laser",
+		"requiredTech": "Lasers",
 		"movement": 1,
 		"uniques": [
 			"Cannot be purchased <hidden from users>",
