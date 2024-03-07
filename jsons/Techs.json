@@ -190,7 +190,7 @@
 	},
 	{
 		"columnNumber": 19,
-		"era": "Neo era",
+		"era": "Future era",
 		"techCost": 16000,
 		"buildingCost": 1100,
 		"wonderCost": 1400,
@@ -271,18 +271,68 @@
 	},
 	{
 		"columnNumber": 20,
-		"era": "Neo era",
+		"era": "Future era",
 		"techCost": 16000,
 		"buildingCost": 1100,
 		"wonderCost": 1400,
 		"techs": [
 			{
-				"name": "Future Tech",
+				"name": "Digital Reality",
+				"row": 1,
+				"prerequisites": ["Artificial Intelligence"],
+				"quote": "'Incredible, I can even feel this virtual combat on my own body...' - ???"
+			},
+			{
+				"name": "Simulations",
+				"row": 2,
+				"prerequisites": ["Quantum Computing","Artificial Intelligence"],
+				"quote": "'We are close to perfectly predicting all events in the world. All we need is more data, energy, and computational power...' - ???"
+			},
+			{
+				"name": "Hadron Physics",
+				"row": 3,
+				"prerequisites": ["Quark Physics"],
+				"quote": "'Hadrons... a unique particle with quarks. How will it interact with others around it?' - ???"
+			},
+			{
+				"name": "Quantum Reactors",
+				"row": 4,
+				"prerequisites": ["Quark Physics"],
+				"quote": "'Fusion and Fission technology alike enhanced by quantum physics.' - ???"
+			},
+			{
+				"name": "Space Exploration III",
 				"row": 5,
-				"prerequisites": ["Mechs II"],
-				"uniques": ["Go beyond the Future", "Can be continually researched"],
-				"quote": "'UNAVAILABLE... AWAITING FURTHER UPDATES TO TECHNOLOGY TREE...' - ???"
+				"prerequisites": ["Space Exploration II","Space Stations"],
+				"quote": "'I wonder how far we can go.' - ???"
+			},
+			{
+				"name": "Starships",
+				"row": 8,
+				"prerequisites": ["Space Exploration II","Space Stations"],
+				"quote": "'Vessels armed with weapons, and others equipped with transport capabilities. Although primitive and new, it remains to be awe-inspiring and promising.' - ???"
+			},
+			{
+				"name": "Antimatter",
+				"row": 10,
+				"prerequisites": ["Synthetic Materials","Quark Physics"],
+				"quote": "'The matter in opposite charge of its counterpart, how interesting.' - ???"
 			}
 		]
-	}
+	},
+	{
+		"columnNumber": 21,
+		"era": "Future era",
+		"techCost": 22000,
+		"buildingCost": 1500,
+		"wonderCost": 1900,
+		"techs": [
+			{
+				"name": "Future Tech",
+				"row": 7,
+				"prerequisites": ["Antimatter"],
+				"quote": "'Responsive, adaptable, and generative AI has never been more advanced...' - ???"
+			}
+
+		]
 ]
