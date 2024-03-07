@@ -199,6 +199,7 @@
 				"name": "Future Tech",
 				"row": 2,
 				"prerequisites": ["Nanofibers"],
+				"uniques": ["Go beyond the Future", "Can be continually researched"],
 				"quote": "'UNAVAILABLE... AWAITING FURTHER UPDATES TO TECHNOLOGY TREE...' - ???"
 			}
 		]
