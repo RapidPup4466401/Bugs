@@ -60,7 +60,7 @@
 			{
 				"name": "Quantum Field Theory",
 				"row": 21,
-				"prerequisites": ["Advanced Robotics","Particle Physics","Lasers"],
+				"prerequisites": ["Advanced Robotics","Particle Physics"],
 				"quote": "'Machine of bastions made for might...' - ???"
 			},
 			{
