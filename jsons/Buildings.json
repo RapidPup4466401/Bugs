@@ -1100,7 +1100,7 @@
 		"cost": 7000,
 		"maintenance": 15,
 		"production": 8,
-		"requiredTech": "Mechs",
+		"requiredTech": "Mechs I",
 		"uniques": [
 			"Only available <in cities with a [Assembly Plant]>",
 			"Limited to [4] per Civilization",
