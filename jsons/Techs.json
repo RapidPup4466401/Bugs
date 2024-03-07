@@ -9,7 +9,7 @@
 				"prerequisites": ["Combustion","Electronics","Plastics"],
 				"quote": "'What lies in the depths of these peaks...' - ???"
 			}
-		],
+		]
 	},
 	{
 		"columnNumber": 14,
@@ -21,7 +21,7 @@
 				"prerequisites": ["Mountain Mining I"],
 				"quote": "'The mountains with their insurmountable size will soon become our harvest...' - ???"
 			}
-		],
+		]
 	},
 	{
 		"columnNumber": 16,
@@ -48,7 +48,7 @@
 				"prerequisites": ["Telecommunications","Robotics","Lasers"],
 				"quote": "'Far in the dark depths of the deep ocean lay hidden unimaginable resources ripe for the harvest' - ???"
 			}
-		],
+		]
 	},
 	{
 		"columnNumber": 17,
@@ -123,7 +123,7 @@
 				"prerequisites": ["Nuclear Fusion","Advanced Robotics","Mountain Mining III"],
 				"quote": "'The ways of the stone and earth have been uncovered through years of research, and now, we have the ability to expand downwards further than ever before...' - ???"
 			}
-		],
+		]
 	},
 	{
 		"columnNumber": 18,
