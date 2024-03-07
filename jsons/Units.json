@@ -117,7 +117,7 @@
     		"cost": 250,
 		"movement": 2,
 		"strength": 110,
-		"requiredTech": "Mechs",
+		"requiredTech": "Mechs I",
 		"attackSound": "gdrAttack",
     		"uniques": [
 			"Consumes [1] [Titanium]",
@@ -148,7 +148,7 @@
 		"strength": 1000,
 		"rangedStrength": 1000,
 		"range": 50,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Quantum Physics",
 		"movement": 1,
 		"uniques": [
 			"Cannot be purchased <hidden from users>",
@@ -205,7 +205,7 @@
 		"strength": 90,
 		"rangedStrength": 90,
 		"range": 8,
-		"requiredTech": "Lasers",
+		"requiredTech": "Lase",
 		"movement": 1,
 		"uniques": [
 			"Cannot be purchased <hidden from users>",
@@ -224,7 +224,7 @@
 		"strength": 120,
 		"rangedStrength": 120,
 		"range": 18,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Light Alloys",
 		"movement": 1,
 		"uniques": [
 			"Cannot be purchased <hidden from users>",
@@ -245,7 +245,7 @@
 		"strength": 15,
 		"rangedStrength": 150,
 		"range": 28,
-		"requiredTech": "Advanced Robotics",
+		"requiredTech": "Light Alloys",
 		"movement": 1,
 		"uniques": [
 			"Cannot be purchased <hidden from users>",
@@ -310,7 +310,7 @@
 		"cost": 2000,
 		"strength": 60,
 		"rangedStrength": 150,
-		"requiredTech": "Mechs",
+		"requiredTech": "Mechs I",
 		"movement": 2,
 		"range": 3,
 		"uniques": [
