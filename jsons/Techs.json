@@ -177,7 +177,7 @@
 			{
 				"name": "Mass 3D Printing II",
 				"row": 8,
-				"prerequisites": ["Advanced Lasers","Mass 3D Printing II"],
+				"prerequisites": ["Advanced Lasers","Mass 3D Printing I"],
 				"quote": "'Who knew that we could 3D print a vehicle with the click of a button...' - ???"
 			}
 		]
