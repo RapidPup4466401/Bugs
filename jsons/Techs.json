@@ -264,7 +264,7 @@
 			{
 				"name": "Mass 3D Printing III",
 				"row": 23,
-				"prerequisites": ["Quantum PHysics","Mass 3D Printing II"],
+				"prerequisites": ["Quantum Physics","Mass 3D Printing II"],
 				"quote": "'Missiles, rockets, and machines of war can be produced on a scale never before seen...' - ???"
 			},
 			{
