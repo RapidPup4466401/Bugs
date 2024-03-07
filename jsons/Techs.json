@@ -181,5 +181,26 @@
 				"quote": "'Who knew that we could 3D print a vehicle with the click of a button...' - ???"
 			}
 		]
+	},
+	{
+		"columnNumber": 19,
+		"era": "Beyond the Future era",
+		"techCost": 16000,
+		"buildingCost": 1100,
+		"wonderCost": 1400,
+		"techs": [
+			{
+				"name": "Artifical Intelligence",
+				"row": 1,
+				"prerequisites": ["Cryptocurrency"],
+				"quote": "'Responsive, adaptable, and generative AI has never been more advanced...' - ???"
+			},
+			{
+				"name": "Future Tech",
+				"row": 2,
+				"prerequisites": ["Nanofibers"],
+				"quote": "'UNAVAILABLE... AWAITING FURTHER UPDATES TO TECHNOLOGY TREE...' - ???"
+			}
+		]
 	}
 ]
