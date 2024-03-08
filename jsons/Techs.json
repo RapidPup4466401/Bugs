@@ -139,6 +139,12 @@
 				"quote": "'The natural desposits of this world are not enough, we require more...' - ???"
 			},
 			{
+				"name": "Mass Drilling",
+				"row": 14,
+				"prerequisites": ["Advanced Lasers","Mineral Extraction","Subterranean Construction"],
+				"quote": "'Hwo deep can we drill into the crust of our planet...' - ???"
+			},
+			{
 				"name": "Cryptocurrency",
 				"row": 1,
 				"prerequisites": ["Digitalization"],
@@ -153,7 +159,7 @@
 			{
 				"name": "Mechs I",
 				"row": 10,
-				"prerequisites": ["Advanced Lasers","Fusion Applications"],
+				"prerequisites": ["Advanced Lasers","Fusion Applications","Advanced Submersibles"],
 				"quote": "'Primitive, yet promising... perhaps it could be of better use with better technology...' - ???"
 			},
 			{
