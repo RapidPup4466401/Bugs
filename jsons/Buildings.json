@@ -1910,7 +1910,7 @@
 			"[+12 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Electronics]",
 			"[-2] Unit Supply <when at war>",
-			"Must have an owned [Moutain] within [1] tiles<hidden from users>",
+			"Must have an owned [Moutain] within [1] tiles <hidden from users>",
 			"Destroyed when the city is captured"],
 	},
 	{
