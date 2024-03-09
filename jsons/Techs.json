@@ -141,7 +141,7 @@
 			{
 				"name": "Mass Drilling",
 				"row": 14,
-				"prerequisites": ["Advanced Lasers","Mineral Extraction","Subterranean Construction"],
+				"prerequisites": ["Advanced Lasers","Mineral Extraction","Subterranean Constructions"],
 				"quote": "'Hwo deep can we drill into the crust of our planet...' - ???"
 			},
 			{
