@@ -235,25 +235,25 @@
 				"name": "Space Exploration II",
 				"row": 5,
 				"prerequisites": ["Space Exploration I","Advanced Satellites"],
-				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
+				"quote": "'I am curious how far is the outer planet from us truly?' - ???"
 			},
 			{
 				"name": "Space Stations",
 				"row": 6,
 				"prerequisites": ["Space Exploration I","Advanced Satellites","Light Alloys"],
-				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
+				"quote": "'Techniques required to learn the orbits of our space-faring species.' - ???"
 			},
 			{
 				"name": "Synthetic Materials",
 				"row": 8,
 				"prerequisites": ["Synthesization","Light Alloys"],
-				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
+				"quote": "'Incredible, it's exactly like titanium but synthethically produced!' - ???"
 			},
 			{
 				"name": "Synthetic Fluids",
 				"row": 9,
 				"prerequisites": ["Synthesization"],
-				"quote": "'The very matter that makes up atoms... what do they do?' - ???"
+				"quote": "'Water, yet not...' - ???"
 			},
 			{
 				"name": "Genetic Enhancements",
@@ -345,7 +345,7 @@
 			{
 				"name": "Small Fusion Reactors",
 				"row": 12,
-				"prerequisites": ["Synthetic Materials","Synthethic Fluids","Quark Physics","Small Fission Reactors"],
+				"prerequisites": ["Synthetic Materials","Synthetic Fluids","Quark Physics","Small Fission Reactors"],
 				"quote": "'An upgrade from the previous generation of reactors... such applications...' - ???"
 			},
 			{
@@ -357,13 +357,13 @@
 			{
 				"name": "Advanced Alloys",
 				"row": 14,
-				"prerequisites": ["Synthetic Materials","Synthethic Fluids","Nanites","Small Fission Reactors"],
+				"prerequisites": ["Synthetic Materials","Synthetic Fluids","Nanites","Small Fission Reactors"],
 				"quote": "'It's even tougher than Titanium!' - ???"
 			},
 			{
 				"name": "Nanitic Enhancements",
 				"row": 15,
-				"prerequisites": ["Synthetic Materials","Synthethic Fluids","Nanites"],
+				"prerequisites": ["Synthetic Materials","Synthetic Fluids","Nanites"],
 				"quote": "'Using nanites to imrpove body functions such as the immune system? How intruiging...' - ???"
 			}
 		]
