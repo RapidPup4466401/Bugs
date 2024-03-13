@@ -101,7 +101,7 @@
 			},
 			{
 				"name": "Advanced Radio",
-				"row": 5,
+				"row": 7,
 				"prerequisites": ["Particle Physics","Globalization"],
 				"quote": "'I've always been curious as to what 5G was...' - ???"
 			},
