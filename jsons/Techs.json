@@ -362,7 +362,7 @@
 			},
 			{
 				"name": "Nanitic Enhancements",
-				"row": 12,
+				"row": 15,
 				"prerequisites": ["Synthetic Materials","Synthethic Fluids","Nanites"],
 				"quote": "'Using nanites to imrpove body functions such as the immune system? How intruiging...' - ???"
 			}
