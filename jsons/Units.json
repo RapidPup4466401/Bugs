@@ -87,12 +87,12 @@
   	},
 	{
 		"name": "Stealth Aerial Carrier",
-		"unitType": "Synthetic Materials",
+		"unitType": "Helicopter",
     		"cost": 10000,
 		"movement": 13,
 		"strength": 35,
     		"rangedStrength": 60,
-		"requiredTech": "Stealth",
+		"requiredTech": "Synthetic Materials",
     		"uniques": [
 			"Cannot be purchased",
 			"Consumes [4] [Uranium]",
