@@ -100,6 +100,12 @@
 				"quote": "'What information is hidden deep within ourselves...' - ???"
 			},
 			{
+				"name": "Advanced Radio",
+				"row": 5,
+				"prerequisites": ["Particle Physics","Globalization"],
+				"quote": "'I've always been curious as to what 5G was...' - ???"
+			},
+			{
 				"name": "Mass 3D Printing I",
 				"row": 9,
 				"prerequisites": ["Advanced Robotics","Nanotechnology"],
@@ -153,7 +159,7 @@
 			{
 				"name": "Advanced Satellites",
 				"row": 3,
-				"prerequisites": ["Mineral Extraction","Fusion Applications"],
+				"prerequisites": ["Mineral Extraction","Fusion Applications","Advanced Lasers","Digitalization","Advanced Radio"],
 				"quote": "'We need more powerful satellites, ones that ...' - ???"
 			},
 			{
@@ -171,7 +177,7 @@
 			{
 				"name": "Space Exploration I",
 				"row": 6,
-				"prerequisites": ["Nanofibers","Fusion Applications"],
+				"prerequisites": ["Nanofibers","Fusion Applications","Advanced Radio"],
 				"quote": "'The beginnings of our future expansion into the great unknown...' - ???"
 			},
 			{
@@ -191,6 +197,12 @@
 				"row": 2,
 				"prerequisites": ["Quantum Field Theory"],
 				"quote": "'Such fascinating quantizations of energy...' - ???"
+			},
+			{
+				"name": "Generative Intelligence",
+				"row": 16,
+				"prerequisites": ["Digitalization"],
+				"quote": "'Who knew we could create works of art in such effecient and timely methods...' - ???"
 			}
 		]
 	},
@@ -204,7 +216,7 @@
 			{
 				"name": "Artificial Intelligence",
 				"row": 1,
-				"prerequisites": ["Cryptocurrency"],
+				"prerequisites": ["Cryptocurrency","Generative Intelligence"],
 				"quote": "'Responsive, adaptable, and generative AI has never been more advanced...' - ???"
 			},
 			{
@@ -323,6 +335,36 @@
 				"row": 10,
 				"prerequisites": ["Synthetic Materials","Quark Physics"],
 				"quote": "'The matter in opposite charge of its counterpart, how interesting.' - ???"
+			},
+			{
+				"name": "Mechs III",
+				"row": 11,
+				"prerequisites": ["Synthetic Materials","Mechs II","Small Fission Reactors"],
+				"quote": "'I feel the courage of our soldiers made of iron and blood.' - ???"
+			},
+			{
+				"name": "Small Fusion Reactors",
+				"row": 12,
+				"prerequisites": ["Synthetic Materials","Synthethic Fluids","Quark Physics","Small Fission Reactors"],
+				"quote": "'An upgrade from the previous generation of reactors... such applications...' - ???"
+			},
+			{
+				"name": "Mass Drilling II",
+				"row": 13,
+				"prerequisites": ["Synthetic Materials","Mass Drilling","Small Fission Reactors"],
+				"quote": "'More drilling! Haha!' - ???"
+			},
+			{
+				"name": "Advanced Alloys",
+				"row": 14,
+				"prerequisites": ["Synthetic Materials","Synthethic Fluids","Nanites","Small Fission Reactors"],
+				"quote": "'It's even tougher than Titanium!' - ???"
+			},
+			{
+				"name": "Nanitic Enhancements",
+				"row": 12,
+				"prerequisites": ["Synthetic Materials","Synthethic Fluids","Nanites"],
+				"quote": "'Using nanites to imrpove body functions such as the immune system? How intruiging...' - ???"
 			}
 		]
 	},
