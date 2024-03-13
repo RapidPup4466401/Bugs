@@ -858,7 +858,7 @@
 		"maintenance": 4,
 		"cost": 2500,
 		"culture": 6,
-		"requiredTech": "Archeology",
+		"requiredTech": "Archaeology",
 		"uniques": [
 			"Only available <in cities with a [Cultural Preservation Center]>",
 			"Only available <in cities with a [Museum]>"],
