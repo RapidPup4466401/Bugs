@@ -801,8 +801,8 @@
 		"cost": 1200,
 		"culture": 5,
 		"happiness": 1,
-		"requiredTech": "Archaeology",
-		"specialistSlots": {"Artist": 2},
+		"requiredTech": "Radio",
+		"specialistSlots": {"Artist": 1},
 		"uniques": [
 			"Only available <in cities with a [Cultural Preserveration Center]>"],		
 	},
@@ -845,6 +845,15 @@
 			"Only available <in cities with a [Statues]>"],
 	},
 	{
+		"name": "Large Monument",
+		"maintenance": 1,
+		"cost": 500,
+		"culture": 5,
+		"requiredTech": "Construction",
+		"uniques": [
+			"Only available <in cities with a [Monument]>"],
+	},
+	{
 		"name": "Historical Site",
 		"maintenance": 4,
 		"cost": 2500,
@@ -858,7 +867,7 @@
 		"name": "Historical Society",
 		"maintenance": 2,
 		"cost": 1000,
-		"culture": 8,
+		"culture": 7,
 		"requiredTech": "Archaeology",
 		"uniques": [
 			"Only available <in cities with a [Cultural Preservation Center]>",
@@ -868,22 +877,11 @@
 		"name": "Cultural Language Center",
 		"maintenance": 4,
 		"cost": 1000,
-		"culture": 8,
+		"culture": 4,
 		"happiness": 2, 
 		"requiredTech": "Electricity",
 		"uniques": [
 			"Only available <in cities with a [Cultural Preservation Center]>"],
-	},
-	{
-		"name": "Historical Site",
-		"maintenance": 7,
-		"cost": 1200,
-		"culture": 6,
-		"happiness": 3,
-		"requiredTech": "Radio",
-		"uniques": [
-			"Only available <in cities with a [Cultural Preservation Center]>",
-			"Only available <in cities with a [Museum]>"],
 	},
 		
 	// Military Pack
