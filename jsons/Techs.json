@@ -369,7 +369,7 @@
 			{
 				"name": "Nanitic Enhancements",
 				"row": 17,
-				"prerequisites": ["Synthetic Materials","Synthetic Fluids","Nanites"],
+				"prerequisites": ["Synthetic Materials","Synthetic Fluids","Nanites","Genetic Enhancements"],
 				"quote": "'Using nanites to imrpove body functions such as the immune system? How intruiging...' - ???"
 			}
 		]
@@ -457,7 +457,7 @@
 			{
 				"name": "Degenerate Matter",
 				"row": 18,
-				"prerequisites": ["Simulations","Mechs III","Advanced Alloys","Small Fusion Reactors"],
+				"prerequisites": ["Simulations","Mechs III","Advanced Alloys","Small Fusion Reactors","Decomposition"],
 				"quote": "'The densest materials we know of that somehow are at a quantum level filled? What does that even mean?' - ???"
 			}
 		]
