@@ -419,7 +419,7 @@
 				"quote": "'Interesting, I do love quantum computers in everything...' - ???"
 			},
 			{
-				"name": "Dark matter",
+				"name": "Dark Matter",
 				"row": 9,
 				"prerequisites": ["Simulations","Small Fusion Reactors","Hadron Physics","Quantum Reactors","Advanced Alloys"],
 				"quote": "'What is this strange matter that doesn't interact with anythin in our universe except for with gravity?' - ???"
