@@ -189,6 +189,22 @@
 		"resourceType": "Luxury",
 	},
 	{
+		"name": "Antimatter",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Dark Matter",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Degenerate Matter",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Advanced Alloys",
+		"resourceType": "Strategic",
+	},
+	{
 		"name": "Bacterial Clusters",
 		"resourceType": "Bonus",
 		"revealedBy": "Biology",
