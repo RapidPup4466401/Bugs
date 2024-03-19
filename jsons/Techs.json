@@ -397,7 +397,7 @@
 			{
 				"name": "Metagenesis",
 				"row": 5,
-				"prerequisites": ["Simluations","Nanitic Enhancements"],
+				"prerequisites": ["Simulations","Nanitic Enhancements"],
 				"quote": "'The power to create an entire species from scratch, could this be good or worse for all? I wonder...' - ???"
 			},
 			{
