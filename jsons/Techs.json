@@ -472,7 +472,7 @@
 			{
 				"name": "Future Tech",
 				"row": 7,
-				"prerequisites": ["Mass Drilling III","Degenerate Matter","Automation","Dark matter","Antimatter Applications","Planetary Alliance","Advanced Flight","Space Colonization","Metagenesis","Quantum Applications","Super Intelligence","Advanced Simulations"],
+				"prerequisites": ["Mass Drilling III","Degenerate Matter","Automation","Dark Matter","Antimatter Applications","Planetary Alliance","Advanced Flight","Space Colonization","Metagenesis","Quantum Applications","Super Intelligence","Advanced Simulations"],
 				"quote": "'To the future, and beyond!' - ???"
 			}
 		]
