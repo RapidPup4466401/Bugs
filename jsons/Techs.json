@@ -451,7 +451,7 @@
 			{
 				"name": "Automation",
 				"row": 16,
-				"prerequisites": ["Simulations","Mechs III","Advanced Alloys","Small Fusion Reactors","Mass 3D Printing""],
+				"prerequisites": ["Simulations","Mechs III","Advanced Alloys","Small Fusion Reactors","Mass 3D Printing"],
 				"quote": "'Factories without humans? Logistical chains without humans? Where are all the humans?!' - ???"
 			},
 			{
