@@ -69,7 +69,7 @@
 		"movement": 8,
 		"strength": 25,
     		"rangedStrength": 40,
-		"requiredTech": "Synthethic Materials",
+		"requiredTech": "Synthetic Materials",
     		"uniques": [
 			"Cannot be purchased <hidden from users>",
 			"Consumes [2] [Uranium]",
