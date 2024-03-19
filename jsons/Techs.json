@@ -201,7 +201,7 @@
 			{
 				"name": "Generative Intelligence",
 				"row": 16,
-				"prerequisites": ["Digitalization"],
+				"prerequisites": ["Digitalization","Nanofibers"],
 				"quote": "'Who knew we could create works of art in such effecient and timely methods...' - ???"
 			}
 		]
@@ -285,6 +285,12 @@
 				"prerequisites": ["Quantum Physics","Mass 3D Printing II"],
 				"quote": "'Missiles, rockets, and machines of war can be produced on a scale never before seen...' - ???"
 			},
+			{
+				"name": "Decomposition",
+				"row": 18,
+				"prerequisites": ["Synthesization","Generative Intelligence","Light Alloys"],
+				"quote": "'Missiles, rockets, and machines of war can be produced on a scale never before seen...' - ???"
+			},
 		]
 	},
 	{
@@ -327,7 +333,7 @@
 			{
 				"name": "Starships",
 				"row": 8,
-				"prerequisites": ["Space Exploration II","Space Stations"],
+				"prerequisites": ["Space Exploration II","Space Stations","Mechs II","Quantum Computing"],
 				"quote": "'Vessels armed with weapons, and others equipped with transport capabilities. Although primitive and new, it remains to be awe-inspiring and promising.' - ???"
 			},
 			{
@@ -350,21 +356,109 @@
 			},
 			{
 				"name": "Mass Drilling II",
-				"row": 13,
+				"row": 14,
 				"prerequisites": ["Synthetic Materials","Mass Drilling","Small Fission Reactors"],
 				"quote": "'More drilling! Haha!' - ???"
 			},
 			{
 				"name": "Advanced Alloys",
-				"row": 14,
+				"row": 15,
 				"prerequisites": ["Synthetic Materials","Synthetic Fluids","Nanites","Small Fission Reactors"],
 				"quote": "'It's even tougher than Titanium!' - ???"
 			},
 			{
 				"name": "Nanitic Enhancements",
-				"row": 15,
+				"row": 17,
 				"prerequisites": ["Synthetic Materials","Synthetic Fluids","Nanites"],
 				"quote": "'Using nanites to imrpove body functions such as the immune system? How intruiging...' - ???"
+			}
+		]
+	},
+	{
+		"columnNumber": 21,
+		"era": "Future era",
+		"techCost": 22000,
+		"buildingCost": 1500,
+		"wonderCost": 1900,
+		"techs": [
+			
+			{
+				"name": "Advanced Simulations",
+				"row": 2,
+				"prerequisites": ["Simulations","Digital Reality","Hadron Physics","Small Fusion Reactors"],
+				"quote": "'To simulate an entire universe... how do we know we are not a simulation ourselves?' - ???"
+			},
+			{
+				"name": "Super Intelligence",
+				"row": 4,
+				"prerequisites": ["Digital Reality","Simulations","Quantum Reactors"],
+				"quote": "'An intelligence that is self-aware. and is more effecient than our civilization...' - ???"
+			},
+			{
+				"name": "Metagenesis",
+				"row": 5,
+				"prerequisites": ["Simluations","Nanitic Enhancements"],
+				"quote": "'The power to create an entire species from scratch, could this be good or worse for all? I wonder...' - ???"
+			},
+			{
+				"name": "Space Colonization",
+				"row": 6,
+				"prerequisites": ["Quantum Reactors","Space Exploration III","Starships","Space Stations","Advanced Alloys"],
+				"quote": "'To have our expansion into the stars is truly incredible...' - ???"
+			},
+			{
+				"name": "Antimatter Applications",
+				"row": 6,
+				"prerequisites": ["Antimatter","Quantum Reactors","Advanced Alloys"],
+				"quote": "'Who knew that antimatter particles were quite a fuel source for energy...' - ???"
+			},
+			{
+				"name": "Quantum Applications",
+				"row": 8,
+				"prerequisites": ["Simulations","Small Fusion Reactors","Hadron Physics","Quantum Reactors","Advanced Alloys"],
+				"quote": "'Interesting, I do love quantum computers in everything...' - ???"
+			},
+			{
+				"name": "Dark matter",
+				"row": 9,
+				"prerequisites": ["Simulations","Small Fusion Reactors","Hadron Physics","Quantum Reactors","Advanced Alloys"],
+				"quote": "'What is this strange matter that doesn't interact with anythin in our universe except for with gravity?' - ???"
+			},
+			{
+				"name": "Planetary Alliance",
+				"row": 11,
+				"prerequisites": ["Simulations","Small Fusion Reactors","Mechs III","Digital Reality","Space Exploration III","Starships","Advanced Alloys"],
+				"quote": "'In the unknown of the universe, we shall unite to explore the deep vastness of this empty place...' - ???"
+			},
+			{
+				"name": "Advanced Flight",
+				"row": 13,
+				"prerequisites": ["Simulations","Mechs III","Advanced Alloys","Small Fusion Reactors"],
+				"quote": "'Truly we've unlocked the secrets of flight in terms of power usage to weight ratios...' - ???"
+			},
+			{
+				"name": "Mass Drilling III",
+				"row": 14,
+				"prerequisites": ["Simulations","Quantum Reactors","Mechs III","Mass Drilling II","Small Fusion Reactors","Advanced Alloys"],
+				"quote": "'The ability to mine entire planets, we are bound by a mere desires with near limitless resources...' - ???"
+			},
+			{
+				"name": "Dark Energy",
+				"row": 15,
+				"prerequisites": ["Simulations","Quantum Reactors","Antimatter","Hadron Physics","Small Fusion Reactors"],
+				"quote": "'An energy that seems to grow over time? But how is this possible...' - ???"
+			},
+			{
+				"name": "Automation",
+				"row": 16,
+				"prerequisites": ["Simulations","Mechs III","Advanced Alloys","Small Fusion Reactors","Mass 3D Printing""],
+				"quote": "'Factories without humans? Logistical chains without humans? Where are all the humans?!' - ???"
+			},
+			{
+				"name": "Degenerate Matter",
+				"row": 18,
+				"prerequisites": ["Simulations","Mechs III","Advanced Alloys","Small Fusion Reactors"],
+				"quote": "'The densest materials we know of that somehow are at a quantum level filled? What does that even mean?' - ???"
 			}
 		]
 	},
@@ -378,10 +472,9 @@
 			{
 				"name": "Future Tech",
 				"row": 7,
-				"prerequisites": ["Antimatter"],
-				"quote": "'Responsive, adaptable, and generative AI has never been more advanced...' - ???"
+				"prerequisites": ["Mass Drilling III","Degenerate Matter","Automation","Dark matter","Antimatter Applications","Planetary Alliance","Advanced Flight","Space Colonization","Metagenesis","Quantum Applications","Super Intelligence","Advanced Simulations"],
+				"quote": "'To the future, and beyond!' - ???"
 			}
-
 		]
 	}
 ]
