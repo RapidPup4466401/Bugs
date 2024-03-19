@@ -408,7 +408,7 @@
 			},
 			{
 				"name": "Antimatter Applications",
-				"row": 6,
+				"row": 7,
 				"prerequisites": ["Antimatter","Quantum Reactors","Advanced Alloys"],
 				"quote": "'Who knew that antimatter particles were quite a fuel source for energy...' - ???"
 			},
