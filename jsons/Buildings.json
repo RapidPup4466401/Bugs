@@ -30,6 +30,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
 			"Only available <after adopting [Automationism]>",
+			"Only available <in cities with a [Factory]> <hidden from users>",
 			"[+5]% [Production] [in this city] <if [Factory] is constructed> <with [Coal]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Manufacturing Plant] is constructed> <with [Iron]><hidden from users>",
 			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Aluminum]><hidden from users>",
@@ -182,7 +183,23 @@
 	},
 		
 	//Industry for all nation cities, buildings that increase production capabilities and/or resources
-	
+
+	{
+		"name": "Additive Manufacturing Plant",
+		"maintenance": 5,
+		"cost": 6000,
+		"production": 8,
+		"requiredTech": "Mass 3D Printing II",
+		"uniques": [
+			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only availabe <in this city> <with [Microchip]> <hidden from users>",
+			"Only availabe <in this city> <with [Aluminum]> <hidden from users>",
+			"Consumes [1] [Titanium]",
+			"Consumes [1] [Aluminum]",
+			"[+10]% [Production] [in this city] <with [Aluminum]>",
+			"[+10]% [Production] [in this city] <with [Titanium]>",
+			"Destroyed when the city is captured <hidden from users>"],
+	},
 	{
 		"name": "Advanced Alloys Factory A",
 		"maintenance": 10,
@@ -275,6 +292,18 @@
 			"Limited to [1] per Civilization",
 			"Must be on [Coastal]",
 			"Consumes [1] [Aluminum]"],
+	},
+	{
+		"name": "Aluminum Synthesis Plant",
+		"maintenance": 7,
+		"cost": 6500,
+		"production": 5,
+		"requiredTech": "Synthethic Materials",
+		"uniques": [
+			"Only available <in cities with a [Synthesis Plant]>",
+			"Only available <in cities with a [Synthesization Research Facility]>",
+			"Provides [3] [Aluminum]",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Antimatter Production Facility",
@@ -568,6 +597,18 @@
 			"Destroyed when the city is captured"],
 	},
 	{
+		"name": "Iron Synthesis Plant",
+		"maintenance": 5,
+		"cost": 5500,
+		"production": 5,
+		"requiredTech": "Synthethic Materials",
+		"uniques": [
+			"Only available <in cities with a [Synthesis Plant]>",
+			"Only available <in cities with a [Synthesization Research Facility]>",
+			"Provides [4] [Iron]",
+			"Destroyed when the city is captured"],
+	},
+	{
 		"name": "Jewelry Manufacturing Plant",
 		"maintenance": 2,
 		"cost": 800,
@@ -674,6 +715,21 @@
 			"[+5]% Science [in this city]",
 			"[+10]% Production [in this city]",
 			"Provides [3] [Nickel]",
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Nuclear Battery Manufacturing Plant",
+		"maintenance": 7,
+		"cost": 1800,
+		"science": 4,
+		"production": 5,
+		"requiredTech": "Particle Physics",
+		"uniques": [
+			"Only available <in cities with a [Battery Manufacturing Plant]>",
+			"Consumes [1] [Microchip]",
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [Lead]",
+			"Provides [6] [Battery]",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -821,7 +877,7 @@
 			"Destroyed when the city is captured"],
 	},
 	{
-		"name": "Synthetic Rubber Manufactory",
+		"name": "Synthetic Rubber Manufacturing Plant",
 		"maintenance": 4,
 		"cost": 500,
 		"production": 3,
@@ -831,6 +887,18 @@
 			"Only available <in cities with a [Manufacturing Plant]>",
 			"Consumes [1] [Sulfur]",
 			"Provides [2] [Rubber]",
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Titanium Synthesis Plant",
+		"maintenance": 11,
+		"cost": 9500,
+		"production": 10,
+		"requiredTech": "Decomposition",
+		"uniques": [
+			"Only available <in cities with a [Synthesis Plant]>",
+			"Only available <in cities with a [Synthesization Research Facility]>",
+			"Provides [3] [Titanium]",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -886,18 +954,15 @@
 			"Obsolete with [Biology]"],
 	},
 	{
-		"name": "Nuclear Battery Manufacturing Plant",
+		"name": "Uranium Synthesis Plant",
 		"maintenance": 7,
-		"cost": 1800,
-		"science": 4,
-		"production": 5,
-		"requiredTech": "Particle Physics",
+		"cost": 7500,
+		"production": 10,
+		"requiredTech": "Hadron Physics",
 		"uniques": [
-			"Only available <in cities with a [Battery Manufacturing Plant]>",
-			"Consumes [1] [Microchip]",
-			"Consumes [1] [Uranium]",
-			"Consumes [1] [Lead]",
-			"Provides [6] [Battery]",
+			"Only available <in cities with a [Synthesis Plant]>",
+			"Only available <in cities with a [Synthesization Research Facility]>",
+			"Provides [3] [Uranium]",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -2061,6 +2126,18 @@
 		"uniques": [
 			"Only available <in cities with a [University]>",
 			"[+25]% [Science] [in this city] <with [Iron]>",
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Synthesization Research Facility",
+		"maintenance": 9,
+		"cost": 1500,
+		"science": 5,
+		"requiredTech": "Synthesization",
+		"uniques": [
+			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Research Center]>",
+			"Only available <in cities with a [Metullurgy Research Lab]>",
 			"Destroyed when the city is captured"],
 	},
 	{
