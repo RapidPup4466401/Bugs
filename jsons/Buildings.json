@@ -50,8 +50,8 @@
 			"Only available <after adopting [Beyond Factories]>",
 			"Consumes [2] [Microchip]",
 			"Consumes [1] [Antimatter]",
-			"Only available <in cities with a [Automated Factory]> <hidden from uysers>",
-			"Only available <in cities with a [Nuclear Factory]> <hidden from uysers>",
+			"Only available <in cities with a [Automated Factory]> <hidden from users>",
+			"Only available <in cities with a [Nuclear Factory]> <hidden from users>",
 			"[+3]% [Production] [in this city] <if [Factory] is constructed> <with [Coal]><hidden from users>",
 			"[+3]% [Production] [in this city] <if [Synthesis Plant] is constructed> <with [Aluminum]><hidden from users>",
 			"[+3]% [Production] [in this city] <if [Manufacturing Plant] is constructed> <with [Iron]><hidden from users>",
@@ -279,14 +279,14 @@
 	{
 		"name": "Antimatter Production Facility",
 		"maintenance": 15,
-		"cost": 5000,
+		"cost": 8000,
 		"production": 10,
 		"requiredTech": "Antimatter Applications",
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
 			"Only available <in cities with a [Antimatter Research Facility]>",
 			"Only available <in cities with a [Particle Accelerator Facility]>",
-			"Provides [3] [Antimatter]",
+			"Provides [4] [Antimatter]",
 			"Destroyed when the city is captured"],
 	},
 	{
