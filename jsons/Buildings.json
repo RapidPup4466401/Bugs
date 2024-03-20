@@ -424,9 +424,22 @@
 		"uniques": [
 			"Only available <in cities with a [Synthesis Plant]>",
 			"Only available <in cities with a [Cobalt Synthesis Lab]>",
-			"[+5]% Science [in this city]",
 			"[+5]% Production [in this city]",
 			"Provides [3] [Cobalt]",
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Dark Matter Production Facility",
+		"maintenance": 25,
+		"cost": 10000,
+		"production": 10,
+		"requiredTech": "Dark Matter",
+		"specialistSlots": {"Engineer": 1},
+		"uniques": [
+			"Only available <in cities with a [Dark Matter Research Facility]>",
+			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
+			"[+5]% Science [in this city]",
+			"Provides [4] [Dark Matter]",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -1962,6 +1975,19 @@
 			"Only available <in cities with a [Research Center]>",
 			"Consumes [1] [Aluminum]",
 			"[+15]% Science [in this city]",
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Gravitational Influxes Research Facility",
+		"cost": 8000,
+		"maintenance": 10,
+		"happiness": 1,
+		"science": 25,
+		"requiredTech": "Hadron Physics",
+		"specialistSlots": {"Scientist": 2},
+		"uniques": [
+			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Research Center]>",
 			"Destroyed when the city is captured"],
 	},
 	{
