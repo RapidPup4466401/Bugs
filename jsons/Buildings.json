@@ -1691,7 +1691,7 @@
 			"Only available <in cities with a [Market]>",
 			"[+1 Food] from [Fish] tiles [in this city]",
 			"Destroyed when the city is captured",
-			"Must have an owned [Farm] within [1] tiles"],
+			"Must have an owned [Fishing Boats] within [1] tiles"],
 	},
 
 	// National Buildings
