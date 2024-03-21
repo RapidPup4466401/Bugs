@@ -126,6 +126,20 @@
 			"Destroyed when the city is captured"],
 	},
 	{
+		"name": "Spaceport",
+		"maintenance": 5,
+		"cost": 5000,
+		"production": 5,
+		"requiredTech": "Space Exploration I",
+		"specialistSlots": {"Engineer": 1},
+		"uniques": [
+			"Only available <in cities with a [Launch Platform]> <hidden from users>",
+			"[+5]% [Production] [in this city] <if [Fabrication Plant] is constructed> <with [Aluminum]><hidden from users>",
+			"[+5]% [Production] [in this city] <if [Automated Factory] is constructed> <with [Aluminum]><hidden from users>",
+			"[+10]% [Production] [in this city]",
+			"Destroyed when the city is captured"],
+	},
+	{
 		"name": "Fabrication Plant",
 		"maintenance": 5,
 		"cost": 2000,
@@ -628,6 +642,25 @@
 		"requiredTech": "Pottery",
 		"uniques": [
 			"Provides [2] [Ceramics]","Destroyed when the city is captured"],
+	},
+	{
+		"name": "Launch Platform",
+		"cost": 3000,
+		"maintenance": 6,
+		"science": 2,
+		"production": 4,
+		"requiredTech": "Advanced Radio",
+		"uniques": [
+			"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Launch Site",
+		"cost": 1500,
+		"maintenance": 4,
+		"science": 2,
+		"requiredTech": "Satellites",
+		"uniques": [
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Machinery Assembly Plant",
