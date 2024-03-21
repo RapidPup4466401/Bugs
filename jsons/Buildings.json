@@ -298,7 +298,7 @@
 		"maintenance": 7,
 		"cost": 6500,
 		"production": 5,
-		"requiredTech": "Synthethic Materials",
+		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"Only available <in cities with a [Synthesis Plant]>",
 			"Only available <in cities with a [Synthesization Research Facility]>",
@@ -601,7 +601,7 @@
 		"maintenance": 5,
 		"cost": 5500,
 		"production": 5,
-		"requiredTech": "Synthethic Materials",
+		"requiredTech": "Synthetic Materials",
 		"uniques": [
 			"Only available <in cities with a [Synthesis Plant]>",
 			"Only available <in cities with a [Synthesization Research Facility]>",
