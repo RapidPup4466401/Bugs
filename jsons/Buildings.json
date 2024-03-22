@@ -206,8 +206,8 @@
 		"requiredTech": "Mass 3D Printing II",
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
-			"Only availabe <in this city> <with [Microchip]> <hidden from users>",
-			"Only availabe <in this city> <with [Aluminum]> <hidden from users>",
+			"Only availabe [in this city] <with [Microchip]> <hidden from users>",
+			"Only availabe [in this city] <with [Aluminum]> <hidden from users>",
 			"Consumes [1] [Titanium]",
 			"Consumes [1] [Aluminum]",
 			"[+10]% [Production] [in this city] <with [Aluminum]>",
@@ -222,8 +222,8 @@
 		"requiredTech": "Advanced Alloys",
 		"uniques": [
 			"Only available <in cities with a [Neo Factory]>",
-			"Only availabe <in this city> <with [Steel]> <hidden from users>",
-			"Only availabe <in this city> <with [Aluminum]> <hidden from users>",
+			"Only availabe [in this city] <with [Steel]> <hidden from users>",
+			"Only availabe [in this city] <with [Aluminum]> <hidden from users>",
 			"Consumes [2] [Steel]",
 			"Consumes [2] [Aluminum]",
 			"Provides [5] [Advanced Alloys] <with [{Aluminum}{Steel}]>",
@@ -237,8 +237,8 @@
 		"requiredTech": "Advanced Alloys",
 		"uniques": [
 			"Only available <in cities with a [Neo Factory]>",
-			"Only availabe <in this city> <with [Iron]> <hidden from users>",
-			"Only availabe <in this city> <with [Titanium]> <hidden from users>",
+			"Only availabe [in this city] <with [Iron]> <hidden from users>",
+			"Only availabe [in this city] <with [Titanium]> <hidden from users>",
 			"Consumes [2] [Iron]",
 			"Consumes [2] [Titanium]",
 			"Provides [5] [Advanced Alloys] <with [{Titanium}{Iron}]>",
@@ -252,9 +252,9 @@
 		"requiredTech": "Advanced Alloys",
 		"uniques": [
 			"Only available <in cities with a [Neo Factory]>",
-			"Only availabe <in this city> <with [Steel]> <hidden from users>",
-			"Only availabe <in this city> <with [Cobalt]> <hidden from users>",
-			"Only availabe <in this city> <with [Chromium]> <hidden from users>",
+			"Only availabe [in this city] <with [Steel]> <hidden from users>",
+			"Only availabe [in this city] <with [Cobalt]> <hidden from users>",
+			"Only availabe [in this city] <with [Chromium]> <hidden from users>",
 			"Consumes [2] [Steel]",
 			"Consumes [1] [Cobalt]",
 			"Consumes [1] [Nickel]",
@@ -269,8 +269,8 @@
 		"requiredTech": "Advanced Alloys",
 		"uniques": [
 			"Only available <in cities with a [Neo Factory]>",
-			"Only availabe <in this city> <with [Aluminum]> <hidden from users>",
-			"Only availabe <in this city> <with [Titanium]> <hidden from users>",
+			"Only availabe [in this city] <with [Aluminum]> <hidden from users>",
+			"Only availabe [in this city] <with [Titanium]> <hidden from users>",
 			"Consumes [2] [Aluminum]",
 			"Consumes [2] [Titanium]",
 			"Provides [5] [Advanced Alloys] <with [{Aluminum}{Titanium}]>",
@@ -284,6 +284,7 @@
 		"requiredTech": "Radar",
 		"uniques": [
 			"Only available <in cities with a [Assembly Plant]>",
+			"Only available [in this city] <with [Machinery]> <hidden from users>",
 			"Consumes [1] [Steel]",
 			"Consumes [1] [Machinery]",
 			"Consumes [1] [Electronic Component]",
@@ -302,9 +303,10 @@
 			"Only available <in cities with a [Shipyard]>",
 			"[+50]% Production when constructing [Aircraft Carrier] units [in this city] <with [Aluminum]>",
 			"New [Aircraft Carrier] units start with [60] Experience [in this city] <with [Aluminum]>",
-			"Destroyed when the city is captured",
+			"Only available [in this city] <with [Aluminum]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
 			"Limited to [1] per Civilization",
-			"Must be on [Coastal]",
+			"Must be on [Coastal] <hidden from users>",
 			"Consumes [1] [Aluminum]"],
 	},
 	{
@@ -341,6 +343,7 @@
 		"uniques": [
 			"Only available <in cities with a [Vehicle Assembly Plant]>",
 			"[+30]% Production when constructing [Armored] units [in this city] <with [Steel]>",
+			"Only available [in this city] <with [Vehicle Parts]> <hidden from users>",
 			"Consumes [1] [Vehicle Parts]",
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Steel]",
@@ -367,6 +370,8 @@
 		"specialistSlots": {"Engineer": 1},
 		"uniques": [
 			"Only available <in cities with a [Aircraft Assembly Plant]>",
+			"Only available [in this city] <with [Microchip]> <hidden from users>",
+			"Only available [in this city] <with [Robotic Parts]> <hidden from users>",
 			"Consumes [1] [Titanium]",
 			"Consumes [1] [Microchip]",
 			"Consumes [1] [Robotic Parts]",
@@ -384,6 +389,8 @@
 		"requiredTech": "Electronics",
 		"uniques": [
 			"Only available <in cities with a [Wire Manufacturing Plant]>",
+			"Only available [in this city] <with [Microchip]> <hidden from users>",
+			"Only available [in this city] <with [Robotic Parts]> <hidden from users>",
 			"Consumes [1] [Microchip]",
 			"Consumes [1] [Robotic Parts]",
 			"Consumes [1] [Copper]",
@@ -400,9 +407,10 @@
 		"requiredTech": "Steam Power",
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
-			"Destroyed when the city is captured",
+			"Only available [in this city] <with [Coal]> <hidden from users>",
 			"Provides [1] [Vehicle Parts] <with [Coal]>",
-			"Obsolete with [Plastics]"],
+			"Obsolete with [Plastics]",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Battery Manufacturing Plant",
@@ -414,6 +422,9 @@
 		"requiredTech": "Electricity",
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available [in this city] <with [Nickel]> <hidden from users>",
+			"Only available [in this city] <with [Cobalt]> <hidden from users>",
+			"Only available [in this city] <with [Manganese]> <hidden from users>",
 			"Consumes [1] [Manganese]",
 			"Consumes [1] [Nickel]",
 			"Consumes [1] [Cobalt]",
@@ -440,6 +451,7 @@
 		"requiredTech": "Electronics",
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [2] [Ceramics]",
 			"Provides [3] [Fibers] <with [Ceramics]>",
 			"Destroyed when the city is captured"],
@@ -453,6 +465,7 @@
 		"requiredTech": "Industrialization",
 		"uniques": [
 			"Only available <in cities with a [Jewelry Manufacturing Plant]>",
+			"Only available [in this city] <with [Cobalt]> <hidden from users>",
 			"Consumes [2] [Cobalt]",
 			"Provides [2] [Jewelry]",
 			"Destroyed when the city is captured"],
@@ -520,6 +533,7 @@
 		"requiredTech": "Electronics",
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
+			"Only available [in this city] <with [Electronic Component]> <hidden from users>",
 			"Consumes [1] [Electronic Component]",
 			"Consumes [1] [Fibers]",
 			"Provides [2] [Electronic Circuit] <with [Electronic Component]> <with [Fibers]>",
@@ -534,6 +548,7 @@
 		"requiredTech": "Electronics",
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
+			"Only available [in this city] <with [Copper]> <hidden from users>",
 			"Consumes [1] [Copper]",
 			"Consumes [1] [Wire]",
 			"Provides [2] [Electronic Component]",
@@ -549,6 +564,7 @@
 		"uniques": [
 			"Only available <in cities with a [Fabrication Plant]>",
 			"Only available <in cities with a [Electronic Component Factory]>",
+			"Only available [in this city] <with [Manganese]> <hidden from users>",
 			"Consumes [1] [Copper]",
 			"Consumes [1] [Wire]",
 			"Consumes [1] [Cobalt]",
@@ -565,6 +581,7 @@
 		"uniques": [
 			"Only available <in cities with a [Fabrication Plant]>",
 			"Only available <in cities with a [Electronic Circuit Factory]>",
+			"Only available [in this city] <with [Electronic Component]> <hidden from users>",
 			"Consumes [2] [Electronic Component]",
 			"Consumes [1] [Fibers]",
 			"Provides [5] [Electronic Circuit]",
@@ -593,6 +610,7 @@
 		"requiredTech": "Industrialization",
 		"uniques": [
 			"Only available <in cities with a [Jewelry Manufacturing Plant]>",
+			"Only available [in this city] <with [Gems]> <hidden from users>",
 			"Consumes [1] [Gems]",
 			"Provides [2] [Jewelry]",
 			"Destroyed when the city is captured"],
@@ -605,6 +623,7 @@
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Only available <in cities with a [Machinery Assembly Plant]>",
+			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Aluminum]",
 			"Consumes [2] [Steel]",
 			"Provides [4] [Machinery]",
@@ -630,6 +649,7 @@
 		"requiredTech": "Industrialization",
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Steel]",
 			"Provides [2] [Jewelry]",
 			"Destroyed when the city is captured"],
@@ -641,7 +661,8 @@
 		"production": 2,
 		"requiredTech": "Pottery",
 		"uniques": [
-			"Provides [2] [Ceramics]","Destroyed when the city is captured"],
+			"Provides [2] [Ceramics]",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Launch Platform",
@@ -670,6 +691,7 @@
 		"requiredTech": "Combustion",
 		"uniques": [
 			"Only available <in cities with a [Assembly Plant]>",
+			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Steel]",
 			"Provides [1] [Machinery]",
 			"Destroyed when the city is captured"],
@@ -684,6 +706,7 @@
 		"requiredTech": "Electricity",
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available [in this city] <with [Cobalt]> <hidden from users>",
 			"Consumes [1] [Nickel]",
 			"Consumes [1] [Cobalt]",
 			"Consumes [1] [Iron]",
@@ -698,6 +721,7 @@
 		"requiredTech": "Electronics",
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
+			"Only available [in this city] <with [Gold ore]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Gold Ore]",
 			"Provides [1] [Microchip]",
@@ -711,6 +735,7 @@
 		"requiredTech": "Lasers",
 		"uniques": [
 			"Only available <in cities with a [Fabrication Plant]>",
+			"Only available [in this city] <with [Gold Ore]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Gold Ore]",
 			"Consumes [1] [Fibers]",
@@ -728,6 +753,7 @@
 		"uniques": [
 			"Limited to [2] per Civilization",
 			"Only available <in cities with a [Microchip Fabrication Plant]>",
+			"Only available [in this city] <with [Gold Ore]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Gold Ore]",
 			"Consumes [1] [Fibers]",
@@ -759,6 +785,7 @@
 		"requiredTech": "Particle Physics",
 		"uniques": [
 			"Only available <in cities with a [Battery Manufacturing Plant]>",
+			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Consumes [1] [Microchip]",
 			"Consumes [1] [Uranium]",
 			"Consumes [1] [Lead]",
@@ -786,6 +813,7 @@
 		"requiredTech": "Plastics",
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
+			"Only available [in this city] <with [Rubber]> <hidden from users>",
 			"Consumes [1] [Rubber]",
 			"Consumes [1] [Oil]",
 			"Provides [3] [Fibers]",
@@ -800,6 +828,7 @@
 		"requiredTech": "Industrialization",
 		"uniques": [
 			"Only available <in cities with a [Jewelry Manufacturing Plant]>",
+			"Only available [in this city] <with [Platinum]> <hidden from users>",
 			"Consumes [2] [Platinum]",
 			"Provides [2] [Jewelry]",
 			"Destroyed when the city is captured"],
@@ -812,6 +841,7 @@
 		"requiredTech": "Plastics",
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
+			"Only available [in this city] <with [Rubber]> <hidden from users>",
 			"Consumes [1] [Coal]",
 			"Consumes [1] [Rubber]",
 			"Provides [2] [Fibers]",
@@ -827,6 +857,7 @@
 		"uniques": [
 			"Only available <in cities with a [Porcelain Workshop]>",
 			"Only available <in cities with a [Factory]>",
+			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [2] [Ceramics]",
 			"Provides [2] [Porcelain]",
 			"Destroyed when the city is captured"],
@@ -840,6 +871,7 @@
 		"requiredTech": "Masonry",
 		"uniques": [
 			"Only available <in cities with a [Kiln]>",
+			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Provides [1] [Porcelain]",
 			"Destroyed when the city is captured"],
@@ -863,6 +895,7 @@
 		"requiredTech": "Steel",
 		"uniques": [
 			"Only available <in cities with a [Forge]>",
+			"Only available [in this city] <with [Iron]> <hidden from users>",
 			"Consumes [1] [Iron]",
 			"Provides [1] [Steel] <with [Iron]>",
 			"Destroyed when the city is captured"],
@@ -876,6 +909,7 @@
 		"requiredTech": "Electricity",
 		"uniques": [
 			"Only available <in cities with a [Steel Works]>",
+			"Only available [in this city] <with [Coal]> <hidden from users>",
 			"Consumes [2] [Iron]",
 			"Consumes [2] [Coal]",
 			"Provides [5] [Steel] <with [Iron]>",
@@ -891,6 +925,7 @@
 		"uniques": [
 			"Only available <in cities with a [Steel Mill]>",
 			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available [in this city] <with [Coal]> <hidden from users>",
 			"Consumes [3] [Iron]",
 			"Consumes [2] [Coal]",
 			"Provides [8] [Steel] <with [Iron]> <with [Coal]>",
@@ -904,6 +939,7 @@
 		"requiredTech": "Industrialization",
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
+			"Only available [in this city] <with [Manganese]> <hidden from users>",
 			"Consumes [1] [Iron]",
 			"Consumes [1] [Manganese]",
 			"Provides [2] [Steel] <with [Iron]>",
@@ -918,6 +954,7 @@
 		"requiredTech": "Biology",
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available [in this city] <with [Sulfur]> <hidden from users>",
 			"Consumes [1] [Sulfur]",
 			"Provides [2] [Rubber]",
 			"Destroyed when the city is captured"],
@@ -943,6 +980,7 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
 			"Only available <in cities with a [Assembly Plant]>",
+			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Rubber]",
 			"Consumes [1] [Steel]",
 			"Consumes [1] [Aluminum]",
@@ -967,6 +1005,7 @@
 		"requiredTech": "Electronics",
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available [in this city] <with [Gold Ore]> <hidden from users>",
 			"Consumes [1] [Copper]",
 			"Consumes [1] [Cobalt]",
 			"Consumes [1] [Silver]",
@@ -982,6 +1021,7 @@
 		"requiredTech": "Steam Power",
 		"uniques": [
 			"Only available <in cities with a [Factory]>",
+			"Only available [in this city] <with [Iron]> <hidden from users>",
 			"Consumes [1] [Iron]",
 			"Destroyed when the city is captured",
 			"Obsolete with [Biology]"],
@@ -1007,6 +1047,7 @@
 		"requiredTech": "Industrialization",
 		"uniques": [
 			"Only available <in cities with a [Jewelry Manufacturing Plant]>",
+			"Only available [in this city] <with [Zinc]> <hidden from users>",
 			"Consumes [2] [Zinc]",
 			"Provides [2] [Jewelry]",
 			"Destroyed when the city is captured"],
@@ -1056,7 +1097,6 @@
 			"Destroyed when the city is captured"],					
 	},
 		
-
 	// Cultural buildings as normal for all nation states.
 
 	{
@@ -1078,7 +1118,8 @@
 		"happiness": 3,
 		"requiredTech": "Archaeology",
 		"uniques": [
-			"Only available <in cities with a [Cultural Preserveration Center]>"],		
+			"Only available <in cities with a [Cultural Preserveration Center]>",
+			"Only available <after adopting [Preservationism]> <hidden from users>"],		
 	},
 	{
 		"name": "Performance College",
@@ -1115,7 +1156,8 @@
 		"culture": 5,
 		"requiredTech": "Construction",
 		"uniques": [
-			"Only available <in cities with a [Monument]>"],
+			"Only available <in cities with a [Monument]>",
+			"Only available <after adopting [Tradition]> <hidden from users>"],
 	},
 	{
 		"name": "Historical Site",
@@ -1179,6 +1221,7 @@
 		"requiredTech": "Electronics",
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [2] [Ceramics]",
 			"Consumes [1] [Titanium]",
 			"New [Military] units start with [15] Experience [in this city]",
@@ -1188,10 +1231,11 @@
 		"name": "Chokepoints",
 		"maintenance": 2,
 		"cost": 300,
-		"requiredBuilding": "Military Base",
 		"cityHealth": 10,
 		"requiredTech": "Military Science",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": [
+			"Only available <in cities with a [Military Base]>",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "City Fortifications",
@@ -1200,7 +1244,10 @@
 		"requiredBuilding": "Military Base",
 		"cityHealth": 10,
 		"requiredTech": "Military Science",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": [
+			"Only available <in cities with a [Military Base]>",
+			"Only available <in cities with a [Chokepoints]>",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Defensive Trenches",
@@ -1209,7 +1256,10 @@
 		"cityStrength":30,
 		"happiness": -3,
 		"requiredTech": "Military Science",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": [
+			"[-1] [Happiness] [in this city] <when at war>",
+			"[+20]% Strength bonus for [Wounded] units within [1] tiles <when at war>",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Distribution Center",
@@ -1229,9 +1279,10 @@
 		"maintenance": 15,
 		"cost": 1700,
 		"requiredTech": "Pharmaceuticals",
-		"requiredResource": "Aluminum",
 		"uniques": [
 			"Only available <in cities with a [Advanced Individual Training Facilities]>",
+			"Only available [in this city] <with [Aluminum]> <hidden from users>",
+			"Consumes [1] [Aluminum]",
 			"New [{Military}] units start with [40] Experience [in this city]",
 			"Limited to [2] per Civilization",
 			"Destroyed when the city is captured"],
@@ -1244,6 +1295,7 @@
 		"requiredTech": "Robotics",
 		"uniques": [
 			"Only available <in cities with a [Assembly Plant]>",
+			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Limited to [3] per Civilization",
 			"Consumes [1] [Battery]",
 			"Consumes [1] [Microchip]",
@@ -1263,6 +1315,7 @@
 		"requiredTech": "Nuclear Fusion",
 		"uniques": [
 			"Only available <in cities with a [Exo-Skeleton Assembly Plant]>",
+			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Limited to [1] per Civilization",
 			"Consumes [1] [Battery]",
 			"Consumes [2] [Microchip]",
@@ -1282,6 +1335,7 @@
 		"requiredTech": "Rifling",
 		"uniques": [
 			"Only available <in cities with a [Manufacturing Plant]>",
+			"Only available [in this city] <with [Ceramics]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Iron]",
 			"New [{Military}] units start with [10] Experience [in this city]",
@@ -1306,6 +1360,7 @@
 		"uniques": [
 			"Only available <in cities with a [Gunpowder Mill]>",
 			"Only available <in cities with a [Factory]>",
+			"Only available [in this city] <with [Sulfur]> <hidden from users>",
 			"Consumes [2] [Sulfur]",
 			"All newly-trained [{Ranged Gunpowder}] units in this city receive the [Logistics] promotion",
 			"All newly-trained [{Gunpowder}] units in this city receive the [Blitz] promotion",
@@ -1318,7 +1373,9 @@
 		"production": 3,
 		"happiness": -1,
 		"requiredTech": "Gunpowder",
-		"uniques": ["Consumes [1] [Sulfur]",
+		"uniques": [
+			"Consumes [1] [Sulfur]",
+			"Only available [in this city] <with [Sulfur]> <hidden from users>",
 			"New [{Ranged Gunpowder}] units start with [10] Experience [in this city]",
 			"New [{Gunpowder}] units start with [10] Experience [in this city]",
 			"Destroyed when the city is captured"],
@@ -1327,11 +1384,13 @@
 		"name": "Improved Urban Defenses",
 		"maintenance": 4,
 		"cost": 1700,
-		"requiredBuilding": "Urban Defenses",
 		"cityHealth": 45,
-		"requiredResource": "Aluminum",
 		"requiredTech": "Ballistics",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": [
+			"Only available [in this city] <with [Aluminum]> <hidden from users>",
+			"Only available <in cities with a [Urban Defenses]>",
+			"Consumes [1] [Aluminum]",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Integrated Firearms Manufacturing Plant",
@@ -1341,6 +1400,7 @@
 		"requiredTech": "Advanced Ballistics",
 		"uniques": [
 			"Only available <in cities with a [Firearms Manufacturing Plant]>",
+			"Only available [in this city] <with [Steel]> <hidden from users>",
 			"Consumes [1] [Ceramics]",
 			"Consumes [1] [Steel]",
 			"Consumes [1] [Titanium]",
@@ -1365,6 +1425,8 @@
 		"requiredTech": "Mechs I",
 		"uniques": [
 			"Only available <in cities with a [Assembly Plant]>",
+			"Only available [in this city] <with [Microchip]> <hidden from users>",
+			"Only available [in this city] <with [Aluminum]> <hidden from users>",
 			"Limited to [4] per Civilization",
 			"Consumes [1] [Battery]",
 			"Consumes [1] [Microchip]",
@@ -1429,6 +1491,8 @@
 		"requiredTech": "Robotics",
 		"uniques": [
 			"Only available <in cities with a [Integrated Firearms Manufacturing Plant]>",
+			"Only available [in this city] <with [Microchip]> <hidden from users>",
+			"Only available [in this city] <with [Battery]> <hidden from users>",
 			"Limited to [2] per Civilization",
 			"Consumes [1] [Battery]",
 			"Consumes [1] [Microchip]",
@@ -1446,11 +1510,12 @@
 		"requiredTech": "Pharmaceuticals",
 		"uniques": [
 			"Only available <in cities with a [Elite Unit Training Facilities]>",
+			"Only available [in this city] <with [Microchip]> <hidden from users>",
 			"Consumes [1] [Uranium]",
 			"Consumes [1] [Aluminum]",
 			"Consumes [1] [Titanium]",
 			"Consumes [1] [Microchip]",
-			"New [{Military}] units start with [80] Experience [in this city] <with [Microchip]>",
+			"New [Military] units start with [80] Experience [in this city] <with [Microchip]>",
 			"Limited to [1] per Civilization",
 			"Destroyed when the city is captured"],
 	},	
@@ -1479,9 +1544,10 @@
 		"cost": 1000,
 		"requiredBuilding": "City Fortifications",
 		"cityHealth": 25,
-		"requiredResource": "Iron",
 		"requiredTech": "Military Science",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": [
+			"Only available [in this city] <with [Iron]> <hidden from users>",
+			"Destroyed when the city is captured"],
 	},	
 
 	//Deep Sea Mining Pack
@@ -1561,6 +1627,7 @@
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
 			"Only available <in cities with a [Extraction Methods Research Center]>",
+			"Only available [in this city] <with [Manganese Crusts]> <hidden from users>",
 			"Consumes [1] [Manganese Crusts]",
 			"Provides [2] [Cobalt]",
 			"Provides [2] [Iron]",
@@ -1580,6 +1647,7 @@
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
 			"Only available <in cities with a [Deep Sea Mining Research Center]>",
+			"Only available [in this city] <with [Polymetallic Nodules]> <hidden from users>",
 			"Consumes [1] [Polymetallic Nodules]",
 			"Provides [2] [Titanium]",
 			"Provides [1] [Nickel]",
@@ -1596,6 +1664,7 @@
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
 			"Consumes [1] [Polymetallic Nodules]",
+			"Only available [in this city] <with [Polymetallic Nodules]> <hidden from users>",
 			"Provides [2] [Titanium]",
 			"Provides [2] [Silver]",
 			"Provides [2] [Copper]",
@@ -1611,6 +1680,7 @@
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
 			"Only available <in cities with a [Deep Sea Mining Research Center]>",
+			"Only available [in this city] <with [Sulfide Deposits]> <hidden from users>",
 			"Consumes [1] [Sulfide Deposits]",
 			"Provides [1] [Iron]",
 			"Provides [2] [Copper]",
@@ -1629,6 +1699,7 @@
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
 			"Only available <in cities with a [Deep Sea Mining Infrastructure]>",
+			"Only available [in this city] <with [Sulfide Deposits]> <hidden from users>",
 			"Consumes [1] [Sulfide Deposits]",
 			"Provides [5] [Sulfur]",
 			"Destroyed when the city is captured"],
@@ -2166,6 +2237,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
 			"Provides [1] [Dark Matter]",
 			"Destroyed when the city is captured"],
 	},
@@ -2179,6 +2251,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -2191,6 +2264,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Research Lab]>",
+			"Only available <in cities with a [Particle Accelerator Facility]>",
 			"Provides [1] [Degenerate Matter]",
 			"Destroyed when the city is captured"],
 	},
@@ -2203,6 +2277,7 @@
 		"requiredTech": "Mineral Extraction",
 		"uniques": [
 			"Only available <in cities with a [Research Center]>",
+			"only available [in this city] <with [Aluminum]> <hidden from users>",
 			"Consumes [1] [Aluminum]",
 			"[+15]% Science [in this city]",
 			"Destroyed when the city is captured"],
@@ -2218,6 +2293,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Research Center]>",
+			"Only available <in cities with a [Particle Accelerator Facility]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -2335,10 +2411,11 @@
 		"cost": 50,
 		"cityStrenth": 3,
 		"cityHealth": 30,
-		"requiredBuilding": "Walls",
 		"requiredTech": "Construction",
 		"uniques": [
 			"<hidden from users>",
+			"only available <in cities with a [Battlements]>",
+			"only available <in cities with a [Walls]>",
 			"[+1 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"[+2 Culture] [in this city] <during the [Information era]><hidden from users>",
 			"Destroyed when the city is captured"],
@@ -2351,6 +2428,7 @@
 		"cityHealth": 25,
 		"requiredTech": "Construction",
 		"uniques": [
+			"only available <in cities with a [Battlements]>",
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Only available <in cities with a [Walls>",
 			"Obsolete with [Dynamite]",
@@ -2378,6 +2456,7 @@
 		"uniques": [
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Only available <in cities with a [Walls]>",
+			"only available <in cities with a [Battlements]>",
 			"Obsolete with [Combustion]",
 			"Destroyed when the city is captured"],
 	},
@@ -2399,6 +2478,7 @@
 		"requiredTech": "Military Science",
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
+			"only available <in cities with a [Battlements]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -2409,6 +2489,7 @@
 		"requiredTech": "Engineering",
 		"uniques": [
 			"Only available <in cities with a [Battlements]>",
+			"only available <in cities with a [Walls]>",
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Obsolete with [Dynamite]",
 			"Destroyed when the city is captured"],
@@ -2465,6 +2546,8 @@
 		"requiredTech": "Physics",
 		"uniques": [
 			"Only available <in cities with a [Walls]>",
+			"only available <in cities with a [Stone Keep]>",
+			"only available <in cities with a [Castle]>",
 			"[+2 Culture] [in this city] <if [Cultural Preservation Center] is constructed><hidden from users>",
 			"Destroyed when the city is captured",
 			"Obsolete with [Military Science]",
@@ -2476,7 +2559,9 @@
 		"maintenance": 1,
 		"happiness": 2,
 		"requiredTech": "Printing Press",
-		"uniques": ["Destroyed when the city is captured"],
+		"uniques": [
+			"only available <in cities with a [Library]>",
+			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Archery Training",
