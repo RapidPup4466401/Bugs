@@ -242,7 +242,7 @@
                     "[-3 Culture] from every [Canals] <hidden from users>",
                     "[-3 Culture] from every [Performance College] <hidden from users>",
                     "[-3 Culture] from every [Community Center] <hidden from users>",
-                    "[-3 Culture] from every [Cultural Preservation Center] <hidden from users>",
+                    "[-3 Culture] from every [Cultural Preservation Center] <hidden from users>"],
                 "requires": ["Artificience","Android Workers"],
                 "row": 2,
                 "column": 3,
