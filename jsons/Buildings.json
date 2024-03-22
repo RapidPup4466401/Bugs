@@ -2189,7 +2189,7 @@
 		"requiredTech": "Lasers",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Metullurgy Research Lab]>",
+			"Only available <in cities with a [Metallurgy Research Lab]>",
 			"Provides [1] [Cobalt]",
 			"Destroyed when the city is captured"],
 	},
@@ -2333,7 +2333,7 @@
 		"requiredTech": "Lasers",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Metullurgy Research Lab]>",
+			"Only available <in cities with a [Metallurgy Research Lab]>",
 			"Provides [1] [Nickel]",
 			"Destroyed when the city is captured"],
 	},
@@ -2372,7 +2372,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Lab]>",
 			"Only available <in cities with a [Research Center]>",
-			"Only available <in cities with a [Metullurgy Research Lab]>",
+			"Only available <in cities with a [Metallurgy Research Lab]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -2384,7 +2384,7 @@
 		"requiredTech": "Lasers",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"Only available <in cities with a [Metullurgy Research Lab]>",
+			"Only available <in cities with a [Metallurgy Research Lab]>",
 			"Provides [1] [Zinc]",
 			"Destroyed when the city is captured"],
 	},
