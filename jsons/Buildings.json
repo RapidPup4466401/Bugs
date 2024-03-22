@@ -520,9 +520,9 @@
 		"production": 5,
 		"requiredTech": "Mass Drilling",
 		"uniques": [
-			"Provides [1] [Titanium] <with [50]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [1] [Aluminum] <with [75]% chance> <every [2] turns> <for <2> turns>",
-			"Provides [1] [Iron] <with [90]% chance> <every [2] turns> <for <2> turns>",
+			"Provides [1] [Titanium] <if [Drilling Sites] is constructed> <every [2] turns> <for <2> turns> <with [50]% chance>",
+			"Provides [1] [Aluminum]  <every [2] turns> <for <2> turns> <with [75]% chance>",
+			"Provides [1] [Iron] <every [2] turns> <for <2> turns> <with [90]% chance>",
 			"Destroyed when the city is captured"],
 	},
 	{
