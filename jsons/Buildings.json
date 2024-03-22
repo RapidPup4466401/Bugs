@@ -494,7 +494,6 @@
 		"uniques": [
 			"Only available <in cities with a [Dark Matter Research Facility]>",
 			"Only available <in cities with a [Gravitational Influxes Research Facility]>",
-			"[+5]% Science [in this city]",
 			"Provides [4] [Dark Matter]",
 			"Destroyed when the city is captured"],
 	},
@@ -771,8 +770,6 @@
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Only available <in cities with a [Nickel Synthesis Lab]>",
-			"[+5]% Science [in this city]",
-			"[+10]% Production [in this city]",
 			"Provides [3] [Nickel]",
 			"Destroyed when the city is captured"],
 	},
@@ -1061,8 +1058,6 @@
 		"requiredTech": "Nanotechnology",
 		"uniques": [
 			"Only available <in cities with a [Zinc Synthesis Lab]>",
-			"[+5]% Science [in this city]",
-			"[+10]% Production [in this city]",
 			"Provides [3] [Zinc]",
 			"Destroyed when the city is captured"],
 	},
@@ -1578,8 +1573,8 @@
 		"uniques": [
 			"Only available <in cities with a [Deep Sea Mining Operations]>",
 			"[+3 Production] from [Coast] tiles [in this city]",
-			"[+45]% [Production] [in this city] <with [Aluminum]>",
-			"[+25]% [Science] [in this city] <with [Aluminum]>",
+			"[+30]% [Production] [in this city] <with [Aluminum]>",
+			"[+10]% [Science] [in this city] <with [Aluminum]>",
 			"[+50]% [Gold] [in this city] <with [Aluminum]>",
 			"Destroyed when the city is captured",
 			"[+5 Production] from [Ocean] tiles [in this city] <with [Aluminum]>",
@@ -1597,14 +1592,14 @@
 		"uniques": [
 			"Only available <in cities with a [Deep Sea Mining Foundations]>",
 			"Must be on [Coastal]",
-			"[+15]% [Science] [in this city] <with [Aluminum]>",
+			"[+10]% [Science] [in this city] <with [Aluminum]>",
 			"Destroyed when the city is captured"],
 	},
 	{
 		"name": "Deep Sea Mining Operations",
 		"maintenance": 1,
 		"cost": 6000,
-		"science": 20,
+		"science": 10,
 		"production": 25,
 		"requiredResource": "Aluminum",
 		"requiredTech": "Nanotechnology",
@@ -1802,7 +1797,7 @@
 			"[+3 Food] from [Farm] tiles [in this city]",
 			"[+50]% [Food] [in this city]",
 			"[+25]% [Food] [in this city] <if [Chemicals Research Lab] is constructed>",
-			"[+15]% [Science] [in this city]",
+			"[+5]% [Science] [in this city]",
 			"Destroyed when the city is captured",
 			"Limited to [5] per Civilization",
 			"Must have an owned [Farm] within [1] tiles"],
@@ -1874,6 +1869,7 @@
 		"specialistSlots": {"Scientist": 3},
 		"uniques": [
 			"[+10]% Science [in this city]",
+			"[+15]% Science [in this city] <when at war> <hidden from users>",
 			"Cost increases by [200] per owned city",
 			"Cannot be purchase <hidden from users>",
 			"Unsellable <hidden from users>",
@@ -1918,7 +1914,7 @@
 		"requiredTech": "Genetics",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"[+15]% Science [in this city]",
+			"[+5]% Science [in this city]",
 			"Cost increases by [100] per owned city",
 			"Cannot be purchase <hidden from users>",
 			"Unsellable <hidden from users>",
@@ -1963,7 +1959,7 @@
 		"requiredTech": "Artificial Intelligence",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"[+15]% Science [in this city]",
+			"[+10]% Science [in this city]",
 			"Only available <in cities with a [Institute of Technology]>",
 			"Cost increases by [100] per owned city",
 			"Cannot be purchase <hidden from users>",
@@ -1978,7 +1974,7 @@
 		"requiredTech": "Quantum Field Theory",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
-			"[+10]% Science [in this city]",
+			"[+5]% Science [in this city]",
 			"Only available <in cities with a [Institute of Technology]>",
 			"Cost increases by [40] per owned city",
 			"Cannot be purchase <hidden from users>",
@@ -2015,8 +2011,8 @@
 		"requiredTech": "Archaeology",
 		"specialistSlots": {"Artist": 3},
 		"uniques": [
-			"[+50]% [Culture] [in this city]",
-			"[+10]% [Science] [in this city]",
+			"[+40]% [Culture] [in this city]",
+			"[+3]% [Science] [in this city]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
@@ -2052,7 +2048,7 @@
 		"uniques": [
 			"Only available <in cities with a [Launch Platform]>",
 			"[+10]% [Culture] [in this city]",
-			"[+10]% [Science] [in this city]",
+			"[+5]% [Science] [in this city]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
@@ -2071,7 +2067,7 @@
 			"Only available <in cities with a [Spaceport]>",
 			"Only available <in cities with a [Explore Space I]>",
 			"[+20]% [Culture] [in this city]",
-			"[+20]% [Science] [in this city]",
+			"[+10]% [Science] [in this city]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
@@ -2090,7 +2086,7 @@
 			"Only available <in cities with a [Spaceport]>",
 			"Only available <in cities with a [Explore Space II]>",
 			"[+30]% [Culture] [in this city]",
-			"[+30]% [Science] [in this city]",
+			"[+15]% [Science] [in this city]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
@@ -2105,9 +2101,9 @@
 		"requiredTech": "Space Stations",
 		"uniques": [
 			"Only available <in cities with a [Space Station]>",
-			"[+5]% [Culture] [in this city]",
-			"[+15]% [Science] [in this city]",
-			"[+5]% [Production] [in this city]",
+			"[+5]% [Culture] [in this city] <hidden from users>",
+			"[+5]% [Science] [in this city] <hidden from users>",
+			"[+5]% [Production] [in this city] <hidden from users>",
 			"[+10]% Strength for cities [in all cities] <if [Orbital Station] is constructed>",
 			"Cost increases by [200] per owned city",
 			"Cannot be purchased <hidden from users>",
@@ -2127,7 +2123,7 @@
 		"uniques": [
 			"Only available <in cities with a [Launch Platform]>",
 			"[+20]% [Culture] [in all cities]",
-			"[+15]% [Science] [in all cities]",
+			"[+10]% [Science] [in all cities]",
 			"Cost increases by [50] per owned city",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
@@ -2139,14 +2135,14 @@
 		"cost": 5000,
 		"happiness": 5,
 		"gold": 5,
-		"science": 15,
+		"science": 10,
 		"culture": 5,
 		"requiredTech": "Space Stations",
 		"specialistSlots": {"Scientist": 2},
 		"uniques": [
 			"Only available <in cities with a [Launch Platform]>",
 			"[+10]% [Culture] [in this city]",
-			"[+30]% [Science] [in this city]",
+			"[+10]% [Science] [in this city]",
 			"Cost increases by [30] per owned city",
 			"Cannot be purchased <hidden from users>",
 			"Unsellable <hidden from users>",
@@ -2194,7 +2190,6 @@
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"Only available <in cities with a [Metullurgy Research Lab]>",
-			"[+5]% Science [in this city]",
 			"Provides [1] [Cobalt]",
 			"Destroyed when the city is captured"],
 	},
@@ -2223,7 +2218,7 @@
 			"Only available <in cities with a [Research Center]>",
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"[+5]% [Food] [in this city]",
-			"[+10]% [Science] [in this city]",
+			"[+5]% [Science] [in this city]",
 			"Destroyed when the city is captured",
 			"Must have an owned [Farm] within [2] tiles"],
 	},
@@ -2231,7 +2226,7 @@
 		"name": "Dark Matter Research Facility",
 		"maintenance": 8,
 		"cost": 2500,
-		"science": 15,
+		"science": 10,
 		"requiredTech": "Dark Matter",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
@@ -2245,7 +2240,7 @@
 		"name": "Dark Energy Research Facility",
 		"maintenance": 8,
 		"cost": 2500,
-		"science": 20,
+		"science": 10,
 		"requiredTech": "Dark Energy",
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
@@ -2279,7 +2274,7 @@
 			"Only available <in cities with a [Research Center]>",
 			"only available [in this city] <with [Aluminum]> <hidden from users>",
 			"Consumes [1] [Aluminum]",
-			"[+15]% Science [in this city]",
+			"[+5]% Science [in this city]",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -2310,7 +2305,7 @@
 			"Only available <in cities with a [Research Lab]>",
 			"[+1 Food] from [Farm] tiles [in this city]",
 			"[+10]% [Food] [in this city]",
-			"[+15]% [Science] [in this city]",
+			"[+5]% [Science] [in this city]",
 			"Destroyed when the city is captured",
 			"Limited to [5] per Civilization",
 			"Must have an owned [Farm] within [2] tiles"],
@@ -2326,7 +2321,7 @@
 		"uniques": [
 			"Only available <in cities with a [Research Center]>",
 			"Only available <in cities with a [Research Lab]>",
-			"[+15]% [Science] [in this city]",
+			"[+5]% [Science] [in this city]",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -2339,7 +2334,6 @@
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"Only available <in cities with a [Metullurgy Research Lab]>",
-			"[+5]% [Science] [in this city]",
 			"Provides [1] [Nickel]",
 			"Destroyed when the city is captured"],
 	},
@@ -2366,7 +2360,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"Only available <in cities with a [University]>",
-			"[+25]% [Science] [in this city] <with [Iron]>",
+			"[+20]% [Science] [in this city] <with [Iron]>",
 			"Destroyed when the city is captured"],
 	},
 	{
@@ -2391,7 +2385,6 @@
 		"specialistSlots": {"Scientist": 1},
 		"uniques": [
 			"Only available <in cities with a [Metullurgy Research Lab]>",
-			"[+5]% [Science] [in this city]",
 			"Provides [1] [Zinc]",
 			"Destroyed when the city is captured"],
 	},
