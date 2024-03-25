@@ -34,6 +34,8 @@
 		"movement": 3,
 		"strength": 5,
     		"uniques": [
+			"Can build [Land] improvements on tiles", 
+			"Automation is a primary action",
 			"Heals [10] damage if it kills a unit <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Founds a new city <by consuming this unit> <hidden from users>", 
