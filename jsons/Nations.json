@@ -1,1 +1,28 @@
+[
+	{
+		"name": "Insectoids",
+		"leaderName": "Hive Mother",
+		"adjective": ["Insectian"],
+		"preferredVictoryType": "Domination",
 
+		"startIntroPart1": "(You feel the telepathic waves a higher intelligence prod your mind, and the thought provoking emotions fill you. Emotions of curiosity, wariness, and caution towards you.)",
+		"startIntroPart2": "(You feel a headache enter you as a telepathic intelligence enters your mind as emotions of curiosity, emotion, and wariness fill you; with a hint of disgust and hatred to you.)",
+
+		"declaringWar": "(A torrent of furious and warring emotions suddenly enter your mind as telepathic waves bombard your mind as an image of a large Insectoid fill your mind, looking gnarled and bug-like in appearance with long legs, a large abdomen, and large pinchers on its mouth.)",
+		"attacked": "(A wave of sudden fear fills your mind before the higher intelligence prods your mind with emotions of curisoity, anger, fury, and a deep desire to resolve this conflict as soon as possible.)",
+		"defeated": "(You feel nothing as the Hive Mother dies a slow, agonizing death as she watches her young brood wither away and perish at your hands.)",
+		"introduction": "(You feel a wave of telepathic emotion that resembles something of curiosity and wariness towards yourself.)",
+
+		"neutralHello": "(A passing wave of emotional thought courses through you as you engage in communications with the Hive Mother)",
+		"hateHello": "(Your mind aches and feels as if it is about to explode as the Hive Mother angrily communicates with you telepathically.)",
+
+		"tradeRequest": "(The Hive Mother sends waves of telepathic thought that carry images which flood your mind of a resource she desires, and what she is willing to give.)",
+
+		"outerColor": [27,300,63],
+		"innerColor": [23,240,50],
+		"favoredReligion": "",
+		"uniqueName": "Ingenuity",
+		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing]>", "[Great Scientist] is earned [50]% faster"],
+		"cities": ["Mother Hive","Infestation","Lair","Burrow","Hive","Queen Hive","Infestations","Outpost","Colony","Nest","New Infestation","New Lair","New Burrow","New Hive","New Queen Hive","New Colony","Egg Colony","New Outpost","New Nest","Burrows","Holes","Tunnels","New Holes","New Tunnels"],
+        "spyNames": ["Arachnid","Mantis","Screecher","Seeker","Pry","Exo","Wasp","Bee","Hornet"]
+	},
