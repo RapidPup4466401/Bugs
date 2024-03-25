@@ -44,6 +44,18 @@
 		],
   	},
 	{
+		"name": "Lesser Insectoid Worker",
+		"unitType": "Civilian",
+		"uniqueTo": "Insectoids",
+    		"cost": 15,
+		"movement": 2,
+    		"uniques": [
+			"Can build [Land] improvements on tiles", 
+			"Automation is a primary action",
+			"Cannot be purchased <hidden from users>",
+		],
+  	},
+	{
 		"name": "Hive Queen",
 		"unitType": "Sword",
 		"replaces": "Settler",
@@ -54,7 +66,7 @@
     		"uniques": [			
 			"Cannot be purchased <hidden from users>",
 			"Founds a new city <by consuming this unit> <hidden from users>", 
-			"Requires at least [4] population <hidden from users>",
+			"Requires at least [5] population <hidden from users>",
 			"Heals [20] damage if it kills a unit",
 			"[+50]% Strength <during the [Classical era]> <hidden from users>",
 			"[+100]% Strength <during the [Medieval era]> <hidden from users>",
@@ -96,6 +108,35 @@
     		"uniques": [			
 			"Cannot be purchased <hidden from users>",
 			"Heals [10] damage if it kills a unit <hidden from users>",
+		],
+  	},
+	{
+		"name": "Water Walkers",
+		"unitType": "Melee Water",
+		"replaces": "Tireme",
+		"uniqueTo": "Insectoids",
+    		"cost": 40,
+		"movement": 3,
+		"strength": 8,
+		"requiredTech": "Sailing",
+    		"uniques": [	
+			"Cannot enter ocean tiles", 
+			"Cannot be purchased <hidden from users>",
+			"Heals [12] damage if it kills a unit <hidden from users>",
+		],
+  	},
+	{
+		"name": "Acid Spewer",
+		"unitType": "Archery",
+		"replaces": "Chariot Archer",
+		"uniqueTo": "Insectoids",
+    		"cost": 50,
+		"movement": 3,
+		"strength": 8,
+		"requiredTech": "The Wheel",
+    		"uniques": [	
+			"Cannot be purchased <hidden from users>",
+			"Heals [8] damage if it kills a unit <hidden from users>",
 		],
   	},
 ]
