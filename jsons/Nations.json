@@ -24,5 +24,5 @@
 		"uniqueName": "Ingenuity",
 		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing]>", "[Great Scientist] is earned [50]% faster"],
 		"cities": ["Mother Hive","Infestation","Lair","Burrow","Hive","Queen Hive","Infestations","Outpost","Colony","Nest","New Infestation","New Lair","New Burrow","New Hive","New Queen Hive","New Colony","Egg Colony","New Outpost","New Nest","Burrows","Holes","Tunnels","New Holes","New Tunnels"],
-        "spyNames": ["Arachnid","Mantis","Screecher","Seeker","Pry","Exo","Wasp","Bee","Hornet"]
+        		"spyNames": ["Arachnid","Mantis","Screecher","Seeker","Pry","Exo","Wasp","Bee","Hornet"]
 	},
