@@ -22,6 +22,7 @@
 		"strength": 6,
     		"uniques": [
 			"Cannot be purchased <hidden from users>",
+			"Can build [Land] improvements on tiles <hidden from users>", 
 			"Heals [8] damage if it kills a unit <hidden from users>",
 		],
   	},
