@@ -3,7 +3,7 @@
 		"name": "Insectoid Fields",
 		"replaces": "Farm",
 		"uniqueTo": "Insectoids",
-		"terrainsCanBeBuiltOn": ["Grassland","Hills","],
+		"terrainsCanBeBuiltOn": ["Grassland","Hills","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 6,
 		"techRequired": "Agriculture",
