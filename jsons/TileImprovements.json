@@ -1,10 +1,17 @@
 [	
 	{
-		"name": "Deep Sea Mineral Extraction Mine",
-		"terrainsCanBeBuiltOn": ["Water"],
-		"production": 1,
-		"science": 3,
-		"gold":3,
-		"techRequired": "Mineral Extraction",
+		"name": "Insectoid Fields",
+		"replaces": "Farm",
+		"uniqueTo": "Insectoids",
+		"terrainsCanBeBuiltOn": ["Grassland","Hills","],
+		"food": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Agriculture",
+		"uniques": 
+		[
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+		]
 	},
 ]	
