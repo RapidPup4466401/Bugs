@@ -10,7 +10,10 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": 
+		[
+			"Indicates the capital city"
+		]
 	},
 	{
 		"name": "Hive Monument",
@@ -20,7 +23,10 @@
 		"cost": 60,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": 
+		[
+			"Destroyed when the city is captured"
+		]
 	},
 	// Column One
 	{
@@ -44,6 +50,9 @@
 		"cost": 40,
 		"maintenance": 1,
 		"requiredTech": "Pottery",
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": 
+		[
+			"Hidden when religion is disabled <hidden from users>",
+		]
 	},
 ]
