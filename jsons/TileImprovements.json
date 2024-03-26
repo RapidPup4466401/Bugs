@@ -10,9 +10,6 @@
 		"uniques": 
 		[
 			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Economics]>",
 		]
 	},
 	{
@@ -23,11 +20,6 @@
 		"production": -1,
 		"turnsToBuild": 5,
 		"techRequired": "Construction",
-		"uniques": 
-		[
-			"[+1 Production] <after discovering [Scientific Theory]>", 
-			"[+1 Food] <after discovering [Economics]>",
-		],
 	},
 	{
 		"name": "Burrowing Tunnels",
