@@ -199,6 +199,8 @@
 	},
 	{
 		"name": "Herding Areas",
+		"replaces": "Stable",
+		"uniqueTo": "Insectoids",
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -214,6 +216,8 @@
 	},
 	{
 		"name": "Queens Mother Chamber",
+		"replaces": "Circus Maximus",
+		"uniqueTo": "Insectoids",
 		"cost": 125,
 		"happiness": 6,
 		"culture": 2,
@@ -227,6 +231,8 @@
 	},
 	{
 		"name": "Subduction Chambers",
+		"replaces": "Courthouse",
+		"uniqueTo": "Insectoids",
 		"hurryCostModifier": 50,
 		"uniques": [
 			"Remove extra unhappiness from annexed cities",
@@ -237,6 +243,8 @@
 	},
 	{
 		"name": "Healing Chamber",
+		"replaces": "Colosseum",
+		"uniqueTo": "Insectoids",
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction"
