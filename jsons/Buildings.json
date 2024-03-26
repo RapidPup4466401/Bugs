@@ -254,4 +254,19 @@
 			"Gain [-1] [Food] <in this city> <upon turn end>"
 		]
 	},
+	{
+		"name": "Hive Walls",
+		"replaces": "Walls",
+		"uniqueTo": "Insectoids",
+		"cityStrength": 10,
+		"cityHealth": 60,
+		"hurryCostModifier": 25,
+		"cost": 150,
+		"requiredTech": "Masonry",
+		"uniques": 
+		[
+			"Only available <in cities with a [Insectoid Walls]> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
 ]
