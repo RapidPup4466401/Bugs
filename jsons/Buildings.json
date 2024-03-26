@@ -60,7 +60,7 @@
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Fertilizer]> <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Economics]> <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Biology]> <hidden from users>",
-			"[+1 Happiness] from [Nests] tiles [in this city] <after discovering [Happiness]> <hidden from users>",
+			"[+1 Happiness] from [Nests] tiles [in this city] <after discovering [Ecology]> <hidden from users>",
 			"Gain [-1] [Food] <in this city> <upon turn end>"
 		]
 		"requiredTech": "Pottery"
