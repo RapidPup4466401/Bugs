@@ -124,7 +124,7 @@
 		"techRequired": "Agriculture",
 		"uniques": 
 		[
-			"Cannot be built on [All] tiles <in [Insectoid] cities>",
+			"Cannot be built on [All] tiles <in [Insectoids] cities>",
 			"Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
@@ -140,7 +140,7 @@
 		"techRequired": "Construction",
 		"uniques": 
 		[
-			"Cannot be built on [All] tiles <in [Insectoid] cities>",
+			"Cannot be built on [All] tiles <in [Insectoids] cities>",
 			"[+1 Production] <after discovering [Scientific Theory]>", 
 			"Pillaging this improvement yields approximately [+10 Gold]"
 		],
@@ -154,7 +154,7 @@
 		"techRequired": "Mining",
 		"uniques": 
 		[
-			"Cannot be built on [All] tiles <in [Insectoid] cities>",
+			"Cannot be built on [All] tiles <in [Insectoids] cities>",
 			"[+1 Production] <after discovering [Chemistry]>", 
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -168,7 +168,7 @@
 		"techRequired": "Guilds",
 		"uniques": 
 		[
-			"Cannot be built on [All] tiles <in [Insectoid] cities>",
+			"Cannot be built on [All] tiles <in [Insectoids] cities>",
 			"[+1 Gold] <after discovering [Economics]>", 
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
