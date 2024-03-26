@@ -10,6 +10,7 @@
 		"uniques": 
 		[
 			"Can also be built on tiles adjacent to fresh water",
+			"Can only be built on [Farm] tiles"
 		]
 	},
 	{
@@ -29,6 +30,11 @@
 		"production": -1,
 		"turnsToBuild": 5,
 		"techRequired": "Mining",
+		"uniques":
+		[
+			"Gives a defensive bonus of [+20]% <for [Insectoids>",
+			"Gives a defensive bonus of [+20]% <if [Holes] is constructed>",
+		]
 	},
 	{
 		"name": "Nests",
