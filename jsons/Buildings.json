@@ -14,19 +14,22 @@
 		"cost": 1,
 		"uniques": 
 		[
-			"Indicates the capital city"
+			"Indicates the capital city",
+			"Instantly consumes [50] [Food] <every [3] turns> <upon turn end> <hidden from users>",
+			"Gain [150] [Gold] <every [3] turns> <upon turn end> <hidden from users>"
 		]
 	},
 	{
 		"name": "Hive Monument",
 		"replaces": "Monument",
 		"uniqueTo": "Insectoids",
+		"maintenance": 1,
 		"culture": 3,
 		"cost": 60,
 		"hurryCostModifier": 40,
 		"uniques": 
 		[
-			"Gain [-1] [Food] <in this city> <upon turn end>",
+			"Cannot be purchased <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -35,11 +38,13 @@
 		"name": "Food Holes",
 		"replaces": "Granary",
 		"uniqueTo": "Insectoids",
+		"maintenance": 1,
 		"food": 2,
 		"cost": 15,
 		"hurryCostModifier": 25,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
@@ -60,8 +65,7 @@
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Fertilizer]> <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Economics]> <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Biology]> <hidden from users>",
-			"[+1 Happiness] from [Nests] tiles [in this city] <after discovering [Ecology]> <hidden from users>",
-			"Gain [-1] [Food] <in this city> <upon turn end>"
+			"[+1 Happiness] from [Nests] tiles [in this city] <after discovering [Ecology]> <hidden from users>"
 		]
 		"requiredTech": "Pottery"
 	},
@@ -74,6 +78,7 @@
 		"requiredTech": "Mining",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+2 Production] from [Burrowing Tunnels] tiles [in this city] <hidden from users>",
 			"[+1 Production] from [Burrowing Tunnels] tiles [in this city] <after discovering [Chemistry]> <hidden from users>",
 			"[+1 Production] from [Burrowing Tunnels] tiles [in this city] <after discovering [Economics]> <hidden from users>",
@@ -88,23 +93,26 @@
 		"name": "Insectoid Shrine",
 		"replaces": "Shrine",
 		"uniqueTo": "Insectoids",
+		"maintenance": 1,
 		"faith": 2,
 		"cost": 40,
 		"requiredTech": "Pottery",
 		"uniques": 
 		[
-			"Hidden when religion is disabled <hidden from users>",
-			"Gain [-1] [Food] <in this city> <upon turn end>"
+			"Cannot be purchased <hidden from users>",
+			"Hidden when religion is disabled <hidden from users>"
 		]
 	},
 	{
 		"name": "Underground Storage",
 		"uniqueTo": "Insectoids",
 		"replaces": "Library",
+		"maintenance": 1,
 		"cost": 30,
 		"requiredTech": "Guilds",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+3 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
 			"[+1 Production] from [Harvestor Fields] tiles [in this city] <hidden from users>",
@@ -117,8 +125,7 @@
 			"[+1 Food] from [Collection Divings] tiles [in this city] <after discovering [Biology]> <hidden from users>",
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <after discovering [Fertilizer]> <hidden from users>",
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <after discovering [Economics]> <hidden from users>",
-			"[+2 Food] from [Exotic Fields] tiles [in this city] <after discovering [Ecology]> <hidden from users>",
-			"Gain [-1] [Food] <in this city> <upon turn end>"
+			"[+2 Food] from [Exotic Fields] tiles [in this city] <after discovering [Ecology]> <hidden from users>"
 		]
 	},
 	{
@@ -128,6 +135,10 @@
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Trapping",
+		"uniques":
+		[
+			"Cannot be purchased <hidden from users>"
+		]
 	},
 	{
 		"name": "Water Mover",
@@ -138,6 +149,10 @@
 		"hurryCostModifier": 25,
 		"uniques": ["Must be on [River]"],
 		"requiredTech": "The Wheel"
+		"uniques":
+		[
+			"Cannot be purchased <hidden from users>"
+		]
 	},
 	{
 		"name": "Insectoid Walls",
@@ -149,6 +164,7 @@
 		"requiredTech": "Masonry",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -160,6 +176,7 @@
 		"cityHealth": 30,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
@@ -168,12 +185,13 @@
 		"name": "Warrior Broods",
 		"replaces": "Barracks",
 		"uniqueTo": "Insectoids",
+		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"New [Military] units start with [15] Experience [in this city]", 
-			"Destroyed when the city is captured",
-			"Gain [-1] [Food] <in this city> <upon turn end>"
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
 	},
@@ -186,15 +204,17 @@
 		"name": "Watchers",
 		"replaces": "Lighthouse",
 		"uniqueTo": "Insectoids",
+		"maintenance": 1,
 		"cost": 75,
 		"cityStrength": 10,
 		"hurryCostModifier": 25,
-		"uniques": [
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
 			"Must be next to [Coast]", 
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]", 
-			"[+1 Food] from [Fish] tiles [in this city]",
-			"Gain [-1] [Food] <in this city> <upon turn end>"
+			"[+1 Food] from [Fish] tiles [in this city]"
 		],
 		"requiredTech": "Optics"
 	},
@@ -202,17 +222,20 @@
 		"name": "Herding Areas",
 		"replaces": "Stable",
 		"uniqueTo": "Insectoids",
+		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
 		"hurryCostModifier": 25,
-		"uniques": [
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
 			"[+15]% Production when constructing [Mounted] units [in this city] <hidden from users>",
 			"[+1 Production] from [Cattle] tiles [in this city] <hidden from users>",
 			"[+1 Production] from [Cattle] tiles [in this city] <hidden from users>",
 			"[+1 Production] from [Horses] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Cattle] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Sheep] tiles [in this city] <hidden from users>",
-			"[+1 Food] from [Cattle] tiles [in this city] <hidden from users>",
-			"Gain [-1] [Food] <in this city> <upon turn end>"],
+			"[+1 Food] from [Cattle] tiles [in this city] <hidden from users>"
+		],
 		"requiredTech": "Horseback Riding"
 	},
 	{
@@ -225,6 +248,7 @@
 		"isNationalWonder": true,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city"
 		],
@@ -234,11 +258,13 @@
 		"name": "Subduction Chambers",
 		"replaces": "Courthouse",
 		"uniqueTo": "Insectoids",
+		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": [
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built <in [Annexed] cities>",
-			"Gain [-4] [Food] <in this city> <upon turn end>"
+			"Can only be built <in [Annexed] cities>"
 		],
 		"requiredTech": "Mathematics"
 	},
@@ -246,17 +272,19 @@
 		"name": "Healing Chamber",
 		"replaces": "Colosseum",
 		"uniqueTo": "Insectoids",
+		"maintenance": 1,
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Construction"
 		"uniques":
 		[
-			"Gain [-1] [Food] <in this city> <upon turn end>"
+			"Cannot be purchased <hidden from users>"
 		]
 	},
 	{
 		"name": "Hive Walls",
 		"uniqueTo": "Insectoids",
+		"maintenance": 1,
 		"cityStrength": 10,
 		"cityHealth": 60,
 		"hurryCostModifier": 25,
@@ -264,6 +292,7 @@
 		"requiredTech": "Masonry",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Insectoid Walls]> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
