@@ -150,7 +150,7 @@
 	{
 		"name": "Water Walkers",
 		"unitType": "Melee Water",
-		"replaces": "Tireme",
+		"replaces": "Trireme",
 		"uniqueTo": "Insectoids",
     		"cost": 40,
 		"movement": 3,
