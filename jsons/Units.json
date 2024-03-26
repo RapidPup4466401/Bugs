@@ -10,6 +10,11 @@
     		"uniques": [
 			"Cannot be purchased <hidden from users>",
 			"Heals [12] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [15] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
 	{
@@ -24,12 +29,16 @@
 			"Cannot be purchased <hidden from users>",
 			"Can build [Land] improvements on tiles <hidden from users>", 
 			"Heals [8] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [15] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
 	{
 		"name": "Insectoid Worker",
 		"unitType": "Sword",
-		"replaces": "Worker",
 		"uniqueTo": "Insectoids",
     		"cost": 60,
 		"movement": 3,
@@ -41,11 +50,18 @@
 			"Cannot be purchased <hidden from users>",
 			"Founds a new city <by consuming this unit> <hidden from users>", 
 			"Requires at least [3] population <hidden from users>",
+			"Gain [15] [Science] (modified by game speed) <by consuming this unit> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [15] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
 	{
 		"name": "Lesser Insectoid Worker",
 		"unitType": "Civilian",
+		"replaces": "Worker",
 		"uniqueTo": "Insectoids",
     		"cost": 15,
 		"movement": 2,
@@ -53,6 +69,10 @@
 			"Can build [Land] improvements on tiles", 
 			"Automation is a primary action",
 			"Cannot be purchased <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [15] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
 	{
@@ -78,6 +98,12 @@
 			"[+450]% Strength <during the [Information era]> <hidden from users>",
 			"[+500]% Strength <during the [Future era]> <hidden from users>",
 			"[+1] Movement <starting from the [Information era]> <hidden from users>",
+			"Gain [50] [Science] (modified by game speed) <by consuming this unit> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [40] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
 	{
@@ -94,6 +120,12 @@
 			"Founds a new city <by consuming this unit> <hidden from users>", 
 			"Requires at least [2] population <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <by consuming this unit> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
 	{
@@ -108,6 +140,11 @@
     		"uniques": [			
 			"Cannot be purchased <hidden from users>",
 			"Heals [10] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
 	{
@@ -123,6 +160,11 @@
 			"Cannot enter ocean tiles", 
 			"Cannot be purchased <hidden from users>",
 			"Heals [12] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
 	{
@@ -137,6 +179,11 @@
     		"uniques": [	
 			"Cannot be purchased <hidden from users>",
 			"Heals [8] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
 ]
