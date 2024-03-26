@@ -15,7 +15,7 @@
 		"uniques": 
 		[
 			"Indicates the capital city",
-			"Gain [-25] [Food] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>"",
+			"Gain [-25] [Food] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>",
 			"Gain [50] [Gold] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>"
 		]
 	},
