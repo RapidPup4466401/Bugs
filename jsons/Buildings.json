@@ -119,6 +119,7 @@
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <after discovering [Economics]> <hidden from users>",
 			"[+2 Food] from [Exotic Fields] tiles [in this city] <after discovering [Ecology]> <hidden from users>",
 			"Gain [-1] [Food] <in this city> <upon turn end>"
+		]
 	},
 	{
 		"name": "Nesting",
