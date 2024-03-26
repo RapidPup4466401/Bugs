@@ -256,7 +256,6 @@
 	},
 	{
 		"name": "Hive Walls",
-		"replaces": "Walls",
 		"uniqueTo": "Insectoids",
 		"cityStrength": 10,
 		"cityHealth": 60,
