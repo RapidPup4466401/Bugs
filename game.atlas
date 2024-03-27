@@ -1,0 +1,55 @@
+
+game.png
+size: 512, 64
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Burrowing Tunnels
+  rotate: false
+  xy: 4, 14
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Food Holes
+  rotate: false
+  xy: 44, 15
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Harvestor Fields
+  rotate: false
+  xy: 84, 14
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hive Storages
+  rotate: false
+  xy: 124, 4
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Insectoid Fields
+  rotate: false
+  xy: 164, 14
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Nests
+  rotate: false
+  xy: 204, 14
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Spires
+  rotate: false
+  xy: 244, 4
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
