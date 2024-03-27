@@ -116,19 +116,7 @@
 	},
 
 // Transportation
-	{
-		"name": "Tunnels",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniqueTo": "Insectoids",
-		"turnsToBuild": 3,
-		"techRequired": "The Wheel",
-		"uniques": 
-		[
-			"Can be built outside your borders", 
-		],
-		"shortcutKey": "R",
-	},
-	
+
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
@@ -305,7 +293,6 @@
 		"techRequired": "The Wheel",
 		"uniques": 
 		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
 			"Can be built outside your borders", 
 			"Costs [1] [Gold] per turn"
 		],
