@@ -310,11 +310,6 @@
 			"Costs [1] [Gold] per turn"
 		],
 		"shortcutKey": "R",
-        "civilopediaText": [
-            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
-            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
-            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
-        ]
 	},
 	{
 		"name": "Railroad",
@@ -328,10 +323,6 @@
 			"Costs [2] [Gold] per turn"
 		],
 		"shortcutKey": "R",
-        "civilopediaText": [
-            {"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"},
-            {"text":"Provides a +25% [Production] bonus to cities connected to the capital by Railroads"}
-        ]
 	},
     // Great Person improvements
 	{
@@ -372,8 +363,8 @@
 			"Gives a defensive bonus of [100]%",
 			"Adjacent enemy units ending their turn take [30] damage",
 			"Can be built just outside your borders",
-        	"Constructing it will take over the tiles around it and assign them to your closest city",
-			"Removes removable features when built",
+        		"Constructing it will take over the tiles around it and assign them to your closest city",
+			"Removes removable features when built"
 		]
 	}
 ]	
