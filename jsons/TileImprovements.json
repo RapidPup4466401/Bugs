@@ -10,7 +10,6 @@
 		"uniques": 
 		[
 			"Can also be built on tiles adjacent to fresh water",
-			"Can only be built on [Farm] tiles"
 		]
 	},
 	{
@@ -58,12 +57,6 @@
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"Can only be built to improve a resource", 
-			"Can only be built on [Grassland] tiles <hidden from users>",
-			"Can only be built on [Forest] tiles <hidden from users>",
-			"Can only be built on [Tundra] tiles <hidden from users>",
-			"Can only be built on [Hill] tiles <hidden from users>",
-			"Can only be built on [Plains] tiles <hidden from users>",
-			"Can only be built on [Jungle] tiles <hidden from users>",
 		],
 	},
 	{
@@ -77,12 +70,6 @@
 		"uniques": 
 		[
 			"Can only be built to improve a resource",
-			"Can only be built on [Grassland] tiles <hidden from users>",
-			"Can only be built on [Forest] tiles <hidden from users>",
-			"Can only be built on [Tundra] tiles <hidden from users>",
-			"Can only be built on [Hill] tiles <hidden from users>",
-			"Can only be built on [Plains] tiles <hidden from users>",
-			"Can only be built on [Jungle] tiles <hidden from users>",
 		],
 	},
 	{
@@ -97,11 +84,6 @@
 			"[+1 Food] <after discovering [Fertilizer]>", 
 			"[+1 Food] <after discovering [Economics]>",
 			"[+1 Production] <after discovering [Economics]>",
-			"Can only be built on [Grassland] tiles <hidden from users>",
-			"Can only be built on [Tundra] tiles <hidden from users>",
-			"Can only be built on [Hill] tiles <hidden from users>",
-			"Can only be built on [Plains] tiles <hidden from users>",
-			"Can only be built on [Desert] tiles <hidden from users>",
 		],
 	},
 	{
@@ -117,8 +99,6 @@
 			"[+1 Food] <after discovering [Fertilizer]>", 
 			"[+1 Food] <after discovering [Economics]>",
 			"[+1 Food] <after discovering [Ecology]>",
-			"Can only be built on [Grassland] tiles <hidden from users>",
-			"Can only be built on [Plains] tiles <hidden from users>",
 		],
 	},
 	{
@@ -132,8 +112,6 @@
 		"uniques": 
 		[
 			 "Can only be built to improve a resource",
-			"Can only be built on [Ocean] tiles <hidden from users>",
-			"Can only be built on [Coast] tiles <hidden from users>",
 		],
 	},
 
