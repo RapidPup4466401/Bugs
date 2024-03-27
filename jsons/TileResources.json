@@ -5,7 +5,7 @@
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
 		"improvement": "Pasture",
-    		"improvedBy": "Growing Fields",
+    		"improvement": "Growing Fields",
 		"uniques": 
 		[
 			"Generated on every [18] tiles <in [Featureless] [Grassland] tiles>",
@@ -18,7 +18,7 @@
 		"terrainsCanBeFoundOn": ["Hill"],
 		"food": 1,
 		"improvement": "Pasture",
-    		"improvedBy": "Growing Fields",
+    		"improvement": "Growing Fields",
 		"uniques": 
 		[
 			"Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
@@ -31,7 +31,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"food": 1,
 		"improvement": "Camp",
-    		"improvedBy": "Spires",
+    		"improvement": "Spires",
 		"uniques": 
 		[
 			"Generated on every [8] tiles <in [Tundra] [Forest] tiles>",
@@ -48,7 +48,7 @@
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
 		"improvement": "Plantation",
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 		"uniques": 
 		[
 			"Generated on every [14] tiles <in [Jungle] tiles>",
@@ -61,7 +61,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
 		"food": 1,
 		"improvement": "Farm",
-    		"improvedBy": "Insectoid Fields",
+    		"improvement": "Insectoid Fields",
 		"uniques": 
 		[
 			"Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
@@ -76,7 +76,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
 		"production": 1,
 		"improvement": "Quarry",
-    		"improvedBy": "Intriciate Burrowings",
+    		"improvement": "Intriciate Burrowings",
 		"uniques": 
 		[
 			"Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
@@ -90,7 +90,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-    		"improvedBy": "Collection Divings",
+    		"improvement": "Collection Divings",
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>"]
 	},
 	{
@@ -99,7 +99,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
 		"improvement": "Camp",
-    		"improvedBy": "Spires",
+    		"improvement": "Spires",
 	},
 	{
 		"name": "Horses",
@@ -108,7 +108,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
 		"production": 1,
 		"improvement": "Pasture",
-		"improvedBy": "Growing Fields",
+		"improvement": "Growing Fields",
 	},
 	{
 		"name": "Iron",
@@ -117,7 +117,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
 		"improvement": "Mine",
-    		"improvedBy": "Burrowing Tunnels",
+    		"improvement": "Burrowing Tunnels",
 	},
 	{
 		"name": "Coal",
@@ -126,7 +126,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
 		"production": 1,
 		"improvement": "Mine",
-    		"improvedBy": "Burrowing Tunnels",
+    		"improvement": "Burrowing Tunnels",
 	},
 	{
 		"name": "Oil",
@@ -134,7 +134,7 @@
 		"revealedBy": "Biology",
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
-		"improvedBy": ["Oil well", "Offshore Platform"],
+		"improvement": ["Oil well", "Offshore Platform"],
 	},
 	{
 		"name": "Aluminum",
@@ -143,7 +143,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
 		"production": 1,
 		"improvement": "Mine",
-    		"improvedBy": "Burrowing Tunnels",
+    		"improvement": "Burrowing Tunnels",
 	},
 	{
 		"name": "Uranium",
@@ -152,7 +152,7 @@
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 1,
 		"improvement": "Mine",
-    		"improvedBy": "Burrowing Tunnels",
+    		"improvement": "Burrowing Tunnels",
 	},
 	{
 		"name": "Furs",
@@ -160,7 +160,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
 		"improvement": "Camp",
-    		"improvedBy": "Spires",
+    		"improvement": "Spires",
 	},
 	{
 		"name": "Cotton",
@@ -168,7 +168,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 	},
 	{
 		"name": "Dyes",
@@ -176,7 +176,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 	},
 	{
 		"name": "Gems",
@@ -184,7 +184,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
 		"gold": 3,
 		"improvement": "Mine",
-		"improvedBy": "Burrowing Tunnels",
+		"improvement": "Burrowing Tunnels",
 	},
 	{
 		"name": "Gold Ore", 
@@ -192,7 +192,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
 		"improvement": "Mine",
-    		"improvedBy": "Burrowing Tunnels",
+    		"improvement": "Burrowing Tunnels",
 	},
 	{
 		"name": "Silver",
@@ -200,7 +200,7 @@
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
 		"gold": 2,
 		"improvement": "Mine",
-    		"improvedBy": "Burrowing Tunnels",
+    		"improvement": "Burrowing Tunnels",
 	},
 	{
 		"name": "Incense",
@@ -208,7 +208,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 	},
 	{
 		"name": "Ivory",
@@ -216,7 +216,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
 		"improvement": "Camp",
-    		"improvedBy": "Spires",
+    		"improvement": "Spires",
 	},
 	{
 		"name": "Silk",
@@ -224,7 +224,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
 		"improvement": "Plantation",
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 	},
 	{
 		"name": "Spices",
@@ -232,7 +232,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 	},
 	{
 		"name": "Wine",
@@ -240,7 +240,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 	},
 	{
 		"name": "Sugar",
@@ -248,7 +248,7 @@
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 	},
 	{
 		"name": "Marble",
@@ -256,7 +256,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
 		"gold": 2,
 		"improvement": "Quarry",
-    		"improvedBy": "Intricate Burrowings",
+    		"improvement": "Intricate Burrowings",
 	},
 	{
 		"name": "Whales",
@@ -265,7 +265,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-    		"improvedBy": "Collection Divings",
+    		"improvement": "Collection Divings",
 	},
 	{
 		"name": "Pearls",
@@ -273,7 +273,7 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
 		"improvement": "Fishing Boats",
-   		"improvedBy": "Collection Divings",
+   		"improvement": "Collection Divings",
 	},
 	{
 		"name": "Jewelry",
@@ -294,7 +294,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation",
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 	},
 	{
 		"name": "Copper",
@@ -302,7 +302,7 @@
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
 		"gold": 2,
 		"improvement": "Mine",
-		"improvedBy": "Burrowing Tunnels",
+		"improvement": "Burrowing Tunnels",
 	},
 	{
 		"name": "Cocoa",
@@ -311,7 +311,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Plantation"
-    		"improvedBy": "Exotic Fields",
+    		"improvement": "Exotic Fields",
 	},
 	{
 		"name": "Crab",
@@ -320,7 +320,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvement": "Fishing Boats",
-    		"improvedBy": "Collection Divings",
+    		"improvement": "Collection Divings",
 	},
 	{
 		"name": "Salt",
@@ -329,7 +329,7 @@
 		"gold": 1,
 		"food": 1,
 		"improvement": "Mine",
-    		"improvedBy": "Burrowing Tunnels",
+    		"improvement": "Burrowing Tunnels",
 	},
 	{
 		"name": "Truffles",
@@ -337,6 +337,6 @@
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvedBy": "Spires",
+		"improvement": "Spires",
 	}
 ]
