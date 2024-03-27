@@ -522,4 +522,19 @@
 			"Requires at least [15] population <in this city> <hidden from users>",
 		]
 	},
+	{
+		"name": "Water Eggs Incubation Chamber",
+		"uniqueTo": "Insectoids",
+		"replaces": "Harbor",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 15},
+		"specialistSlots": {"Scientist": 2},
+		"uniques": 
+		[
+			"Only available <in cities with a [Brood Feedings]> <hidden from users>",
+			"[+1 Science] from [Nests] tiles [in this city]"
+		],
+		"requiredTech": "Education"
+	},
 ]
