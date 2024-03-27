@@ -102,7 +102,31 @@
 		"techRequired": "Compass",
 		"uniques": 
 		[
-			 "Can only be built to improve a resource",
+			"Can only be built to improve a resource",
+			"Removes removable features when built",
+		],
+	},
+	{
+		"name": "Hive Storages",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Insectoids",
+		"food": 8,
+		"techRequired": "Agriculture",
+		"uniques": 
+		[
+			 "Unbuildable",
+		],
+	},
+	{
+		"name": "Food Holes",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Insectoids",
+		"food": 4,
+		"techRequired": "Agriculture",
+		"uniques": 
+		[
+			"Unbuildable",
+			"Removes removable features when built",
 		],
 	},
 
