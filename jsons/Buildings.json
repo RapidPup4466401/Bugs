@@ -250,7 +250,8 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", 
+			"Only available <if [Nesting] is constructed in all [non-[Puppeted]] cities>", 
+			"Requires at least [15] population <in this city> <hidden from users>",
 			"Cost increases by [30] per owned city"
 		],
 		"requiredTech": "Horseback Riding"
@@ -299,7 +300,7 @@
 		]
 	},
 	{
-		"name": "Ancestry Grounds",
+		"name": "Ancestral Grounds",
 		"uniqueTo": "Insectoids",
 		"replaces": "Temple",
 		"maintenance": 2,
@@ -525,18 +526,81 @@
 		]
 	},
 	{
+		"name": "Incubation Chamber",
+		"uniqueTo": "Insectoids",
+		"maintenance": 1,
+		"hurryCostModifier": 35,
+		"cost": 200,
+		"requiredTech": "Metal Casting",
+		"uniques": 
+		[
+			"Requires at least [5] population <in this city> <hidden from users>",
+		]
+	},
+	{
 		"name": "Water Eggs Incubation Chamber",
 		"uniqueTo": "Insectoids",
 		"replaces": "Harbor",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 10},
+		"specialistSlots": {"Scientist": 2},
+		"uniques": 
+		[
+			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
+			"Only available <in cities with a [Brood Feedings]> <hidden from users>",
+			"[+1 Science] from [Nests] tiles [in this city]"
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Testing Chambers",
+		"uniqueTo": "Insectoids",
+		"replaces": "University",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 15},
 		"specialistSlots": {"Scientist": 2},
 		"uniques": 
 		[
-			"Only available <in cities with a [Brood Feedings]> <hidden from users>",
-			"[+1 Science] from [Nests] tiles [in this city]"
+			"[+1 Science] from [Spires] tiles [in this city]",
+			"[+1 Science] from [Growing Fields] tiles [in this city]",
+			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 		],
 		"requiredTech": "Education"
+	},
+	{
+		"name": "Mutation Incubators",
+		"uniqueTo": "Insectoids",
+		"replaces": "Oxford University",
+		"maintenance": 2,
+		"cost": 170,
+		"science": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 20},
+		"specialistSlots": {"Scientist": 4},
+		"uniques": 
+		[
+			"[+1 Science] from [Nests] tiles [in this city]",
+			"Requires at least [25] population <in this city> <hidden from users>",
+			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
+			"Only available <in cities with a [Testing Chambers]> <hidden from users>",
+			"Only available <if [Incubation Chamber] is constructed in all [non-[Puppeted]] cities> <hidden from users>", 
+			"Free Technology", 
+			"Cost increases by [30] per owned city <hidden from users>",
+		],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Enclosed Hive Structure ",
+		"cityStrength": 10,
+		"cityHealth": 40,
+		"hurryCostModifier": 45,
+		"requiredTech": "Chivalry",
+		"uniques": 
+		[
+			"only available <in cities with a [Hive Walls]> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
 	},
 ]
