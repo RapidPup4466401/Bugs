@@ -297,4 +297,225 @@
 			"Destroyed when the city is captured"
 		]
 	},
+	{
+		"name": "Ancestry Grounds",
+		"uniqueTo": "Insectoids",
+		"maintenance": 2,
+		"faith": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Shrine]> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Hive Storage",
+		"cost": 150,
+		"uniqueTo": "Insectoids",
+		"science": 2,
+		"culture": 2,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 20},
+		"uniques": 
+		[
+			"Only available <if [Underground Storage] is constructed in all [non-[Puppeted]] cities>", 
+			"Cost increases by [30] per owned city",
+			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
+		],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Queen's Study Chamber",
+		"uniqueTo": "Insectoids",
+		"replaces": "National College",
+		"cost": 200,
+		"science": 4,
+		"culture": 2,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 40},
+		"uniques": 
+		[
+			"Only available <in cities with a [Hive Storage]>", 
+			"Cost increases by [30] per owned city",
+			"[+2 Science] from every [Subduction Chambers]",
+			"[+10]% [Science] [in all cities]"
+		],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Insectoid Statues",
+		"uniqueTo": "Insectoids",
+		"replaces": "Ampitheater",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Insectoid Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Ancestral Epic",
+		"uniqueTo": "Insectoids",
+		"replaces": "National Epic",
+		"cost": 125,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": 
+		[
+			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
+			"[+15]% Great Person generation [in this city]", 
+			"[+5]% [Science] [in all cities] <hidden from users>",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Drama and Poetry"
+	},
+	{
+		"name": "Exchange Grounds",
+		"uniqueTo": "Insectoids",
+		"replaces": "Market",
+		"food": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"food": 15},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Experimental Mint",
+		"uniqueTo": "Insectoids",
+		"replaces": "Mint",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
+		"hurryCostModifier": 25,
+		"uniques": 
+		[
+			"[+2 Gold] from [Gold Ore] tiles [in this city]", 
+			"[+2 Gold] from [Silver] tiles [in this city]"
+		],
+		"requiredTech": "Currency"
+		"quote": "'These animals that speak by themselves seem to like these shiny things when small and compacted. They seem to give resource I want in exchange for these little objects. Perhaps I can use them..."
+	},
+	{
+		"name": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": 
+		[
+			"[40]% Food is carried over after population increases [in this city]"
+		],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Stratagem Records",
+		"uniqueTo": "Insectoids",
+		"replaces": "Heroic Epic",
+		"cost": 155,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": 
+		[
+			"Only available <if [Warrior Broods] is constructed in all [non-[Puppeted]] cities>", 
+			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Iron Working"
+	},
+
+	// Medieval Era
+
+	// Column Five
+
+	{
+		"name": "Brood Feedings",
+		"uniqueTo": "Insectoids",
+		"replaces": "Garden",
+		"uniques": 
+		[
+			"[+35]% Great Person generation [in this city]", 
+			"Must be next to [Fresh water]"
+		],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Ancestral Communion",
+		"uniqueTo": "Insectoids",
+		"replaces": "Grand Temple",
+		"cost": 200,
+		"culture": 3,
+		"faith": 9,
+		"uniques": 
+		[
+			"Only available <if [Ancestral Grounds] is constructed in all [non-[Puppeted]] cities>", 
+			"Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", 
+			"Hidden when religion is disabled", 
+			"Can only be built <in [Holy] cities>"
+		],
+		"requiredTech": "Theology",
+		"isNationalWonder": true
+	},
+	{
+		"name": "Hive Stockpiles",
+		"uniqueTo": "Insectoids",
+		"replaces": "National Treasury",
+		"cost": 160,
+		"gold": 3,
+		"food": 10,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": 
+		[
+			"Only available <if [Exchange Grounds] is constructed in all [non-[Puppeted]] cities>", 
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Guilds"
+	},
+	{
+		"name": "Metalling Chamber",
+		"uniqueTo": "Insectoids",
+		"replaces": "Workshop",
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 8},
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Forging Chamber",
+		"maintenance": 3,
+		"uniqueTo": "Insectoids",
+		"replaces": "Forge",
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": 
+		[
+			"Only available <in cities with a [Metalling Chamber]> <hidden from users>",
+			"[+10]% Production when constructing [Spaceship part] units [in this city]",
+			"[+10]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"
+		]
+	},
+	{
+		"name": "Larger Brood Chambers",
+		"uniqueTo": "Insectoids",
+		"maintenance": 1,
+		"hurryCostModifier": 35,
+		"cost": 200,
+		"requiredTech": "Metal Casting",
+		"uniques": 
+		[
+			"Requires at least [15] population <in this city> <hidden from users>",
+		]
+	},
 ]
