@@ -65,7 +65,8 @@
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Fertilizer]> <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Economics]> <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Biology]> <hidden from users>",
-			"[+1 Happiness] from [Nests] tiles [in this city] <after discovering [Ecology]> <hidden from users>"
+			"[+1 Happiness] from [Nests] tiles [in this city] <after discovering [Ecology]> <hidden from users>",
+			"Creates a [Food Holes] improvement on a specific tile"
 		]
 		"requiredTech": "Pottery"
 	},
@@ -329,6 +330,7 @@
 			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
+			"Creates a [Hive Storages] improvement on a specific tile"
 		],
 		"requiredTech": "Writing"
 	},
