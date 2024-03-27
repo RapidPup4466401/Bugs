@@ -300,6 +300,7 @@
 	{
 		"name": "Ancestry Grounds",
 		"uniqueTo": "Insectoids",
+		"replaces": "Temple",
 		"maintenance": 2,
 		"faith": 2,
 		"hurryCostModifier": 25,
@@ -352,14 +353,17 @@
 	{
 		"name": "Insectoid Statues",
 		"uniqueTo": "Insectoids",
-		"replaces": "Ampitheater",
+		"replaces": "Amphitheater",
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Insectoid Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
+		"uniques":
+		[
+			"Only available <in cities with a [Hive Monument]> <hidden from users>",
+		]
 	},
 	{
 		"name": "Ancestral Epic",
