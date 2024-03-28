@@ -1114,9 +1114,10 @@
 			"Only available <in cities with a [Regenerative Incubation Pods]> <hidden from users>",
 			"Requires at least [20] population <in this city> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
+		]
 	},
 	{
-		"name": "Phermone Emitters",
+		"name": "Pheramone Emitters",
 		"uniqueTo": "Insectoids",
 		"replaces": "Boradcast Tower",
 		"culture": 2,
