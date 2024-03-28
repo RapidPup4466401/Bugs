@@ -1119,7 +1119,7 @@
 	{
 		"name": "Pheramone Emitters",
 		"uniqueTo": "Insectoids",
-		"replaces": "Broaddcast Tower",
+		"replaces": "Broadcast Tower",
 		"culture": 2,
 		"percentStatBonus": {"culture": 10},
 		"cost": 300,
