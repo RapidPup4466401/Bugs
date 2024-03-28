@@ -17,7 +17,9 @@
 		[
 			"Indicates the capital city",
 			"Gain [-20] [Food] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>",
-			"Gain [20] [Gold] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>"
+			"Gain [20] [Gold] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>",
+			"Provides [2] [Iron] <with [50]% chance>  <every [3] turns> <upon turn end> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -31,7 +33,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	// Column One
@@ -67,7 +69,8 @@
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Economics]> <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Biology]> <hidden from users>",
 			"[+1 Happiness] from [Nests] tiles [in this city] <after discovering [Ecology]> <hidden from users>",
-			"Creates a [Food Holes] improvement on a specific tile"
+			"Creates a [Food Holes] improvement on a specific tile",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 		"requiredTech": "Pottery"
 	},
@@ -88,7 +91,8 @@
 			"[+2 Production] from [Harvestor Fields] tiles [in this city] <hidden from users>",
 			"[+1 Production] from [Harvestor Fields] tiles [in this city] <after discovering [Chemistry]> <hidden from users>",
 			"[+1 Production] from [Harvestor Fields] tiles [in this city] <after discovering [Economics]> <hidden from users>",
-			"[+1 Production] from [Harvestor Fields] tiles [in this city] <after discovering [Biology]> <hidden from users>"
+			"[+1 Production] from [Harvestor Fields] tiles [in this city] <after discovering [Biology]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -102,7 +106,8 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Hidden when religion is disabled <hidden from users>"
+			"Hidden when religion is disabled <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -127,7 +132,8 @@
 			"[+1 Food] from [Collection Divings] tiles [in this city] <after discovering [Biology]> <hidden from users>",
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <after discovering [Fertilizer]> <hidden from users>",
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <after discovering [Economics]> <hidden from users>",
-			"[+2 Food] from [Exotic Fields] tiles [in this city] <after discovering [Ecology]> <hidden from users>"
+			"[+2 Food] from [Exotic Fields] tiles [in this city] <after discovering [Ecology]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -139,7 +145,8 @@
 		"requiredTech": "Trapping",
 		"uniques":
 		[
-			"Cannot be purchased <hidden from users>"
+			"Cannot be purchased <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -153,7 +160,8 @@
 		"requiredTech": "The Wheel"
 		"uniques":
 		[
-			"Cannot be purchased <hidden from users>"
+			"Cannot be purchased <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -167,7 +175,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -179,7 +187,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Bronze Working"
 	},
@@ -193,7 +201,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"New [Military] units start with [15] Experience [in this city]", 
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Bronze Working"
 	},
@@ -216,7 +224,8 @@
 			"Must be next to [Coast]", 
 			"[+1 Food] from [Ocean] tiles [in this city]",
 			"[+1 Food] from [Coast] tiles [in this city]", 
-			"[+1 Food] from [Fish] tiles [in this city]"
+			"[+1 Food] from [Fish] tiles [in this city]",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Optics"
 	},
@@ -236,7 +245,8 @@
 			"[+1 Production] from [Horses] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Cattle] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Sheep] tiles [in this city] <hidden from users>",
-			"[+1 Food] from [Cattle] tiles [in this city] <hidden from users>"
+			"[+1 Food] from [Cattle] tiles [in this city] <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Horseback Riding"
 	},
@@ -253,7 +263,8 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <if [Nesting] is constructed in all [non-[Puppeted]] cities>", 
 			"Requires at least [15] population <in this city> <hidden from users>",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Horseback Riding"
 	},
@@ -267,7 +278,8 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Remove extra unhappiness from annexed cities",
-			"Can only be built <in [Annexed] cities>"
+			"Can only be built <in [Annexed] cities>",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Mathematics"
 	},
@@ -281,7 +293,8 @@
 		"requiredTech": "Construction"
 		"uniques":
 		[
-			"Cannot be purchased <hidden from users>"
+			"Cannot be purchased <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -297,7 +310,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Insectoid Walls]> <hidden from users>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -312,7 +325,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Shrine]> <hidden from users>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -325,6 +338,7 @@
 		"percentStatBonus": {"science": 20},
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <if [Underground Storage] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city",
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
@@ -332,7 +346,8 @@
 			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
-			"Creates a [Hive Storages] improvement on a specific tile"
+			"Creates a [Hive Storages] improvement on a specific tile",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Writing"
 	},
@@ -347,10 +362,12 @@
 		"percentStatBonus": {"science": 40},
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Storage]>", 
 			"Cost increases by [30] per owned city",
 			"[+2 Science] from every [Subduction Chambers]",
-			"[+10]% [Science] [in all cities]"
+			"[+10]% [Science] [in all cities]",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Philosophy"
 	},
@@ -362,11 +379,12 @@
 		"specialistSlots": {"Artist": 1},
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
 		"uniques":
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Monument]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -378,10 +396,12 @@
 		"isNationalWonder": true,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
 			"[+15]% Great Person generation [in this city]", 
 			"[+5]% [Science] [in all cities] <hidden from users>",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Drama and Poetry"
 	},
@@ -394,6 +414,11 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"food": 15},
 		"requiredTech": "Currency"
+		"uniques":
+		[
+			"Cannot be purchased <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
 	},
 	{
 		"name": "Experimental Mint",
@@ -404,8 +429,10 @@
 		"hurryCostModifier": 25,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+2 Gold] from [Gold Ore] tiles [in this city]", 
-			"[+2 Gold] from [Silver] tiles [in this city]"
+			"[+2 Gold] from [Silver] tiles [in this city]",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Currency"
 		"quote": "'These animals that speak by themselves seem to like these shiny things when small and compacted. They seem to give resource I want in exchange for these little objects. Perhaps I can use them..."
@@ -416,7 +443,9 @@
 		"hurryCostModifier": 0,
 		"uniques": 
 		[
-			"[40]% Food is carried over after population increases [in this city]"
+			"Cannot be purchased <hidden from users>",
+			"[40]% Food is carried over after population increases [in this city]",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Engineering"
 	},
@@ -429,9 +458,11 @@
 		"isNationalWonder": true,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <if [Warrior Broods] is constructed in all [non-[Puppeted]] cities>", 
 			"All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Iron Working"
 	},
@@ -446,8 +477,10 @@
 		"replaces": "Garden",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+35]% Great Person generation [in this city]", 
-			"Must be next to [Fresh water]"
+			"Must be next to [Fresh water]",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -462,11 +495,13 @@
 		"faith": 9,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <if [Ancestral Grounds] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city",
 			"[+100]% Natural religion spread [in this city]", 
 			"Hidden when religion is disabled", 
-			"Can only be built <in [Holy] cities>"
+			"Can only be built <in [Holy] cities>",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
@@ -482,8 +517,10 @@
 		"isNationalWonder": true,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <if [Exchange Grounds] is constructed in all [non-[Puppeted]] cities>", 
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Guilds"
 	},
@@ -497,6 +534,10 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"production": 8},
 		"requiredTech": "Metal Casting"
+		"uniques":
+		[
+			"Cannot be purchased <hidden from users>",
+		]
 	},
 	{
 		"name": "Forging Chamber",
@@ -508,10 +549,12 @@
 		"requiredTech": "Metal Casting",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Metalling Chamber]> <hidden from users>",
 			"[+10]% Production when constructing [Spaceship part] units [in this city]",
 			"[+10]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]"
+			"[+1 Production] from [Iron] tiles [in this city]",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -523,7 +566,9 @@
 		"requiredTech": "Metal Casting",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Requires at least [15] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -535,7 +580,9 @@
 		"requiredTech": "Metal Casting",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Requires at least [5] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -548,9 +595,11 @@
 		"specialistSlots": {"Scientist": 2},
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 			"Only available <in cities with a [Brood Feedings]> <hidden from users>",
-			"[+1 Science] from [Nests] tiles [in this city]"
+			"[+1 Science] from [Nests] tiles [in this city]",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Education"
 	},
@@ -564,9 +613,11 @@
 		"specialistSlots": {"Scientist": 2},
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+1 Science] from [Spires] tiles [in this city]",
 			"[+1 Science] from [Growing Fields] tiles [in this city]",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Education"
 	},
@@ -582,6 +633,7 @@
 		"specialistSlots": {"Scientist": 4},
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+1 Science] from [Nests] tiles [in this city]",
 			"Requires at least [25] population <in this city> <hidden from users>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
@@ -589,6 +641,7 @@
 			"Only available <if [Incubation Chamber] is constructed in all [non-[Puppeted]] cities> <hidden from users>", 
 			"Free Technology", 
 			"Cost increases by [30] per owned city <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Education"
 	},
@@ -602,6 +655,7 @@
 		"requiredTech": "Chivalry",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Requires at least [10] population <in this city> <hidden from users>",
 			"only available <in cities with a [Hive Walls]> <hidden from users>",
 			"Destroyed when the city is captured"
@@ -617,9 +671,11 @@
 		"isNationalWonder": true,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Requires at least [20] population <in this city> <hidden from users>",
 			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", 
-			"Cost increases by [30] per owned city"
+			"Cost increases by [30] per owned city",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Machinery"
 	}
@@ -631,10 +687,11 @@
 		"maintenance": 1,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Requires at least [15] population <in this city> <hidden from users>",
 			"Only available <in cities with a[Warrior Broods]> <hidden from users>",
 			"New [Military] units start with [15] Experience [in this city]", 
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Steel"
 	},
@@ -652,8 +709,10 @@
 		"percentStatBonus": {"science": 20},
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Requires at least [30] population <in this city> <hidden from users>",
 			"Only available <if [Hive Queen's Study Chamber] is constructed in all [in capital]>",
+			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Astronomy"
 	},
@@ -670,6 +729,7 @@
 		"requiredTech": "Acoustics",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
@@ -692,6 +752,7 @@
 		"requiredTech": "Banking"
 		"uniques":
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Experimental Mint]> <hidden from users>",
 			"Requires at least [20] population <in this city> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -707,6 +768,7 @@
 		"requiredTech": "Printing Press"
 		"uniques":
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 			"Only available <in cities with a [Healing Chamber]> <hidden from users>",
 			"Requires at least [25] population <in this city> <hidden from users>",
@@ -725,6 +787,7 @@
 		"requiredBuilding": "Harbor",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+1 Production, +1 Food] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", 
 			"[+10]% Production when constructing [Water] units [in this city]",
@@ -745,6 +808,7 @@
 		"isNationalWonder": true,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
@@ -767,8 +831,9 @@
 		"maintenance": 2,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Must not be on [Hill]", 
-			"[+10]% Production when constructing [All] buildings [in this city]"
+			"[+10]% Production when constructing [All] buildings [in this city]",
 		],
 		"requiredTech": "Economics"
 	},
@@ -783,6 +848,7 @@
 		"requiredTech": "Metallurgy",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Enclosed Hive Structure]> <hidden from users>",
 			"Requires at least [20] population <in this city> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -797,6 +863,7 @@
 		"requiredTech": "Metallurgy",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Arsenal]> <hidden from users>",
 			"Only available <in cities with a [Hive Melting Chambers]> <hidden from users>",
 			"Only available <in cities with a [Enclosed Hive Structure]> <hidden from users>",
@@ -819,11 +886,29 @@
 		"requiredTech": "Archaeology",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Requires at least [10] population <in this city> <hidden from users>",
 			"Only available <if [Hive Queen's Study Chamber] is constructed in all [in capital]> <hidden from users>",
 			"Only available <in cities with a [Metal-Infused Egg Broods]> <hidden from users>",
 			"Only available <in cities with a [Hive Arsenal]> <hidden from users>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Biomass Production Chambers",
+		"uniqueTo": "Insectoids",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"happines": -4,
+		"requiredTech": "Archaeology",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Only available <in cities with a [Pools of Acid]> <hidden from users>",
+			"Only available <in cities with a [Rotational Gears and Clocks]> <hidden from users>",
+			"Provides [3] [Biomass]",
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -837,9 +922,10 @@
 		"requiredTech": "Industrialization",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Requires at least [20] population <in this city> <hidden from users>",
 			"Only available <in cities with a [Pools of Acid]> <hidden from users>",
-			"Destroyed when the city is captured"
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 /// Add promotion that is gained in cities with this IWI building to new workers and warriors, intelligence promotion?
@@ -854,6 +940,7 @@
 		"hurryCostModifier": 0,
 		"uniques": 
 		[ 
+			"Cannot be purchased <hidden from users>",
 			"[+1 Science] per [1] population [in this city]",
 			"Requires at least [30] population <in this city> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -872,13 +959,67 @@
 		"hurryCostModifier": 10,
 		"uniques":
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Metalling Chamber]> <hidden from users>",
-			"Consumes [1] [Coal]",
 			"[+1 Production] per [1] population [in this city]",
 			"Requires at least [30] population <in this city> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Hive Factory",
+		"uniqueTo": "Insectoids",
+		"cost": 200,
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"specialistSlots": {"Engineer": 4},
+		"maintenance": 3,
+		"hurryCostModifier": 30,
+		"uniques":
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Increased Worker Strength]> <hidden from users>",
+			"Consumes [1] [Coal]",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Pyrolysis Chamber",
+		"uniqueTo": "Insectoids",
+		"cost": 400,
+		"production": 2,
+		"specialistSlots": {"Engineer": 2},
+		"maintenance": 4,
+		"hurryCostModifier": 30,
+		"uniques":
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Hive Factory]> <hidden from users>",
+			"Provides [2] [Coal]",
+			"Provides [2] [Oil]",
+			"Consumes [1] [Biomass]",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Mass Biomass Production Chambers",
+		"uniqueTo": "Insectoids",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"happines": -6,
+		"requiredTech": "Industrialization",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Only available <in cities with a [Hive Factory]> <hidden from users>",
+			"Only available <in cities with a [Biomass Production Chambers]> <hidden from users>",
+			"Provides [8] [Biomass]",
+			"Destroyed when the city is captured <hidden from users>"
+		]
 	},
 	{
 		"name": "Organized Combat Training Grounds",
@@ -888,6 +1029,7 @@
 		"maintenance": 1,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Insectoid Armory]> <hidden from users>",
 			"Requires at least [15] population <in this city> <hidden from users>",
 			"New [Military] units start with [25] Experience [in this city]", 
@@ -908,6 +1050,7 @@
 		"hurryCostModifier": 0,
 		"uniques":
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Regenerative Incubation Pods]> <hidden from users>",
 			"Requires at least [70] population <in this city> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -924,6 +1067,7 @@
 		"hurryCostModifier": 30,
 		"uniques":
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Food Holes]> <hidden from users>",
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
@@ -943,8 +1087,9 @@
 		"maintenance": 3,
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Consumes [1] [Aluminum]",
-			"Must be on [River]","[+1 Production] from [River] tiles [in this city] <with [Aluminum]>",
+			"Must be on [River]","[+2 Production] from [River] tiles [in this city] <with [Aluminum]>",
 			"Requires at least [20] population <in this city> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -957,18 +1102,23 @@
 	
 	{
 		"name": "Refrigerated Food Supplies",
+		"uniqueTo": "Insectoids",
+		"replaces": "Stadium",
 		"happiness": 3,
 		"food": 10,
 		"maintenance": 2,
 		"requiredTech": "Refrigeration"
 		"unqiues":
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Regenerative Incubation Pods]> <hidden from users>",
 			"Requires at least [20] population <in this city> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 	},
 	{
 		"name": "Phermone Emitters",
+		"uniqueTo": "Insectoids",
+		"replaces": "Boradcast Tower",
 		"culture": 2,
 		"percentStatBonus": {"culture": 10},
 		"cost": 300,
@@ -976,35 +1126,234 @@
 		"requiredTech": "Radio",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Requires at least [10] population <in this city> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
 		"name": "Reinforced Hive Structures",
+		"uniqueTo": "Insectoids",
+		"replaces": "Military Base",
 		"cityStrength": 10,
 		"cityHealth": 40,
 		"hurryCostModifier": 25,
 		"requiredTech": "Replaceable Parts",
 		"uniques": 
 		[
+			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Armory]> <hidden from users>",
 			"Only available <in cities with a [Enclosed Hive Structure]> <hidden from users>",
 			"Requires at least [40] population <in this city> <hidden from users>",
-			"Destroyed when the city is captured <hidden from users."
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 
 	// Column Twelve
 	
 	{
-		"name": "Research Lab",
-		"science": 4,
-		"percentStatBonus": {"science": 50},
-		"specialistSlots": {"Scientist": 1},
+		"name": "Research Chambers",
+		"uniqueTo": "Insectoids",
+		"replaces": "Research Lab",
+		"science":5,
+		"specialistSlots": {"Scientist": 4},
 		"requiredBuilding": "Public School",
-		"maintenance": 3,
+		"maintenance": 4,
 		"requiredTech": "Plastics"
+		"uniques":
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Increased Worker Intelligence]> <hidden from users>",
+			"Requires at least [30] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users."
+		]
+	},
+	{
+		"name": "Anatomical Research Chamber",
+		"uniqueTo": "Insectoids",
+		"replaces": "Medical Lab",
+		"specialistSlots": {"Scientist": 3},
+		"maintenance": 3,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"[25]% Food is carried over after population increases [in this city]",
+			"Only available <in cities with a [Research Chambers]> <hidden from users>",
+			"Only available <in cities with a [Refrigeration Pools]> <hidden from users>",
+			"Requires at least [40] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users."
+		]
+	},
+	{
+		"name": "Mass Pyrolysis Chambers",
+		"uniqueTo": "Insectoids",
+		"cost": 500,
+		"production": 5,
+		"specialistSlots": {"Engineer": 2},
+		"maintenance": 4,
+		"hurryCostModifier": 40,
+		"uniques":
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Pyrolysis Chamber]> <hidden from users>",
+			"Provides [3] [Coal]",
+			"Provides [4] [Oil]",
+			"Consumes [2] [Biomass]",
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+		"requiredTech": "Pharmaceuticals",
+	},
+	{
+		"name": "Atom Project",
+		"uniqueTo": "Insectoids",
+		"replaces": "Manhattan Project",
+		"specialistSlots": {"Scientist": 2},
+		"cost": 1000,
+		"isNationalWonder": true,
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Enables nuclear weapon", 
+			"Triggers a global alert upon completion", 
+			"Cannot be hurried",
+			"Requires at least [80] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "Atomic Theory"
+	},
+	
+	// Column Fourteen
+
+	{
+		"name": "Solar Field",
+		"uniqueTo": "Insectoids",
+		"replaces": "Solar Plant",
+		"production": 6,
+		"specialistSlots": {"Engineer": 1},
+		"requiredBuilding": "Hive Factory",
+		"maintenance": 3,
+		"requiredTech": "Ecology",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Must be next to [Desert]", 
+			"Only available <in cities without a [Nuclear Reactor]>",
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Recycling Chamber",
+		"uniqueTo": "Insectoids",
+		"replaces": "Recycling Center",
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 2,
+		"requiredTech": "Ecology",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Provides [3] [Aluminum]",
+			"Limited to [5] per Civilization",
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Ecological Stockpiles",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 4,
+		"cost": 1000,
+		"food": 25,
+		"requiredTech": "Ecology",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Consumes [2] [Biomass]",
+			"Cost increases by [50] per owned city <hidden from users>",
+			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
+			"Requires at least [30] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Nuclear Reactor",
+		"uniqueTo": "Insectoids",
+		"replaces": "Nuclear Plant",
+		"specialistSlots": {"Engineer": 7},
+		"production": 6,
+		"percentStatBonus": {"production": 20},
+		"requiredBuilding": "Hive Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities without a [Solar Plant]>",
+			"Requires at least [40] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	
+	// Information Era
+
+	// Column Fifteen
+	
+	{
+		"name": "Bomb-Resistant Hive Structures",
+		"uniqueTo": "Insectoids",
+		"replaces": "Bomb Shelter",
+		"specialistSlots": {"Engineer": 2},
+		"cost": 300,
+		"maintenance": 1,
+		"requiredTech": "Telecommunications",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Population loss from nuclear attacks [-20]% [in this city]",
+			"Damage to garrison from nuclear attacks [-20]% [in this city]",
+			"Requires at least [80] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Alloy-Infused Hive Structures",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 1},
+		"cost": 600,
+		"maintenance": 1,
+		"requiredTech": "Telecommunications",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Bomb-Resistant Hive Structures]> <hidden from users>",
+			"Population loss from nuclear attacks [-30]% [in this city]",
+			"Damage to garrison from nuclear attacks [-30]% [in this city]",
+			"Requires at least [100] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "High-Tech Factory",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 8},
+		"cost": 900,
+		"maintenance": 1,
+		"requiredTech": "Nanotechnology",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Hive Factory]> <hidden from users>",
+			"Requires at least [100] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
 	},
 
 ]
