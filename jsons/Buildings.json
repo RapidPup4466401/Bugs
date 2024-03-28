@@ -1,4 +1,5 @@
 //Attempting to replace maintenance costs with food costs instead
+//Add promotions that inflict damage on units attacked by Insectoids (If Insectoid has poisonous or venomous attacks)
 
 [
 	{
@@ -336,7 +337,7 @@
 		"requiredTech": "Writing"
 	},
 	{
-		"name": "Queen's Study Chamber",
+		"name": "Hive Queen's Study Chamber",
 		"uniqueTo": "Insectoids",
 		"replaces": "National College",
 		"cost": 200,
@@ -592,15 +593,418 @@
 		"requiredTech": "Education"
 	},
 	{
-		"name": "Enclosed Hive Structure ",
+		"name": "Enclosed Hive Structure",
+		"uniqueTo": "Insectoids",
+		"replaces": "Castle",
 		"cityStrength": 10,
 		"cityHealth": 40,
 		"hurryCostModifier": 45,
 		"requiredTech": "Chivalry",
 		"uniques": 
 		[
+			"Requires at least [10] population <in this city> <hidden from users>",
 			"only available <in cities with a [Hive Walls]> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
 	},
+	{
+		"name": "Hive Melting Chambers",
+		"uniqueTo": "Insectoids",
+		"replaces": "Ironworks",
+		"cost": 150,
+		"production": 7,
+		"culture": 2,
+		"isNationalWonder": true,
+		"uniques": 
+		[
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", 
+			"Cost increases by [30] per owned city"
+		],
+		"requiredTech": "Machinery"
+	}
+	{
+		"name": "Insectoid Armory",
+		"uniqueTo": "Insectoids",
+		"replaces": "Ironworks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": 
+		[
+			"Requires at least [15] population <in this city> <hidden from users>",
+			"Only available <in cities with a[Warrior Broods]> <hidden from users>",
+			"New [Military] units start with [15] Experience [in this city]", 
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Steel"
+	},
+
+	// Renaissance Era
+
+	// Column Seven
+	
+	{
+		"name": "Hive Observatory",
+		"uniqueTo": "Insectoids",
+		"replaces": "Observatory",
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 20},
+		"uniques": 
+		[
+			"Requires at least [30] population <in this city> <hidden from users>",
+			"Only available <if [Hive Queen's Study Chamber] is constructed in all [in capital]>",
+		],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Tunnel Networks",
+		"uniqueTo": "Insectoids",
+		"replaces": "Opera House",
+		"food": 4,
+		"cityStrength": 10,
+		"cityHealth": 35,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 15,
+		"maintenance": 3,
+		"requiredTech": "Acoustics",
+		"uniques": 
+		[
+			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Nests] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
+			"Requires at least [5] population <in this city> <hidden from users>",
+			"Only available <in cities with a [Underground Storage]",
+			"Only available <in cities with a [Holes]>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Minting Mines",
+		"uniqueTo": "Insectoids",
+		"replaces": "Bank",
+		"gold": 4,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 45,
+		"percentStatBonus": {"gold": 20},
+		"requiredTech": "Banking"
+		"uniques":
+		[
+			"Only available <in cities with a [Experimental Mint]> <hidden from users>",
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Regenerative Incubation Pods",
+		"uniqueTo": "Insectoids",
+		"replaces": "Theatre",
+		"happiness": 2,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredTech": "Printing Press"
+		"uniques":
+		[
+			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
+			"Only available <in cities with a [Healing Chamber]> <hidden from users>",
+			"Requires at least [25] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+
+// Column Eight
+	
+	{
+		"name": "Aquatic Insectoid Broods",
+		"uniqueTo": "Insectoids",
+		"replaces": "Seaport",
+		"hurryCostModifier": 35,
+		"maintenance": 2,
+		"requiredBuilding": "Harbor",
+		"uniques": 
+		[
+			"[+1 Production, +1 Food] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", 
+			"[+10]% Production when constructing [Water] units [in this city]",
+			"Requires at least [10] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Underground Colony",
+		"uniqueTo": "Insectoids",
+		"replaces": "Hermitage",
+		"cityStrength": 40,
+		"cityHealth": 60,
+		"cost": 350,
+		"percentStatBonus": {"food": 30},
+		"food": 5,
+		"isNationalWonder": true,
+		"uniques": 
+		[
+			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
+			"Only available <if [Tunnel Networks] is constructed in all [non-[Puppeted]] cities>", 
+			"Cost increases by [30] per owned city",
+			"Requires at least [60] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "Architecture"
+	},
+	{
+		"name": "Rotational Gears and Clocks",
+		"uniqueTo": "Insectoids",
+		"replaces": "Windmill",
+		"production": 3,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 45,
+		"maintenance": 2,
+		"uniques": 
+		[
+			"Must not be on [Hill]", 
+			"[+10]% Production when constructing [All] buildings [in this city]"
+		],
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "Hive Arsenal",
+		"uniqueTo": "Insectoids",
+		"replaces": "Arsenal",
+		"cost": 300,
+		"cityStrength": 10,
+		"cityHealth": 30,
+		"hurryCostModifier": 25,
+		"requiredTech": "Metallurgy",
+		"uniques": 
+		[
+			"Only available <in cities with a [Enclosed Hive Structure]> <hidden from users>",
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Metal-Infused Egg Broods",
+		"uniqueTo": "Insectoids",
+		"cost": 500,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Enclosed Hive Structure",
+		"requiredTech": "Metallurgy",
+		"uniques": 
+		[
+			"Only available <in cities with a [Hive Arsenal]> <hidden from users>",
+			"Only available <in cities with a [Hive Melting Chambers]> <hidden from users>",
+			"Only available <in cities with a [Enclosed Hive Structure]> <hidden from users>",
+			"Only available <in cities with a [Forging Chamber]> <hidden from users>",
+			"Requires at least [40] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+
+	// Industrial Era
+
+	// Column Nine
+	
+	{
+		"name": "Pools of Acid",
+		"uniqueTo": "Insectoids",
+		"replaces": "Museum",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Archaeology",
+		"uniques": 
+		[
+			"Requires at least [10] population <in this city> <hidden from users>",
+			"Only available <if [Hive Queen's Study Chamber] is constructed in all [in capital]> <hidden from users>",
+			"Only available <in cities with a [Metal-Infused Egg Broods]> <hidden from users>",
+			"Only available <in cities with a [Hive Arsenal]> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Corrosive Acids Production Pods",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 3,
+		"science": 4,
+		"production": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Industrialization",
+		"uniques": 
+		[
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Only available <in cities with a [Pools of Acid]> <hidden from users>",
+			"Destroyed when the city is captured"
+		]
+	},
+/// Add promotion that is gained in cities with this IWI building to new workers and warriors, intelligence promotion?
+	
+	{
+		"name": "Increased Worker Intelligence",
+		"uniqueTo": "Insectoids",
+		"replaces": "Public School",
+		"science": 3,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": 
+		[ 
+			"[+1 Science] per [1] population [in this city]",
+			"Requires at least [30] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "Scientific Theory"
+	},
+	{
+		"name": "Increased Worker Strength",
+		"uniqueTo": "Insectoids",
+		"replaces": "Factory",
+		"cost": 500,
+		"production": 3,
+		"percentStatBonus": {"production": 5},
+		"specialistSlots": {"Engineer": 2},
+		"maintenance": 3,
+		"hurryCostModifier": 10,
+		"uniques":
+		[
+			"Only available <in cities with a [Metalling Chamber]> <hidden from users>",
+			"Consumes [1] [Coal]",
+			"[+1 Production] per [1] population [in this city]",
+			"Requires at least [30] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Organized Combat Training Grounds",
+		"uniqueTo": "Insectoids",
+		"replaces": "Military Academy",
+		"hurryCostModifier": 10,
+		"maintenance": 1,
+		"uniques": 
+		[
+			"Only available <in cities with a [Insectoid Armory]> <hidden from users>",
+			"Requires at least [15] population <in this city> <hidden from users>",
+			"New [Military] units start with [25] Experience [in this city]", 
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "Military Science"
+	},
+	
+	// Column Ten
+	
+	{
+		"name": "Regeneration Pools",
+		"uniqueTo": "Insectoids",
+		"replaces": "Hospital",
+		"food": 3,
+		"happiness": 2,
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques":
+		[
+			"Only available <in cities with a [Regenerative Incubation Pods]> <hidden from users>",
+			"Requires at least [70] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Food Stock Exchanges",
+		"uniqueTo": "Insectoids",
+		"replaces": "Stock Exchange",
+		"food": 6,
+		"percentStatBonus": {"food": 30},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 30,
+		"uniques":
+		[
+			"Only available <in cities with a [Food Holes]> <hidden from users>",
+			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
+			"Requires at least [40] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Hydro Reservoirs",
+		"uniqueTo": "Insectoids",
+		"replaces": "Hydro Plant",
+		"hurryCostModifier": 0,
+		"maintenance": 3,
+		"uniques": 
+		[
+			"Consumes [1] [Aluminum]",
+			"Must be on [River]","[+1 Production] from [River] tiles [in this city] <with [Aluminum]>",
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "Electricity"
+	},
+	
+	// Modern Era
+
+	// Column Eleven
+	
+	{
+		"name": "Refrigerated Food Supplies",
+		"happiness": 3,
+		"food": 10,
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+		"unqiues":
+		[
+			"Only available <in cities with a [Regenerative Incubation Pods]> <hidden from users>",
+			"Requires at least [20] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+	},
+	{
+		"name": "Phermone Emitters",
+		"culture": 2,
+		"percentStatBonus": {"culture": 10},
+		"cost": 300,
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": 
+		[
+			"Requires at least [10] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Reinforced Hive Structures",
+		"cityStrength": 10,
+		"cityHealth": 40,
+		"hurryCostModifier": 25,
+		"requiredTech": "Replaceable Parts",
+		"uniques": 
+		[
+			"Only available <in cities with a [Hive Armory]> <hidden from users>",
+			"Only available <in cities with a [Enclosed Hive Structure]> <hidden from users>",
+			"Requires at least [40] population <in this city> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users."
+		]
+	},
+
+	// Column Twelve
+	
+	{
+		"name": "Research Lab",
+		"science": 4,
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Scientist": 1},
+		"requiredBuilding": "Public School",
+		"maintenance": 3,
+		"requiredTech": "Plastics"
+	},
+
 ]
