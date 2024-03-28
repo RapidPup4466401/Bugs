@@ -1,4 +1,9 @@
 [
+	//Mod resources
+	{
+		"name": "Biomass",
+		"resourceType": "Strategic",
+	},
 	// Bonus resources
 	{
 		"name": "Cattle",
