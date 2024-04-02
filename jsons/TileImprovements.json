@@ -129,20 +129,149 @@
 		"uniques": 
 		[
 			"Removes removable features when built",
-			 "Unbuildable",
+			"Unbuildable",
 		],
 	},
 	{
 		"name": "Food Holes",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Insectoids",
-		"food": 4,
+		"food": 6,
 		"techRequired": "Agriculture",
 		"uniques": 
 		[
 			"Unbuildable",
 			"Removes removable features when built",
 		],
+	},
+
+//Military Improvements
+	
+	{
+		"name": "Soil Caves",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill","Forest","Jungle"],
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 4,
+		"techRequired": "Engineering",
+		"uniques": 
+		[
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [30]%",
+			"Obsolete with [Dynamite]"
+		],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Desert Caves",
+		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 4,
+		"techRequired": "Engineering",
+		"uniques": 
+		[
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [30]%",
+			"Obsolete with [Dynamite]"
+		],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Ice Caves",
+		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 4,
+		"techRequired": "Engineering",
+		"uniques": 
+		[
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [30]%",
+			"Obsolete with [Dynamite]"
+		],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Warm Burrows",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill","Forest","Jungle"],
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 4,
+		"techRequired": "Dynamite",
+		"uniques": 
+		[
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [60]%",
+			"Obsolete with [Computers]"
+		],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Dry Mounds",
+		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 4,
+		"techRequired": "Dynamite",
+		"uniques": 
+		[
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [60]%",
+			"Obsolete with [Computers]"
+		],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Frozen Burrows",
+		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 4,
+		"techRequired": "Dynamite",
+		"uniques": 
+		[
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [60]%",
+			"Obsolete with [Computers]"
+		],
+		"shortcutKey": "O"
+	},
+
+//Have these the most hive-like, instead of being below ground, is above ground.
+	
+	{
+		"name": "Warm Hive Outpost",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill","Forest","Jungle"],
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 10,
+		"techRequired": "Computers",
+		"uniques": 
+		[
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [80]%",
+		],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Dry Hive Outpost",
+		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 10,
+		"techRequired": "Computers",
+		"uniques": 
+		[
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [80]%",
+		],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Cold Hive Outpost",
+		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 10,
+		"techRequired": "Computers",
+		"uniques": 
+		[
+			"Can be built outside your borders", 
+			"Gives a defensive bonus of [80]%",
+		],
+		"shortcutKey": "O"
 	},
 
 // Transportation
