@@ -34,9 +34,24 @@
 		"uniques":
 		[
 			"Removes removable features when built",
-			"Gives a defensive bonus of [+20]% <for [Insectoids]>",
-			"Gives a defensive bonus of [+20]% <in [Insectoid] cities>",
-			"Obsolete with [Dynamite]"
+			"Gives a defensive bonus of [+20]% <in [Insectoids] cities>",
+			"Obsolete with [Electronics]"
+		]
+	},
+
+// Add Modern Tunnelings, Insectoid Pastures, and other improvements to correlating buildings to receive benefits.
+	
+	{
+		"name": "Modern Tunnelings",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"uniqueTo": "Insectoids",
+		"production": 2,
+		"turnsToBuild": 5,
+		"techRequired": "Electronics",
+		"uniques":
+		[
+			"Removes removable features when built",
+			"Gives a defensive bonus of [+30]% <in [Insectoids] cities>",
 		]
 	},
 	{
@@ -73,6 +88,20 @@
 		"production": -1,
 		"turnsToBuild": 5,
 		"techRequired": "Guilds",
+		"uniques": 
+		[
+			"Removes removable features when built",
+			"Can only be built to improve a resource",
+			"Obsolete with [Electronics]"
+		],
+	},
+	{
+		"name": "Insectoid Pastures",
+		"uniqueTo": "Insectoids",
+		"food": 3,
+		"production": 1,
+		"turnsToBuild": 5,
+		"techRequired": "Electronics",
 		"uniques": 
 		[
 			"Removes removable features when built",
@@ -157,7 +186,7 @@
 		"uniques": 
 		[
 			"Can be built outside your borders", 
-			"Gives a defensive bonus of [30]%",
+			"Gives a defensive bonus of [30]% <in [Insectoids] cities>",
 			"Obsolete with [Dynamite]"
 		],
 		"shortcutKey": "O"
@@ -171,7 +200,7 @@
 		"uniques": 
 		[
 			"Can be built outside your borders", 
-			"Gives a defensive bonus of [30]%",
+			"Gives a defensive bonus of [30]% <in [Insectoids] cities>",
 			"Obsolete with [Dynamite]"
 		],
 		"shortcutKey": "O"
@@ -185,7 +214,7 @@
 		"uniques": 
 		[
 			"Can be built outside your borders", 
-			"Gives a defensive bonus of [30]%",
+			"Gives a defensive bonus of [30]% <in [Insectoids] cities>",
 			"Obsolete with [Dynamite]"
 		],
 		"shortcutKey": "O"
@@ -199,7 +228,7 @@
 		"uniques": 
 		[
 			"Can be built outside your borders", 
-			"Gives a defensive bonus of [60]%",
+			"Gives a defensive bonus of [60]% <in [Insectoids] cities>",
 			"Obsolete with [Computers]"
 		],
 		"shortcutKey": "O"
@@ -213,7 +242,7 @@
 		"uniques": 
 		[
 			"Can be built outside your borders", 
-			"Gives a defensive bonus of [60]%",
+			"Gives a defensive bonus of [60]% <in [Insectoids] cities>",
 			"Obsolete with [Computers]"
 		],
 		"shortcutKey": "O"
@@ -227,7 +256,7 @@
 		"uniques": 
 		[
 			"Can be built outside your borders", 
-			"Gives a defensive bonus of [60]%",
+			"Gives a defensive bonus of [60]% <in [Insectoids] cities>",
 			"Obsolete with [Computers]"
 		],
 		"shortcutKey": "O"
@@ -239,16 +268,16 @@
 		"name": "Warm Hive Outpost",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill","Forest","Jungle"],
 		"uniqueTo": "Insectoids",
-		"turnsToBuild": 10,
+		"turnsToBuild": 15,
 		"techRequired": "Computers",
 		"food": -5,
 		"production": 3,
 		"uniques": 
 		[
-			"Gives a defensive bonus of [80]%",
-			"Adjacent enemy units ending their turn take [20] damage",
+			"Gives a defensive bonus of [80]% <in [Insectoids] cities>",
+			"Adjacent enemy units ending their turn take [20] damage <in [Insectoids] cities>",
 			"Can be built just outside your borders",
-        		"Constructing it will take over the tiles around it and assign them to your closest city",
+        		"Constructing it will take over the tiles around it and assign them to your closest city <in [Insectoids] cities>",
 		],
 		"shortcutKey": "O"
 	},
@@ -256,16 +285,16 @@
 		"name": "Dry Hive Outpost",
 		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
 		"uniqueTo": "Insectoids",
-		"turnsToBuild": 10,
+		"turnsToBuild": 15,
 		"techRequired": "Computers",
 		"food": -5,
 		"production": 3,
 		"uniques": 
 		[
-			"Gives a defensive bonus of [80]%",
-			"Adjacent enemy units ending their turn take [20] damage",
+			"Gives a defensive bonus of [80]% <in [Insectoids] cities>",
+			"Adjacent enemy units ending their turn take [20] damage <in [Insectoids] cities>",
 			"Can be built just outside your borders",
-        		"Constructing it will take over the tiles around it and assign them to your closest city",
+        		"Constructing it will take over the tiles around it and assign them to your closest city <in [Insectoids] cities>",
 		],
 		"shortcutKey": "O"
 	},
@@ -273,16 +302,16 @@
 		"name": "Cold Hive Outpost",
 		"terrainsCanBeBuiltOn": ["Hill","Tundra","Snow"],
 		"uniqueTo": "Insectoids",
-		"turnsToBuild": 10,
+		"turnsToBuild": 15,
 		"techRequired": "Computers",
 		"food": -5,
 		"production": 3,
 		"uniques": 
 		[
-			"Gives a defensive bonus of [80]%",
-			"Adjacent enemy units ending their turn take [20] damage",
+			"Gives a defensive bonus of [80]% <in [Insectoids] cities>",
+			"Adjacent enemy units ending their turn take [20] damage <in [Insectoids] cities>",
 			"Can be built just outside your borders",
-        		"Constructing it will take over the tiles around it and assign them to your closest city",
+        		"Constructing it will take over the tiles around it and assign them to your closest city <in [Insectoids] cities>",
 		],
 		"shortcutKey": "O"
 	},
@@ -297,10 +326,10 @@
 		"uniques": 
 		[
 			"Great Improvement",
-			"Gives a defensive bonus of [130]%",
-			"Adjacent enemy units ending their turn take [40] damage",
+			"Gives a defensive bonus of [130]% <in [Insectoids] cities>",
+			"Adjacent enemy units ending their turn take [40] damage <in [Insectoids] cities>",
 			"Can be built just outside your borders",
-        		"Constructing it will take over the tiles around it and assign them to your closest city",
+        		"Constructing it will take over the tiles around it and assign them to your closest city <in [Insectoids] cities>",
 			"Removes removable features when built"
 		]
 	}
