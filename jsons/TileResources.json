@@ -4,6 +4,10 @@
 		"name": "Biomass",
 		"resourceType": "Strategic",
 	},
+	{
+		"name": "Robotic Parts",
+		"resourceType": "Luxury",
+	},
 	// Bonus resources
 	{
 		"name": "Cattle",
