@@ -8,6 +8,10 @@
 		"name": "Robotic Parts",
 		"resourceType": "Luxury",
 	},
+	{
+		"name": "High-Tech Composite",
+		"resourceType": "Luxury",
+	},
 	// Bonus resources
 	{
 		"name": "Cattle",
