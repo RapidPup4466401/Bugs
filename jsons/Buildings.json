@@ -48,6 +48,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
+			"[+10]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
 			"[+1 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
@@ -83,6 +84,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
+			"[+10]% [Production] <in this city> <with [Biomass]> <hidden from users>", 
 			"[+2 Production] from [Burrowing Tunnels] tiles [in this city] <hidden from users>",
 			"[+1 Production] from [Burrowing Tunnels] tiles [in this city] <after discovering [Chemistry]> <hidden from users>",
 			"[+1 Production] from [Burrowing Tunnels] tiles [in this city] <after discovering [Economics]> <hidden from users>",
@@ -119,6 +121,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
+			"[+30]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
 			"[+3 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
 			"[+1 Production] from [Harvestor Fields] tiles [in this city] <hidden from users>",
@@ -238,6 +241,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
+			"[+10]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
 			"[+15]% Production when constructing [Mounted] units [in this city] <hidden from users>",
 			"[+1 Production] from [Cattle] tiles [in this city] <hidden from users>",
 			"[+1 Production] from [Cattle] tiles [in this city] <hidden from users>",
@@ -340,6 +344,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <if [Underground Storage] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city",
+			"[+20]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
 			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
@@ -363,8 +368,10 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Storage]>", 
 			"Cost increases by [30] per owned city",
-			"[+2 Science] from every [Subduction Chambers]",
+			"[+2 Science] from every [Subduction Chambers] <in [in all cities] cities>",
 			"[+10]% [Science] [in all cities]",
+			"[+10]% [Science] <in this city> <with [Robotic Parts]> <hidden from users>", 
+			"[+10]% [Science] <in this city> <with [High-Tech Composite]> <hidden from users>", 
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Philosophy"
@@ -419,7 +426,7 @@
 		]
 	},
 	{
-		"name": "Experimental Mint",
+		"name": "Experimental Minting Procedures",
 		"uniqueTo": "Insectoids",
 		"replaces": "Mint",
 		"maintenance": 0,
@@ -433,7 +440,7 @@
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Currency"
-		"quote": "'These animals that speak by themselves seem to like these shiny things when small and compacted. They seem to give resource I want in exchange for these little objects. Perhaps I can use them..."
+		"quote": "'These animals that speak by themselves seem to like these shiny things when small and compacted. They seem to give resources I want in exchange for these little objects. Perhaps I can use them..."
 	},
 	{
 		"name": "Aqueduct",
@@ -614,6 +621,7 @@
 			"Cannot be purchased <hidden from users>",
 			"[+1 Science] from [Spires] tiles [in this city]",
 			"[+1 Science] from [Growing Fields] tiles [in this city]",
+			"[+1 Science] from every [Subduction Chambers] <in [in all cities] cities>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -1196,8 +1204,8 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Pyrolysis Chamber]> <hidden from users>",
-			"Provides [3] [Coal]",
-			"Provides [4] [Oil]",
+			"Provides [3] [Coal] <with [Biomass]>",
+			"Provides [4] [Oil] <with [Biomass]>",
 			"Consumes [2] [Biomass]",
 			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -1253,9 +1261,8 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Provides [3] [Aluminum]",
-			"Limited to [5] per Civilization",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Provides [2] [Aluminum] <with [Biomass]>",
+			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1272,11 +1279,11 @@
 			"Cannot be purchased <hidden from users>",
 			"Consumes [2] [Biomass]",
 			"Cost increases by [50] per owned city <hidden from users>",
-			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
-			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
-			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
-			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
-			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Exotic Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+1 Food] from [Insectoid Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+1 Food] from [Spires] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+1 Food] from [Growing Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+1 Food] from [Collection Divings] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -1323,7 +1330,7 @@
 		]
 	},
 	{
-		"name": "Cybernetics Research Chamber",
+		"name": "Cybernetics Research Facility",
 		"uniqueTo": "Insectoids",
 		"specialistSlots": {"Scientist": 3},
 		"cost": 500,
