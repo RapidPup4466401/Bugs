@@ -34,8 +34,9 @@
 		"uniques":
 		[
 			"Removes removable features when built",
-			"Gives a defensive bonus of [+20]% <for [Insectoids>",
-			"Gives a defensive bonus of [+20]% <in [Insectoid] cities>"
+			"Gives a defensive bonus of [+20]% <for [Insectoids]>",
+			"Gives a defensive bonus of [+20]% <in [Insectoid] cities>",
+			"Obsolete with [Dynamite]"
 		]
 	},
 	{
