@@ -1334,7 +1334,8 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
 			"Requires at least [90] population <in this city> <hidden from users>",
-			"Destroyed when the city is captured <hidden from users>"
+			"Destroyed when the city is captured <hidden from users>",
+			"Provides [3] [Robotic Parts]"
 		]
 	},
 	{
