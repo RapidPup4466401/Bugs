@@ -1330,6 +1330,20 @@
 		]
 	},
 	{
+		"name": "Learn Structured Planning",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Scientist": 3},
+		"cost": 1000,
+		"requiredTech": "Satellites",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
 		"name": "Cybernetics Research Facility",
 		"uniqueTo": "Insectoids",
 		"specialistSlots": {"Scientist": 3},
@@ -1340,6 +1354,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [1] [Robotic Parts]"
@@ -1356,6 +1371,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Cybernetics Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [2] [Robotic Parts]"
@@ -1372,6 +1388,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [130] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [3] [Robotic Parts]"
@@ -1388,6 +1405,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Bomb-Resistant Hive Structures]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Population loss from nuclear attacks [-30]% [in this city]",
 			"Damage to garrison from nuclear attacks [-30]% [in this city]",
 			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
@@ -1400,12 +1418,13 @@
 		"specialistSlots": {"Engineer": 3},
 		"cost": 4000,
 		"maintenance": 3,
-		"requiredTech": "Telecommunications",
+		"requiredTech": "Particle Physics",
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Alloy-Infused Hive Structures]> <hidden from users>",
 			"Population loss from nuclear attacks [-40]% [in this city]",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Damage to garrison from nuclear attacks [-40]% [in this city]",
 			"Only available <in this city> <in cities with at least [150] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -1423,6 +1442,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Only available <in cities with a [Cybernetics Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [4] [High-Tech Composite] <hidden from users>"
