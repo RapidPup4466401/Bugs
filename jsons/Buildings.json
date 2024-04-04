@@ -948,6 +948,7 @@
 		[ 
 			"Cannot be purchased <hidden from users>",
 			"[+1 Science] per [1] population [in this city]",
+			"Only available <in cities with a [Mutation Incubators]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -966,6 +967,7 @@
 		"uniques":
 		[
 			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Mutation Incubators]> <hidden from users>",
 			"Only available <in cities with a [Metalling Chamber]> <hidden from users>",
 			"[+1 Production] per [1] population [in this city]",
 			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
@@ -1105,7 +1107,23 @@
 	// Modern Era
 
 	// Column Eleven
-	
+
+	{
+		"name": "Dissection Studies Chamber",
+		"uniqueTo": "Insectoids",
+		"maintenance": 2,
+		"happines": -4,
+		"science": 4,
+		"hurryCostModifier": 50,
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Subduction Chambers]>",
+			"Can only be built <in [Annexed] cities>",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "Ballistics"
+	},
 	{
 		"name": "Refrigerated Food Supplies",
 		"uniqueTo": "Insectoids",
@@ -1188,6 +1206,7 @@
 			"[25]% Food is carried over after population increases [in this city]",
 			"Only available <in cities with a [Research Chambers]> <hidden from users>",
 			"Only available <in cities with a [Refrigeration Pools]> <hidden from users>",
+			"Only available <in cities with a [Testing Chambers]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users."
 		]
@@ -1361,6 +1380,67 @@
 		]
 	},
 	{
+		"name": "Food Storage Facilities",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Scientist": 2},
+		"cost": 500,
+		"maintenance": 3,
+		"requiredTech": "Telecommunications",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Food Holes]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
+			"[+12 Food] from [Structured Fields] tiles [in this city] <hidden from users>",
+			"[+5 Food] from [Brood Incubation Facilities] tiles [in this city] <hidden from users>",
+			"[+9 Food] from [Storage Spires] tiles [in this city] <hidden from users>",
+			"[+11 Food] from [Structured Feeding Fields] tiles [in this city] <hidden from users>",
+			"[+15 Food] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
+			"[+6 Food] from [Flora Incubators] tiles [in this city] <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+		]
+	},
+	{
+		"name": "Material Storage Sectors",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 3},
+		"cost": 800,
+		"maintenance": 5,
+		"requiredTech": "Robotics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Ore Piles]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
+			"[+6 Production] from [Flora Incubators] tiles [in this city] <hidden from users>",
+			"[+8 Production] from [Structured Mine] tiles [in this city] <hidden from users>",
+			"[+2 Production] from [Storage Spires] tiles [in this city] <hidden from users>",
+			"[+12 Production] from [Precision Mine] tiles [in this city] <hidden from users>",
+			"[+15 Food] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+		]
+	},
+	{
+		"name": "Minting Plants",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 5},
+		"cost": 1200,
+		"maintenance": 5,
+		"gold": 25,
+		"requiredTech": "Robotics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Minting Mines]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
+			"[+10 Gold] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+		]
+	},
+	{
 		"name": "Cybernetics Application Facility",
 		"uniqueTo": "Insectoids",
 		"specialistSlots": {"Scientist": 3},
@@ -1448,5 +1528,22 @@
 			"Provides [4] [High-Tech Composite] <hidden from users>"
 		]
 	},
-
+	{
+		"name": "Fusion Reactor Plant",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 12},
+		"cost": 2500,
+		"maintenance": 10,
+		"production": 30,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Nuclear Reactor]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [130] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Consumes [4] [Biomass] <hidden from users>"
+		]
+	},
 ]
