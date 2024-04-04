@@ -18,7 +18,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
-		"improvedBy": ["Pasture","Growing Fields"],
+		"improvedBy": ["Pasture","Growing Fields","Structured Feeding Fields"],
 		"improvementStats": {"production": 1},
 		"uniques": 
                 [
@@ -31,7 +31,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Hill"],
 		"food": 1,
-		"improvedBy": ["Pasture","Growing Fields"],
+		"improvedBy": ["Pasture","Growing Fields","Structured Feeding Fields"],
 		"improvementStats": {"food": 1},
 		"uniques": 
                 [
@@ -44,7 +44,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
 		"food": 1,
-		"improvedBy": ["Camp","Spires"],
+		"improvedBy": ["Camp","Spires","Storage Spires"],
 		"improvementStats": {"production": 1},
 		"uniques": 
                 [
@@ -61,7 +61,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
-		"improvedBy": ["Plantation","Exotic Fields"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 		"improvementStats": {"food": 2,"production": -1,"gold": -1},
 		"uniques": ["Generated on every [14] tiles <in [Jungle] tiles>",
 					"Generated on every [16] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
@@ -71,7 +71,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
 		"food": 1,
-		"improvedBy": ["Farm","Insectoid Fields"],
+		"improvedBy": ["Farm","Insectoid Fields","Structured Fields"],
 		"uniques": 
                 [
                         "Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
@@ -85,7 +85,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
 		"production": 1,
-		"improvedBy": ["Quarry","Intricate Burrowings"],
+		"improvedBy": ["Quarry","Intricate Burrowings","Precision Mine"],
 		"improvementStats": {"production": 1},
 		"uniques": 
                 [
@@ -108,7 +108,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
-		"improvedBy": ["Camp","Spires"],
+		"improvedBy": ["Camp","Spires","Storage Spires"],
 		"improvementStats": {"production": 1}
 	},
 	*/
@@ -120,7 +120,7 @@
 		"revealedBy": "Animal Husbandry",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
 		"production": 1,
-		"improvedBy": ["Pasture","Growing Fields"],
+		"improvedBy": ["Pasture","Growing Fields","Structured Feeding Fields"],
 		"improvementStats": {"production": 1},
 		"uniques": 
                 [
@@ -142,7 +142,7 @@
 		"revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
-		"improvedBy": ["Mine","Burrowing Tunnels"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
 		"uniques": 
                 [
                         "Guaranteed with Strategic Balance resource option",
@@ -169,7 +169,7 @@
 		"revealedBy": "Industrialization",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Hill","Jungle","Forest","Marsh"],
 		"production": 1,
-		"improvedBy": ["Mine","Burrowing Tunnels"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
 		"improvementStats": {"production": 1},
 		"uniques": 
                 [
@@ -220,7 +220,7 @@
 		"revealedBy": "Electricity",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
 		"production": 1,
-		"improvedBy": ["Mine","Burrowing Tunnels"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
 		"improvementStats": {"production": 1},
 		"uniques": 
                 [
@@ -239,7 +239,7 @@
 		"revealedBy": "Atomic Theory",
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 1,
-		"improvedBy": ["Mine","Burrowing Tunnels"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
 		"improvementStats": {"production": 1},
 		"uniques": 
                 [
@@ -260,7 +260,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
-		"improvedBy": ["Camp","Spires"],
+		"improvedBy": ["Camp","Spires","Storage Spires"],
 		"improvementStats": {"gold": 1},
 		"uniques": 
                 [
@@ -274,7 +274,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 		"uniques": 
                 [
                         "Generated with weight [15] <in [Desert] Regions>",
@@ -289,7 +289,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 		"uniques": 
                 [
                         "Generated with weight [5] <in [Tundra] Regions>",
@@ -304,7 +304,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
 		"gold": 3,
-		"improvedBy": ["Mine","Burrowing Tunnels"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
 		"uniques": 
                 [
                         "Generated with weight [5] <in [Tundra] Regions>",
@@ -320,7 +320,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
 		"gold": 2,
-		"improvedBy": ["Mine","Burrowing Tunnels"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
 		"uniques": 
                 [
                         "Generated with weight [25] <in [Desert] Regions>",
@@ -337,7 +337,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
 		"gold": 2,
-		"improvedBy": ["Mine","Burrowing Tunnels"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
 		"uniques": 
                 [
                         "Generated with weight [25] <in [Tundra] Regions>",
@@ -357,7 +357,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
 					"Generated with weight [10] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>",
@@ -368,7 +368,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
-		"improvedBy": ["Camp","Spires"],
+		"improvedBy": ["Camp","Spires","Storage Spires"],
 		"improvementStats": {"gold": 1},
 		"uniques": 
                 [
@@ -383,7 +383,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 		"uniques": 
                 [
                         "Generated with weight [5] <in [Jungle] Regions>",
@@ -398,7 +398,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 		"uniques": 
                 [
                         "Generated with weight [30] <in [Jungle] Regions>",
@@ -416,7 +416,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 		"uniques": 
                 [
                         "Generated with weight [35] <in [Plains] Regions>",
@@ -430,7 +430,7 @@
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
 		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 		"uniques": 
                 [
                         "Generated with weight [20] <in [Jungle] Regions>",
@@ -446,7 +446,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
 		"gold": 2,
-		"improvedBy": ["Quarry","Intricate Burrowings"],
+		"improvedBy": ["Quarry","Intricate Burrowings","Precision Mine"],
 		"improvementStats": {"production": 1},
 		"uniques": 
                 [
@@ -515,7 +515,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
 		"food": 1,
 		"gold": 1,
-		"improvedBy": ["Plantation","Exotic Fields"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 		"uniques": 
                 [
                         "Generated with weight [35] <in [Jungle] Regions>",
@@ -531,7 +531,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
 		"gold": 2,
-		"improvedBy": ["Mine","Burrowing Tunnels"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
 		"uniques":        
                 [        
                         "Generated with weight [15] <in [Tundra] Regions>",
@@ -554,7 +554,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
 		"food": 1,
 		"gold": 1,
-		"improvement": "Plantation"
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
 	},
 	*/
 	{
@@ -582,7 +582,7 @@
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
 		"gold": 1,
 		"food": 1,
-		"improvedBy": ["Mine","Burrowing Tunnels"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
 		"improvementStats": {"food": 1},
 		"uniques": 
                 [
@@ -601,7 +601,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
-		"improvedBy": ["Camp","Spires"],
+		"improvedBy": ["Camp","Spires","Storage Spires"],
 		"improvementStats": {"gold": 1},
 		"uniques":
                 [
