@@ -69,7 +69,7 @@
 // Add Modern Tunnelings, Insectoid Pastures, and other improvements to correlating buildings to receive benefits.
 	
 	{
-		"name": "Modern Tunnelings",
+		"name": "Structured Mine",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"uniqueTo": "Insectoids",
 		"production": 2,
@@ -136,7 +136,7 @@
 			"Does not need removal of [Jungle]",
 			"Can only be built to improve a resource", 
 		],
-	},,
+	},
 	{
 		"name": "Growing Fields",
 		"uniqueTo": "Insectoids",
