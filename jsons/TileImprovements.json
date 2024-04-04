@@ -4,8 +4,22 @@
 		"uniqueTo": "Insectoids",
 		"terrainsCanBeBuiltOn": ["Grassland","Hill","Flood plains"],
 		"food": -1,
-		"turnsToBuild": 6,
+		"turnsToBuild": 3,
 		"techRequired": "Agriculture",
+		"uniques": 
+		[
+			"Removes removable features when built",
+			"Obsolete with [Ecology]",
+			"Can also be built on tiles adjacent to fresh water",
+		]
+	},
+	{
+		"name": "Structured Fields",
+		"uniqueTo": "Insectoids",
+		"terrainsCanBeBuiltOn": ["Grassland","Hill","Flood plains"],
+		"food": 2,
+		"turnsToBuild": 8,
+		"techRequired": "Ecology",
 		"uniques": 
 		[
 			"Removes removable features when built",
@@ -17,8 +31,21 @@
 		"terrainsCanBeBuiltOn": ["Forest"],
 		"uniqueTo": "Insectoids",
 		"production": -1,
-		"turnsToBuild": 5,
+		"turnsToBuild": 1,
 		"techRequired": "Construction",
+		"uniques": 
+		[
+			"OBsolete with [Ecology]",
+			"Removes removable features when built",
+		],
+	},
+	{
+		"name": "Flora Incubators",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"uniqueTo": "Insectoids",
+		"production": 1,
+		"turnsToBuild": 9,
+		"techRequired": "Ecology",
 		"uniques": 
 		[
 			"Removes removable features when built",
@@ -29,7 +56,7 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"uniqueTo": "Insectoids",
 		"production": -1,
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"techRequired": "Mining",
 		"uniques":
 		[
@@ -46,7 +73,7 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"uniqueTo": "Insectoids",
 		"production": 2,
-		"turnsToBuild": 5,
+		"turnsToBuild": 10,
 		"techRequired": "Electronics",
 		"uniques":
 		[
@@ -60,8 +87,22 @@
 		"uniqueTo": "Insectoids",
 		"food": -1,
 		"happiness": -1,
-		"turnsToBuild": 5,
+		"turnsToBuild": 2,
 		"techRequired": "Guilds",
+		"uniques":
+		[
+			"Obselete with [Robotics]",
+			"Removes removable features when built",
+		],
+	},
+	{
+		"name": "Brood Incubation Facilities",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"uniqueTo": "Insectoids",
+		"food": -2,
+		"happiness": 1,
+		"turnsToBuild": 12,
+		"techRequired": "Robotics",
 		"uniques":
 		[
 			"Removes removable features when built",
@@ -71,8 +112,23 @@
 		"name": "Spires",
 		"uniqueTo": "Insectoids",
 		"food": -1,
-		"turnsToBuild": 5,
+		"turnsToBuild": 2,
 		"techRequired": "Guilds",
+		"uniques": 
+		[
+			"Removes removable features when built",
+			"Obsolete with [Robotics]",
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"Can only be built to improve a resource", 
+		],
+	}
+	{
+		"name": "Storage Spires",
+		"uniqueTo": "Insectoids",
+		"food": 2,
+		"turnsToBuild": 15,
+		"techRequired": "Robotics",
 		"uniques": 
 		[
 			"Removes removable features when built",
@@ -80,13 +136,13 @@
 			"Does not need removal of [Jungle]",
 			"Can only be built to improve a resource", 
 		],
-	},
+	},,
 	{
 		"name": "Growing Fields",
 		"uniqueTo": "Insectoids",
 		"food": -1,
 		"production": -1,
-		"turnsToBuild": 5,
+		"turnsToBuild": 2,
 		"techRequired": "Guilds",
 		"uniques": 
 		[
@@ -96,11 +152,11 @@
 		],
 	},
 	{
-		"name": "Insectoid Pastures",
+		"name": "Structured Feeding Fields",
 		"uniqueTo": "Insectoids",
-		"food": 3,
+		"food": 1,
 		"production": 1,
-		"turnsToBuild": 5,
+		"turnsToBuild": 8,
 		"techRequired": "Electronics",
 		"uniques": 
 		[
@@ -111,7 +167,7 @@
 	{
 		"name": "Intricate Burrowings",
 		"uniqueTo": "Insectoids",
-		"turnsToBuild": 5,
+		"turnsToBuild": 2,
 		"techRequired": "Masonry",
 		"uniques": 
 		[
@@ -120,13 +176,27 @@
 			"[+1 Food] <after discovering [Fertilizer]>", 
 			"[+1 Food] <after discovering [Economics]>",
 			"[+1 Production] <after discovering [Economics]>",
+			"Obsolete with [Lasers]",
+		],
+	},
+	{
+		"name": "Precision Mine",
+		"uniqueTo": "Insectoids",
+		"turnsToBuild": 2,
+		"production": 3,
+		"techRequired": "Lasers",
+		"uniques": 
+		[
+			"Removes removable features when built",
+			"Can only be built to improve a resource",
+			"[+1 Production] <after discovering [Economics]>",
 		],
 	},
 	{
 		"name": "Exotic Fields",
 		"uniqueTo": "Insectoids",
 		"food": -1,
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"techRequired": "Guilds",
 		"uniques": 
 		[
@@ -135,6 +205,20 @@
 			"[+1 Food] <after discovering [Fertilizer]>", 
 			"[+1 Food] <after discovering [Economics]>",
 			"[+1 Food] <after discovering [Ecology]>",
+			"Obsolete with [Robotics]"
+		],
+	},
+	{
+		"name": "Exotic Materials Extractors",
+		"uniqueTo": "Insectoids",
+		"food": 3,
+		"gold": 3,
+		"turnsToBuild": 3,
+		"techRequired": "Robotics",
+		"uniques": 
+		[
+			"Removes removable features when built",
+			"Can only be built to improve a resource",
 		],
 	},
 	{
