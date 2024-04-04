@@ -7,7 +7,8 @@
     		"cost": 30,
 		"movement": 3,
 		"strength": 9,
-    		"uniques": [
+    		"uniques": 
+		[
 			"Cannot be purchased <hidden from users>",
 			"Heals [12] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -25,7 +26,8 @@
     		"cost": 20,
 		"movement": 3,
 		"strength": 6,
-    		"uniques": [
+    		"uniques": 
+		[
 			"Cannot be purchased <hidden from users>",
 			"Can build [Land] improvements on tiles <hidden from users>", 
 			"Heals [8] damage if it kills a unit <hidden from users>",
@@ -43,7 +45,8 @@
     		"cost": 60,
 		"movement": 3,
 		"strength": 5,
-    		"uniques": [
+    		"uniques": 
+		[
 			"Can build [Land] improvements on tiles", 
 			"Automation is a primary action",
 			"Heals [10] damage if it kills a unit <hidden from users>",
@@ -64,7 +67,8 @@
 		"uniqueTo": "Insectoids",
     		"cost": 15,
 		"movement": 2,
-    		"uniques": [
+    		"uniques": 
+		[
 			"Can build [Land] improvements on tiles", 
 			"Automation is a primary action",
 			"Cannot be purchased <hidden from users>",
@@ -82,7 +86,8 @@
     		"cost": 300,
 		"movement": 2,
 		"strength": 20,
-    		"uniques": [			
+    		"uniques": 
+		[			
 			"Cannot be purchased <hidden from users>",
 			"Founds a new city <by consuming this unit> <hidden from users>", 
 			"Requires at least [5] population <hidden from users>",
@@ -113,7 +118,8 @@
 		"rangedStrength": 8,
 		"movement": 3,
 		"strength": 6,
-    		"uniques": [			
+    		"uniques": 
+		[			
 			"Cannot be purchased <hidden from users>",
 			"Founds a new city <by consuming this unit> <hidden from users>", 
 			"Requires at least [2] population <hidden from users>",
@@ -134,7 +140,8 @@
 		"movement": 4,
 		"strength": 10,
 		"requiredTech": "Sailing",
-    		"uniques": [			
+    		"uniques": 
+		[			
 			"Cannot be purchased <hidden from users>",
 			"Heals [10] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -153,7 +160,8 @@
 		"movement": 3,
 		"strength": 8,
 		"requiredTech": "Sailing",
-    		"uniques": [	
+    		"uniques": 
+		[	
 			"Cannot enter ocean tiles", 
 			"Cannot be purchased <hidden from users>",
 			"Heals [12] damage if it kills a unit <hidden from users>",
@@ -173,7 +181,8 @@
 		"movement": 3,
 		"strength": 8,
 		"requiredTech": "The Wheel",
-    		"uniques": [	
+    		"uniques": 
+		[	
 			"Cannot be purchased <hidden from users>",
 			"Heals [8] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -183,5 +192,306 @@
 			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
   	},
+	{
+		"name": "Crusher",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 13,
+		"cost": 40,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": 
+		[
+			"[+50]% Strength <vs [Mounted] units>",
+			"Cannot be purchased <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Mutated Walker",
+		"unitType": "Mounted",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 8,
+		"cost": 80,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"obsoleteTech": "Chivalry",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-30]% Strength <vs cities> <when attacking>",
+			"Heals [2] damage if it kills a unit <hidden from users>",
+			"Gain [8] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [8] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [4] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [4] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [4] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	{
+		"name": "Rock Launcher Insectoid",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 9,
+		"cost": 70,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"[+150]% Strength <vs cities> <when attacking>", 
+			"No defensive terrain bonus",
+			"Must set up to ranged attack", 
+			"[-1] Sight",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Bile Spewer",
+		"unitType": "Archery",
+		"replaces": "Composite Bowman",
+		"movement": 1,
+		"strength": 11,
+		"rangedStrength": 16,
+		"cost": 90,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in this city> <in cities with at least [9] [Population]> <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Slicers",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 85,
+		"requiredTech": "Iron Working",
+		"obsoleteTech": "Steel",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in this city> <in cities with at least [6] [Population]> <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Spiked Movers",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"movement": 1,
+		"strength": 20,
+		"cost": 200,
+		"requiredTech": "Civil Service",
+		"uniques": 
+		[
+			"[+50]% Strength <vs [Mounted] units>",
+			"Cannot be purchased <hidden from users>",
+			"Only available <in this city> <in cities with at least [6] [Population]> <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Water Launchers",
+		"unitType": "Ranged Water",
+		"replaces": "Galleass",
+		"movement": 3,
+		"strength": 8,
+		"rangedStrength": 19,
+		"cost": 110,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"uniques": 
+		[
+			"Cannot enter ocean tiles",
+			"Cannot be purchased <hidden from users>",
+			"Only available <in this city> <in cities with at least [4] [Population]> <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Armored Mutate Walker",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"movement": 4,
+		"strength": 24,
+		"cost": 130,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": 
+		[
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-30]% Strength <vs cities> <when attacking>",
+			"Cannot be purchased <hidden from users>",
+			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Stalkers",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"movement": 4,
+		"strength": 25,
+		"cost": 200,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Computers",
+		"uniques": 
+		[
+			"Can move after attacking",
+			"Invisible to non-adjacent units <hidden from users>",
+			"Can see invisible [Wounded] units <hidden from users>",
+			"May enter foreign tiles without open borders <hidden from users>",
+			"No defensive terrain bonus",
+			"[-30]% Strength <vs cities> <when attacking>",
+			"Cannot be purchased <hidden from users>",
+			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"[+50]% Strength <during the [Classical era]> <hidden from users>",
+			"[+100]% Strength <during the [Medieval era]> <hidden from users>",
+			"[+150]% Strength <during the [Renaissance era]> <hidden from users>",
+			"[+250]% Strength <during the [Industrial era]> <hidden from users>",
+			"[+1] Movement <starting from the [Industrial era]> <hidden from users>",
+			"[+350]% Strength <during the [Modern era]> <hidden from users>",
+			"[+400]% Strength <during the [Atomic era]> <hidden from users>",
+			"[+450]% Strength <during the [Information era]> <hidden from users>",
+			"[+500]% Strength <during the [Future era]> <hidden from users>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Charger",
+		"unitType": "Siege",
+		"replaces": "Trebuchet",
+		"movement": 1,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Physics",
+		"obsoleteTech": "Electronics",
+		"uniques": 
+		[
+			"[+200]% Strength <vs cities> <when attacking>",
+			"[+300]% Strength <vs cities> <when attacking> <during the [Modern era]> <hidden from users>",
+			"No defensive terrain bonus",
+			"[-1] Sight",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"[+50]% Strength <during the [Classical era]> <hidden from users>",
+			"[+100]% Strength <during the [Medieval era]> <hidden from users>",
+			"[+150]% Strength <during the [Renaissance era]> <hidden from users>",
+			"[+250]% Strength <during the [Industrial era]> <hidden from users>",
+			"[+1] Movement <starting from the [Industrial era]> <hidden from users>",
+			"[+350]% Strength <during the [Modern era]> <hidden from users>",
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Bladed Slicers",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 24,
+		"cost": 140,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": 
+		[
+			"Heals [9] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Caravel",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "Combustion",
+		"uniques": 
+		[
+			"[+1] Sight", "May withdraw before melee ([80]%)"
+		],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
 ]
 
