@@ -201,7 +201,6 @@
 		"cost": 40,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
 		"uniques": 
 		[
 			"[+50]% Strength <vs [Mounted] units>",
@@ -478,20 +477,36 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Caravel",
+		"name": "Swimmers",
 		"unitType": "Melee Water",
 		"movement": 4,
-		"strength": 20,
-		"cost": 120,
+		"strength": 23,
+		"cost": 130,
 		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
 		"obsoleteTech": "Combustion",
 		"uniques": 
 		[
-			"[+1] Sight", "May withdraw before melee ([80]%)"
+			"[+1] Sight", 
+			"Heals [9] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"May withdraw before melee ([80]%)"
 		],
 		"hurryCostModifier": 30,
-		"attackSound": "cannon"
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Musketman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 25,
+		"cost": 160,
+		"requiredTech": "Gunpowder",
+		"obsoleteTech": "Rifling",
+		"attackSound": "metalhit"
 	},
 ]
 
