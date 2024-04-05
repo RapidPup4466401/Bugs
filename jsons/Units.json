@@ -145,6 +145,7 @@
 		"requiredTech": "Sailing",
     		"uniques": 
 		[			
+			"Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Heals [10] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -169,6 +170,7 @@
 		"requiredTech": "Sailing",
     		"uniques": 
 		[	
+			"Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
 			"Cannot enter ocean tiles", 
 			"Cannot be purchased <hidden from users>",
 			"Heals [12] damage if it kills a unit <hidden from users>",
@@ -365,6 +367,7 @@
 		"obsoleteTech": "Navigation",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
 			"Cannot enter ocean tiles",
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [4] [Population]> <hidden from users>",
@@ -507,6 +510,7 @@
 		"obsoleteTech": "Combustion",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
 			"[+1] Sight", 
 			"Heals [9] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -553,6 +557,7 @@
 		"promotions": ["Coastal Raider I"],
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
 			"May capture killed [Water] units",
 			"Heals [9] damage if it kills a unit <hidden from users>",
 			"Gain [20] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -565,7 +570,7 @@
 	},
 	{
 		"name": "Water Slicers",
-		"unitType": "Ranged Water",
+		"unitType": "Melee Water",
 		"replaces": "Frigate",
 		"uniqueTo": "Insectoids",
 		"movement": 4,
@@ -575,6 +580,7 @@
 		"obsoleteTech": "Electronics",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
 			"May capture killed [Water] units",
 			"Heals [9] damage if it kills a unit <hidden from users>",
 			"Gain [20] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -584,6 +590,65 @@
 			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
 		],
 		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Bile Titan",
+		"unitType": "Sword",
+		"replaces": "Lancer",
+		"uniqueTo": "Insectoids",
+		"movement": 3,
+		"strength": 40,
+		"cost": 350,
+		"requiredTech": "Metallurgy",
+		"obsoleteTech": "Computers",
+		"uniques": 
+		[
+			"[-1] population [in this city]",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"May capture killed [Water] units",
+			"[+50]% Strength <vs cities> <when attacking>",
+			"Can only be built <in this city> <if [Larger Brood Chambers] is constructed> <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [40] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [40] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"[+50]% Strength <during the [Classical era]> <hidden from users>",
+			"[+100]% Strength <during the [Medieval era]> <hidden from users>",
+			"[+150]% Strength <during the [Renaissance era]> <hidden from users>",
+			"[+250]% Strength <during the [Industrial era]> <hidden from users>",
+			"[+1] Movement <starting from the [Modern era]> <hidden from users>",
+			"[+400]% Strength <during the [Modern era]> <hidden from users>",
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Armored Crusher",
+		"unitType": "Siege",
+		"replaces": "Cannon",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 18,
+		"cost": 160,
+		"requiredTech": "Chemistry",
+		"obsoleteTech": "Dynamite",
+		"uniques": 
+		[
+			"[+100]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight <hidden from users>",
+			"[+50]% Strength <vs [Mounted] units> <hidden from users>",
+			"Cannot be purchased <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
 		"attackSound": "metalhit"
 	},
 ]
