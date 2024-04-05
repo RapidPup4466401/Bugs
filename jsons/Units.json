@@ -7,6 +7,7 @@
     		"cost": 30,
 		"movement": 3,
 		"strength": 9,
+		"obsoleteTech": "Metal Casting",
     		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
@@ -23,6 +24,7 @@
 		"unitType": "Scout",
 		"replaces": "Scout",
 		"uniqueTo": "Insectoids",
+		"obsoleteTech": "Scientific Theory",
     		"cost": 20,
 		"movement": 3,
 		"strength": 6,
@@ -114,6 +116,7 @@
 		"unitType": "Archery",
 		"replaces": "Archer",
 		"uniqueTo": "Insectoids",
+		"obsoleteTech": "Construction",
     		"cost": 35,
 		"rangedStrength": 8,
 		"movement": 3,
@@ -148,7 +151,10 @@
 			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
 			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
 			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
-			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+			"May create improvements on water resources",
+            		"Automation is a primary action"
 		],
   	},
 	{
@@ -156,6 +162,7 @@
 		"unitType": "Melee Water",
 		"replaces": "Trireme",
 		"uniqueTo": "Insectoids",
+		"obsoleteTech": "Astronomy",
     		"cost": 40,
 		"movement": 3,
 		"strength": 8,
@@ -177,6 +184,7 @@
 		"unitType": "Archery",
 		"replaces": "Chariot Archer",
 		"uniqueTo": "Insectoids",
+		"obsoleteTech": "Chivalry",
     		"cost": 50,
 		"movement": 3,
 		"strength": 8,
@@ -514,12 +522,47 @@
 	{
 		"name": "Armored Warrior",
 		"unitType": "Sword",
+		"replaces": "Mustketman",
+		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 26,
 		"cost": 160,
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Rifling",
+		"uniques": 
+		[
+			"Heals [9] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"May withdraw before melee ([80]%)"
+		],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Suction Swimmers",
+		"unitType": "Melee Water",
+		"replaces": "Privateer",
+		"uniqueTo": "Insectoids",
+		"movement": 6,
+		"strength": 30,
+		"cost": 200,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I"],
+		"uniques": 
+		[
+			"May capture killed [Water] units",
+			"Heals [9] damage if it kills a unit <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
+		],
+		"attackSound": "cannon"
 	},
 ]
 
