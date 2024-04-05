@@ -600,6 +600,7 @@
 		"specialistSlots": {"Scientist": 2},
 		"uniques": 
 		[
+			"Must be on [Coast]",
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 			"Only available <in cities with a [Brood Feedings]> <hidden from users>",
@@ -1373,8 +1374,45 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Provides [1] [Robotic Parts]"
+		]
+	},
+	{
+		"name": "Genetics Research Facility",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Scientist": 3},
+		"cost": 500,
+		"maintenance": 4,
+		"requiredTech": "Robotics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Provides [1] [Robotic Parts]"
+		]
+	},
+	{
+		"name": "Genetic Manipulation Facility",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Scientist": 3},
+		"cost": 1500,
+		"maintenance": 5,
+		"requiredTech": "Nanotechnology",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [150] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [1] [Robotic Parts]"
 		]
