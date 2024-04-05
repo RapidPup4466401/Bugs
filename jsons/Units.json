@@ -526,7 +526,7 @@
 	{
 		"name": "Armored Warrior",
 		"unitType": "Sword",
-		"replaces": "Mustketman",
+		"replaces": "Musketman",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 26,
