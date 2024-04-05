@@ -550,7 +550,6 @@
 		"strength": 30,
 		"cost": 200,
 		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I"],
 		"uniques": 
 		[
@@ -562,7 +561,30 @@
 			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
 		],
-		"attackSound": "cannon"
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Water Slicers",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "Insectoids",
+		"movement": 4,
+		"strength": 30,
+		"cost": 230,
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"uniques": 
+		[
+			"May capture killed [Water] units",
+			"Heals [9] damage if it kills a unit <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 ]
 
