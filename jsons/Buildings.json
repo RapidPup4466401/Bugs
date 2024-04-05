@@ -572,7 +572,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [15] [Population]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [25] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
