@@ -1,6 +1,6 @@
 [
   	{
-		"name": "Warrior Insectoid",
+		"name": "Warrior Bug",
 		"unitType": "Sword",
 		"replaces": "Warrior",
 		"uniqueTo": "Insectoids",
@@ -10,6 +10,7 @@
 		"obsoleteTech": "Metal Casting",
     		"uniques": 
 		[
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Heals [12] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -49,6 +50,7 @@
 		"strength": 5,
     		"uniques": 
 		[
+			"Can only be built <in this city> <if [Nesting] is constructed> <hidden from users>",
 			"Can build [Land] improvements on tiles", 
 			"Automation is a primary action",
 			"Heals [10] damage if it kills a unit <hidden from users>",
@@ -71,6 +73,7 @@
 		"movement": 2,
     		"uniques": 
 		[
+			"Can only be built <in this city> <if [Nesting] is constructed> <hidden from users>",
 			"Can build [Land] improvements on tiles", 
 			"Automation is a primary action",
 			"Cannot be purchased <hidden from users>",
@@ -92,7 +95,7 @@
 		[			
 			"Cannot be purchased <hidden from users>",
 			"Founds a new city <by consuming this unit> <hidden from users>", 
-			"Requires at least [5] population <hidden from users>",
+			"Requires at least [10] population <hidden from users>",
 			"Heals [20] damage if it kills a unit",
 			"[+50]% Strength <during the [Classical era]> <hidden from users>",
 			"[+100]% Strength <during the [Medieval era]> <hidden from users>",
@@ -123,6 +126,7 @@
 		"strength": 6,
     		"uniques": 
 		[			
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Founds a new city <by consuming this unit> <hidden from users>", 
 			"Requires at least [2] population <hidden from users>",
@@ -193,6 +197,7 @@
 		"requiredTech": "The Wheel",
     		"uniques": 
 		[	
+			"Can only be built <in this city> <if [Pools of Acid] is constructed> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Heals [8] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -214,6 +219,7 @@
 		"obsoleteTech": "Civil Service",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Cannot be purchased <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
@@ -238,6 +244,7 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
@@ -265,6 +272,7 @@
 		"obsoleteTech": "Physics",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"[+150]% Strength <vs cities> <when attacking>", 
 			"No defensive terrain bonus",
@@ -293,6 +301,7 @@
 		"obsoleteTech": "Machinery",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [9] [Population]> <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
@@ -306,7 +315,7 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Slicers",
+		"name": "Slicer",
 		"unitType": "Sword",
 		"replaces": "Swordsman",
 		"uniqueTo": "Insectoids",
@@ -317,6 +326,7 @@
 		"obsoleteTech": "Steel",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [6] [Population]> <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
@@ -331,7 +341,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Spiked Movers",
+		"name": "Spiky Slicer",
 		"unitType": "Sword",
 		"replaces": "Pikeman",
 		"uniqueTo": "Insectoids",
@@ -341,6 +351,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
 			"[+50]% Strength <vs [Mounted] units>",
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [6] [Population]> <hidden from users>",
@@ -393,6 +404,7 @@
 		"requiredResource": "Horses",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-30]% Strength <vs cities> <when attacking>",
@@ -419,14 +431,15 @@
 		"obsoleteTech": "Computers",
 		"uniques": 
 		[
-			"Can move after attacking",
+			"Can only be built <in this city> <if [Warrior Broods] is constructed> <hidden from users>",
+			"Can only be built <in this city> <if [Camouflage Mutation Pods] is constructed> <hidden from users>",
+			"Can move after attacking <hidden from users>",
 			"Invisible to non-adjacent units <hidden from users>",
 			"Can see invisible [Wounded] units <hidden from users>",
 			"May enter foreign tiles without open borders <hidden from users>",
-			"No defensive terrain bonus",
 			"[-30]% Strength <vs cities> <when attacking>",
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
