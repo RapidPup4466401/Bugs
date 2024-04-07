@@ -17,7 +17,7 @@
 		[
 			"Indicates the capital city",
 			"Gain [-20] [Food] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>",
-			"Gain [20] [Gold] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>",
+			"Gain [40] [Gold] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>",
 			"Provides [2] [Iron] <with [50]% chance>  <every [3] turns> <upon turn end> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -49,7 +49,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"[+10]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
-			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+2 Food] from [Deer] tiles [in this city]",
 			"[+1 Food] from [Bananas] tiles [in this city]",
 			"[+1 Food] from [Wheat] tiles [in this city]",
 			"[+2 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
@@ -64,8 +64,8 @@
 			"[+1 Food] from [Spires] tiles [in this city] <after discovering [Fertilizer]> <hidden from users>",
 			"[+1 Food] from [Spires] tiles [in this city] <after discovering [Economics]> <hidden from users>",
 			"[+1 Food] from [Spires] tiles [in this city] <after discovering [Ecology]> <hidden from users>",
-			"[+2 Food] from [Nests] tiles [in this city] <hidden from users>",
-			"[+2 Happiness] from [Nests] tiles [in this city] <hidden from users>",
+			"[+3 Food] from [Nests] tiles [in this city] <hidden from users>",
+			"[+1 Happiness] from [Nests] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Fertilizer]> <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Economics]> <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <after discovering [Biology]> <hidden from users>",
@@ -85,7 +85,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"[+10]% [Production] <in this city> <with [Biomass]> <hidden from users>", 
-			"[+2 Production] from [Burrowing Tunnels] tiles [in this city] <hidden from users>",
+			"[+3 Production] from [Burrowing Tunnels] tiles [in this city] <hidden from users>",
 			"[+1 Production] from [Burrowing Tunnels] tiles [in this city] <after discovering [Chemistry]> <hidden from users>",
 			"[+1 Production] from [Burrowing Tunnels] tiles [in this city] <after discovering [Economics]> <hidden from users>",
 			"[+1 Production] from [Burrowing Tunnels] tiles [in this city] <after discovering [Biology]> <hidden from users>",
@@ -93,6 +93,7 @@
 			"[+1 Production] from [Harvestor Fields] tiles [in this city] <after discovering [Chemistry]> <hidden from users>",
 			"[+1 Production] from [Harvestor Fields] tiles [in this city] <after discovering [Economics]> <hidden from users>",
 			"[+1 Production] from [Harvestor Fields] tiles [in this city] <after discovering [Biology]> <hidden from users>",
+			"[+2 Production] from [Harvestor Fields] tiles [in this city] <after discovering [Ecology]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -106,6 +107,7 @@
 		"requiredTech": "Pottery",
 		"uniques": 
 		[
+			"[+1 Faith] from [Nests] tiles [in this city] <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Hidden when religion is disabled <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -162,6 +164,27 @@
 		"requiredTech": "The Wheel"
 		"uniques":
 		[
+			"Cannot be purchased <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			
+		]
+	},
+	{
+		"name": "Irrigation System",
+		"uniqueTo": "Insectoids",
+		"food": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "The Wheel"
+		"uniques":
+		[
+			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Nests] tiles [in this city] <hidden from users>",
+			"[+1 Happiness] from [Nests] tiles [in this city] <hidden from users>",
+			"Only available <in cities with a [Water Mover]> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -682,6 +705,19 @@
 			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
 			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city",
+			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "Machinery"
+	}
+	{
+		"name": "Camouflage Mutation Pods",
+		"uniqueTo": "Insectoids",
+		"cost": 150,
+		"uniques": 
+		[
+			"Only available <in cities with a [Mutation Incubators]> <hidden from users>",
+			"Cannot be purchased <hidden from users>",
+			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Machinery"
