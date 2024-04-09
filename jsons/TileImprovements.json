@@ -35,7 +35,7 @@
 		"techRequired": "Construction",
 		"uniques": 
 		[
-			"OBsolete with [Ecology]",
+			"Obsolete with [Ecology]",
 			"Removes removable features when built",
 		],
 	},
@@ -118,8 +118,6 @@
 		[
 			"Removes removable features when built",
 			"Obsolete with [Robotics]",
-			"Does not need removal of [Forest]",
-			"Does not need removal of [Jungle]",
 			"Can only be built to improve a resource", 
 		],
 	}
@@ -420,200 +418,7 @@
 
 // Transportation
 
-	{
-		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
-		"food": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Agriculture",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            		"Pillaging this improvement yields approximately [+18 Gold]"
-		],
-		"shortcutKey": "F"
-	},
-	{
-		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Construction",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"[+1 Production] <after discovering [Scientific Theory]>", 
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "L"
-	},
-	{
-		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
-		"production": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Mining",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"[+1 Production] <after discovering [Chemistry]>", 
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		],
-		"shortcutKey": "M"
-	},
-	{
-		"name": "Trading post",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
-		"gold": 1,
-		"turnsToBuild": 7,
-		"techRequired": "Guilds",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"[+1 Gold] <after discovering [Economics]>", 
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		],
-		"shortcutKey": "T"
-	},
-
-	// Resource-specific
-	{
-		"name": "Camp",
-		"turnsToBuild": 7,
-		"techRequired": "Trapping",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"Does not need removal of [Forest]",
-			"Does not need removal of [Jungle]",
-			"[+1 Gold] <after discovering [Economics]>", 
-			"Can only be built to improve a resource", 
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "C"
-	},
-	{
-		"name": "Oil well",
-		"turnsToBuild": 9,
-		"techRequired": "Biology",
-		"uniques": 
-		[
-			"Can only be built to improve a resource", 
-			"Cannot be built on [Water] tiles", 
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		],
-		"shortcutKey": "W"
-	},
-	{
-		"name": "Offshore Platform",
-		"techRequired": "Refrigeration",
-		"uniques": 
-		[
-			"Can only be built to improve a resource", 
-			"Can only be built on [Water] tiles", 
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Pasture",
-		"turnsToBuild": 8,
-		"techRequired": "Animal Husbandry",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"[+1 Food] <after discovering [Fertilizer]>", 
-			"Can only be built to improve a resource", 
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Plantation",
-		"turnsToBuild": 6,
-		"gold": 1,
-		"techRequired": "Calendar",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"[+1 Food] <after discovering [Fertilizer]>", 
-			"Can only be built to improve a resource", 
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "P"
-	},
-	{
-		"name": "Quarry",
-		"turnsToBuild": 8,
-		"techRequired": "Masonry",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"[+1 Production] <after discovering [Chemistry]>", 
-			"Can only be built to improve a resource", 
-			"Pillaging this improvement yields approximately [+20 Gold]"
-		],
-		"shortcutKey": "Q"
-	},
-	{
-		"name": "Fishing Boats",
-		"terrainsCanBeBuiltOn": ["Coast"],
-		"food": 1,
-		"techRequired": "Sailing",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"[+1 Gold] <after discovering [Compass]>", 
-			"Can only be built to improve a resource", 
-			"Pillaging this improvement yields approximately [+10 Gold]"
-		],
-		"shortcutKey": "F"
-	},
-
-	// Military improvement
-	{
-		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
-		"turnsToBuild": 6,
-		"techRequired": "Engineering",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"Can be built outside your borders", 
-			"Gives a defensive bonus of [50]%"
-		],
-		"shortcutKey": "O"
-	},
-
-	// Transportation
-	{
-		"name": "Road",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		"techRequired": "The Wheel",
-		"uniques": 
-		[
-			"Can be built outside your borders", 
-			"Costs [1] [Gold] per turn"
-		],
-		"shortcutKey": "R",
-	},
-	{
-		"name": "Railroad",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"turnsToBuild": 4,
-		"techRequired": "Railroads",
-		"uniques": 
-		[
-			"Cannot be built on [All] tiles <in [Insectoids] cities> <hidden from users>",
-			"Can be built outside your borders", 
-			"Costs [2] [Gold] per turn"
-		],
-		"shortcutKey": "R",
-	},
+	
     // Great Person improvements
 	{
 		"name": "Academy",
