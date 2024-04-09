@@ -402,23 +402,23 @@
 		"requiredTech": "Writing"
 	},
 	{
-		"name": "Hive Queen's Study Chamber",
+		"name": "Hive Mother's Study Chamber",
 		"uniqueTo": "Insectoids",
 		"replaces": "National College",
 		"cost": 200,
 		"science": 4,
 		"culture": 2,
 		"isNationalWonder": true,
-		"percentStatBonus": {"science": 40},
+		"percentStatBonus": {"science": 10},
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Storage]>", 
 			"Cost increases by [30] per owned city",
 			"[+2 Science] from every [Subduction Chambers] <in [in all cities] cities>",
-			"[+10]% [Science] [in all cities]",
-			"[+10]% [Science] <in this city> <with [Robotic Parts]> <hidden from users>", 
-			"[+10]% [Science] <in this city> <with [High-Tech Composite]> <hidden from users>", 
+			"[+5]% [Science] [in all cities]",
+			"[+5]% [Science] <in this city> <with [Robotic Parts]> <hidden from users>", 
+			"[+5]% [Science] <in this city> <with [High-Tech Composite]> <hidden from users>", 
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Philosophy"
@@ -777,7 +777,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
-			"Only available <in this city> <if [Hive Queen's Study Chamber]>",
+			"Only available <in this city> <if [Hive Mother's Study Chamber] is constructed>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Astronomy"
@@ -949,7 +949,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
-			"Only available <if [Hive Queen's Study Chamber] is constructed> <hidden from users>",
+			"Only available <if [Hive Mother's Study Chamber] is constructed> <hidden from users>",
 			"Only available <in cities with a [Metal-Infused Egg Broods]> <hidden from users>",
 			"Only available <in cities with a [Hive Arsenal]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
