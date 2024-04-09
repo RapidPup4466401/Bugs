@@ -414,12 +414,7 @@
         		"Constructing it will take over the tiles around it and assign them to your closest city <in [Insectoids] cities>",
 			"Removes removable features when built"
 		]
-	}
-
-// Transportation
-
-	
-    // Great Person improvements
+	},
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
