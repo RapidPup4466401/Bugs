@@ -720,7 +720,6 @@
 		],
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Scavengers",
 		"attackSound": "metalhit"
 	},
 	{
@@ -737,7 +736,6 @@
 		[
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities> <when attacking>", 
 			"Only available <in this city> <in cities with at least [5] [Population]> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
