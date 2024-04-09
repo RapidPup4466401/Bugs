@@ -801,7 +801,7 @@
 			"[+1 Food] from [Nests] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
 			"Only available <in this city> <in cities with at least [5] [Population]> <hidden from users>",
-			"Only available <in cities with a [Underground Storage]",
+			"Only available <in cities with a [Underground Storage]>",
 			"Only available <in cities with a [Holes]>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -949,7 +949,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
-			"Only available <if [Hive Queen's Study Chamber] is constructed in all [in capital]> <hidden from users>",
+			"Only available <if [Hive Queen's Study Chamber] is constructed> <hidden from users>",
 			"Only available <in cities with a [Metal-Infused Egg Broods]> <hidden from users>",
 			"Only available <in cities with a [Hive Arsenal]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -1232,7 +1232,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Increased Worker Intelligence]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
-			"Destroyed when the city is captured <hidden from users."
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
@@ -1249,7 +1249,7 @@
 			"Only available <in cities with a [Refrigeration Pools]> <hidden from users>",
 			"Only available <in cities with a [Testing Chambers]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
-			"Destroyed when the city is captured <hidden from users."
+			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
 	{
