@@ -94,9 +94,11 @@
     		"uniques": 
 		[			
 			"Cannot be purchased <hidden from users>",
+			"[-1] population [in this city]",
+			"[-20]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
 			"Founds a new city <by consuming this unit> <hidden from users>", 
 			"Requires at least [10] population <hidden from users>",
-			"Heals [20] damage if it kills a unit",
+			"Heals [30] damage if it kills a unit <hidden from users>",
 			"[+50]% Strength <during the [Classical era]> <hidden from users>",
 			"[+100]% Strength <during the [Medieval era]> <hidden from users>",
 			"[+150]% Strength <during the [Renaissance era]> <hidden from users>",
@@ -471,9 +473,9 @@
 		"uniques": 
 		[
 			"[+200]% Strength <vs cities> <when attacking>",
-			"[+300]% Strength <vs cities> <when attacking> <during the [Modern era]> <hidden from users>",
 			"No defensive terrain bonus",
 			"[-1] Sight",
+			"Only available <in this city> <in cities with at least [15] [Population]> <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
@@ -485,7 +487,6 @@
 			"[+150]% Strength <during the [Renaissance era]> <hidden from users>",
 			"[+250]% Strength <during the [Industrial era]> <hidden from users>",
 			"[+1] Movement <starting from the [Industrial era]> <hidden from users>",
-			"[+350]% Strength <during the [Modern era]> <hidden from users>",
 		],
 		"attackSound": "throw"
 	},
@@ -502,6 +503,7 @@
 		"requiredResource": "Iron",
 		"uniques": 
 		[
+			"Only available <in this city> <in cities with at least [5] [Population]> <hidden from users>",
 			"Heals [9] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
@@ -548,6 +550,7 @@
 		"obsoleteTech": "Rifling",
 		"uniques": 
 		[
+			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
 			"Heals [9] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
@@ -650,10 +653,92 @@
 		"obsoleteTech": "Dynamite",
 		"uniques": 
 		[
+			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
 			"[+100]% Strength <vs cities> <when attacking>",
 			"No defensive terrain bonus",
 			"[-1] Sight <hidden from users>",
 			"[+50]% Strength <vs [Mounted] units> <hidden from users>",
+			"Cannot be purchased <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Armored Acid Spewer",
+		"unitType": "Ranged Gunpowder",
+		"replaces": "Gatling Gun",
+		"uniqueTo": "Insectoids",
+		"range": 1,
+		"movement": 2,
+		"strength": 32,
+		"rangedStrength": 32,
+		"cost": 225,
+		"uniques": 
+		[
+			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
+			"[+50]% Strength <vs cities> <when attacking>",
+			"[-1] Sight <hidden from users>",
+			"[-20]% Strength <vs [Mounted] units> <hidden from users>",
+			"Cannot be purchased <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"requiredTech": "Industrialization",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Scavengings",
+		"replaces": "Rifleman",
+		"uniqueTo": "Insectoids",
+		"unitType": "melee",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"uniques": 
+		[
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>", 
+			"Only available <in this city> <in cities with at least [5] [Population]> <hidden from users>",
+			"Cannot be purchased <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [2] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [2] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Scavengers",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Scavengers",
+		"replaces": "Calvary",
+		"uniqueTo": "Insectoids",
+		"unitType": "Melee",
+		"movement": 3,
+		"strength": 36,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"uniques": 
+		[
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>", 
+			"Only available <in this city> <in cities with at least [5] [Population]> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
