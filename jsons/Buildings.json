@@ -662,7 +662,7 @@
 		"replaces": "University",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 15},
+		"percentStatBonus": {"science": 5},
 		"specialistSlots": {"Scientist": 2},
 		"uniques": 
 		[
@@ -683,8 +683,8 @@
 		"cost": 170,
 		"science": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 20},
-		"specialistSlots": {"Scientist": 4},
+		"percentStatBonus": {"science": 5},
+		"specialistSlots": {"Scientist": 3},
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
@@ -756,7 +756,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [15] [Population]> <hidden from users>",
-			"Only available <in cities with a[Warrior Broods]> <hidden from users>",
+			"Only available <in cities with a [Warrior Broods]> <hidden from users>",
 			"New [Military] units start with [15] Experience [in this city]", 
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -771,14 +771,13 @@
 		"name": "Hive Observatory",
 		"uniqueTo": "Insectoids",
 		"replaces": "Observatory",
-		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 20},
+		"percentStatBonus": {"science": 10},
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
-			"Only available <if [Hive Queen's Study Chamber] is constructed in all [in capital]>",
+			"Only available <in this city> <if [Hive Queen's Study Chamber]>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Astronomy"
@@ -792,7 +791,6 @@
 		"cityHealth": 35,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 15,
-		"maintenance": 3,
 		"requiredTech": "Acoustics",
 		"uniques": 
 		[
@@ -831,7 +829,6 @@
 		"replaces": "Theatre",
 		"happiness": 2,
 		"hurryCostModifier": 10,
-		"maintenance": 2,
 		"requiredTech": "Printing Press"
 		"uniques":
 		[
@@ -850,7 +847,6 @@
 		"uniqueTo": "Insectoids",
 		"replaces": "Seaport",
 		"hurryCostModifier": 35,
-		"maintenance": 2,
 		"requiredBuilding": "Harbor",
 		"uniques": 
 		[
@@ -895,7 +891,6 @@
 		"production": 3,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 45,
-		"maintenance": 2,
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
@@ -948,7 +943,6 @@
 		"name": "Pools of Acid",
 		"uniqueTo": "Insectoids",
 		"replaces": "Museum",
-		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Archaeology",
 		"uniques": 
@@ -964,7 +958,6 @@
 	{
 		"name": "Biomass Production Chambers",
 		"uniqueTo": "Insectoids",
-		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"happines": -4,
 		"requiredTech": "Archaeology",
@@ -982,7 +975,6 @@
 		"name": "Corrosive Acids Production Pods",
 		"uniqueTo": "Insectoids",
 		"specialistSlots": {"Engineer": 1},
-		"maintenance": 3,
 		"science": 4,
 		"production": 3,
 		"hurryCostModifier": 0,
@@ -1003,7 +995,7 @@
 		"replaces": "Public School",
 		"science": 3,
 		"specialistSlots": {"Scientist": 1},
-		"maintenance": 3,
+		"percentStatBonus": {"science": 10},
 		"hurryCostModifier": 0,
 		"uniques": 
 		[ 
@@ -1023,7 +1015,6 @@
 		"production": 3,
 		"percentStatBonus": {"production": 5},
 		"specialistSlots": {"Engineer": 2},
-		"maintenance": 3,
 		"hurryCostModifier": 10,
 		"uniques":
 		[
@@ -1043,7 +1034,6 @@
 		"production": 5,
 		"percentStatBonus": {"production": 15},
 		"specialistSlots": {"Engineer": 4},
-		"maintenance": 3,
 		"hurryCostModifier": 30,
 		"uniques":
 		[
@@ -1060,7 +1050,6 @@
 		"cost": 400,
 		"production": 2,
 		"specialistSlots": {"Engineer": 2},
-		"maintenance": 4,
 		"hurryCostModifier": 30,
 		"uniques":
 		[
@@ -1076,7 +1065,6 @@
 	{
 		"name": "Mass Biomass Production Chambers",
 		"uniqueTo": "Insectoids",
-		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"happines": -6,
 		"requiredTech": "Industrialization",
@@ -1095,7 +1083,6 @@
 		"uniqueTo": "Insectoids",
 		"replaces": "Military Academy",
 		"hurryCostModifier": 10,
-		"maintenance": 1,
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
@@ -1115,7 +1102,6 @@
 		"replaces": "Hospital",
 		"food": 3,
 		"happiness": 2,
-		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"uniques":
 		[
@@ -1153,7 +1139,6 @@
 		"uniqueTo": "Insectoids",
 		"replaces": "Hydro Plant",
 		"hurryCostModifier": 0,
-		"maintenance": 3,
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
@@ -1172,7 +1157,6 @@
 	{
 		"name": "Dissection Studies Chamber",
 		"uniqueTo": "Insectoids",
-		"maintenance": 2,
 		"happines": -4,
 		"science": 4,
 		"hurryCostModifier": 50,
@@ -1191,7 +1175,6 @@
 		"replaces": "Stadium",
 		"happiness": 3,
 		"food": 10,
-		"maintenance": 2,
 		"requiredTech": "Refrigeration"
 		"unqiues":
 		[
@@ -1208,7 +1191,6 @@
 		"culture": 2,
 		"percentStatBonus": {"culture": 10},
 		"cost": 300,
-		"maintenance": 3,
 		"requiredTech": "Radio",
 		"uniques": 
 		[
@@ -1241,10 +1223,9 @@
 		"name": "Research Chambers",
 		"uniqueTo": "Insectoids",
 		"replaces": "Research Lab",
-		"science":5,
-		"specialistSlots": {"Scientist": 4},
+		"science": 5,
+		"specialistSlots": {"Scientist": 2},
 		"requiredBuilding": "Public School",
-		"maintenance": 4,
 		"requiredTech": "Plastics"
 		"uniques":
 		[
@@ -1258,8 +1239,7 @@
 		"name": "Anatomical Research Chamber",
 		"uniqueTo": "Insectoids",
 		"replaces": "Medical Lab",
-		"specialistSlots": {"Scientist": 3},
-		"maintenance": 3,
+		"specialistSlots": {"Scientist": 2},
 		"requiredTech": "Pharmaceuticals",
 		"uniques": 
 		[
@@ -1278,7 +1258,6 @@
 		"cost": 500,
 		"production": 5,
 		"specialistSlots": {"Engineer": 2},
-		"maintenance": 4,
 		"hurryCostModifier": 40,
 		"uniques":
 		[
@@ -1296,7 +1275,7 @@
 		"name": "Atom Project",
 		"uniqueTo": "Insectoids",
 		"replaces": "Manhattan Project",
-		"specialistSlots": {"Scientist": 2},
+		"specialistSlots": {"Scientist": 4},
 		"cost": 1000,
 		"isNationalWonder": true,
 		"uniques": 
@@ -1320,7 +1299,6 @@
 		"production": 6,
 		"specialistSlots": {"Engineer": 1},
 		"requiredBuilding": "Hive Factory",
-		"maintenance": 3,
 		"requiredTech": "Ecology",
 		"uniques": 
 		[
@@ -1336,7 +1314,6 @@
 		"uniqueTo": "Insectoids",
 		"replaces": "Recycling Center",
 		"specialistSlots": {"Engineer": 1},
-		"maintenance": 2,
 		"requiredTech": "Ecology",
 		"uniques": 
 		[
@@ -1350,7 +1327,6 @@
 		"name": "Ecological Stockpiles",
 		"uniqueTo": "Insectoids",
 		"specialistSlots": {"Engineer": 1},
-		"maintenance": 4,
 		"cost": 1000,
 		"food": 25,
 		"requiredTech": "Ecology",
@@ -1376,7 +1352,6 @@
 		"production": 6,
 		"percentStatBonus": {"production": 20},
 		"requiredBuilding": "Hive Factory",
-		"maintenance": 3,
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
 		"uniques": 
@@ -1480,7 +1455,7 @@
 	{
 		"name": "Food Storage Facilities",
 		"uniqueTo": "Insectoids",
-		"specialistSlots": {"Scientist": 2},
+		"specialistSlots": {"Scientist": 1},
 		"cost": 500,
 		"maintenance": 3,
 		"requiredTech": "Telecommunications",
@@ -1541,7 +1516,7 @@
 	{
 		"name": "Cybernetics Application Facility",
 		"uniqueTo": "Insectoids",
-		"specialistSlots": {"Scientist": 3},
+		"specialistSlots": {"Scientist": 1},
 		"cost": 500,
 		"maintenance": 6,
 		"requiredTech": "Robotics",
@@ -1558,7 +1533,7 @@
 	{
 		"name": "Robotic Drones Production Facility",
 		"uniqueTo": "Insectoids",
-		"specialistSlots": {"Scientist": 3},
+		"specialistSlots": {"Scientist": 1},
 		"cost": 500,
 		"maintenance": 3,
 		"requiredTech": "Robotics",
