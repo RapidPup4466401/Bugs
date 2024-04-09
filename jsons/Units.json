@@ -700,7 +700,7 @@
 		"name": "Scavengings",
 		"replaces": "Rifleman",
 		"uniqueTo": "Insectoids",
-		"unitType": "sword",
+		"unitType": "Sword",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
@@ -725,7 +725,7 @@
 	},
 	{
 		"name": "Scavengers",
-		"replaces": "Calvary",
+		"replaces": "Cavalry",
 		"uniqueTo": "Insectoids",
 		"unitType": "Sword",
 		"movement": 3,
