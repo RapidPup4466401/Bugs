@@ -796,7 +796,7 @@
 		"uniques": 
 		[
 			"[-1] population [in this city]",
-                        "Consumes [1] [Bioiiiiiiimass]",
+                        "Consumes [1] [Biomass]",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"May capture killed [Water] units",
@@ -821,7 +821,7 @@
         //Centipede Class
         {
 		"name": "Burrowing Crawler",
-                "replaces": "Sword",
+                "replaces": "Artillery",
 		"uniqueTo": "Insectoids",
 		"unitType": "Siege",
 		"movement": 2,
@@ -850,6 +850,8 @@
 	{
 		"name": "Tough Crawler",
 		"unitType": "Sword",
+		"replaces": "Machine Gun",
+		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 70,
 		"cost": 350,
