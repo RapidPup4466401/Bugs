@@ -142,7 +142,6 @@
 			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
 			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
 			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
-			"May withdraw before melee ([80]%)"
 		],
 		"attackSound": "metalhit"
 	},
@@ -156,7 +155,41 @@
 		"cost": 350,
 		"requiredTech": "Replaceable Parts",
 		"obsoleteTech": "Plastics",
-		"attackSound": "shot"
+		"upgradesTo": "Large Warrior",
+		"uniques": 
+		[
+			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Heals [9] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Large Warrior",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Insectoids",
+		"movement": 2,
+		"strength": 73,
+		"cost": 350,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": 
+		[
+			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Heals [9] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
+		],
+		"attackSound": "metalhit"
 	},
         //Charger Class
         {
@@ -408,6 +441,32 @@
 		"requiredTech": "Industrialization",
 		"obsoleteTech": "Ballistics",
 		"attackSound": "machinegun"
+	},
+	{
+		"name": "Frayed Sprayer",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 1,
+		"strength": 40,
+		"cost": 375,
+		"requiredTech": "Ballistics",
+		"obsoleteTech": "Rocketry",
+		"attackSound": "machinegun"
+		"uniques": 
+		[
+			"[70]% chance to intercept air attacks", 
+			"[+50]% Strength <vs [Air] units>", 
+			"[+50]% Strength <vs [Helicopter] units>", 
+			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+                        "Can only be built <in this city> <if [Corrosive Acids Production Pods] is constructed> <hidden from users>",
+			"Cannot be purchased <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
 	},
         
         //Stalker Class
@@ -662,6 +721,7 @@
 		"requiredTech": "Steam Power",
 		"requiredResource": "Biomass",
 		"obsoleteTech": "Combustion",
+		"upgradesTo": "Heavily Armored Water Walker",
 		"uniques": 
                 [
                         "Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
@@ -688,13 +748,40 @@
 		"requiredTech": "Refrigeration",
 		"uniques": 
                 [
+			"Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
+                        "[-33]% Strength <vs cities>",
+                        "Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
                         "[+50]% Strength <when defending>", 
                         "Can only attack [Water] tiles", 
                         "Never appears as a Barbarian unit"
                 ],
 		"attackSound": "torpedo"
 	},
-        
+	{
+		"name": "Heavily Armored Water Walker",
+		"unitType": "Melee Water",
+		"replaces": "Battleship",
+		"uniqueTo": "Insectoids",
+		"movement": 3,
+		"strength": 68,
+		"cost": 420,
+		"requiredResource": "Biomass",
+		"requiredTech": "Electronics",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
+			"Can only be built <in this city> <if [Metal-Infused Egg Broods] is constructed> <hidden from users>",
+                        "[+33]% Strength <vs cities>",
+                        "Only available <in this city> <in cities with at least [45] [Population]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": 
+		[
+			"Indirect Fire"
+		],
+		"attackSound": "shipguns"
+	},
+	
         //Titan Class
         {
 		"name": "Bile Titan",
@@ -734,7 +821,7 @@
         //Centipede Class
         {
 		"name": "Burrowing Crawler",
-                "replaces": "Artillery",
+                "replaces": "Sword",
 		"uniqueTo": "Insectoids",
 		"unitType": "Siege",
 		"movement": 2,
@@ -747,7 +834,6 @@
                         "[-2] Sight", 
                         "Can only be built <in this city> <if [Crawler Brood Chambers] is constructed> <hidden from users>",
                         "Only available <in this city> <in cities with at least [25] [Population]> <hidden from users>",
-                        "Double movement in [Coast]", 
                         "Heals [9] damage if it kills a unit <hidden from users>",
 			"Gain [20] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
 			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
@@ -759,7 +845,29 @@
                 [
                         "Indirect Fire"
                 ],
-		"attackSound": "artillery"
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Tough Crawler",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 70,
+		"cost": 350,
+		"requiredTech": "Ballistics",
+		"uniques": 
+                [
+                        "[+200]% Strength <vs cities> <when attacking>",
+                        "[-2] Sight", 
+                        "Can only be built <in this city> <if [Crawler Brood Chambers] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [45] [Population]> <hidden from users>",
+                        "Heals [14] damage if it kills a unit <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>",
+                ],
+		"attackSound": "metalhit"
 	},
 
         //Aerial Class
@@ -780,8 +888,8 @@
 		"uniques": 
                 [
                         "[20]% chance to intercept air attacks", 
-                        "[+50]% Strength <vs [Bomber] units>", 
-                        "[+50]% Strength <vs [Helicopter] units>",
+                        "[+30]% Strength <vs [Bomber] units>", 
+                        "[+30]% Strength <vs [Helicopter] units>",
                         "Can only be built <in this city> <if [Mutation Inbcubators] is constructed> <hidden from users>",
                         "Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
                         "Heals [9] damage if it kills a unit <hidden from users>",
@@ -895,7 +1003,24 @@
 			"Gain [40] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
 			"Gain [20] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
-			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>"
+			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>"
 		],
   	},
+	{
+		"name": "Hive Carrier",
+		"unitType": "Aircraft Carrier",
+		"replaces": "Carrier",
+		"uniqueTo": "Insectoids",
+		"movement": 4,
+		"strength": 35,
+		"cost": 345,
+		"requiredTech": "Telecommunications",
+		"uniques": 
+		[
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Cannot attack", 
+			"Can carry [2] [Aircraft] units"
+		]
+	},
 ]
