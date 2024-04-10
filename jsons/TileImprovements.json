@@ -8,7 +8,6 @@
 		"techRequired": "Agriculture",
 		"uniques": 
 		[
-			"Removes removable features when built",
 			"Obsolete with [Ecology]",
 			"Can also be built on tiles adjacent to fresh water",
 		]
@@ -83,7 +82,7 @@
 	},
 	{
 		"name": "Nests",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Flood plains"],
 		"uniqueTo": "Insectoids",
 		"food": -1,
 		"happiness": -1,
