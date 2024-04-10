@@ -88,13 +88,12 @@
 		"unitType": "Sword",
 		"replaces": "Settler",
 		"uniqueTo": "Insectoids",
-    		"cost": 300,
+    		"cost": 500,
 		"movement": 2,
 		"strength": 20,
     		"uniques": 
 		[			
 			"Cannot be purchased <hidden from users>",
-			"[-1] population [in this city]",
 			"[-20]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
 			"Founds a new city <by consuming this unit> <hidden from users>", 
 			"Requires at least [10] population <hidden from users>",
