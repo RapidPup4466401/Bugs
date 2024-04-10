@@ -789,7 +789,7 @@
 		"food": 4,
 		"cityStrength": 10,
 		"cityHealth": 35,
-		"specialistSlots": {"Engineer": 1},
+		"specialistSlots": {"Engineer": 2},
 		"hurryCostModifier": 15,
 		"requiredTech": "Acoustics",
 		"uniques": 
