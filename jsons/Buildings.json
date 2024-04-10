@@ -20,6 +20,7 @@
 			"Gain [40] [Gold] (modified by game speed) <every [3] turns> <upon turn end> <hidden from users>",
 			"Provides [2] [Iron] <with [50]% chance>  <every [3] turns> <upon turn end> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
+			"No Maintenance costs for improvements in [All] tiles <in [in all cities] cities> <hidden from users>"
 		]
 	},
 	{
