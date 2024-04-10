@@ -2,7 +2,7 @@
 //Add promotions that inflict damage on units attacked by Insectoids (If Insectoid has poisonous or venomous attacks)
 
 [
-	
+	{
 		"name": "Hive Palace",
 		"isNationalWonder": true,
 		"replaces": "Palace",
