@@ -415,31 +415,31 @@
 		]
 	},
 	{
-		"name": "Academy",
+		"name": "Testing Site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
 		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
-		"name": "Landmark",
+		"name": "Ancestral Statues",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 6,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
-		"name": "Manufactory",
+		"name": "Hive Extension",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
 		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
-		"name": "Customs house",
+		"name": "Minting Grounds",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
 		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
-		"name": "Holy site",
+		"name": "Holy Site",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
 		"uniques": ["Great Improvement", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
