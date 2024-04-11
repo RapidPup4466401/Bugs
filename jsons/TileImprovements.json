@@ -303,7 +303,7 @@
 			"Gives a defensive bonus of [80]% <in [Insectoids] cities>",
 			"Adjacent enemy units ending their turn take [20] damage <in [Insectoids] cities>",
 			"Can be built just outside your borders",
-        		"Constructing it will take over the tiles around it and assign them to your closest city <in [Insectoids] cities>",
+        		"Constructing it will take over the tiles around it and assign them to your closest city",
 		],
 		"shortcutKey": "O"
 	},
