@@ -2,7 +2,7 @@
         {
                 "name": "Aerial Drone",
                 "column": 24,
-                "row": 5
+                "row": 8
                 "uniques": 
                 [
                 "[1] additional attacks per turn",
@@ -11,7 +11,7 @@
         {
                 "name": "Heavy Ordnance",
                 "column": 25,
-                "row": 6
+                "row": 8
                 "uniques": 
                 [
                 "Destroys tile improvements when attacking",
@@ -20,7 +20,7 @@
         {
                 "name": "Ground Drone",
                 "column": 24,
-                "row": 6
+                "row": 9
                 "uniques": 
                 [
                 "[+15]% Strength bonus for [Military] units within [2] tiles",
@@ -29,7 +29,7 @@
         {
                 "name": "Air Support Drone",
                 "column": 24,
-                "row": 7
+                "row": 10
                 "uniques": 
                 [
                 "[+30]% Strength bonus for [Military] units within [2] tiles",
@@ -38,7 +38,7 @@
         {
                 "name": "Naval Drone",
                 "column": 24,
-                "row": 8
+                "row": 11
                 "uniques": 
                 [
                 "[+15]% Strength bonus for [Military] units within [1] tiles",
@@ -47,7 +47,7 @@
         {
                 "name": "Nuclear Reactor Upgrade",
                 "column": 25,
-                "row": 7
+                "row": 11
                 "unitTypes": ["Aircraft Carrier"],
                 "uniques": 
                 [
