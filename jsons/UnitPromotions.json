@@ -47,7 +47,7 @@
         {
                 "name": "Nuclear Reactor Upgrade",
                 "column": 25,
-                "row": 6
+                "row": 7
                 "unitTypes": ["Aircraft Carrier"],
                 "uniques": 
                 [
