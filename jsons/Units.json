@@ -807,6 +807,7 @@
 		"cost": 350,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Armored Bile Titan",
 		"uniques": 
 		[
 			"[-1] population [in this city]",
@@ -817,11 +818,11 @@
 			"[+50]% Strength <vs cities> <when attacking>",
 			"Can only be built <in this city> <if [Larger Brood Chambers] is constructed> <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
-			"Gain [40] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
-			"Gain [40] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
-			"Gain [20] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
-			"Gain [20] [Science] (modified by game speed) <when attacking> <hidden from users>",
-			"Gain [20] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
 			"[+50]% Strength <during the [Classical era]> <hidden from users>",
 			"[+100]% Strength <during the [Medieval era]> <hidden from users>",
 			"[+150]% Strength <during the [Renaissance era]> <hidden from users>",
@@ -838,7 +839,7 @@
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 80,
-		"cost": 350,
+		"cost": 750,
 		"requiredTech": "Combined Arms",
 		"uniques": 
 		[
@@ -850,17 +851,14 @@
 			"[+50]% Strength <vs cities> <when attacking>",
 			"Can only be built <in this city> <if [Larger Brood Chambers] is constructed> <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
-			"Gain [40] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
-			"Gain [40] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
-			"Gain [20] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
-			"Gain [20] [Science] (modified by game speed) <when attacking> <hidden from users>",
-			"Gain [20] [Science] (modified by game speed) <when defending> <hidden from users>",
-			"[+50]% Strength <during the [Classical era]> <hidden from users>",
-			"[+100]% Strength <during the [Medieval era]> <hidden from users>",
-			"[+150]% Strength <during the [Renaissance era]> <hidden from users>",
-			"[+250]% Strength <during the [Industrial era]> <hidden from users>",
-			"[+1] Movement <starting from the [Modern era]> <hidden from users>",
-			"[+400]% Strength <during the [Modern era]> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"[+50]% Strength <during the [Atomic era]> <hidden from users>",
+			"[+100]% Strength <during the [Information era]> <hidden from users>",
+			"[+150]% Strength <during the [Future era]> <hidden from users>",
 		],
 		"attackSound": "metalhit"
 	},
@@ -947,6 +945,34 @@
 			"Gain [10] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
+                ],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Winged Mutate Warrior",
+		"unitType": "Fighter",
+		"uniqueTo": "Insectoids",
+		"movement": 2,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 8,
+		"interceptRange": 4,
+		"cost":  320,
+		"requiredTech": "Flight",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
+		"uniques": 
+                [
+			"Unbuildable",
+                        "[50]% chance to intercept air attacks", 
+                        "[+60]% Strength <vs [Bomber] units>", 
+                        "[+60]% Strength <vs [Helicopter] units>",
+                        "Heals [9] damage if it kills a unit <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [2] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [2] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [2] [Science] (modified by game speed) <when defending> <hidden from users>",
                 ],
 		"attackSound": "metalhit"
 	},
@@ -1096,8 +1122,11 @@
 		"upgradesTo": "Structured Hive Carrier",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Structured Seaport] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
 			"Never appears as a Barbarian unit <hidden from users>",
 			"Cannot attack", 
+			"Consumes [2] [Oil]",
 			"Can carry [2] [Aircraft] units"
 		]
 	},
@@ -1113,8 +1142,11 @@
 		"upgradesTo": "Heavy Hive Carrier",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Structured Seaport] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
 			"Never appears as a Barbarian unit <hidden from users>",
 			"Cannot attack", 
+			"Consumes [1] [Oil]",
 			"Can carry [4] [Aircraft] units"
 		]
 	},
@@ -1128,10 +1160,236 @@
 		"requiredTech": "Globalization",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Structured Seaport] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
 			"Never appears as a Barbarian unit <hidden from users>",
 			"Cannot attack", 
+			"Consumes [1] [High-Tech Composite]",
 			"Can carry [6] [Aircraft] units"
 		]
+	},
+	{
+		"name": "Drone Rocket Artillery",
+		"unitType": "Siege",
+		"replaces": "Rocket Artillery",
+		"uniqueTo": "Insectoids",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 900,
+		"requiredTech": "Robotics",
+		"requiredResource": "Aluminum",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [80] [Population]> <hidden from users>",
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight", 
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Mobile Drone SAM",
+		"unitType": "Gunpowder",
+		"replaces": "Mobile Sam",
+		"uniqueTo": "Insectoids",
+		"movement": 3,
+		"interceptRange": 2,
+		"strength": 65,
+		"cost": 900,
+		"requiredTech": "Rocketry",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [80] [Population]> <hidden from users>",
+			"[100]% chance to intercept air attacks", 
+			"[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", 
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Hovering Gunship Drone",
+		"unitType": "Helicopter",
+		"replaces": "Helicopter Gunship",
+		"uniqueTo": "Insectoids",
+		"movement": 6,
+		"strength": 60,
+		"cost": 900,
+		"requiredTech": "Robotics",
+		"requiredResource": "Aluminum",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"[+100]% Strength <vs [Armored] units>", 
+			"No defensive terrain bonus", 
+			"Can move after attacking",
+			"All tiles cost 1 movement", 
+			"Ignores Zone of Control", 
+			"Unable to capture cities", 
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Nuclear Drone Submarine",
+		"unitType": "Submarine",
+		"replaces": "Nuclear Submarine",
+		"uniqueTo": "Insectoids",
+		"movement": 6,
+		"strength": 50,
+		"range": 3,
+		"rangedStrength": 85,
+		"cost": 900,
+		"requiredTech": "Telecommunications",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [80] [Population]> <hidden from users>",
+			"[+75]% Strength <when attacking>", 
+			"Can only attack [Water] tiles", 
+			"[+1] Sight", 
+			"Can carry [2] [Missile] units", 
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Robotic Drone Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Mehcanized Infantry",
+		"uniqueTo": "Insectoids",
+		"movement": 2,
+		"strength": 70,
+		"cost": 800,
+		"requiredTech": "Mobile Tactics",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Missile Cruiser Drone",
+		"unitType": "Ranged Water",
+		"replaces": "Missile Cruiser",
+		"uniqueTo": "Insectoids",
+		"movement": 5,
+		"strength": 70,
+		"rangedStrength": 80,
+		"range": 2,
+		"interceptRange": 2,
+		"cost": 900,
+		"requiredTech": "Robotics",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Structured Seaport] is constructed> <hidden from users>",
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"[100]% chance to intercept air attacks", 
+			"Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units", 
+			"[+100]% Strength <vs [Submarine] units>", 
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Armored Drone Vehicles",
+		"unitType": "Armored",
+		"replaces": "Modern Armor",
+		"uniqueTo": "Insectoids",
+		"movement": 5,
+		"strength": 90,
+		"cost": 1200,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Can move after attacking", 
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Drone Jet Fighter",
+		"unitType": "Fighter",
+		"replaces": "Jet Fighter",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 12,
+		"interceptRange": 10,
+		"cost": 1000,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"[100]% chance to intercept air attacks", 
+			"[+150]% Strength <vs [Bomber] units>", 
+			"[+150]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "jetgun"
+	},
+	{
+		"name": "Titan Drone",
+		"unitType": "Armored",
+		"replaces": "Giant Death Robot",
+		"uniqueTo": "Insectoids",
+		"movement": 4,
+		"strength": 120,
+		"cost": 900,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [50] [Population]> <hidden from users>",
+			"Can move after attacking", 
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Stealth Drone Bomber",
+		"unitType": "Bomber",
+		"movement": 2,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 22,
+		"cost": 900,
+		"requiredTech": "Stealth",
+		"requiredResource": "Aluminum",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+			"Only available <in this city> <in cities with at least [50] [Population]> <hidden from users>",
+			"Damage taken from interception reduced by [100]%", 
+			"Cannot be carried by [Carrier] units", 
+			"[+4] Sight", 
+			"Can see over obstacles"
+		],
+		"attackSound": "bombing"
 	},
 
 	//Bombs and Missiles
@@ -1147,10 +1405,12 @@
 		"range": 10,
 		"cost": 400,
 		"requiredTech": "Atomic Theory",
+		"obsoleteTech": "Nuclear Fission",
 		"requiredResource": "Uranium",
 		"upgradesTo": "Structured Atomic Bomb",
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Learn Structured Planning] is constructed> <hidden from users>",
 			"Nuclear weapon of Strength [1]", 
 			"Only available <if [Manhattan Project] is constructed>", 
 			"Self-destructs when attacking",
@@ -1173,10 +1433,107 @@
 		"promotions" : ["Evasion"],
 		"uniques": 
 		[
+			"Can only be built <in this city> <if [Learn Structured Planning] is constructed> <hidden from users>",
 			"Nuclear weapon of Strength [1]", 
 			"Only available <if [Manhattan Project] is constructed>", 
 			"Self-destructs when attacking",
 			"Blast radius [2]"
+		],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Expiremental Guided Missile",
+		"unitType": "Missile",
+		"replaces": "Guided Missile",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 4,
+		"cost": 350,
+		"requiredTech": "Rocketry",
+		"obsoleteTech": "Advanced Ballistics",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Learn Structured Planning] is constructed> <hidden from users>",
+			"[-100]% maintenance costs"
+		],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Structured Guided Missile",
+		"unitType": "Missile",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 8,
+		"cost": 700,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Missile Production Facility] is constructed> <hidden from users>",
+			"[-100]% maintenance costs"
+		],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Hypersonic Missile",
+		"unitType": "Missile",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 90,
+		"rangedStrength": 90,
+		"range": 14,
+		"cost": 1000,
+		"requiredTech": "Particle Physics",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Missile Production Facility] is constructed> <hidden from users>",
+			"[-100]% maintenance costs"
+		],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Structured Nuclear Missile",
+		"unitType": "Missile",
+		"replaces": "Nuclear Missile",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"range": 12,
+		"cost": 2500,
+		"requiredTech": "Advanced Ballistics",
+		"upgradesTo": "Antimatter Missile",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Missile Production Facility] is constructed> <hidden from users>",
+			"Nuclear weapon of Strength [2]", 
+			"Only available <if [Manhattan Project] is constructed>",
+			"Blast radius [2]", 
+			"Consumes [2] [Uranium]"
+		],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "Antimatter Missile",
+		"unitType": "Missile",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 600,
+		"rangedStrength": 600,
+		"range": 20,
+		"cost": 5500,
+		"requiredTech": "Particle Physics",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Missile Production Facility] is constructed> <hidden from users>",
+			"Nuclear weapon of Strength [3]", 
+			"Only available <if [Manhattan Project] is constructed>",
+			"Blast radius [4]", 
+			"Consumes [3] [Uranium]",
+			"Consumes [1] [High-Tech Composite]",
 		],
 		"attackSound": "nuke"
 	},
@@ -1271,7 +1628,9 @@
             		"[+25]% Strength bonus for [Military] units within [2] tiles",
             		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"
+			"Great Person - [War]", 
+			"Unbuildable", 
+			"Uncapturable"
 		],
 		"movement": 2
 	},
