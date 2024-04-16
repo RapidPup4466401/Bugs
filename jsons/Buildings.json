@@ -1635,6 +1635,21 @@
 		]
 	},
 	{
+		"name": "Droneport",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 8},
+		"cost": 1500,
+		"maintenance": 3,
+		"requiredTech": "Globalization",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
 		"name": "Fusion Reactor Plant",
 		"uniqueTo": "Insectoids",
 		"specialistSlots": {"Engineer": 12},
