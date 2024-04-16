@@ -774,7 +774,6 @@
 		"strength": 55,
 		"cost": 270,
 		"requiredTech": "Refrigeration",
-		"uniques":  
 		"uniqueTo": "Insectoids",
 		"movement": 3,
 		"strength": 68,
