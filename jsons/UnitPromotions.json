@@ -1,0 +1,60 @@
+[
+        {
+                "name": "Aerial Drone",
+                "column": 24,
+                "row": 5
+                "uniques": 
+                [
+                "[1] additional attacks per turn",
+                ]
+        },
+        {
+                "name": "Heavy Ordnance",
+                "column": 25,
+                "row": 6
+                "uniques": 
+                [
+                "Destroys tile improvements when attacking",
+                ]
+        },
+        {
+                "name": "Ground Drone",
+                "column": 24,
+                "row": 6
+                "uniques": 
+                [
+                "[+15]% Strength bonus for [Military] units within [2] tiles",
+                ]
+        },
+        {
+                "name": "Air Support Drone",
+                "column": 24,
+                "row": 7
+                "uniques": 
+                [
+                "[+30]% Strength bonus for [Military] units within [2] tiles",
+                ]
+        },
+        {
+                "name": "Naval Drone",
+                "column": 24,
+                "row": 8
+                "uniques": 
+                [
+                "[+15]% Strength bonus for [Military] units within [1] tiles",
+                ]
+        }
+        {
+                "name": "Nuclear Reactor Upgrade",
+                "column": 25,
+                "row": 6
+                "unitTypes": ["Aircraft Carrier"],
+                "uniques": 
+                [
+                "Consumes [1] [Uranium] <every [1] turns>",
+                "Self-destructs when attacking <upon being defeated>",
+                "Blast radius [1]",
+                "Nuclear weapon of Strength [3]",
+                ]
+        }
+]
