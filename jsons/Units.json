@@ -1358,10 +1358,10 @@
 		"cost": 900,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
+		"upgradesTo": "Super Titan Drone",
 		"uniques": 
 		[
 			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
-			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
                         "Only available <in this city> <in cities with at least [50] [Population]> <hidden from users>",
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
@@ -1370,24 +1370,68 @@
 		"attackSound": "gdrAttack"
 	},
 	{
-		"name": "Stealth Drone Bomber",
+		"name": "Super Titan Drone",
+		"unitType": "Armored",
+		"uniqueTo": "Insectoids",
+		"movement": 3,
+		"strength": 170,
+		"cost": 1700,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": 
+		[
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [High-Tech Composite]",
+			"Consumes [1] [Robotic Parts]",
+			"Unbuildable",
+			"Can move after attacking", 
+			"No defensive terrain bonus"
+		],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Bomber Drone",
 		"unitType": "Bomber",
 		"movement": 2,
 		"strength": 75,
 		"rangedStrength": 75,
 		"range": 22,
 		"cost": 900,
-		"requiredTech": "Stealth",
+		"requiredTech": "Globalization",
+		"upgradesTo": "Stealth Bomber Drone",
 		"requiredResource": "Aluminum",
 		"uniques": 
 		[
 			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
 			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
 			"Only available <in this city> <in cities with at least [50] [Population]> <hidden from users>",
-			"Damage taken from interception reduced by [100]%", 
-			"Cannot be carried by [Carrier] units", 
-			"[+4] Sight", 
+			"Damage taken from interception reduced by [50]%", 
+			"[+2] Sight", 
 			"Can see over obstacles"
+		],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Stealth Bomber Drone",
+		"unitType": "Bomber",
+		"uniqueTo": "Insectoids",
+		"movement": 2,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 28,
+		"cost": 2000,
+		"requiredTech": "Stealth",
+		"uniques": 
+		[
+			"Unbuildable",
+			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
+			"Damage taken from interception reduced by [90]% <hidden from users>", 
+			"[+4] Sight <hidden from users>", 
+			"Can see over obstacles <hidden from users>",
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [High-Tech Composite]",
+			"Consumes [1] [Robotic Parts]",
 		],
 		"attackSound": "bombing"
 	},
