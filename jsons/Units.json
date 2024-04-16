@@ -749,7 +749,6 @@
 		"requiredTech": "Steam Power",
 		"requiredResource": "Biomass",
 		"obsoleteTech": "Combustion",
-		"upgradesTo": "Heavily Armored Water Walker",
 		"uniques": 
                 [
                         "Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
@@ -1198,7 +1197,7 @@
 	{
 		"name": "Mobile Drone SAM",
 		"unitType": "Gunpowder",
-		"replaces": "Mobile Sam",
+		"replaces": "Mobile SAM",
 		"uniqueTo": "Insectoids",
 		"movement": 3,
 		"interceptRange": 2,
