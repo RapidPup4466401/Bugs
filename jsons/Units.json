@@ -319,6 +319,7 @@
 		"cost": 160,
 		"requiredTech": "Chemistry",
 		"obsoleteTech": "Dynamite",
+		"upgradesto": "Heavy Crusher",
 		"uniques": 
 		[
 			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
@@ -326,6 +327,33 @@
 			"No defensive terrain bonus",
 			"[-1] Sight <hidden from users>",
 			"[+50]% Strength <vs [Mounted] units> <hidden from users>",
+			"Cannot be purchased <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [5] [Science] (modified by game speed) <when defending> <hidden from users>"
+		],
+		"attackSound": "metalhit"
+	},
+	 {
+		"name": "Heavy Crusher",
+		"unitType": "Siege",
+		"replaces": "Cannon",
+		"uniqueTo": "Insectoids",
+		"movement": 2,
+		"strength": 50,
+		"cost": 900,
+		"requiredTech": "Combined Arms",
+		"obsoleteTech": "Computers",
+		"uniques": 
+		[
+			"[+100]% Strength <vs [Armored] units>",
+			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
+			"[+100]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"[-1] Sight <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Heals [5] damage if it kills a unit <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
@@ -746,21 +774,7 @@
 		"strength": 55,
 		"cost": 270,
 		"requiredTech": "Refrigeration",
-		"uniques": 
-                [
-			"Can only be built <in this city> <if [Water Eggs Incubation Chamber] is constructed> <hidden from users>",
-                        "[-33]% Strength <vs cities>",
-                        "Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
-                        "[+50]% Strength <when defending>", 
-                        "Can only attack [Water] tiles", 
-                        "Never appears as a Barbarian unit"
-                ],
-		"attackSound": "torpedo"
-	},
-	{
-		"name": "Heavily Armored Water Walker",
-		"unitType": "Melee Water",
-		"replaces": "Battleship",
+		"uniques":  
 		"uniqueTo": "Insectoids",
 		"movement": 3,
 		"strength": 68,
@@ -792,11 +806,44 @@
 		"strength": 40,
 		"cost": 350,
 		"requiredTech": "Metallurgy",
-		"obsoleteTech": "Computers",
+		"obsoleteTech": "Combined Arms",
 		"uniques": 
 		[
 			"[-1] population [in this city]",
                         "Consumes [1] [Biomass]",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"May capture killed [Water] units",
+			"[+50]% Strength <vs cities> <when attacking>",
+			"Can only be built <in this city> <if [Larger Brood Chambers] is constructed> <hidden from users>",
+			"Heals [5] damage if it kills a unit <hidden from users>",
+			"Gain [40] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [40] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <when defending> <hidden from users>",
+			"[+50]% Strength <during the [Classical era]> <hidden from users>",
+			"[+100]% Strength <during the [Medieval era]> <hidden from users>",
+			"[+150]% Strength <during the [Renaissance era]> <hidden from users>",
+			"[+250]% Strength <during the [Industrial era]> <hidden from users>",
+			"[+1] Movement <starting from the [Modern era]> <hidden from users>",
+			"[+400]% Strength <during the [Modern era]> <hidden from users>",
+		],
+		"attackSound": "metalhit"
+	},
+	 {
+		"name": "Armored Bile Titan",
+		"unitType": "Sword",
+		"replaces": "Tank",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 80,
+		"cost": 350,
+		"requiredTech": "Combined Arms",
+		"uniques": 
+		[
+			"[-1] population [in this city]",
+                        "Consumes [2] [Biomass]",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"May capture killed [Water] units",
@@ -901,7 +948,31 @@
 			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
                 ],
-		"attackSound": "machinegun"
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Gliderlings",
+		"unitType": "Sword",
+                "replaces": "Paratrooper",
+		"uniqueTo": "Insectoids",
+		"movement": 2,
+		"strength": 40,
+		"cost": 450,
+		"requiredTech": "Radar",
+		"uniques": 
+                [
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Never appears as a Barbarian unit <hidden from users>",
+                        "Can only be built <in this city> <if [Mutation Inbcubators] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
+                        "Heals [9] damage if it kills a unit <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
+			"Gain [20] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <upon ending a turn in a [All] tile> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
+			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
+                ],
+		"attackSound": "metalhit"
 	},
         {
 		"name": "Winged Mutate Stalker",
@@ -924,7 +995,7 @@
 			"Gain [10] [Science] (modified by game speed) <when attacking> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <when defending> <hidden from users>",
                 ],
-		"attackSound": "bombing"
+		"attackSound": "metalhit"
 	},
 
         //Worker Class
@@ -1009,15 +1080,20 @@
 			"Never appears as a Barbarian unit <hidden from users>"
 		],
   	},
+
+	//Structured Units
+	
 	{
-		"name": "Hive Carrier",
+		"name": "Experimental Hive Carrier",
 		"unitType": "Aircraft Carrier",
 		"replaces": "Carrier",
 		"uniqueTo": "Insectoids",
-		"movement": 4,
+		"movement": 3,
 		"strength": 35,
 		"cost": 345,
-		"requiredTech": "Telecommunications",
+		"requiredTech": "Computers",
+		"obsoleteTech": "Telecommunications",
+		"upgradesTo": "Structured Hive Carrier",
 		"uniques": 
 		[
 			"Never appears as a Barbarian unit <hidden from users>",
@@ -1025,4 +1101,180 @@
 			"Can carry [2] [Aircraft] units"
 		]
 	},
+	{
+		"name": "Structured Hive Carrier",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "Insectoids",
+		"movement": 4,
+		"strength": 45,
+		"cost": 555,
+		"requiredTech": "Telecommunications",
+		"obsoleteTech": "Globalization",
+		"upgradesTo": "Heavy Hive Carrier",
+		"uniques": 
+		[
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Cannot attack", 
+			"Can carry [4] [Aircraft] units"
+		]
+	},
+	{
+		"name": "Heavy Hive Carrier",
+		"unitType": "Aircraft Carrier",
+		"uniqueTo": "Insectoids",
+		"movement": 5,
+		"strength": 55,
+		"cost": 1500,
+		"requiredTech": "Globalization",
+		"uniques": 
+		[
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Cannot attack", 
+			"Can carry [6] [Aircraft] units"
+		]
+	},
+
+	//Bombs and Missiles
+
+	{
+		"name": "Experimental Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"replaces": "Atomic Bomb",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 75,
+		"range": 10,
+		"cost": 400,
+		"requiredTech": "Atomic Theory",
+		"requiredResource": "Uranium",
+		"upgradesTo": "Structured Atomic Bomb",
+		"uniques": 
+		[
+			"Nuclear weapon of Strength [1]", 
+			"Only available <if [Manhattan Project] is constructed>", 
+			"Self-destructs when attacking",
+			"Blast radius [1]"
+		],
+		"attackSound": "nuke"
+
+	},
+	{
+		"name": "Structured Atomic Bomb",
+		"unitType": "Atomic Bomber",
+		"uniqueTo": "Insectoids",
+		"movement": 1,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 10,
+		"cost": 800,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Uranium",
+		"promotions" : ["Evasion"],
+		"uniques": 
+		[
+			"Nuclear weapon of Strength [1]", 
+			"Only available <if [Manhattan Project] is constructed>", 
+			"Self-destructs when attacking",
+			"Blast radius [2]"
+		],
+		"attackSound": "nuke"
+	},
+
+	//Great Units
+
+	{
+		"name": "Landmark Builder",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniqueTo": "Insectoids",
+		"uniques": 
+		[
+            		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            		"Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            		"Great Person - [Culture]", "Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Testing Site Builder",
+		"unitType": "Civilian",
+		"replaces": "Great Scientist",
+		"uniqueTo": "Insectoids",
+		"uniques": 
+		[
+           		"Can hurry technology research",
+            		"Can instantly construct a [Academy] improvement <by consuming this unit>",
+            		"Great Person - [Science]", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Minting Site Builder",
+		"unitType": "Civilian",
+		"replaces": "Great Merchant",
+		"uniqueTo": "Insectoids",
+		"uniques": 
+		[
+            		"Can instantly construct a [Customs house] improvement <by consuming this unit>",
+			"Great Person - [Gold]", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Hive Extension Builder",
+		"unitType": "Civilian",
+		"replaces": "Great Engineer",
+		"uniqueTo": "Insectoids",
+		"uniques": 
+		[
+			"Can speed up construction of a building",
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+            		"Great Person - [Production]", 
+			"Unbuildable", 
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Ancestrol Site Builder",
+		"replaces": "Great Prophet",
+		"uniqueTo": "Insectoids",
+		"unitType": "Civilian",
+		"uniques": 
+		[
+            		"Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            		"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            		"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            		"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"[-1] Sight", 
+			"Great Person - [Faith]",
+			"Unbuildable", 
+			"Religious Unit", 
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Hive Builder",
+		"unitType": "Civilian",
+		"uniques": 
+		[
+            		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            		"[+25]% Strength bonus for [Military] units within [2] tiles",
+            		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+	
 ]
