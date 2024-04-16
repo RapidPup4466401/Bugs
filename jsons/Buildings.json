@@ -1395,7 +1395,21 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Structured Seaport",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Scientist": 1},
+		"cost": 400,
+		"requiredTech": "Satellites",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [50] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1450,7 +1464,8 @@
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [150] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
-			"Provides [1] [Robotic Parts]"
+			"Provides [1] [Robotic Parts]",
+			"Provides [1] [Biomass]"
 		]
 	},
 	{
@@ -1543,9 +1558,26 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [130] [Population]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [3] [Robotic Parts]"
+		]
+	},
+	{
+		"name": "Missile Production Facility",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Scientist": 1},
+		"cost": 1000,
+		"maintenance": 3,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Provides [2] [Robotic Parts]"
 		]
 	},
 	{
@@ -1618,6 +1650,29 @@
 			"Only available <in this city> <in cities with at least [130] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Consumes [4] [Biomass] <hidden from users>"
+		]
+	},
+	{
+		"name": "Genetic Crop Seeds Production Facility",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Scientist": 3},
+		"cost": 4000,
+		"maintenance": 4,
+		"requiredTech": "Nanotechnology",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Genetics Research Facility]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [80] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Provides [2] [Biomass]",
+			"[+20 Food] from [Structured Fields] tiles [in this city] <hidden from users>",
+			"[+10 Food] from [Brood Incubation Facilities] tiles [in this city] <hidden from users>",
+			"[+10 Food] from [Storage Spires] tiles [in this city] <hidden from users>",
+			"[+20 Food] from [Structured Feeding Fields] tiles [in this city] <hidden from users>",
+			"[+30 Food] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
+			"[+15 Food] from [Flora Incubators] tiles [in this city] <hidden from users>",
 		]
 	},
 ]
