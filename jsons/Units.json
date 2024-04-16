@@ -177,7 +177,6 @@
 		"strength": 73,
 		"cost": 350,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": 
 		[
@@ -1278,7 +1277,7 @@
 	{
 		"name": "Robotic Drone Infantry",
 		"unitType": "Gunpowder",
-		"replaces": "Mehcanized Infantry",
+		"replaces": "Mechanized Infantry",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 70,
