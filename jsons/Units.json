@@ -1189,7 +1189,11 @@
 			"[-1] Sight", 
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Indirect Fire"],
+		"promotions": 
+		[
+			"Indirect Fire",
+			"Ground Drone",
+		],
 		"attackSound": "artillery"
 	},
 	{
@@ -1211,6 +1215,10 @@
 			"[+150]% Strength <vs [Helicopter] units>", 
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": 
+		[
+			"Ground Drone",
+		],
 		"attackSound": "missile"
 	},
 	{
@@ -1228,13 +1236,17 @@
 			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
 			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
                         "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
-			"[+100]% Strength <vs [Armored] units>", 
-			"No defensive terrain bonus", 
-			"Can move after attacking",
-			"All tiles cost 1 movement", 
-			"Ignores Zone of Control", 
+			"[+80]% Strength <vs [Armored] units> <hidden from users>", 
+			"No defensive terrain bonus <hidden from users>", 
+			"Can move after attacking <hidden from users>",
+			"All tiles cost 1 movement <hidden from users>", 
+			"Ignores Zone of Control <hidden from users>", 
 			"Unable to capture cities", 
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit <hidden from users>"
+		],
+		"promotions": 
+		[
+			"Air Support Drone",
 		],
 		"attackSound": "machinegun"
 	},
@@ -1259,6 +1271,10 @@
 			"Can carry [2] [Missile] units", 
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": 
+		[
+			"Naval Drone",
+		],
 		"attackSound": "torpedo"
 	},
 	{
@@ -1275,6 +1291,10 @@
 			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
                         "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": 
+		[
+			"Ground Drone",
 		],
 		"attackSound": "tankshot"
 	},
@@ -1301,7 +1321,11 @@
 			"[+100]% Strength <vs [Submarine] units>", 
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Indirect Fire"],
+		"promotions": 
+		[
+			"Indirect Fire",
+			"Ground Drone",
+		],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1321,6 +1345,10 @@
 			"Can move after attacking", 
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"
+		],
+		"promotions": 
+		[
+			"Ground Drone",
 		],
 		"attackSound": "tankshot"
 	},
@@ -1346,6 +1374,10 @@
 			"[+150]% Strength <vs [Bomber] units>", 
 			"[+150]% Strength <vs [Helicopter] units>"
 		],
+		"promotions": 
+		[
+			"Aerial Drone",
+		],
 		"attackSound": "jetgun"
 	},
 	{
@@ -1367,6 +1399,10 @@
 			"No defensive terrain bonus", 
 			"Never appears as a Barbarian unit"
 		],
+		"promotions": 
+		[
+			"Ground Drone",
+		],
 		"attackSound": "gdrAttack"
 	},
 	{
@@ -1385,6 +1421,10 @@
 			"Unbuildable",
 			"Can move after attacking", 
 			"No defensive terrain bonus"
+		],
+		"promotions": 
+		[
+			"Ground Drone",
 		],
 		"attackSound": "gdrAttack"
 	},
@@ -1407,6 +1447,10 @@
 			"Damage taken from interception reduced by [50]%", 
 			"[+2] Sight", 
 			"Can see over obstacles"
+		],
+		"promotions": 
+		[
+			"Aerial Drone",
 		],
 		"attackSound": "bombing"
 	},
@@ -1433,6 +1477,11 @@
 			"Consumes [1] [High-Tech Composite]",
 			"Consumes [1] [Robotic Parts]",
 		],
+		"promotions": 
+		[
+			"Aerial Drone",
+		],
+			
 		"attackSound": "bombing"
 	},
 
@@ -1642,7 +1691,7 @@
 		"movement": 2
 	},
 	{
-		"name": "Ancestrol Site Builder",
+		"name": "Ancestral Site Builder",
 		"replaces": "Great Prophet",
 		"uniqueTo": "Insectoids",
 		"unitType": "Civilian",
