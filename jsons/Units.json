@@ -1450,6 +1450,7 @@
 		"name": "Structured Guided Missile",
 		"unitType": "Missile",
 		"uniqueTo": "Insectoids",
+		"replaces": "Marine",
 		"movement": 1,
 		"strength": 60,
 		"rangedStrength": 60,
