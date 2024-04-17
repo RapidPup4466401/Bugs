@@ -824,7 +824,6 @@
 		"interceptRange": 3,
 		"cost":  420,
 		"requiredTech": "Flight",
-		"upgradesTo": "Fighter",
 		"obsoleteTech": "Radar",
 		"uniques": 
                 [
@@ -1258,6 +1257,7 @@
 		"cost": 1000,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
+		"upgradesTo": "Stealth Fighter Jet Drone",
 		"uniques": 
 		[
 			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
@@ -1323,8 +1323,35 @@
 		"attackSound": "gdrAttack"
 	},
 	{
+		"name": "Stealth Fighter Jet Drone",
+		"unitType": "Fighter",
+		"replaces": "Fighter",
+		"movement": 2,
+		"strength": 110,
+		"rangedStrength": 110,
+		"range": 20,
+		"cost": 1200,
+		"requiredTech": "Globalization",
+		"requiredResource": "Aluminum",
+		"uniques": 
+		[
+			"Consumes [1] [Aluminum]",
+			"Consumes [1] [High-Tech Composite]",
+			"Unbuildable",
+			"Damage taken from interception reduced by [80]%", 
+			"[+4] Sight", 
+			"Can see over obstacles"
+		],
+		"promotions": 
+		[
+			"Aerial Drone",
+		],
+		"attackSound": "bombing"
+	},
+	{
 		"name": "Bomber Drone",
 		"unitType": "Bomber",
+		"replaces": "Bomber",
 		"movement": 2,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -1362,9 +1389,6 @@
 		"uniques": 
 		[
 			"Unbuildable",
-			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
-			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
-			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
 			"Damage taken from interception reduced by [90]% <hidden from users>", 
 			"[+4] Sight <hidden from users>", 
 			"Can see over obstacles <hidden from users>",
