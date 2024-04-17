@@ -1192,6 +1192,8 @@
 		"culture": 2,
 		"percentStatBonus": {"culture": 10},
 		"cost": 300,
+		"cityStrength": 20,
+		"cityHealth": 10,
 		"requiredTech": "Radio",
 		"uniques": 
 		[
@@ -1341,6 +1343,17 @@
 			"[+1 Food] from [Spires] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+1 Food] from [Growing Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+1 Food] from [Collection Divings] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+1 Food] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Insectoid Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Growing Fields] tiles [in this city]<hidden from users>",
+			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
+			"[+5 Food] from [Structured Fields] tiles [in this city] <hidden from users>",
+			"[+5 Food] from [Brood Incubation Facilities] tiles [in this city] <hidden from users>",
+			"[+5 Food] from [Storage Spires] tiles [in this city] <hidden from users>",
+			"[+5 Food] from [Structured Feeding Fields] tiles [in this city] <hidden from users>",
+			"[+5 Food] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
+			"[+5 Food] from [Flora Incubators] tiles [in this city] <hidden from users>",
 			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -1374,6 +1387,7 @@
 		"replaces": "Bomb Shelter",
 		"specialistSlots": {"Engineer": 2},
 		"cost": 300,
+		"cityHealth": 30,
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
 		"uniques": 
@@ -1390,6 +1404,8 @@
 		"uniqueTo": "Insectoids",
 		"specialistSlots": {"Scientist": 3},
 		"cost": 1000,
+		"cityStrength": 10,
+		"cityHealth": 10,
 		"requiredTech": "Satellites",
 		"uniques": 
 		[
@@ -1446,6 +1462,12 @@
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
+			"[+1 Food] from [Structured Fields] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Brood Incubation Facilities] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Storage Spires] tiles [in this city] <hidden from users>",
+			"[+2 Food] from [Structured Feeding Fields] tiles [in this city] <hidden from users>",
+			"[+2 Food] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
+			"[+1 Food] from [Flora Incubators] tiles [in this city] <hidden from users>",
 			"Provides [1] [Robotic Parts]"
 		]
 	},
@@ -1463,6 +1485,20 @@
 			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [150] [Population]> <hidden from users>",
+			"[+4 Food] from [Structured Fields] tiles [in this city] <hidden from users>",
+			"[+4 Food] from [Brood Incubation Facilities] tiles [in this city] <hidden from users>",
+			"[+4 Food] from [Storage Spires] tiles [in this city] <hidden from users>",
+			"[+4 Food] from [Structured Feeding Fields] tiles [in this city] <hidden from users>",
+			"[+4 Food] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
+			"[+4 Food] from [Flora Incubators] tiles [in this city] <hidden from users>",
+
+			"[+4 Food] from [Structured Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+4 Food] from [Brood Incubation Facilities] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+4 Food] from [Storage Spires] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+4 Food] from [Structured Feeding Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+4 Food] from [Exotic Materials Extractors] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+4 Food] from [Flora Incubators] tiles [in this city] <with [Biomass]> <hidden from users>",
+			
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [1] [Robotic Parts]",
 			"Provides [1] [Biomass]"
@@ -1585,6 +1621,7 @@
 		"uniqueTo": "Insectoids",
 		"specialistSlots": {"Engineer": 1},
 		"cost": 600,
+		"cityHealth": 40,
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
 		"uniques": 
@@ -1604,6 +1641,7 @@
 		"specialistSlots": {"Engineer": 3},
 		"cost": 4000,
 		"maintenance": 3,
+		"cityHealth": 150,
 		"requiredTech": "Particle Physics",
 		"uniques": 
 		[
@@ -1682,6 +1720,12 @@
 			"Only available <in this city> <in cities with at least [80] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [2] [Biomass]",
+			"[+10 Food] from [Structured Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+5 Food] from [Brood Incubation Facilities] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+5 Food] from [Storage Spires] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+10 Food] from [Structured Feeding Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+15 Food] from [Exotic Materials Extractors] tiles [in this city] <with [Biomass]> <hidden from users>",
+			"[+5 Food] from [Flora Incubators] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+20 Food] from [Structured Fields] tiles [in this city] <hidden from users>",
 			"[+10 Food] from [Brood Incubation Facilities] tiles [in this city] <hidden from users>",
 			"[+10 Food] from [Storage Spires] tiles [in this city] <hidden from users>",
