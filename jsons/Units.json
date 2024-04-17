@@ -1301,6 +1301,7 @@
 	{
 		"name": "Super Titan Drone",
 		"unitType": "Armored",
+		"replaces": "Destroyer",
 		"uniqueTo": "Insectoids",
 		"movement": 3,
 		"strength": 170,
@@ -1351,6 +1352,7 @@
 		"name": "Stealth Bomber Drone",
 		"unitType": "Bomber",
 		"uniqueTo": "Insectoids",
+		"replaces": "Stealth Bomber",
 		"movement": 2,
 		"strength": 150,
 		"rangedStrength": 150,
@@ -1366,6 +1368,36 @@
 			"Damage taken from interception reduced by [90]% <hidden from users>", 
 			"[+4] Sight <hidden from users>", 
 			"Can see over obstacles <hidden from users>",
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [High-Tech Composite]",
+			"Consumes [1] [Robotic Parts]",
+		],
+		"promotions": 
+		[
+			"Aerial Drone",
+		],
+			
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Atom Bomber Drone",
+		"unitType": "Bomber",
+		"uniqueTo": "Insectoids",
+		"replaces": "Stealth Bomber",
+		"movement": 2,
+		"strength": 150,
+		"rangedStrength": 150,
+		"range": 20,
+		"cost": 3000,
+		"requiredTech": "Stealth",
+		"uniques": 
+		[
+			"Unbuildable",
+			"Can only be built <in this city> <if [Droneport] is constructed> <hidden from users>",
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+			"Only available <in this city> <in cities with at least [70] [Population]> <hidden from users>",
+			"Nuclear weapon of Strength [1] <hidden from users>", 
+			"Blast radius [0] <hidden from users>",
 			"Consumes [1] [Uranium]",
 			"Consumes [1] [High-Tech Composite]",
 			"Consumes [1] [Robotic Parts]",
