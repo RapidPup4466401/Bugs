@@ -698,7 +698,7 @@
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 40,
-		"cost": 350,
+		"cost": 500,
 		"requiredTech": "Metallurgy",
 		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Armored Bile Titan",
@@ -733,7 +733,7 @@
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 80,
-		"cost": 750,
+		"cost": 1000,
 		"requiredTech": "Combined Arms",
 		"uniques": 
 		[
@@ -765,7 +765,7 @@
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 30,
-		"cost": 320,
+		"cost": 400,
 		"requiredTech": "Dynamite",
 		"uniques": 
                 [
@@ -793,7 +793,7 @@
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 70,
-		"cost": 350,
+		"cost": 700,
 		"requiredTech": "Ballistics",
 		"uniques": 
                 [
@@ -1058,6 +1058,27 @@
 			"Cannot attack", 
 			"Consumes [1] [High-Tech Composite]",
 			"Can carry [6] [Aircraft] units"
+		]
+	},
+	{
+		"name": "Droneship Carrier",
+		"unitType": "Aircraft Carrier",
+		"replaces": "Battleship",
+		"uniqueTo": "Insectoids",
+		"movement": 4,
+		"strength": 70,
+		"cost": 2500,
+		"requiredTech": "Globalization",
+		"uniques": 
+		[
+			"Can only be built <in this city> <if [Structured Seaport] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
+			"Never appears as a Barbarian unit <hidden from users>",
+			"Consumes [2] [High-Tech Composite]",
+			"Consumes [1] [Uranium]",
+			"Consumes [1] [Robotic Parts]",
+			"Consumes [1] [Oil]",
+			"Can carry [10] [Aircraft] units"
 		]
 	},
 	{
