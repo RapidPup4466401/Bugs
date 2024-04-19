@@ -15,7 +15,7 @@
 	{
 		"name": "Structured Fields",
 		"uniqueTo": "Insectoids",
-		"terrainsCanBeBuiltOn": ["Grassland","Hill","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Grassland","Hill","Flood plains","Deserts","Snow"],
 		"food": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
@@ -27,7 +27,7 @@
 	},
 	{
 		"name": "Harvestor Fields",
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"terrainsCanBeBuiltOn": ["Plains"],
 		"uniqueTo": "Insectoids",
 		"production": -1,
 		"turnsToBuild": 1,
