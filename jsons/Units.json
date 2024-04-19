@@ -1257,7 +1257,7 @@
 		"cost": 2000,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"upgradesTo": "Stealth Fighter Jet Drone",
+		"upgradesTo": "Fighter Jet Stealth Drone",
 		"uniques": 
 		[
 			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
@@ -1323,7 +1323,7 @@
 		"attackSound": "gdrAttack"
 	},
 	{
-		"name": "Stealth Fighter Jet Drone",
+		"name": "Fighter Jet Stealth Drone",
 		"unitType": "Fighter",
 		"replaces": "Fighter",
 		"movement": 2,
@@ -1332,7 +1332,6 @@
 		"range": 20,
 		"cost": 2500,
 		"requiredTech": "Globalization",
-		"requiredResource": "Aluminum",
 		"uniques": 
 		[
 			"Consumes [1] [Aluminum]",
