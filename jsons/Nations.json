@@ -21,8 +21,43 @@
 		"outerColor": [48,33,9],
 		"innerColor": [159,148,78],
 		"uniqueName": "Ingenuity",
-		"uniques": ["Free [Great Scientist] appears <upon discovering [Writing]>", "[Great Scientist] is earned [50]% faster"],
-		"cities": ["Mother Hive","Infestation","Lair","Burrow","Hive","Queen Hive","Infestations","Outpost","Colony","Nest","New Infestation","Burrows","Holes","Tunnels","Caves","Pit","Crevice","Cliff","Caverns","Den","Creeps","Stale","Rocks","Stones","Ridge","Point","Valley","Hills","Dirt"],
+		"uniques": 
+		[
+			"Free [Testing Site Builder] appears <upon discovering [Writing]>", 
+			"[Testing Site Builder] is earned [50]% faster"
+		],
+		"cities": 
+		[
+			"Mother Hive",
+			"Infestation",
+			"Lair",
+			"Burrow",
+			"Hive",
+			"Queen Hive",
+			"Infestations",
+			"Outpost",
+			"Colony",
+			"Nest",
+			"New Infestation",
+			"Burrows",
+			"Holes",
+			"Tunnels",
+			"Caves",
+			"Pit",
+			"Crevice",
+			"Cliff",
+			"Caverns",
+			"Den",
+			"Creeps",
+			"Stale",
+			"Rocks",
+			"Stones",
+			"Ridge",
+			"Point",
+			"Valley",
+			"Hills",
+			"Dirt"
+		],
         		"spyNames": ["Arachnid","Mantis","Screecher","Seeker","Pry","Exo","Wasp","Bee","Hornet"]
 	},
 ]
