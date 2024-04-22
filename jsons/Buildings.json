@@ -748,18 +748,32 @@
 		"requiredTech": "Machinery"
 	}
 	{
-		"name": "Insectoid Armory",
+		"name": "Hive Combat Armory",
 		"uniqueTo": "Insectoids",
-		"replaces": "Ironworks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [15] [Population]> <hidden from users>",
+			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
 			"Only available <in cities with a [Warrior Broods]> <hidden from users>",
-			"New [Military] units start with [15] Experience [in this city]", 
+			"Only available <in cities with a [Armorers Chamber]> <hidden from users>",
+			"New [Military] units start with [50] Experience [in this city]", 
 			"Destroyed when the city is captured <hidden from users>"
+		],
+		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Armorers Chamber",
+		"uniqueTo": "Insectoids",
+		"replaces": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Warrior Broods",
+		"uniques": 
+		[
+			"New [Military] units start with [10] Experience [in this city]", 
+			"Destroyed when the city is captured"
 		],
 		"requiredTech": "Steel"
 	},
@@ -968,7 +982,7 @@
 			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
 			"Only available <in cities with a [Pools of Acid]> <hidden from users>",
 			"Only available <in cities with a [Rotational Gears and Clocks]> <hidden from users>",
-			"Provides [3] [Biomass]",
+			"Provides [2] [Biomass]",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1075,7 +1089,7 @@
 			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
 			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Only available <in cities with a [Biomass Production Chambers]> <hidden from users>",
-			"Provides [8] [Biomass]",
+			"Provides [6] [Biomass]",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
