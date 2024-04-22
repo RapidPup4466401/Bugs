@@ -84,7 +84,7 @@
 		"name": "Nests",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Flood plains"],
 		"uniqueTo": "Insectoids",
-		"food": -1,
+		"food": -2,
 		"happiness": -1,
 		"turnsToBuild": 2,
 		"techRequired": "Guilds",
