@@ -769,9 +769,9 @@
 		"replaces": "Armory",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"requiredBuilding": "Warrior Broods",
 		"uniques": 
 		[
+			"Only available <in cities with a [Warrior Broods]> <hidden from users>",
 			"New [Military] units start with [10] Experience [in this city]", 
 			"Destroyed when the city is captured"
 		],
@@ -862,7 +862,6 @@
 		"uniqueTo": "Insectoids",
 		"replaces": "Seaport",
 		"hurryCostModifier": 35,
-		"requiredBuilding": "Harbor",
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
@@ -870,6 +869,7 @@
 			"Must be next to [Coast]", 
 			"[+10]% Production when constructing [Water] units [in this city]",
 			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
+			"Only available <in this cities with a [Water Eggs Incubation Chamber]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Navigation"
@@ -936,7 +936,6 @@
 		"uniqueTo": "Insectoids",
 		"cost": 500,
 		"hurryCostModifier": 25,
-		"requiredBuilding": "Enclosed Hive Structure",
 		"requiredTech": "Metallurgy",
 		"uniques": 
 		[
@@ -1242,7 +1241,6 @@
 		"replaces": "Research Lab",
 		"science": 5,
 		"specialistSlots": {"Scientist": 2},
-		"requiredBuilding": "Public School",
 		"requiredTech": "Plastics"
 		"uniques":
 		[
@@ -1315,12 +1313,12 @@
 		"replaces": "Solar Plant",
 		"production": 6,
 		"specialistSlots": {"Engineer": 1},
-		"requiredBuilding": "Hive Factory",
 		"requiredTech": "Ecology",
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
 			"Must be next to [Desert]", 
+			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Only available <in cities without a [Nuclear Reactor]>",
 			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -1334,6 +1332,7 @@
 		"requiredTech": "Ecology",
 		"uniques": 
 		[
+			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Provides [2] [Aluminum] <with [Biomass]>",
 			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
@@ -1379,11 +1378,11 @@
 		"specialistSlots": {"Engineer": 7},
 		"production": 6,
 		"percentStatBonus": {"production": 20},
-		"requiredBuilding": "Hive Factory",
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
 		"uniques": 
 		[
+			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities without a [Solar Plant]>",
 			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
