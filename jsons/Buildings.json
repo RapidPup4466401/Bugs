@@ -1247,7 +1247,7 @@
 	{
 		"name": "Research Chambers",
 		"uniqueTo": "Insectoids",
-		"replaces": "Research Lab",
+		"replaces": " Lab",
 		"science": 5,
 		"specialistSlots": {"Scientist": 2},
 		"requiredTech": "Plastics"
@@ -1432,7 +1432,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Research Chambers]> <hidden from users>",
 			"Only available <in cities with at least [60] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -1461,7 +1461,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Research Chambers]> <hidden from users>",
 			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [90] [Population]> <hidden from users>",
@@ -1479,7 +1479,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Research Chambers]> <hidden from users>",
 			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [90] [Population]> <hidden from users>",
@@ -1503,7 +1503,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Research Chambers]> <hidden from users>",
 			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [150] [Population]> <hidden from users>",
@@ -1614,7 +1614,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Research Chambers]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [60] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
@@ -1631,7 +1631,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in cities with a [Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Research Chambers]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [100] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
