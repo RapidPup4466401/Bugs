@@ -1037,11 +1037,11 @@
 		"replaces": "Factory",
 		"cost": 500,
 		"production": 3,
-		"percentStatBonus": {"production": 5},
 		"specialistSlots": {"Engineer": 2},
 		"hurryCostModifier": 10,
 		"uniques":
 		[
+			"[+10]% [Production] <in this city> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Mutation Incubators]> <hidden from users>",
 			"Only available <in cities with a [Metalling Chamber]> <hidden from users>",
@@ -1056,11 +1056,10 @@
 		"uniqueTo": "Insectoids",
 		"cost": 200,
 		"production": 5,
-		"percentStatBonus": {"production": 15},
 		"specialistSlots": {"Engineer": 4},
-		"hurryCostModifier": 30,
 		"uniques":
 		[
+			"[+10]% [Production] <in this city> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Increased Worker Strength]> <hidden from users>",
 			"Consumes [1] [Coal]",
