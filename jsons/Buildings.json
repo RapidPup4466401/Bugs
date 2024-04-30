@@ -1094,7 +1094,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Only available <in cities with a [Biomass Production Chambers]> <hidden from users>",
 			"Provides [6] [Biomass]",
@@ -1109,7 +1109,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in cities with a [Insectoid Armory]> <hidden from users>",
+			"Only available <in cities with a [Hive Combat Armory]> <hidden from users>",
 			"Only available <in this city> <in cities with at least [15] [Population]> <hidden from users>",
 			"New [Military] units start with [25] Experience [in this city]", 
 			"Destroyed when the city is captured <hidden from users>"
