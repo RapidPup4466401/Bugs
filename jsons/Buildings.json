@@ -1247,7 +1247,7 @@
 	{
 		"name": "Research Chambers",
 		"uniqueTo": "Insectoids",
-		"replaces": " Lab",
+		"replaces": "Research Lab",
 		"science": 5,
 		"specialistSlots": {"Scientist": 2},
 		"requiredTech": "Plastics"
