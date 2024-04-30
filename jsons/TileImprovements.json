@@ -8,7 +8,6 @@
 		"techRequired": "Agriculture",
 		"uniques": 
 		[
-			"Obsolete with [Ecology]",
 			"Can also be built on tiles adjacent to fresh water",
 		]
 	},
@@ -27,14 +26,13 @@
 	},
 	{
 		"name": "Harvestor Fields",
-		"terrainsCanBeBuiltOn": ["Plains"],
+		"terrainsCanBeBuiltOn": ["Forest"],
 		"uniqueTo": "Insectoids",
 		"production": -1,
 		"turnsToBuild": 1,
 		"techRequired": "Construction",
 		"uniques": 
 		[
-			"Obsolete with [Ecology]",
 			"Removes removable features when built",
 		],
 	},
@@ -48,6 +46,8 @@
 		"uniques": 
 		[
 			"Removes removable features when built",
+			"[+2 Food] for each adjacent [Structured Fields]",
+			"[+4 Food] for each adjacent [Exotic Materials Extractors]"
 		],
 	},
 	{
@@ -61,7 +61,6 @@
 		[
 			"Removes removable features when built",
 			"Gives a defensive bonus of [+20]% <in [Insectoids] cities>",
-			"Obsolete with [Electronics]"
 		]
 	},
 
@@ -90,7 +89,6 @@
 		"techRequired": "Guilds",
 		"uniques":
 		[
-			"Obsolete with [Robotics]",
 			"Removes removable features when built",
 		],
 	},
@@ -117,7 +115,6 @@
 		"uniques": 
 		[
 			"Removes removable features when built",
-			"Obsolete with [Robotics]",
 			"Can only be built to improve a resource", 
 		],
 	}
@@ -132,6 +129,10 @@
 			"Removes removable features when built",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
+			"[+4 Food] for each adjacent [Structured Fields]",
+			"[+6 Food] for each adjacent [Exotic Materials Extractors]",
+			"[+3 Food] for each adjacent [Flora Incubators]",
+			"[+3 Food] for each adjacent [Structured Feeding Fields]",
 			"Can only be built to improve a resource", 
 		],
 	},
@@ -146,7 +147,6 @@
 		[
 			"Removes removable features when built",
 			"Can only be built to improve a resource",
-			"Obsolete with [Electronics]"
 		],
 	},
 	{
@@ -174,7 +174,6 @@
 			"[+1 Food] <after discovering [Fertilizer]>", 
 			"[+1 Food] <after discovering [Economics]>",
 			"[+1 Production] <after discovering [Economics]>",
-			"Obsolete with [Lasers]",
 		],
 	},
 	{
@@ -203,7 +202,6 @@
 			"[+1 Food] <after discovering [Fertilizer]>", 
 			"[+1 Food] <after discovering [Economics]>",
 			"[+1 Food] <after discovering [Ecology]>",
-			"Obsolete with [Robotics]"
 		],
 	},
 	{
