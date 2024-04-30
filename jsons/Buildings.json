@@ -315,7 +315,7 @@
 			"[+100]% [Food] <in this city> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"Only available <if [Nesting] is constructed in all [non-[Puppeted]] cities>", 
-			"Only available <in this city> <in cities with at least [15] [Population]> <hidden from users>",
+			"Only available <in cities with at least [15] [Population]> <hidden from users>",
 			"Cost increases by [30] per owned city",
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -632,7 +632,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [25] [Population]> <hidden from users>",
+			"Only available <in cities with at least [25] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -646,7 +646,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [6] [Population]> <hidden from users>",
+			"Only available <in cities with at least [6] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -702,7 +702,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"[+1 Science] from [Nests] tiles [in this city]",
-			"Only available <in this city> <in cities with at least [25] [Population]> <hidden from users>",
+			"Only available <in cities with at least [25] [Population]> <hidden from users>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 			"Only available <in cities with a [Testing Chambers]> <hidden from users>",
 			"Only available <if [Incubation Chamber] is constructed in all [non-[Puppeted]] cities> <hidden from users>", 
@@ -723,7 +723,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
+			"Only available <in cities with at least [10] [Population]> <hidden from users>",
 			"Only available <in this city> <if [Hive Walls] is constructed> <hidden from users>",
 			"Destroyed when the city is captured"
 		]
@@ -739,7 +739,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city",
 			"Destroyed when the city is captured <hidden from users>"
@@ -754,7 +754,7 @@
 		[
 			"Only available <in cities with a [Mutation Incubators]> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
+			"Only available <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Machinery"
@@ -767,7 +767,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Only available <in cities with at least [40] [Population]> <hidden from users>",
 			"Only available <in cities with a [Warrior Broods]> <hidden from users>",
 			"Only available <in cities with a [Armorers Chamber]> <hidden from users>",
 			"New [Military] units start with [50] Experience [in this city]", 
@@ -803,7 +803,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
+			"Only available <in cities with at least [30] [Population]> <hidden from users>",
 			"Only available <in this city> <if [Hive Mother's Study Chamber] is constructed>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -827,7 +827,7 @@
 			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Nests] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
-			"Only available <in this city> <in cities with at least [5] [Population]> <hidden from users>",
+			"Only available <in cities with at least [5] [Population]> <hidden from users>",
 			"Only available <in cities with a [Underground Storage]>",
 			"Only available <in cities with a [Holes]>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -846,7 +846,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Experimental Mint]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -862,7 +862,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 			"Only available <in cities with a [Healing Chamber]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [25] [Population]> <hidden from users>",
+			"Only available <in cities with at least [25] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -880,7 +880,7 @@
 			"[+1 Production, +1 Food] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", 
 			"[+10]% Production when constructing [Water] units [in this city]",
-			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
+			"Only available <in cities with at least [10] [Population]> <hidden from users>",
 			"Only available <in this cities with a [Water Eggs Incubation Chamber]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -906,7 +906,7 @@
 			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
 			"Only available <if [Tunnel Networks] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city",
-			"Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
+			"Only available <in cities with at least [60] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Architecture"
@@ -939,7 +939,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Enclosed Hive Structure]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -956,7 +956,7 @@
 			"Only available <in cities with a [Hive Melting Chambers]> <hidden from users>",
 			"Only available <in cities with a [Enclosed Hive Structure]> <hidden from users>",
 			"Only available <in cities with a [Forging Chamber]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Only available <in cities with at least [40] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -974,7 +974,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
+			"Only available <in cities with at least [10] [Population]> <hidden from users>",
 			"Only available <if [Hive Mother's Study Chamber] is constructed>  <in [Capital] cities>  <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -988,7 +988,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Only available <in cities with a [Pools of Acid]> <hidden from users>",
 			"Only available <in cities with a [Rotational Gears and Clocks]> <hidden from users>",
 			"Provides [2] [Biomass]",
@@ -1006,7 +1006,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Only available <in cities with a [Pools of Acid]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -1026,7 +1026,7 @@
 			"Cannot be purchased <hidden from users>",
 			"[+1 Science] per [1] population [in this city]",
 			"Only available <in cities with a [Mutation Incubators]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
+			"Only available <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Scientific Theory"
@@ -1046,7 +1046,7 @@
 			"Only available <in cities with a [Mutation Incubators]> <hidden from users>",
 			"Only available <in cities with a [Metalling Chamber]> <hidden from users>",
 			"[+1 Production] per [1] population [in this city]",
-			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
+			"Only available <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 		"requiredTech": "Industrialization"
@@ -1110,7 +1110,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Combat Armory]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [15] [Population]> <hidden from users>",
+			"Only available <in cities with at least [15] [Population]> <hidden from users>",
 			"New [Military] units start with [25] Experience [in this city]", 
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -1130,7 +1130,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Regenerative Incubation Pods]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [70] [Population]> <hidden from users>",
+			"Only available <in cities with at least [70] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 		"requiredTech": "Biology"
@@ -1152,7 +1152,7 @@
 			"[+1 Food] from [Spires] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Growing Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Collection Divings] tiles [in this city] <hidden from users>",
-			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Only available <in cities with at least [40] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 		"requiredTech": "Electricity"
@@ -1167,7 +1167,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Consumes [1] [Aluminum]",
 			"Must be on [River]","[+2 Production] from [River] tiles [in this city] <with [Aluminum]>",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Electricity"
@@ -1203,7 +1203,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Regenerative Incubation Pods]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1220,7 +1220,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
+			"Only available <in cities with at least [10] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1237,7 +1237,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Armory]> <hidden from users>",
 			"Only available <in cities with a [Enclosed Hive Structure]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Only available <in cities with at least [40] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1255,7 +1255,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Increased Worker Intelligence]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
+			"Only available <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1272,7 +1272,7 @@
 			"Only available <in cities with a [Research Chambers]> <hidden from users>",
 			"Only available <in cities with a [Refrigeration Pools]> <hidden from users>",
 			"Only available <in cities with a [Testing Chambers]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Only available <in cities with at least [40] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1290,7 +1290,7 @@
 			"Provides [3] [Coal] <with [Biomass]>",
 			"Provides [4] [Oil] <with [Biomass]>",
 			"Consumes [2] [Biomass]",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 		"requiredTech": "Pharmaceuticals",
@@ -1308,7 +1308,7 @@
 			"Enables nuclear weapon", 
 			"Triggers a global alert upon completion", 
 			"Cannot be hurried",
-			"Only available <in this city> <in cities with at least [80] [Population]> <hidden from users>",
+			"Only available <in cities with at least [80] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Atomic Theory"
@@ -1329,7 +1329,7 @@
 			"Must be next to [Desert]", 
 			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Only available <in cities without a [Nuclear Reactor]>",
-			"Only available <in this city> <in cities with at least [20] [Population]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1344,7 +1344,7 @@
 			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Provides [2] [Aluminum] <with [Biomass]>",
-			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
+			"Only available <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1376,7 +1376,7 @@
 			"[+5 Food] from [Structured Feeding Fields] tiles [in this city] <hidden from users>",
 			"[+5 Food] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
 			"[+5 Food] from [Flora Incubators] tiles [in this city] <hidden from users>",
-			"Only available <in this city> <in cities with at least [30] [Population]> <hidden from users>",
+			"Only available <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1394,7 +1394,7 @@
 			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities without a [Solar Plant]>",
-			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Only available <in cities with at least [40] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1417,7 +1417,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Population loss from nuclear attacks [-20]% [in this city]",
 			"Damage to garrison from nuclear attacks [-20]% [in this city]",
-			"Only available <in this city> <in cities with at least [80] [Population]> <hidden from users>",
+			"Only available <in cities with at least [80] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1433,7 +1433,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
+			"Only available <in cities with at least [60] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1447,7 +1447,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [50] [Population]> <hidden from users>",
+			"Only available <in cities with at least [50] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1464,7 +1464,7 @@
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
+			"Only available <in cities with at least [90] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [1] [Robotic Parts]"
 		]
@@ -1482,7 +1482,7 @@
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [90] [Population]> <hidden from users>",
+			"Only available <in cities with at least [90] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"[+1 Food] from [Structured Fields] tiles [in this city] <hidden from users>",
 			"[+1 Food] from [Brood Incubation Facilities] tiles [in this city] <hidden from users>",
@@ -1506,7 +1506,7 @@
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Anatomical Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [150] [Population]> <hidden from users>",
+			"Only available <in cities with at least [150] [Population]> <hidden from users>",
 			"[+4 Food] from [Structured Fields] tiles [in this city] <hidden from users>",
 			"[+4 Food] from [Brood Incubation Facilities] tiles [in this city] <hidden from users>",
 			"[+4 Food] from [Storage Spires] tiles [in this city] <hidden from users>",
@@ -1538,7 +1538,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Food Holes]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
+			"Only available <in cities with at least [60] [Population]> <hidden from users>",
 			"[+12 Food] from [Structured Fields] tiles [in this city] <hidden from users>",
 			"[+5 Food] from [Brood Incubation Facilities] tiles [in this city] <hidden from users>",
 			"[+9 Food] from [Storage Spires] tiles [in this city] <hidden from users>",
@@ -1560,7 +1560,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Ore Piles]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
+			"Only available <in cities with at least [60] [Population]> <hidden from users>",
 			"[+6 Production] from [Flora Incubators] tiles [in this city] <hidden from users>",
 			"[+8 Production] from [Structured Mine] tiles [in this city] <hidden from users>",
 			"[+2 Production] from [Storage Spires] tiles [in this city] <hidden from users>",
@@ -1582,7 +1582,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Minting Mines]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
+			"Only available <in cities with at least [100] [Population]> <hidden from users>",
 			"[+10 Gold] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 		]
@@ -1599,7 +1599,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Cybernetics Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
+			"Only available <in cities with at least [100] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [2] [Robotic Parts]"
 		]
@@ -1616,7 +1616,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [60] [Population]> <hidden from users>",
+			"Only available <in cities with at least [60] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [3] [Robotic Parts]"
 		]
@@ -1633,7 +1633,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
+			"Only available <in cities with at least [100] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [2] [Robotic Parts]"
 		]
@@ -1653,7 +1653,7 @@
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Population loss from nuclear attacks [-30]% [in this city]",
 			"Damage to garrison from nuclear attacks [-30]% [in this city]",
-			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
+			"Only available <in cities with at least [100] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1672,7 +1672,7 @@
 			"Population loss from nuclear attacks [-40]% [in this city]",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Damage to garrison from nuclear attacks [-40]% [in this city]",
-			"Only available <in this city> <in cities with at least [150] [Population]> <hidden from users>",
+			"Only available <in cities with at least [150] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1689,7 +1689,7 @@
 			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Only available <in cities with a [Cybernetics Research Chamber]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [100] [Population]> <hidden from users>",
+			"Only available <in cities with at least [100] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [4] [High-Tech Composite] <hidden from users>"
 		]
@@ -1705,7 +1705,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Only available <in cities with at least [40] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
@@ -1722,7 +1722,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Nuclear Reactor]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [130] [Population]> <hidden from users>",
+			"Only available <in cities with at least [130] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Consumes [4] [Biomass] <hidden from users>"
 		]
@@ -1739,7 +1739,7 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Genetics Research Facility]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
-			"Only available <in this city> <in cities with at least [80] [Population]> <hidden from users>",
+			"Only available <in cities with at least [80] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [2] [Biomass]",
 			"[+10 Food] from [Structured Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
