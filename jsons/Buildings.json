@@ -311,6 +311,8 @@
 		"isNationalWonder": true,
 		"uniques": 
 		[
+			"[+100]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
+			"[+100]% [Food] <in this city> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"Only available <if [Nesting] is constructed in all [non-[Puppeted]] cities>", 
 			"Only available <in this city> <in cities with at least [15] [Population]> <hidden from users>",
@@ -327,6 +329,7 @@
 		"hurryCostModifier": 50,
 		"uniques": 
 		[
+			"[-10]% [Food] <in this city> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"Remove extra unhappiness from annexed cities",
 			"Can only be built <in [Annexed] cities>",
@@ -344,6 +347,7 @@
 		"requiredTech": "Construction"
 		"uniques":
 		[
+			"[+20]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -417,6 +421,7 @@
 			"Only available <in cities with a [Hive Storage]>", 
 			"Cost increases by [30] per owned city",
 			"[+2 Science] from every [Subduction Chambers] <in [in all cities] cities>",
+			"[+10]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
 			"[+5]% [Science] [in all cities]",
 			"[+5]% [Science] <in this city> <with [Robotic Parts]> <hidden from users>", 
 			"[+5]% [Science] <in this city> <with [High-Tech Composite]> <hidden from users>", 
@@ -469,6 +474,8 @@
 		"requiredTech": "Currency"
 		"uniques":
 		[
+			"[+10]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
+			"[+10]% [Food] <in this city> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -496,6 +503,7 @@
 		"hurryCostModifier": 0,
 		"uniques": 
 		[
+			"[+100]% [Food] <in this city> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"[40]% Food is carried over after population increases [in this city]",
 			"Destroyed when the city is captured <hidden from users>"
@@ -530,6 +538,7 @@
 		"replaces": "Garden",
 		"uniques": 
 		[
+			"[+10]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"[+35]% Great Person generation [in this city]", 
 			"Must be next to [Fresh water]",
@@ -570,6 +579,8 @@
 		"isNationalWonder": true,
 		"uniques": 
 		[
+			"[+40]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
+			"[+20]% [Food] <in this city> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"Only available <if [Exchange Grounds] is constructed in all [non-[Puppeted]] cities>", 
 			"Cost increases by [30] per owned city",
@@ -613,6 +624,7 @@
 	{
 		"name": "Larger Brood Chambers",
 		"uniqueTo": "Insectoids",
+		"replaces": "Spaceship Factory",
 		"maintenance": 1,
 		"hurryCostModifier": 35,
 		"cost": 200,
@@ -964,8 +976,6 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in this city> <in cities with at least [10] [Population]> <hidden from users>",
 			"Only available <if [Hive Mother's Study Chamber] is constructed> <hidden from users>",
-			"Only available <in cities with a [Metal-Infused Egg Broods]> <hidden from users>",
-			"Only available <in cities with a [Hive Arsenal]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
 	},
