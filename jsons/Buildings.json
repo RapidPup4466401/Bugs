@@ -12,6 +12,7 @@
 		"gold": 3,
 		"culture": 1,
 		"cityStrength": 2,
+		"happines": 5,
 		"cost": 1,
 		"uniques": 
 		[
@@ -1677,9 +1678,117 @@
 		]
 	},
 	{
+		"name": "Energy Defense Platforms",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 1},
+		"cost": 4000,
+		"maintenance": 3,
+		"cityHealth": 30,
+		"cityStrength": 20,
+		"requiredTech": "Particle Physics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Alloy-Infused Hive Structures]> <hidden from users>",
+			"Population loss from nuclear attacks [-5]% [in this city]",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Damage to garrison from nuclear attacks [-10]% [in this city]",
+			"Only available <in cities with at least [100] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Kinetic Defense Platforms",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 1},
+		"cost": 10000,
+		"maintenance": 5,
+		"cityHealth": 20,
+		"cityStrength": 40,
+		"requiredTech": "Particle Physics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Energy Defense Platforms]> <hidden from users>",
+			"Population loss from nuclear attacks [-5]% [in this city]",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Damage to garrison from nuclear attacks [-20]% [in this city]",
+			"Only available <in cities with at least [130] [Population]> <hidden from users>",
+			"Consumes [1] [High-Tech Composite]",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Spaceport",
+		"uniqueTo": "Insectoids",
+		"cost": 10000,
+		"maintenance": 5,
+		"requiredTech": "Particle Physics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Droneport]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in cities with at least [100] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Orbital Defense Platform",
+		"uniqueTo": "Insectoids",
+		"cost": 20000,
+		"maintenance": 10,
+		"science": 10,
+		"happines": 3,
+		"cityHealth": 10,
+		"cityStrength": 70,
+		"requiredTech": "Particle Physics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Spaceport]> <hidden from users>",
+			"Only available <in cities with a [High-Tech Factory]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in cities with at least [150] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "High-Tech Walls",
+		"uniqueTo": "Insectoids",
+		"cost": 15000,
+		"maintenance": 3,
+		"happines": 3,
+		"cityHealth": 80,
+		"requiredTech": "Particle Physics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Energy Shield Generators]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in cities with at least [130] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Advanced Architectual Wall Designs",
+		"uniqueTo": "Insectoids",
+		"cost": 10000,
+		"cityHealth": 50,
+		"requiredTech": "Particle Physics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [High-Tech Walls]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in cities with at least [130] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
 		"name": "High-Tech Factory",
 		"uniqueTo": "Insectoids",
-		"specialistSlots": {"Engineer": 8},
+		"specialistSlots": {"Engineer": 4},
 		"cost": 900,
 		"maintenance": 1,
 		"requiredTech": "Nanotechnology",
@@ -1687,11 +1796,11 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Hive Factory]> <hidden from users>",
-			"Only available <in cities with a [Cybernetics Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Cybernetics Research Facility]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [100] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
-			"Provides [4] [High-Tech Composite] <hidden from users>"
+			"Provides [5] [High-Tech Composite]"
 		]
 	},
 	{
