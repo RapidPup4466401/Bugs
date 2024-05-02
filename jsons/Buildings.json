@@ -1775,7 +1775,7 @@
 		"uniqueTo": "Insectoids",
 		"cost": 10000,
 		"cityHealth": 50,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Nanotechnology",
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
@@ -1783,6 +1783,24 @@
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [130] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
+		]
+	},
+	{
+		"name": "Advanced Biomass Production Facility",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 4},
+		"cost": 8000,
+		"maintenance": 3,
+		"requiredTech": "Nanotechnology",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Mass Biomass Production Chambers]> <hidden from users>",
+			"Only available <in cities with a [High-Tech Factory]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in cities with at least [120] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Provides [15] [Biomass]"
 		]
 	},
 	{
