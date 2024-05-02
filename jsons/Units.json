@@ -918,7 +918,6 @@
 			"Automation is a primary action",
 			"Heals [10] damage if it kills a unit <hidden from users>",
 			"Cannot be purchased <hidden from users>",
-			"Founds a new city <by consuming this unit> <hidden from users>", 
 			"Requires at least [3] population <hidden from users>",
 			"Gain [5] [Science] (modified by game speed) <upon being defeated> <hidden from users>",
 			"Gain [10] [Science] (modified by game speed) <upon being promoted> <hidden from users>",
@@ -1211,13 +1210,35 @@
 		"attackSound": "torpedo"
 	},
 	{
-		"name": "Robotic Drone Infantry",
+		"name": "Drone Infantry Unit",
 		"unitType": "Gunpowder",
 		"replaces": "Mechanized Infantry",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 70,
-		"cost": 900,
+		"cost": 1300,
+		"requiredTech": "Mobile Tactics",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Can only be built <in this city> <if [Robotic Drones Production Facility] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": 
+		[
+			"Ground Drone",
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Amphibious Drone Unit",
+		"unitType": "Gunpowder",
+		"replaces": "Marine",
+		"uniqueTo": "Insectoids",
+		"movement": 2,
+		"strength": 65,
+		"cost": 1100,
 		"requiredTech": "Mobile Tactics",
 		"uniques": 
 		[
@@ -1591,7 +1612,7 @@
 		"name": "Structured Guided Missile",
 		"unitType": "Missile",
 		"uniqueTo": "Insectoids",
-		"replaces": "Marine",
+		"replaces": "Landship",
 		"movement": 1,
 		"strength": 60,
 		"rangedStrength": 60,
