@@ -984,7 +984,7 @@
 		"name": "Biomass Production Chambers",
 		"uniqueTo": "Insectoids",
 		"hurryCostModifier": 0,
-		"happines": -4,
+		"happines": -1,
 		"requiredTech": "Archaeology",
 		"uniques": 
 		[
