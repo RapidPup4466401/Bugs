@@ -1192,6 +1192,19 @@
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"requiredTech": "Ballistics"
+	},{
+		"name": "Refrigeration Pools",
+		"uniqueTo": "Insectoids",
+		"happiness": 5,
+		"food": 15,
+		"requiredTech": "Refrigeration"
+		"unqiues":
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Regenerative Incubation Pods]> <hidden from users>",
+			"Only available <in cities with at least [20] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>"
+		]
 	},
 	{
 		"name": "Refrigerated Food Supplies",
@@ -1598,7 +1611,7 @@
 		"uniques": 
 		[
 			"Cannot be purchased <hidden from users>",
-			"Only available <in cities with a [Cybernetics Research Chamber]> <hidden from users>",
+			"Only available <in cities with a [Cybernetics Research Facility]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [100] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
