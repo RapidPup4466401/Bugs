@@ -1035,7 +1035,6 @@
 	{
 		"name": "Structured Hive Carrier",
 		"unitType": "Aircraft Carrier",
-		"replaces": "Pikeman",
 		"uniqueTo": "Insectoids",
 		"movement": 4,
 		"strength": 45,
@@ -1393,6 +1392,7 @@
 	{
 		"name": "Fighter Jet Stealth Drone",
 		"unitType": "Fighter",
+		"uniqueTo": "Insectoids",
 		"replaces": "Fighter",
 		"movement": 2,
 		"strength": 110,
@@ -1419,6 +1419,7 @@
 	{
 		"name": "Bomber Drone",
 		"unitType": "Bomber",
+		"uniqueTo": "Insectoids",
 		"replaces": "Bomber",
 		"movement": 2,
 		"strength": 75,
@@ -1510,6 +1511,7 @@
 		"name": "Nuclear Stealth Bomber Drone",
 		"unitType": "Bomber",
 		"uniqueTo": "Insectoids",
+		"replaces": "Pikeman",
 		"movement": 3,
 		"strength": 200,
 		"rangedStrength": 200,
