@@ -1167,7 +1167,7 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Consumes [1] [Aluminum]",
-			"Must be on [River]","[+2 Production] from [River] tiles [in this city] <with [Aluminum]>",
+			"Must be on [River]","[+4 Production] from [River] tiles [in this city] <with [Aluminum]>",
 			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -1527,14 +1527,12 @@
 			"[+4 Food] from [Structured Feeding Fields] tiles [in this city] <hidden from users>",
 			"[+4 Food] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
 			"[+4 Food] from [Flora Incubators] tiles [in this city] <hidden from users>",
-
 			"[+4 Food] from [Structured Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+4 Food] from [Brood Incubation Facilities] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+4 Food] from [Storage Spires] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+4 Food] from [Structured Feeding Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+4 Food] from [Exotic Materials Extractors] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+4 Food] from [Flora Incubators] tiles [in this city] <with [Biomass]> <hidden from users>",
-			
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [1] [Robotic Parts]",
 			"Provides [1] [Biomass]"
@@ -1760,7 +1758,8 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Spaceport]> <hidden from users>",
-			"Only available <in cities with a [High-Tech Factory]> <hidden from users>",
+			"Only available <in cities with a [High-Tech Manufacturing Plant]> <hidden from users>",
+			"Only available <in cities with a [Space Program Development]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [150] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -1784,7 +1783,7 @@
 		]
 	},
 	{
-		"name": "Advanced Architectual Wall Designs",
+		"name": "Advanced Wall Designs",
 		"uniqueTo": "Insectoids",
 		"cost": 10000,
 		"cityHealth": 50,
@@ -1820,7 +1819,7 @@
 		"name": "High-Tech Factory",
 		"uniqueTo": "Insectoids",
 		"specialistSlots": {"Engineer": 4},
-		"cost": 900,
+		"cost": 1500,
 		"maintenance": 1,
 		"requiredTech": "Nanotechnology",
 		"uniques": 
@@ -1835,9 +1834,27 @@
 		]
 	},
 	{
+		"name": "High-Tech Manufacturing Plant",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Engineer": 2},
+		"cost": 5000,
+		"maintenance": 3,
+		"requiredTech": "Nanotechnology",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Fusion Reactor Plant]> <hidden from users>",
+			"Only available <in cities with a [High-Tech Factory]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in cities with at least [150] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Provides [8] [High-Tech Composite]"
+		]
+	},
+	{
 		"name": "Droneport",
 		"uniqueTo": "Insectoids",
-		"specialistSlots": {"Engineer": 8},
+		"specialistSlots": {"Engineer": 2},
 		"cost": 1500,
 		"maintenance": 3,
 		"requiredTech": "Globalization",
@@ -1852,7 +1869,7 @@
 	{
 		"name": "Fusion Reactor Plant",
 		"uniqueTo": "Insectoids",
-		"specialistSlots": {"Engineer": 12},
+		"specialistSlots": {"Engineer": 5},
 		"cost": 2500,
 		"maintenance": 10,
 		"production": 30,
@@ -1864,7 +1881,28 @@
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
 			"Only available <in cities with at least [130] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
-			"Consumes [4] [Biomass] <hidden from users>"
+			"Consumes [2] [Biomass] <hidden from users>",
+			"Consumes [1] [High-Tech Composite] <hidden from users>"
+		]
+	},
+	{
+		"name": "Space Program Development",
+		"uniqueTo": "Insectoids",
+		"specialistSlots": {"Scientist": 2},
+		"cost": 8000,
+		"maintenance": 5,
+		"requiredTech": "Nuclear Fusion",
+		"uniques": 
+		[
+			"Cannot be purchased <hidden from users>",
+			"Only available <in cities with a [Fusion Reactor Plant]> <hidden from users>",
+			"Only available <in cities with a [High-Tech Manufacturing Plant]> <hidden from users>",
+			"Only available <in cities with a [Spaceport]> <hidden from users>",
+			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"Only available <in cities with at least [150] [Population]> <hidden from users>",
+			"Destroyed when the city is captured <hidden from users>",
+			"Consumes [3] [Biomass] <hidden from users>",
+			"Consumes [3] [High-Tech Composite] <hidden from users>"
 		]
 	},
 	{
@@ -1882,6 +1920,7 @@
 			"Only available <in cities with at least [80] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
 			"Provides [2] [Biomass]",
+			"[+25]% [Food] <in this city> <hidden from users>", 
 			"[+10 Food] from [Structured Fields] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+5 Food] from [Brood Incubation Facilities] tiles [in this city] <with [Biomass]> <hidden from users>",
 			"[+5 Food] from [Storage Spires] tiles [in this city] <with [Biomass]> <hidden from users>",
