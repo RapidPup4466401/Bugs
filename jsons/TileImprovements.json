@@ -14,7 +14,7 @@
 	{
 		"name": "Structured Fields",
 		"uniqueTo": "Insectoids",
-		"terrainsCanBeBuiltOn": ["Grassland","Hill","Flood plains","Tundra","Desert","Desert","Snow"],
+		"terrainsCanBeBuiltOn": ["Grassland","Hill","Flood plains","Tundra","Plains","Desert","Snow"],
 		"food": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
