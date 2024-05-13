@@ -14,13 +14,12 @@
 	{
 		"name": "Structured Fields",
 		"uniqueTo": "Insectoids",
-		"terrainsCanBeBuiltOn": ["Grassland","Hill","Flood plains","Desert","Snow"],
+		"terrainsCanBeBuiltOn": ["Grassland","Hill","Flood plains","Tundra","Desert","Desert","Snow"],
 		"food": 2,
 		"turnsToBuild": 8,
 		"techRequired": "Ecology",
 		"uniques": 
 		[
-			"Removes removable features when built",
 			"Can also be built on tiles adjacent to fresh water",
 		]
 	},
