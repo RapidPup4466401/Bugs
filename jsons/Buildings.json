@@ -1056,6 +1056,9 @@
 			"Only available <in cities with a [Mutation Incubators]> <hidden from users>",
 			"Only available <in cities with a [Metalling Chamber]> <hidden from users>",
 			"[+1 Production] per [1] population [in this city]",
+			"[+1 Production] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Storage Spires] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Liquid Extractors] tiles [in this city] <hidden from users>",
 			"Only available <in cities with at least [30] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
 		]
@@ -1416,6 +1419,8 @@
 		[
 			"Only available <in cities with a [Hive Factory]> <hidden from users>",
 			"Cannot be purchased <hidden from users>",
+			"[+1 Production] from [Storage Spires] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Liquid Extractors] tiles [in this city] <hidden from users>",
 			"Only available <in cities without a [Solar Plant]>",
 			"Only available <in cities with at least [40] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
