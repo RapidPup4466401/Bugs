@@ -230,6 +230,20 @@
 		],
 	},
 	{
+		"name": "Liquid Extractors",
+		"terrainsCanBeBuiltOn": ["Coast","Ocean"],
+		"uniqueTo": "Insectoids",
+		"production": 6,
+		"turnsToBuild": 9,
+		"techRequired": "Biology",
+		"uniques": 
+		[
+			"Must be on [Oil]",
+			"Can only be built to improve a resource",
+			"Removes removable features when built",
+		],
+	},
+	{
 		"name": "Hive Storages",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Insectoids",
