@@ -1705,8 +1705,10 @@
 		"uniques": 
 		[
             		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            		"Can instantly construct a [Landmark] improvement <by consuming this unit>",
-            		"Great Person - [Culture]", "Unbuildable", "Uncapturable"
+            		"Can instantly construct a [Ancestral Statues] improvement <by consuming this unit>",
+            		"Great Insectoid - [Culture]", 
+			"Unbuildable", 
+			"Uncapturable"
 		],
 		"movement": 2
 	},
@@ -1718,8 +1720,8 @@
 		"uniques": 
 		[
            		"Can hurry technology research",
-            		"Can instantly construct a [Academy] improvement <by consuming this unit>",
-            		"Great Person - [Science]", 
+            		"Can instantly construct a [Testing Site] improvement <by consuming this unit>",
+            		"Great Insectoid - [Science]", 
 			"Unbuildable", 
 			"Uncapturable"
 		],
@@ -1732,8 +1734,8 @@
 		"uniqueTo": "Insectoids",
 		"uniques": 
 		[
-            		"Can instantly construct a [Customs house] improvement <by consuming this unit>",
-			"Great Person - [Gold]", 
+            		"Can instantly construct a [Minting Grounds] improvement <by consuming this unit>",
+			"Great Insectoid - [Gold]", 
 			"Unbuildable", 
 			"Uncapturable"
 		],
@@ -1747,27 +1749,27 @@
 		"uniques": 
 		[
 			"Can speed up construction of a building",
-			"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
-            		"Great Person - [Production]", 
+			"Can instantly construct a [Hive Extension] improvement <by consuming this unit>",
+            		"Great Insectoid - [Production]", 
 			"Unbuildable", 
 			"Uncapturable"
 		],
 		"movement": 2
 	},
 	{
-		"name": "Ancestral Site Builder",
+		"name": "Spirit Stones Builder",
 		"replaces": "Great Prophet",
 		"uniqueTo": "Insectoids",
 		"unitType": "Civilian",
 		"uniques": 
 		[
-            		"Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            		"Can instantly construct a [Spirit Stones] improvement <by consuming this unit> <if it hasn't used other actions yet>",
             		"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
             		"May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
             		"May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
 			"[-1] Sight", 
-			"Great Person - [Faith]",
+			"Great Insectoid - [Faith]",
 			"Unbuildable", 
 			"Religious Unit", 
 			"Hidden when religion is disabled",
@@ -1784,7 +1786,7 @@
 		[
             		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
             		"[+25]% Strength bonus for [Military] units within [2] tiles",
-            		"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+            		"Can instantly construct a [Defensive Base] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Great Person - [War]", 
 			"Unbuildable", 
