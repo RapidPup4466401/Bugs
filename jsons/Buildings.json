@@ -542,7 +542,6 @@
 			"[+10]% [Food] <in this city> <with [Biomass]> <hidden from users>", 
 			"Cannot be purchased <hidden from users>",
 			"[+35]% Great Person generation [in this city]", 
-			"Must be next to [Fresh water]",
 			"Destroyed when the city is captured <hidden from users>"
 		],
 		"hurryCostModifier": 25,
@@ -597,7 +596,7 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"production": 8},
+		"percentStatBonus": {"production": 10},
 		"requiredTech": "Metal Casting"
 		"uniques":
 		[
@@ -682,7 +681,9 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"[+1 Science] from [Spires] tiles [in this city]",
+			"[+2 Science] from [Storage Spires] tiles [in this city]",
 			"[+1 Science] from [Growing Fields] tiles [in this city]",
+			"[+3 Science] from [Structured Feeding Fields] tiles [in this city]",
 			"[+1 Science] from every [Subduction Chambers] <in [in all cities] cities>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -703,10 +704,12 @@
 		[
 			"Cannot be purchased <hidden from users>",
 			"[+1 Science] from [Nests] tiles [in this city]",
+			"[+2 Science] from [Exotic Fields] tiles [in this city]",
+			"[+2 Science] from [Storage Spires] tiles [in this city]",
+			"[+3 Science] from [Exotic Materials Extractors] tiles [in this city]",
 			"Only available <in cities with at least [25] [Population]> <hidden from users>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 			"Only available <in cities with a [Testing Chambers]> <hidden from users>",
-			"Only available <if [Incubation Chamber] is constructed in all [non-[Puppeted]] cities> <hidden from users>", 
 			"Free Technology", 
 			"Cost increases by [30] per owned city <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
