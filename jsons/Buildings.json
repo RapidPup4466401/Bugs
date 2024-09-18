@@ -485,7 +485,7 @@
 		"name": "Experimental Minting Procedures",
 		"uniqueTo": "Insectoids",
 		"replaces": "Mint",
-		"maintenance": 0,
+		"gold": 5,
 		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
 		"hurryCostModifier": 25,
 		"uniques": 
@@ -656,14 +656,16 @@
 		"replaces": "Harbor",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 10},
 		"specialistSlots": {"Scientist": 2},
 		"uniques": 
 		[
-			"Must be on [Coast]",
+			"Must be next to [Coast]",
+			"Connects trade routes over water",
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Incubation Chamber]> <hidden from users>",
 			"Only available <in cities with a [Brood Feedings]> <hidden from users>",
+			"[+1 Production] from [Water resource] tiles [in this city]",
+			"[+1 Food] from [Water resource] tiles [in this city]",
 			"[+1 Science] from [Nests] tiles [in this city]",
 			"Destroyed when the city is captured <hidden from users>"
 		],
@@ -841,7 +843,7 @@
 		"name": "Minting Mines",
 		"uniqueTo": "Insectoids",
 		"replaces": "Bank",
-		"gold": 4,
+		"gold": 8,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 45,
 		"percentStatBonus": {"gold": 20},
@@ -849,6 +851,10 @@
 		"uniques":
 		[
 			"Cannot be purchased <hidden from users>",
+			"[+1 Gold] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+3 Gold] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
+			"[+1 Gold] from [Spires] tiles [in this city] <hidden from users>",
+			"[+3 Gold] from [Storage Spires] tiles [in this city] <hidden from users>",
 			"Only available <in cities with a [Experimental Mint]> <hidden from users>",
 			"Only available <in cities with at least [20] [Population]> <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>"
@@ -1597,6 +1603,11 @@
 			"Cannot be purchased <hidden from users>",
 			"Only available <in cities with a [Minting Mines]> <hidden from users>",
 			"Only available <in cities with a [Learn Structured Planning]> <hidden from users>",
+			"[+1 Gold] from [Exotic Fields] tiles [in this city] <hidden from users>",
+			"[+4 Gold] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
+			"[+1 Gold] from [Spires] tiles [in this city] <hidden from users>",
+			"[+4 Gold] from [Storage Spires] tiles [in this city] <hidden from users>",
+			"[+1 Gold] from [Liquid Extractors] tiles [in this city] <hidden from users>",
 			"Only available <in cities with at least [100] [Population]> <hidden from users>",
 			"[+10 Gold] from [Exotic Materials Extractors] tiles [in this city] <hidden from users>",
 			"Destroyed when the city is captured <hidden from users>",
