@@ -354,7 +354,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
 		"uniques": [
-			"Great Improvement", "[+1 Production] <after discovering [Chemistry]>", 
+			"Great Improvement", "[+2 Production] <after discovering [Chemistry]>", 
 			"Removes removable features when built", 
 			"Pillaging this improvement yields approximately [+20 Gold]",
 			"Can only be built <for [Insectoids]> <hidden from users>"
@@ -363,17 +363,19 @@
 	{
 		"name": "Minting Grounds",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 4,
+		"gold": 12,
 		"uniques": [
 			"Great Improvement", 
-			"[+1 Gold] <after discovering [Economics]>", 
+			"[+3 Gold] <after discovering [Economics]>", 
+			"[+4 Gold] <after discovering [Computers]>", 
+			"[+8 Gold] <after discovering [Globalization]>", 
 			"Removes removable features when built", 
-			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Pillaging this improvement yields approximately [+80 Gold]",
 			"Can only be built <for [Insectoids]> <hidden from users>"
 		]
 	},
 	{
-		"name": "Holy Site",
+		"name": "Spirit Stones",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 6,
 		"uniques": [
