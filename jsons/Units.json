@@ -951,7 +951,7 @@
   	},
         {
 		"name": "Insectoid Divers",
-		"unitType": "Melee Water",
+		"unitType": "Civilian",
 		"replaces": "Work Boats",
 		"uniqueTo": "Insectoids",
     		"cost": 70,
@@ -1095,6 +1095,24 @@
 			"Can carry [10] [Aircraft] units"
 		]
 	},
+	 {
+		"name": "Drone Utility Vessel",
+		"unitType": "Civilian",
+		"uniqueTo": "Insectoids",
+    		"cost": 3000,
+		"movement": 4,
+		"strength": 80,
+		"requiredTech": "Computers",
+    		"uniques": 
+		[			
+			"Can only be built <in this city> <if [Structured Seaport] is constructed> <hidden from users>",
+                        "Only available <in this city> <in cities with at least [40] [Population]> <hidden from users>",
+			"Cannot be purchased <hidden from users>",
+			"May create improvements on water resources",
+			"Consumes [1] [Iron]",
+            		"Automation is a primary action"
+		],
+  	},
 	{
 		"name": "Drone Rocket Artillery",
 		"unitType": "Siege",
