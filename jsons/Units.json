@@ -3,7 +3,6 @@
         {
 		"name": "Warrior Bug",
 		"unitType": "Sword",
-		"replaces": "Warrior",
 		"uniqueTo": "Insectoids",
     		"cost": 50,
 		"movement": 3,
@@ -25,7 +24,6 @@
         {
 		"name": "Tough Warrior",
 		"unitType": "Sword",
-		"replaces": "Spearman",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 13,
@@ -50,7 +48,6 @@
         {
 		"name": "Armored Warrior",
 		"unitType": "Sword",
-		"replaces": "Musketman",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 26,
@@ -73,7 +70,6 @@
         {
 		"name": "Tough Armor Warrior",
 		"unitType": "Gunpowder",
-                "replaces": "Great War Infantry",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 55,
@@ -96,7 +92,6 @@
 	{
 		"name": "Large Warrior",
 		"unitType": "Gunpowder",
-		"replaces": "Infantry",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 73,
@@ -119,7 +114,6 @@
         {
 		"name": "Mutated Warrior Bug",
 		"unitType": "Mounted",
-		"replaces": "Horseman",
 		"uniqueTo": "Insectoids",
 		"movement": 4,
 		"strength": 8,
@@ -148,7 +142,6 @@
         {
 		"name": "Light Charger",
 		"unitType": "Siege",
-		"replaces": "Catapult",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 15,
@@ -177,7 +170,6 @@
         {
 		"name": "Crusher",
 		"unitType": "Mounted",
-		"replaces": "Knight",
 		"uniqueTo": "Insectoids",
 		"movement": 4,
 		"strength": 24,
@@ -206,7 +198,6 @@
         {
 		"name": "Charger",
 		"unitType": "Siege",
-		"replaces": "Trebuchet",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 25,
@@ -231,7 +222,6 @@
         {
 		"name": "Armored Crusher",
 		"unitType": "Siege",
-		"replaces": "Cannon",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 18,
@@ -287,7 +277,6 @@
         {
 		"name": "Spewer Bug",
 		"unitType": "Archery",
-		"replaces": "Archer",
 		"uniqueTo": "Insectoids",
 		"obsoleteTech": "Construction",
     		"cost": 50,
@@ -312,7 +301,6 @@
         {
 		"name": "Acid Spewer",
 		"unitType": "Archery",
-		"replaces": "Chariot Archer",
 		"uniqueTo": "Insectoids",
 		"obsoleteTech": "Chivalry",
     		"cost": 100,
@@ -335,7 +323,6 @@
         {
 		"name": "Bile Spewer",
 		"unitType": "Archery",
-		"replaces": "Composite Bowman",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 11,
@@ -363,7 +350,6 @@
         {
 		"name": "Armored Acid Spewer",
 		"unitType": "Ranged Gunpowder",
-		"replaces": "Gatling Gun",
 		"uniqueTo": "Insectoids",
 		"range": 1,
 		"movement": 2,
@@ -394,7 +380,6 @@
         {
 		"name": "Scout Stalker",
 		"unitType": "Scout",
-		"replaces": "Scout",
 		"uniqueTo": "Insectoids",
 		"obsoleteTech": "Scientific Theory",
     		"cost": 50,
@@ -416,7 +401,6 @@
         {
 		"name": "Stalkers",
 		"unitType": "Archery",
-		"replaces": "Crossbowman",
 		"uniqueTo": "Insectoids",
 		"movement": 4,
 		"strength": 25,
@@ -453,7 +437,6 @@
 	},
         {
 		"name": "Scavengers",
-		"replaces": "Cavalry",
 		"uniqueTo": "Insectoids",
 		"unitType": "Sword",
 		"movement": 2,
@@ -480,7 +463,6 @@
 	},
         {
 		"name": "Stalker Scavenger",
-		"replaces": "Rifleman",
 		"uniqueTo": "Insectoids",
 		"unitType": "Sword",
 		"movement": 3,
@@ -502,14 +484,12 @@
 			"Gain [2] [Science] (modified by game speed) <when defending> <hidden from users>"
 		],
 		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "metalhit"
 	},
         //Water Type Class
         {
 		"name": "Water Walkers",
 		"unitType": "Melee Water",
-		"replaces": "Trireme",
 		"uniqueTo": "Insectoids",
 		"obsoleteTech": "Astronomy",
     		"cost": 100,
@@ -533,7 +513,6 @@
         {
 		"name": "Hardened Water Walkers",
 		"unitType": "Ranged Water",
-		"replaces": "Galleass",
 		"uniqueTo": "Insectoids",
 		"movement": 3,
 		"strength": 19,
@@ -559,7 +538,6 @@
         {
 		"name": "Agile Water Walkers",
 		"unitType": "Melee Water",
-		"replaces": "Caravel",
 		"uniqueTo": "Insectoids",
 		"movement": 4,
 		"strength": 23,
@@ -586,7 +564,6 @@
         {
 		"name": "Mirage Walkers",
 		"unitType": "Melee Water",
-		"replaces": "Privateer",
 		"uniqueTo": "Insectoids",
 		"movement": 6,
 		"strength": 30,
@@ -614,7 +591,6 @@
         {
 		"name": "Water-Adapted Diving Warrior",
 		"unitType": "Melee Water",
-		"replaces": "Frigate",
 		"uniqueTo": "Insectoids",
 		"movement": 4,
 		"strength": 30,
@@ -641,7 +617,6 @@
         {
 		"name": "Armored Water Walker",
 		"unitType": "Melee Water",
-                "replaces": "Ironclad",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 50,
@@ -668,7 +643,6 @@
         {
 		"name": "Aquatic Arachnid",
 		"unitType": "Submarine",
-                "replaces": "Submarine",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 55,
@@ -699,7 +673,6 @@
         {
 		"name": "Bile Titan",
 		"unitType": "Sword",
-		"replaces": "Lancer",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 40,
@@ -735,7 +708,6 @@
 	 {
 		"name": "Armored Bile Titan",
 		"unitType": "Sword",
-		"replaces": "Tank",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 80,
@@ -767,7 +739,6 @@
         //Centipede Class
         {
 		"name": "Burrowing Crawler",
-                "replaces": "Artillery",
 		"uniqueTo": "Insectoids",
 		"unitType": "Siege",
 		"movement": 2,
@@ -797,7 +768,6 @@
 	{
 		"name": "Tough Crawler",
 		"unitType": "Sword",
-		"replaces": "Machine Gun",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 70,
@@ -824,7 +794,6 @@
         {
 		"name": "Winged Mutate Warrior",
 		"unitType": "Fighter",
-                "replaces": "Triplane",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 25,
@@ -854,7 +823,6 @@
 	{
 		"name": "Gliderlings",
 		"unitType": "Sword",
-                "replaces": "Paratrooper",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 40,
@@ -880,7 +848,6 @@
 		"name": "Winged Mutate Stalker",
 		"unitType": "Bomber",
 		"uniqueTo": "Insectoids",
-		"replaces": "Great War Bomber",
 		"movement": 1,
 		"strength": 30,
 		"rangedStrength": 30,
@@ -907,7 +874,6 @@
 	{
 		"name": "Lesser Worker Bug",
 		"unitType": "Civilian",
-		"replaces": "Worker",
 		"uniqueTo": "Insectoids",
     		"cost": 60,
 		"movement": 3,
@@ -952,7 +918,6 @@
         {
 		"name": "Insectoid Divers",
 		"unitType": "Civilian",
-		"replaces": "Work Boats",
 		"uniqueTo": "Insectoids",
     		"cost": 70,
 		"movement": 4,
@@ -977,7 +942,6 @@
         {
 		"name": "Hive Queen",
 		"unitType": "Sword",
-		"replaces": "Settler",
 		"uniqueTo": "Insectoids",
     		"cost": 500,
 		"movement": 2,
@@ -1013,7 +977,6 @@
 	{
 		"name": "Experimental Hive Carrier",
 		"unitType": "Aircraft Carrier",
-		"replaces": "Carrier",
 		"uniqueTo": "Insectoids",
 		"movement": 3,
 		"strength": 35,
@@ -1056,7 +1019,6 @@
 	{
 		"name": "Heavy Hive Carrier",
 		"unitType": "Aircraft Carrier",
-		"replaces": "Swordsman",
 		"uniqueTo": "Insectoids",
 		"movement": 5,
 		"strength": 55,
@@ -1076,7 +1038,6 @@
 	{
 		"name": "Droneship Carrier",
 		"unitType": "Aircraft Carrier",
-		"replaces": "Battleship",
 		"uniqueTo": "Insectoids",
 		"movement": 4,
 		"strength": 70,
@@ -1116,7 +1077,6 @@
 	{
 		"name": "Drone Rocket Artillery",
 		"unitType": "Siege",
-		"replaces": "Rocket Artillery",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 45,
@@ -1145,7 +1105,6 @@
 	{
 		"name": "Mobile Drone SAM",
 		"unitType": "Gunpowder",
-		"replaces": "Mobile SAM",
 		"uniqueTo": "Insectoids",
 		"movement": 3,
 		"interceptRange": 2,
@@ -1171,7 +1130,6 @@
 	{
 		"name": "Hovering Gunship Drone",
 		"unitType": "Helicopter",
-		"replaces": "Helicopter Gunship",
 		"uniqueTo": "Insectoids",
 		"movement": 6,
 		"strength": 60,
@@ -1201,7 +1159,6 @@
 	{
 		"name": "Nuclear Drone Submarine",
 		"unitType": "Submarine",
-		"replaces": "Nuclear Submarine",
 		"uniqueTo": "Insectoids",
 		"movement": 6,
 		"strength": 50,
@@ -1229,7 +1186,6 @@
 	{
 		"name": "Drone Infantry Unit",
 		"unitType": "Gunpowder",
-		"replaces": "Mechanized Infantry",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 70,
@@ -1251,7 +1207,6 @@
 	{
 		"name": "Amphibious Drone Unit",
 		"unitType": "Gunpowder",
-		"replaces": "Marine",
 		"uniqueTo": "Insectoids",
 		"movement": 2,
 		"strength": 65,
@@ -1273,7 +1228,6 @@
 	{
 		"name": "Missile Cruiser Drone",
 		"unitType": "Ranged Water",
-		"replaces": "Missile Cruiser",
 		"uniqueTo": "Insectoids",
 		"movement": 5,
 		"strength": 70,
@@ -1304,7 +1258,6 @@
 	{
 		"name": "Armored Drone Vehicles",
 		"unitType": "Armored",
-		"replaces": "Modern Armor",
 		"uniqueTo": "Insectoids",
 		"movement": 5,
 		"strength": 90,
@@ -1329,7 +1282,6 @@
 	{
 		"name": "Drone Jet Fighter",
 		"unitType": "Fighter",
-		"replaces": "Jet Fighter",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 75,
@@ -1359,7 +1311,6 @@
 	{
 		"name": "Titan Drone",
 		"unitType": "Armored",
-		"replaces": "Giant Death Robot",
 		"uniqueTo": "Insectoids",
 		"movement": 4,
 		"strength": 120,
@@ -1385,7 +1336,6 @@
 	{
 		"name": "Super Titan Drone",
 		"unitType": "Armored",
-		"replaces": "Destroyer",
 		"uniqueTo": "Insectoids",
 		"movement": 3,
 		"strength": 170,
@@ -1411,7 +1361,6 @@
 		"name": "Fighter Jet Stealth Drone",
 		"unitType": "Fighter",
 		"uniqueTo": "Insectoids",
-		"replaces": "Fighter",
 		"movement": 2,
 		"strength": 110,
 		"rangedStrength": 110,
@@ -1438,7 +1387,6 @@
 		"name": "Bomber Drone",
 		"unitType": "Bomber",
 		"uniqueTo": "Insectoids",
-		"replaces": "Bomber",
 		"movement": 2,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -1467,7 +1415,6 @@
 		"name": "Stealth Bomber Drone",
 		"unitType": "Bomber",
 		"uniqueTo": "Insectoids",
-		"replaces": "Stealth Bomber",
 		"movement": 2,
 		"strength": 150,
 		"rangedStrength": 150,
@@ -1497,7 +1444,6 @@
 		"name": "Atom Bomber Drone",
 		"unitType": "Bomber",
 		"uniqueTo": "Insectoids",
-		"replaces": "Anti-Tank Gun",
 		"movement": 2,
 		"strength": 150,
 		"rangedStrength": 150,
@@ -1529,7 +1475,6 @@
 		"name": "Nuclear Stealth Bomber Drone",
 		"unitType": "Bomber",
 		"uniqueTo": "Insectoids",
-		"replaces": "Pikeman",
 		"movement": 3,
 		"strength": 200,
 		"rangedStrength": 200,
@@ -1562,7 +1507,6 @@
 	{
 		"name": "Experimental Atomic Bomb",
 		"unitType": "Atomic Bomber",
-		"replaces": "Atomic Bomb",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 75,
@@ -1611,7 +1555,6 @@
 	{
 		"name": "Expiremental Guided Missile",
 		"unitType": "Missile",
-		"replaces": "Guided Missile",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 30,
@@ -1632,7 +1575,6 @@
 		"name": "Structured Guided Missile",
 		"unitType": "Missile",
 		"uniqueTo": "Insectoids",
-		"replaces": "Landship",
 		"movement": 1,
 		"strength": 60,
 		"rangedStrength": 60,
@@ -1651,7 +1593,6 @@
 		"name": "Hypersonic Missile",
 		"unitType": "Missile",
 		"uniqueTo": "Insectoids",
-		"replaces": "Anti-Aircraft Gun",
 		"movement": 1,
 		"strength": 90,
 		"rangedStrength": 90,
@@ -1669,7 +1610,6 @@
 	{
 		"name": "Structured Nuclear Missile",
 		"unitType": "Missile",
-		"replaces": "Nuclear Missile",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 300,
@@ -1692,7 +1632,6 @@
 	{
 		"name": "Antimatter Missile",
 		"unitType": "Missile",
-		"replaces": "Longswordsman",
 		"uniqueTo": "Insectoids",
 		"movement": 1,
 		"strength": 600,
