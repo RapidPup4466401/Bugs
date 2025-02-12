@@ -79,8 +79,18 @@
       "Will not build [Bomber]",
       "Will not build [Paratrooper]",
       "Will not build [Anti-Tank Gun]",
-      "Will not build [Camp]",
-      "Will not build [Camp]",
+      "Will not build [Atomic Bomb]",
+      "Will not build [Rocket Artillery]",
+      "Will not build [Mobile SAM]",
+      "Will not build [Guided Missile]",
+      "Will not build [Nuclear Missile]",
+      "Will not build [Helicopter Gunship]",
+      "Will not build [Nuclear Submarine]",
+      "Will not build [Missile Cruiser]",
+      "Will not build [Modern Armor]",
+      "Will not build [Jet Fighter]",
+      "Will not build [Giant Death Robot]",
+      "Will not build [Stealth Bomber]",
       
     ]
       "civilopediaText": 
