@@ -1,0 +1,53 @@
+[
+  {
+      "name": "Hive Mother",
+    
+      // Stats focused personalities
+      "culture": 2,
+      "faith": 3,
+      "food": 6,
+      "gold": 1,
+      "happiness": 8,
+      "production": 10,
+      "science": 11,
+    
+      // Behaviour focused personalities
+      "military": 7,
+      "aggressive": 5,
+      "declareWar": 2,
+      "commerce": 2,
+      "diplomacy": 8,
+      "loyal": 11,
+      "expansion": 11,
+
+      "priorities": 
+    {
+          "Tradition": 2,
+          "Liberty": 1,
+          "Honor": 4,
+          "Commerce": 2,
+          "Patronage": 2,
+          "Piety": 3,
+          "Rationalism": 8,
+          "Freedom": 9,
+          "Autocracy": 11,
+          "Order": 11,
+    },
+    "uniques":
+    [
+      "Will not build [Camp]",
+      "Will not build [Mine]",
+      "Will not build [Plantation]",
+      "Will not build [Quarry]",
+      "Will not build [Farm]",
+      "Will not build [Fishing Boats]",
+      "Will not build [Trading post]",
+      "Will not build [Pasture]",
+      "Will not build [Lumber mill]"
+    ]
+      "civilopediaText": 
+    [
+          {"text": "The Hive Mother loves all and cherishes her children. For one death hurts as much as the many. Wrong her once and you've wronged them all; good luck."}
+    ]
+  }
+]
