@@ -1735,7 +1735,7 @@
 		"movement": 2,
 		"religiousStrength": 1000
 	},
-	{
+	///{
 		"name": "Hive Builder",
 		"replaces": "Great General",
 		"unitType": "Civilian",
@@ -1743,7 +1743,7 @@
 		[
             		"Empire enters a [8]-turn Golden Age <by consuming this unit>",
             		"[+25]% Strength bonus for [Military] units within [2] tiles",
-            		"Can instantly construct a [Defensive Base] improvement <by consuming this unit>",
+        	  		"Can instantly construct a [Defensive Base] improvement <by consuming this unit>",
 			"Can be earned through combat",
 			"Great Person - [War]", 
 			"Unbuildable", 
