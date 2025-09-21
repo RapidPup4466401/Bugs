@@ -32,54 +32,52 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"], // Tundra only if lowland
 		"food": 1,
-		"improvedBy": ["Camp","Spires","Storage Spires"],
+		"improvedBy": ["Camp","Spires","Storage Spires"]
 	},
 	{
 		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
+	},
 	{
 		"name": "Wheat",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"], // Desert only if fresh water
+		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
 		"food": 1,
-		"improvedBy": ["Farm","Insectoid Fields","Structured Fields"],
+		"improvedBy": ["Farm","Insectoid Fields","Structured Fields"]
 	},
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland","Desert","Tundra"],
 		"production": 1,
-		"improvedBy": ["Quarry","Intricate Burrowings","Precision Mine"],
-		"improvementStats": {"production": 1},
+		"improvedBy": ["Quarry","Intricate Burrowings","Precision Mine"]
 	},
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
-		"improvedBy": ["Fishing Boats","Collection Divings"],
+		"improvedBy": ["Fishing Boats","Collection Divings"]
 	},
-	/*
 	{
 		"name": "Bison",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
-		"improvedBy": ["Camp","Spires","Storage Spires"],
+		"improvedBy": ["Camp","Spires","Storage Spires"]
 	},
-	*/
 
 	// Strategic resources
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"], // Hill only if plains or grassland
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill"],
 		"production": 1,
-		"improvedBy": ["Pasture","Growing Fields","Structured Feeding Fields"],
+		"improvedBy": ["Pasture","Growing Fields","Structured Feeding Fields"]
 	},
 	{
 		"name": "Iron",
@@ -87,7 +85,7 @@
 		"revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Marsh"],
 		"production": 1,
-		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"]
 	},
 	{
 		"name": "Coal",
@@ -103,7 +101,7 @@
 		"revealedBy": "Biology",
 		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
 		"production": 1,
-		"improvedBy": ["Oil well", "Offshore Platform"],
+		"improvedBy": ["Oil well", "Offshore Platform"]
 	},
 	{
 		"name": "Aluminum",
@@ -111,7 +109,7 @@
 		"revealedBy": "Electricity",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill","Snow","Jungle"],
 		"production": 1,
-		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"]
 	},
 	{
 		"name": "Uranium",
@@ -135,85 +133,80 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Flood plains"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
 	},
 	{
 		"name": "Dyes",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
 	},
 	{
 		"name": "Gems",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
-		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"]
 	},
 	{
 		"name": "Gold Ore", 
 		"terrainsCanBeFoundOn": ["Desert","Hill","Forest","Jungle"],
-		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"]
 	},
 	{
 		"name": "Silver",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Tundra","Grassland"],
-		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"]
 	},
 	{
 		"name": "Incense",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Flood plains"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
-		"uniques": ["Generated with weight [35] <in [Desert] Regions>",
-					"Generated with weight [10] <in [Plains] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [15]"]
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
 	},
 	{
 		"name": "Ivory",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 2,
-		"improvedBy": ["Camp","Spires","Storage Spires"],
+		"improvedBy": ["Camp","Spires","Storage Spires"]
 	},
 	{
 		"name": "Silk",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
 	},
 	{
 		"name": "Spices",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
 	},
 	{
 		"name": "Wine",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
 	},
 	{
 		"name": "Sugar",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Flood plains","Grassland","Marsh"],
-		// Technically sugar can also be placed on lowland jungles which then *turn* into marsh.
 		"gold": 2,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
 	},
 	{
 		"name": "Marble",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Plains","Hill","Grassland"],
 		"gold": 2,
-		"improvedBy": ["Quarry","Intricate Burrowings","Precision Mine"],
+		"improvedBy": ["Quarry","Intricate Burrowings","Precision Mine"]
 	},
 	{
 		"name": "Whales",
@@ -221,14 +214,14 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"gold": 1,
-		"improvedBy": ["Fishing Boats","Collection Divings"],
+		"improvedBy": ["Fishing Boats","Collection Divings"]
 	},
 	{
 		"name": "Pearls",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"gold": 2,
-		"improvedBy": ["Fishing Boats","Collection Divings"],
+		"improvedBy": ["Fishing Boats","Collection Divings"]
 	},
 	{
 		"name": "Citrus",
@@ -236,32 +229,30 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Flood plains"],
 		"food": 1,
 		"gold": 1,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
 	},
 	{
 		"name": "Copper",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Hill","Forest","Jungle","Grassland","Tundra"],
 		"gold": 2,
-		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"]
 	},
-	/*
 	{
 		"name": "Cocoa",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest"], // Forest only if flat, non-tundra
+		"terrainsCanBeFoundOn": ["Jungle","Forest"],
 		"food": 1,
 		"gold": 1,
-		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"],
+		"improvedBy": ["Plantation","Exotic Fields","Exotic Materials Extractors"]
 	},
-	*/
 	{
 		"name": "Crab",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"gold": 1,
-		"improvedBy": ["Fishing Boats","Collection Divings"],
+		"improvedBy": ["Fishing Boats","Collection Divings"]
 	},
 	{
 		"name": "Salt",
@@ -269,13 +260,13 @@
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Plains","Forest"],
 		"gold": 1,
 		"food": 1,
-		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"],
+		"improvedBy": ["Mine","Burrowing Tunnels","Structured Mine"]
 	},
 	{
 		"name": "Truffles",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
-		"improvedBy": ["Camp","Spires","Storage Spires"],
+		"improvedBy": ["Camp","Spires","Storage Spires"]
 	}
 ]
